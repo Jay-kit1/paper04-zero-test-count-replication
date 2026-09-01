@@ -1,0 +1,4033 @@
+{
+  "freeze_receipt_sha256": "a35b4779c027361c14462e2115ef9d4ed048dab97b5caea4952f2e64d4d571b6",
+  "protocol_freeze_sha256": "879899027250a13c668f0cc48bbec08581096d5c778ab669ce16797497bb89b0",
+  "record_count": 149,
+  "records": [
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5da24b0cee7de270d9b1e0a24d093b0ca4ec22b369442a090b2e36f16922a8e7\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/adcf330eb2e8dfefe575a4a92245b7c137ec312d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 76847,
+          "observed_sha256": "6e7d2f6e2581d699641142a10f03996b02f3dfd37a88c873776db3a713e80947",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/adcf330eb2e8dfefe575a4a92245b7c137ec312d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "001a6d22442bc9a2",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 76847,
+      "expected_sha256": "6e7d2f6e2581d699641142a10f03996b02f3dfd37a88c873776db3a713e80947",
+      "observed_bytes": 76847,
+      "observed_sha256": "6e7d2f6e2581d699641142a10f03996b02f3dfd37a88c873776db3a713e80947",
+      "replay_index": 1,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/adcf330eb2e8dfefe575a4a92245b7c137ec312d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"dfbb166c24f7e064ba216f7d5ac3a6df57007ba257330eef912dd81893175ad4\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/c8b70c5a8f422e3d6c4c3022f44865570ae11d97",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 159674,
+          "observed_sha256": "76c91f9e80044be9133e69fd615a0bcb3ffaeb30b8cc40e20da6bfc538efdf83",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/c8b70c5a8f422e3d6c4c3022f44865570ae11d97",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "003d6e5c86dd9bb9",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 159674,
+      "expected_sha256": "76c91f9e80044be9133e69fd615a0bcb3ffaeb30b8cc40e20da6bfc538efdf83",
+      "observed_bytes": 159674,
+      "observed_sha256": "76c91f9e80044be9133e69fd615a0bcb3ffaeb30b8cc40e20da6bfc538efdf83",
+      "replay_index": 2,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/c8b70c5a8f422e3d6c4c3022f44865570ae11d97"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"a312c5137ddab0a896499dd8312781ea2a6f1f28f9c337b1781328452e999b50\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/7306aa8d3dcd33591cbb313007f45d869c1d1d24",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 162132,
+          "observed_sha256": "744fedc82770f79944d84205601546aee109dd1161316066d426982534016050",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/7306aa8d3dcd33591cbb313007f45d869c1d1d24",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "00919b1dddbd83bc",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 162132,
+      "expected_sha256": "744fedc82770f79944d84205601546aee109dd1161316066d426982534016050",
+      "observed_bytes": 162132,
+      "observed_sha256": "744fedc82770f79944d84205601546aee109dd1161316066d426982534016050",
+      "replay_index": 3,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/7306aa8d3dcd33591cbb313007f45d869c1d1d24"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"a18b194271975c06974ccec40a32da1729c872ffc1216a0675f573f78a2eb99c\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/010cfd1781c34bc0d0a467575232373f92272e09",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 79279,
+          "observed_sha256": "880912e355cdf0e2eda4c417bff2f38700406d5782896a62ead5a9d3e5150b53",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/010cfd1781c34bc0d0a467575232373f92272e09",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "009e22f526cf410f",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 79279,
+      "expected_sha256": "880912e355cdf0e2eda4c417bff2f38700406d5782896a62ead5a9d3e5150b53",
+      "observed_bytes": 79279,
+      "observed_sha256": "880912e355cdf0e2eda4c417bff2f38700406d5782896a62ead5a9d3e5150b53",
+      "replay_index": 4,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/010cfd1781c34bc0d0a467575232373f92272e09"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7f47d58e80635d4c79f517d8179d9af8b365426d1c650748a4604a37ffcb883c\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/d2656750aabfbd741e87694400a148e32730b693",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15774,
+          "observed_sha256": "a8ea295c861b347944613cf5c538e5566f3fa4b3c40145a68858f6b35e4775c3",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/d2656750aabfbd741e87694400a148e32730b693",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "00b9e05333d432cd",
+      "completed_at": "2026-08-31T07:46:53Z",
+      "expected_bytes": 15774,
+      "expected_sha256": "a8ea295c861b347944613cf5c538e5566f3fa4b3c40145a68858f6b35e4775c3",
+      "observed_bytes": 15774,
+      "observed_sha256": "a8ea295c861b347944613cf5c538e5566f3fa4b3c40145a68858f6b35e4775c3",
+      "replay_index": 5,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/d2656750aabfbd741e87694400a148e32730b693"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"a2850c9199b7261996b850f8e7f96b2ef609072d0ba5614d681d64766e77c7a2\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/6c06199f442451fa3c091a5cb0545730e1bd4446",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 73037,
+          "observed_sha256": "ea651f16dceff13b94c21225bb10979c5a98fe74ce574efe869a3118054f6c10",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/6c06199f442451fa3c091a5cb0545730e1bd4446",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "010065dec740dcd5",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 73037,
+      "expected_sha256": "ea651f16dceff13b94c21225bb10979c5a98fe74ce574efe869a3118054f6c10",
+      "observed_bytes": 73037,
+      "observed_sha256": "ea651f16dceff13b94c21225bb10979c5a98fe74ce574efe869a3118054f6c10",
+      "replay_index": 6,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/6c06199f442451fa3c091a5cb0545730e1bd4446"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3b5fa3245884e6e8871c6aca8ed08d65d68268add1d9e8207006f3bc7f7f1ee8\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/ebb3a6fbc7846081e8e3d8214c2f6352e2633b99",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 88496,
+          "observed_sha256": "5d3bd309511372418493d649b674afe0febe7cc10b1f83cb8331e9316a8fdf50",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/ebb3a6fbc7846081e8e3d8214c2f6352e2633b99",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "011c75a33355f76d",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 88496,
+      "expected_sha256": "5d3bd309511372418493d649b674afe0febe7cc10b1f83cb8331e9316a8fdf50",
+      "observed_bytes": 88496,
+      "observed_sha256": "5d3bd309511372418493d649b674afe0febe7cc10b1f83cb8331e9316a8fdf50",
+      "replay_index": 7,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/ebb3a6fbc7846081e8e3d8214c2f6352e2633b99"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"fe6401098b096e13ae43af1fee15831db9191e9e89d4df1dd9077f395a70a41e\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/99df8e88c463d2f2f914d33146a5812b170914ae",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 81066,
+          "observed_sha256": "c2021c7e1c37c1d00534d2e15fa196a7ae68123825be903b3135e9e61a9f856c",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/99df8e88c463d2f2f914d33146a5812b170914ae",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:50Z"
+        }
+      ],
+      "audit_id": "014c136b02ff8a26",
+      "completed_at": "2026-08-31T07:46:54Z",
+      "expected_bytes": 81066,
+      "expected_sha256": "c2021c7e1c37c1d00534d2e15fa196a7ae68123825be903b3135e9e61a9f856c",
+      "observed_bytes": 81066,
+      "observed_sha256": "c2021c7e1c37c1d00534d2e15fa196a7ae68123825be903b3135e9e61a9f856c",
+      "replay_index": 8,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/99df8e88c463d2f2f914d33146a5812b170914ae"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"315dc2fefccc85f6ecfd4461d1a880128f14eeb77a9d0b8ed4435cc8e7b09469\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/4b07c5d1f1cfd58323374de8565e8d5d44f4f436",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 39345,
+          "observed_sha256": "8590bd5d12dad7fbb9eea2e645aca8284d4ba3b707820944ba5826b4db2e048e",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/4b07c5d1f1cfd58323374de8565e8d5d44f4f436",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:53Z"
+        }
+      ],
+      "audit_id": "01d7bb73154a700c",
+      "completed_at": "2026-08-31T07:46:57Z",
+      "expected_bytes": 39345,
+      "expected_sha256": "8590bd5d12dad7fbb9eea2e645aca8284d4ba3b707820944ba5826b4db2e048e",
+      "observed_bytes": 39345,
+      "observed_sha256": "8590bd5d12dad7fbb9eea2e645aca8284d4ba3b707820944ba5826b4db2e048e",
+      "replay_index": 9,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/4b07c5d1f1cfd58323374de8565e8d5d44f4f436"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"85d2418c711dccf0a8849e8c1f1b43958a525a1db22b0b7f4476726738617424\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/944b1286902a6c430950532ef2db9d3c8e45136f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 116776,
+          "observed_sha256": "f0c1b6d9f2b72a0d3557a126bfce1c8c6d89271029a7505bac768b74e2c961fb",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/944b1286902a6c430950532ef2db9d3c8e45136f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "0288022a90412cc1",
+      "completed_at": "2026-08-31T07:46:57Z",
+      "expected_bytes": 116776,
+      "expected_sha256": "f0c1b6d9f2b72a0d3557a126bfce1c8c6d89271029a7505bac768b74e2c961fb",
+      "observed_bytes": 116776,
+      "observed_sha256": "f0c1b6d9f2b72a0d3557a126bfce1c8c6d89271029a7505bac768b74e2c961fb",
+      "replay_index": 10,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/944b1286902a6c430950532ef2db9d3c8e45136f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"98aec14567522ae32cb5b1e1afb836100e5aa516edb97b97c2f26e77736eec9a\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/88560741addf0b420c038f71956d27b141c930af",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 58865,
+          "observed_sha256": "2e72f49d8d9891a220a615d393c96ef7eb33610cf4889ec1b872551659a2e279",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/88560741addf0b420c038f71956d27b141c930af",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "02ddb1cf1da657f3",
+      "completed_at": "2026-08-31T07:46:57Z",
+      "expected_bytes": 58865,
+      "expected_sha256": "2e72f49d8d9891a220a615d393c96ef7eb33610cf4889ec1b872551659a2e279",
+      "observed_bytes": 58865,
+      "observed_sha256": "2e72f49d8d9891a220a615d393c96ef7eb33610cf4889ec1b872551659a2e279",
+      "replay_index": 11,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/88560741addf0b420c038f71956d27b141c930af"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"8f9c8164b4abd6638d04738723e28f4c797d30d4a1258a6044a9c8118303ff2d\"",
+          "final_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/9e5ec989ad2221082eabfd10aac7b59da7aed068",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 81011,
+          "observed_sha256": "1d2bbde8c5519df93d4894a9605d7ca1e92d6c5a81c9ae111123f155f3bf1737",
+          "requested_url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/9e5ec989ad2221082eabfd10aac7b59da7aed068",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "0301c5f731e746ce",
+      "completed_at": "2026-08-31T07:46:57Z",
+      "expected_bytes": 81011,
+      "expected_sha256": "1d2bbde8c5519df93d4894a9605d7ca1e92d6c5a81c9ae111123f155f3bf1737",
+      "observed_bytes": 81011,
+      "observed_sha256": "1d2bbde8c5519df93d4894a9605d7ca1e92d6c5a81c9ae111123f155f3bf1737",
+      "replay_index": 12,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Bukkit/Bukkit/tar.gz/9e5ec989ad2221082eabfd10aac7b59da7aed068"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"461e3fafbbf7819d53f4bfdc5406d79ca441caffe0d0e6e477579e2a87b3da13\"",
+          "final_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/1c076fd840a8cc9aff790a8ea217d1256b919984",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 64709291,
+          "observed_sha256": "044441578803c6c16d469ff25422f3bd12f7a03d56f606e108f46d8e0fde10bc",
+          "requested_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/1c076fd840a8cc9aff790a8ea217d1256b919984",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "3812dd6d03055033",
+      "completed_at": "2026-08-31T07:48:17Z",
+      "expected_bytes": 64709291,
+      "expected_sha256": "044441578803c6c16d469ff25422f3bd12f7a03d56f606e108f46d8e0fde10bc",
+      "observed_bytes": 64709291,
+      "observed_sha256": "044441578803c6c16d469ff25422f3bd12f7a03d56f606e108f46d8e0fde10bc",
+      "replay_index": 13,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/1c076fd840a8cc9aff790a8ea217d1256b919984"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9162fe2400303f56a9b6f7fe6d7240af6805317055143550085426a1e37bd00f\"",
+          "final_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8390bf11310bd672482bbab0ad6faedde9fb5482",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 64708731,
+          "observed_sha256": "2b8bf2aa7934e5a53703e7aa58756b590b1bdef0c0f347f4eb5bf7348dc12e34",
+          "requested_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8390bf11310bd672482bbab0ad6faedde9fb5482",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "895b0853dccf4cd5",
+      "completed_at": "2026-08-31T07:48:16Z",
+      "expected_bytes": 64708731,
+      "expected_sha256": "2b8bf2aa7934e5a53703e7aa58756b590b1bdef0c0f347f4eb5bf7348dc12e34",
+      "observed_bytes": 64708731,
+      "observed_sha256": "2b8bf2aa7934e5a53703e7aa58756b590b1bdef0c0f347f4eb5bf7348dc12e34",
+      "replay_index": 14,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8390bf11310bd672482bbab0ad6faedde9fb5482"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"00f203e2a7bed1ccf22c047a66f7bf43e6e9e511824bbace6510dbf0e1d6a977\"",
+          "final_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8cb601d9b83d4a218c1c460f73bc1e4fe83b1dd5",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 64712964,
+          "observed_sha256": "826f93def296f4428555a81a8ef3fa3af075cf897572e56e562d1881d179a8df",
+          "requested_url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8cb601d9b83d4a218c1c460f73bc1e4fe83b1dd5",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "9a465f164c1069ea",
+      "completed_at": "2026-08-31T07:48:14Z",
+      "expected_bytes": 64712964,
+      "expected_sha256": "826f93def296f4428555a81a8ef3fa3af075cf897572e56e562d1881d179a8df",
+      "observed_bytes": 64712964,
+      "observed_sha256": "826f93def296f4428555a81a8ef3fa3af075cf897572e56e562d1881d179a8df",
+      "replay_index": 15,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/stanfordnlp/CoreNLP/tar.gz/8cb601d9b83d4a218c1c460f73bc1e4fe83b1dd5"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"dc01373af5a4c484ae29f89c966492a2ef9b829f4d9120f56bde8a150533fc37\"",
+          "final_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/5e24759714e2b5a945e312cea0aeb3b6bf08cb75",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15318,
+          "observed_sha256": "a2ec2fb89d7bc6ad78fd53755c9a0ac38e78ca9292e22bed92cca8a3ffe63b4a",
+          "requested_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/5e24759714e2b5a945e312cea0aeb3b6bf08cb75",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:54Z"
+        }
+      ],
+      "audit_id": "95d68fb9f0471e9e",
+      "completed_at": "2026-08-31T07:46:57Z",
+      "expected_bytes": 15318,
+      "expected_sha256": "a2ec2fb89d7bc6ad78fd53755c9a0ac38e78ca9292e22bed92cca8a3ffe63b4a",
+      "observed_bytes": 15318,
+      "observed_sha256": "a2ec2fb89d7bc6ad78fd53755c9a0ac38e78ca9292e22bed92cca8a3ffe63b4a",
+      "replay_index": 16,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/5e24759714e2b5a945e312cea0aeb3b6bf08cb75"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"e38c62228890fff5c8acea07d053b5bf116b859dbc1733a4aa036048a1f220cb\"",
+          "final_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/9c521b352a49d6c309a7dbd39d35639943e43482",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15306,
+          "observed_sha256": "912039e650a432c8e8f95ffc1d987077f449031d23be70eaacba2af531cc5e8a",
+          "requested_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/9c521b352a49d6c309a7dbd39d35639943e43482",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:57Z"
+        }
+      ],
+      "audit_id": "a808eb4290d2a361",
+      "completed_at": "2026-08-31T07:47:00Z",
+      "expected_bytes": 15306,
+      "expected_sha256": "912039e650a432c8e8f95ffc1d987077f449031d23be70eaacba2af531cc5e8a",
+      "observed_bytes": 15306,
+      "observed_sha256": "912039e650a432c8e8f95ffc1d987077f449031d23be70eaacba2af531cc5e8a",
+      "replay_index": 17,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/9c521b352a49d6c309a7dbd39d35639943e43482"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5b105dab18507aa829ea50112a043c96a884933349d241ffebfd34014fab49dd\"",
+          "final_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/c0e644f0ba8d5dea27e3b172da31f6beab519bc9",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15320,
+          "observed_sha256": "8610c9713df0a8c60147e5db0c79e4404fcf112459ac14387cd1dd8fbb5e505e",
+          "requested_url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/c0e644f0ba8d5dea27e3b172da31f6beab519bc9",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:57Z"
+        }
+      ],
+      "audit_id": "f8db2a098322bc88",
+      "completed_at": "2026-08-31T07:47:00Z",
+      "expected_bytes": 15320,
+      "expected_sha256": "8610c9713df0a8c60147e5db0c79e4404fcf112459ac14387cd1dd8fbb5e505e",
+      "observed_bytes": 15320,
+      "observed_sha256": "8610c9713df0a8c60147e5db0c79e4404fcf112459ac14387cd1dd8fbb5e505e",
+      "replay_index": 18,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/JakeWharton/DiskLruCache/tar.gz/c0e644f0ba8d5dea27e3b172da31f6beab519bc9"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"50a5a72278011a5d1b494f857a57401dd37614badb90d0287cbe1876dbe060cf\"",
+          "final_url": "https://codeload.github.com/Alluxio/alluxio/tar.gz/d963932037699274c828e467dae627effbc446bb",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 751479,
+          "observed_sha256": "8973efe18e07bcca21a07471e3f7c98698663a9005b7c8a72b1ffd0f30ae7f9e",
+          "requested_url": "https://codeload.github.com/Alluxio/alluxio/tar.gz/d963932037699274c828e467dae627effbc446bb",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:57Z"
+        }
+      ],
+      "audit_id": "ffa7ab0db8ffd354",
+      "completed_at": "2026-08-31T07:47:02Z",
+      "expected_bytes": 751479,
+      "expected_sha256": "8973efe18e07bcca21a07471e3f7c98698663a9005b7c8a72b1ffd0f30ae7f9e",
+      "observed_bytes": 751479,
+      "observed_sha256": "8973efe18e07bcca21a07471e3f7c98698663a9005b7c8a72b1ffd0f30ae7f9e",
+      "replay_index": 19,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Alluxio/alluxio/tar.gz/d963932037699274c828e467dae627effbc446bb"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"e548e3b9f80bd7025681b11d864e73e0d29b643cd09f4331937b0d0887cdc906\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/dab19d59615f150a7511eea8c5b302a444ccef50",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 146988,
+          "observed_sha256": "0c15ccd74fd7940bdcd107b26cba37e011a21b6db0f451fbb744bb7874893965",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/dab19d59615f150a7511eea8c5b302a444ccef50",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:57Z"
+        }
+      ],
+      "audit_id": "071ecdfd0a1699c4",
+      "completed_at": "2026-08-31T07:47:01Z",
+      "expected_bytes": 146988,
+      "expected_sha256": "0c15ccd74fd7940bdcd107b26cba37e011a21b6db0f451fbb744bb7874893965",
+      "observed_bytes": 146988,
+      "observed_sha256": "0c15ccd74fd7940bdcd107b26cba37e011a21b6db0f451fbb744bb7874893965",
+      "replay_index": 20,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/dab19d59615f150a7511eea8c5b302a444ccef50"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3abe73ea299c7cbbdf2d7c4d4862d898cb57e54435b537c9579c9100f8e7ae0b\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/672bb6b91f070788b53bbce3c45f29785559c147",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 150538,
+          "observed_sha256": "5e7dfa7b30ef1672bfa96d6f3e6b3871cbd6b738ee0e2e70f4be84a21d893f52",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/672bb6b91f070788b53bbce3c45f29785559c147",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:46:57Z"
+        }
+      ],
+      "audit_id": "0bb83e523c019346",
+      "completed_at": "2026-08-31T07:47:01Z",
+      "expected_bytes": 150538,
+      "expected_sha256": "5e7dfa7b30ef1672bfa96d6f3e6b3871cbd6b738ee0e2e70f4be84a21d893f52",
+      "observed_bytes": 150538,
+      "observed_sha256": "5e7dfa7b30ef1672bfa96d6f3e6b3871cbd6b738ee0e2e70f4be84a21d893f52",
+      "replay_index": 21,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/672bb6b91f070788b53bbce3c45f29785559c147"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"bf898fd7bb9fcdb7907944469dfed898dd46abc292cf4de30eb99eed1ee09fe5\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/232e17587de1b0b9e3c9e1a6400b43e0f36f298d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 146932,
+          "observed_sha256": "07922b2995c2ca68445927135c6a901afe8d675a32f123012c668dae37a260f4",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/232e17587de1b0b9e3c9e1a6400b43e0f36f298d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:00Z"
+        }
+      ],
+      "audit_id": "143e78853f5ad9a0",
+      "completed_at": "2026-08-31T07:47:03Z",
+      "expected_bytes": 146932,
+      "expected_sha256": "07922b2995c2ca68445927135c6a901afe8d675a32f123012c668dae37a260f4",
+      "observed_bytes": 146932,
+      "observed_sha256": "07922b2995c2ca68445927135c6a901afe8d675a32f123012c668dae37a260f4",
+      "replay_index": 22,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/232e17587de1b0b9e3c9e1a6400b43e0f36f298d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"acfd27920604d4663170721f3af00e08f3bdb4d574ee12da1f1ea2fa8c3f3685\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/fa7febbe77ceff644d0acea9cca27c111b4d125c",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 150861,
+          "observed_sha256": "85982ac458514045d894aceb2f356ed288378e53b2d02d86e4af2ae514e0789e",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/fa7febbe77ceff644d0acea9cca27c111b4d125c",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:00Z"
+        }
+      ],
+      "audit_id": "217c418019ddc3c3",
+      "completed_at": "2026-08-31T07:47:04Z",
+      "expected_bytes": 150861,
+      "expected_sha256": "85982ac458514045d894aceb2f356ed288378e53b2d02d86e4af2ae514e0789e",
+      "observed_bytes": 150861,
+      "observed_sha256": "85982ac458514045d894aceb2f356ed288378e53b2d02d86e4af2ae514e0789e",
+      "replay_index": 23,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/fa7febbe77ceff644d0acea9cca27c111b4d125c"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"795de8c2b701c63e5f9196d66358a3d45a0210ae065476a072ddd07a33ea33f1\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/7964d77416d38388e5f7c104fad07991ad96df59",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 150523,
+          "observed_sha256": "92e8aca77377738b02850df28d21bf573512395783e508b01e08bbb6dad65e26",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/7964d77416d38388e5f7c104fad07991ad96df59",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:01Z"
+        }
+      ],
+      "audit_id": "2fd15c24306c9fb8",
+      "completed_at": "2026-08-31T07:47:04Z",
+      "expected_bytes": 150523,
+      "expected_sha256": "92e8aca77377738b02850df28d21bf573512395783e508b01e08bbb6dad65e26",
+      "observed_bytes": 150523,
+      "observed_sha256": "92e8aca77377738b02850df28d21bf573512395783e508b01e08bbb6dad65e26",
+      "replay_index": 24,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/7964d77416d38388e5f7c104fad07991ad96df59"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"fcccd0361a4e289013e7680de7dfeecb724ee7f0243e227dfe21cdbf0f8bc037\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/9827adddc2db0bd3997a7cc62fc4819789e9cf70",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 150529,
+          "observed_sha256": "acb3f7f2620ab6b6588da6eede23a89e5e01c1f984abb171ecbe292bbe2cb5ea",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/9827adddc2db0bd3997a7cc62fc4819789e9cf70",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:01Z"
+        }
+      ],
+      "audit_id": "53166fecdf450f11",
+      "completed_at": "2026-08-31T07:47:04Z",
+      "expected_bytes": 150529,
+      "expected_sha256": "acb3f7f2620ab6b6588da6eede23a89e5e01c1f984abb171ecbe292bbe2cb5ea",
+      "observed_bytes": 150529,
+      "observed_sha256": "acb3f7f2620ab6b6588da6eede23a89e5e01c1f984abb171ecbe292bbe2cb5ea",
+      "replay_index": 25,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/9827adddc2db0bd3997a7cc62fc4819789e9cf70"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"46db737ca76ebce2b9f2c920797619ab2e682d7ba790e2636aa3a071e2544205\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/bc559444d70d2ba28a6db58dbf97d5083cd9c797",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 150430,
+          "observed_sha256": "b5e4403e526e0576d5e8a86e386a73a83df3ffc5a75fe09bb8d94e5b5055e7a9",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/bc559444d70d2ba28a6db58dbf97d5083cd9c797",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:02Z"
+        }
+      ],
+      "audit_id": "567822308fa25ac5",
+      "completed_at": "2026-08-31T07:47:06Z",
+      "expected_bytes": 150430,
+      "expected_sha256": "b5e4403e526e0576d5e8a86e386a73a83df3ffc5a75fe09bb8d94e5b5055e7a9",
+      "observed_bytes": 150430,
+      "observed_sha256": "b5e4403e526e0576d5e8a86e386a73a83df3ffc5a75fe09bb8d94e5b5055e7a9",
+      "replay_index": 26,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/bc559444d70d2ba28a6db58dbf97d5083cd9c797"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"78e46045463683130c2aa74352b94f92356cd8f4c1b696efc18525c526c979e0\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/51ef27a3ea67d1c5afd3e9f5e6ba682c4c9fcdd9",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 200269,
+          "observed_sha256": "9ba57c8f88dce72d30702a0444a4996d40bde678573aa0a5f3801214fa07ffd2",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/51ef27a3ea67d1c5afd3e9f5e6ba682c4c9fcdd9",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:03Z"
+        }
+      ],
+      "audit_id": "6ac7e2dd8105f3cc",
+      "completed_at": "2026-08-31T07:47:07Z",
+      "expected_bytes": 200269,
+      "expected_sha256": "9ba57c8f88dce72d30702a0444a4996d40bde678573aa0a5f3801214fa07ffd2",
+      "observed_bytes": 200269,
+      "observed_sha256": "9ba57c8f88dce72d30702a0444a4996d40bde678573aa0a5f3801214fa07ffd2",
+      "replay_index": 27,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/51ef27a3ea67d1c5afd3e9f5e6ba682c4c9fcdd9"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"57114e387dfb57fdd7f7817c4230c01a780310e6d2bb5955315732d50c3751a0\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/62660e3c54eaeb3e629b9164c9e388f62fe4b923",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 148530,
+          "observed_sha256": "dd152601c74422860aef0c37d05af3569c950e7e1d194dda35d8d9e86e2b9101",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/62660e3c54eaeb3e629b9164c9e388f62fe4b923",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:04Z"
+        }
+      ],
+      "audit_id": "6b7010edf90b3610",
+      "completed_at": "2026-08-31T07:47:07Z",
+      "expected_bytes": 148530,
+      "expected_sha256": "dd152601c74422860aef0c37d05af3569c950e7e1d194dda35d8d9e86e2b9101",
+      "observed_bytes": 148530,
+      "observed_sha256": "dd152601c74422860aef0c37d05af3569c950e7e1d194dda35d8d9e86e2b9101",
+      "replay_index": 28,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/62660e3c54eaeb3e629b9164c9e388f62fe4b923"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"409f4103d16e42c7583486616e1ce3e9b1c1fce2c1edec2351cf28b87392e98b\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/b66dbf045dc28dd4f558bb767cb07ec5918d2924",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 148450,
+          "observed_sha256": "83b3f8909a0d97dc0b67c72b427eb7b8bcbeaa8cdda910d7d48d5d2bf657fd25",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/b66dbf045dc28dd4f558bb767cb07ec5918d2924",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:04Z"
+        }
+      ],
+      "audit_id": "6c492cf13cc250f5",
+      "completed_at": "2026-08-31T07:47:08Z",
+      "expected_bytes": 148450,
+      "expected_sha256": "83b3f8909a0d97dc0b67c72b427eb7b8bcbeaa8cdda910d7d48d5d2bf657fd25",
+      "observed_bytes": 148450,
+      "observed_sha256": "83b3f8909a0d97dc0b67c72b427eb7b8bcbeaa8cdda910d7d48d5d2bf657fd25",
+      "replay_index": 29,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/b66dbf045dc28dd4f558bb767cb07ec5918d2924"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"6b15ac9729ca226ecd046de292d5cbda666ce5cd70c588aca24876738dfdace1\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/4ebe2dab8c9e86acb1b860a0ba0c4fc119ee3404",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 147006,
+          "observed_sha256": "fb2f0309afddf35baa7a7f3927ef1ed9e2d03683a684bc8b0e52bb022b9235cb",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/4ebe2dab8c9e86acb1b860a0ba0c4fc119ee3404",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:04Z"
+        }
+      ],
+      "audit_id": "73443de4cd045793",
+      "completed_at": "2026-08-31T07:47:08Z",
+      "expected_bytes": 147006,
+      "expected_sha256": "fb2f0309afddf35baa7a7f3927ef1ed9e2d03683a684bc8b0e52bb022b9235cb",
+      "observed_bytes": 147006,
+      "observed_sha256": "fb2f0309afddf35baa7a7f3927ef1ed9e2d03683a684bc8b0e52bb022b9235cb",
+      "replay_index": 30,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/4ebe2dab8c9e86acb1b860a0ba0c4fc119ee3404"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b5bf923e43595235a52c047b3993c6c57ee65b72090d89297d0afb53a2bb9cb7\"",
+          "final_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/c1d8a68801084065bfaea8de411e1fe2e255ee1d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 200246,
+          "observed_sha256": "7639f5fd908796736e27d439f372091e9bc1260aa9ebb1a24686fb6a05ef49b9",
+          "requested_url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/c1d8a68801084065bfaea8de411e1fe2e255ee1d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:06Z"
+        }
+      ],
+      "audit_id": "86313c03296b1370",
+      "completed_at": "2026-08-31T07:47:12Z",
+      "expected_bytes": 200246,
+      "expected_sha256": "7639f5fd908796736e27d439f372091e9bc1260aa9ebb1a24686fb6a05ef49b9",
+      "observed_bytes": 200246,
+      "observed_sha256": "7639f5fd908796736e27d439f372091e9bc1260aa9ebb1a24686fb6a05ef49b9",
+      "replay_index": 31,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/mcxiaoke/android-volley/tar.gz/c1d8a68801084065bfaea8de411e1fe2e255ee1d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"88e0ed12d343e69001e8425ce2d8b766b1dc08f0a36b4d7f455cc4cb1c4b9d4e\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/59ed106b86400fd5a51b07c6555715d89b2832ae",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7527258,
+          "observed_sha256": "998081a8f60a3623f2ded3dd29ab06658969ebc170fc377580d676038032c45a",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/59ed106b86400fd5a51b07c6555715d89b2832ae",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:07Z"
+        }
+      ],
+      "audit_id": "1340dab51fa45bd2",
+      "completed_at": "2026-08-31T07:47:24Z",
+      "expected_bytes": 7527258,
+      "expected_sha256": "998081a8f60a3623f2ded3dd29ab06658969ebc170fc377580d676038032c45a",
+      "observed_bytes": 7527258,
+      "observed_sha256": "998081a8f60a3623f2ded3dd29ab06658969ebc170fc377580d676038032c45a",
+      "replay_index": 32,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/59ed106b86400fd5a51b07c6555715d89b2832ae"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7dfff0cccf747f010f23164843ad0fce98cc8340acf36bc1471363b2524c0b40\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9451612570189b6a546e8a21ef30669384baaab2",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7530218,
+          "observed_sha256": "7d99298c231fb8bedf37724eb59df3ecef5a337782a31790b75ce2c9b10d81f4",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9451612570189b6a546e8a21ef30669384baaab2",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:07Z"
+        }
+      ],
+      "audit_id": "2d9d5d453443010c",
+      "completed_at": "2026-08-31T07:47:13Z",
+      "expected_bytes": 7530218,
+      "expected_sha256": "7d99298c231fb8bedf37724eb59df3ecef5a337782a31790b75ce2c9b10d81f4",
+      "observed_bytes": 7530218,
+      "observed_sha256": "7d99298c231fb8bedf37724eb59df3ecef5a337782a31790b75ce2c9b10d81f4",
+      "replay_index": 33,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9451612570189b6a546e8a21ef30669384baaab2"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"1b7e775cdd2d457ecc0707ed04620603a129dc0694c9c6ca2df96d00da90c2bb\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/e6dd04d2a6873c853642d603d9a328a53d3a579f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7527419,
+          "observed_sha256": "e990278be23b171d43dbf9c7b989db3ab8e90fb7cd5c145ee2c96677b396302e",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/e6dd04d2a6873c853642d603d9a328a53d3a579f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:08Z"
+        }
+      ],
+      "audit_id": "34c2896bf26aafc8",
+      "completed_at": "2026-08-31T07:47:34Z",
+      "expected_bytes": 7527419,
+      "expected_sha256": "e990278be23b171d43dbf9c7b989db3ab8e90fb7cd5c145ee2c96677b396302e",
+      "observed_bytes": 7527419,
+      "observed_sha256": "e990278be23b171d43dbf9c7b989db3ab8e90fb7cd5c145ee2c96677b396302e",
+      "replay_index": 34,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/e6dd04d2a6873c853642d603d9a328a53d3a579f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"76ea656d0e0d8246bbd7b5ed4454e592f2da9294bb1977d4acdeed0f93a37aac\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9653e3a88ac094c2064f94181e3ef834d68ef0ef",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7530115,
+          "observed_sha256": "7345d20e19b6ba7cdab531e6320a1eff6f36a5a420d52f96b5424cdc8d0dcd43",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9653e3a88ac094c2064f94181e3ef834d68ef0ef",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:08Z"
+        }
+      ],
+      "audit_id": "3a328a95b688d113",
+      "completed_at": "2026-08-31T07:47:29Z",
+      "expected_bytes": 7530115,
+      "expected_sha256": "7345d20e19b6ba7cdab531e6320a1eff6f36a5a420d52f96b5424cdc8d0dcd43",
+      "observed_bytes": 7530115,
+      "observed_sha256": "7345d20e19b6ba7cdab531e6320a1eff6f36a5a420d52f96b5424cdc8d0dcd43",
+      "replay_index": 35,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/9653e3a88ac094c2064f94181e3ef834d68ef0ef"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"51f4597a1e3a1a7bdca4a155b6a18010e335737d89500a63c9f367703c16a50b\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a79c8aad4cd2a0c6cecaefb1030b3fae5e2b4f24",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9849995,
+          "observed_sha256": "705925a00406ae558b1aeff1028870343ba8acf9a8b35882b156691634a60b46",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a79c8aad4cd2a0c6cecaefb1030b3fae5e2b4f24",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:12Z"
+        }
+      ],
+      "audit_id": "3cbc82e3389b6322",
+      "completed_at": "2026-08-31T07:47:43Z",
+      "expected_bytes": 9849995,
+      "expected_sha256": "705925a00406ae558b1aeff1028870343ba8acf9a8b35882b156691634a60b46",
+      "observed_bytes": 9849995,
+      "observed_sha256": "705925a00406ae558b1aeff1028870343ba8acf9a8b35882b156691634a60b46",
+      "replay_index": 36,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a79c8aad4cd2a0c6cecaefb1030b3fae5e2b4f24"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4208091672a688f6f6fae4b4f9f6f9ce1722b221d7023779f3bb690d1ed765c4\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/10844a1397fba719f06c1606c7a49dab92930697",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7527277,
+          "observed_sha256": "1ec3ca1684ea82a6351df534d9811c02d1178535ac909afaa80abf08283e20a1",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/10844a1397fba719f06c1606c7a49dab92930697",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:13Z"
+        }
+      ],
+      "audit_id": "433045bec5d601d8",
+      "completed_at": "2026-08-31T07:47:40Z",
+      "expected_bytes": 7527277,
+      "expected_sha256": "1ec3ca1684ea82a6351df534d9811c02d1178535ac909afaa80abf08283e20a1",
+      "observed_bytes": 7527277,
+      "observed_sha256": "1ec3ca1684ea82a6351df534d9811c02d1178535ac909afaa80abf08283e20a1",
+      "replay_index": 37,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/10844a1397fba719f06c1606c7a49dab92930697"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"61ea7515bc46c573ac375e54b7163e871664fe20ddf4822a0d642c9b52ddb950\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/1126d3a08abf6cbb41365fa33b4fc192a452fd6d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7530135,
+          "observed_sha256": "84852e84a76d820e41688dd9636b11385a95c871ea43a8bd4a0217d7d4bd4443",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/1126d3a08abf6cbb41365fa33b4fc192a452fd6d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:24Z"
+        }
+      ],
+      "audit_id": "438acf978ad1d36a",
+      "completed_at": "2026-08-31T07:47:30Z",
+      "expected_bytes": 7530135,
+      "expected_sha256": "84852e84a76d820e41688dd9636b11385a95c871ea43a8bd4a0217d7d4bd4443",
+      "observed_bytes": 7530135,
+      "observed_sha256": "84852e84a76d820e41688dd9636b11385a95c871ea43a8bd4a0217d7d4bd4443",
+      "replay_index": 38,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/1126d3a08abf6cbb41365fa33b4fc192a452fd6d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"62ce9897d6b6ac82b75ed67fc5ef4d070171e9a9aadf5c174c06c3410e85fc12\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/de2cd5ff1214b81e2afcb2ab47c639548529910d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7528587,
+          "observed_sha256": "ab8a4c237b7147f09499e448f9ffa6086df713de2876c7fe0f66331ec710ac06",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/de2cd5ff1214b81e2afcb2ab47c639548529910d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:30Z"
+        }
+      ],
+      "audit_id": "56784efcfc303751",
+      "completed_at": "2026-08-31T07:47:39Z",
+      "expected_bytes": 7528587,
+      "expected_sha256": "ab8a4c237b7147f09499e448f9ffa6086df713de2876c7fe0f66331ec710ac06",
+      "observed_bytes": 7528587,
+      "observed_sha256": "ab8a4c237b7147f09499e448f9ffa6086df713de2876c7fe0f66331ec710ac06",
+      "replay_index": 39,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/de2cd5ff1214b81e2afcb2ab47c639548529910d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"576d0422a0a8f15725d3cbaaaec0df86f6f0161e112165b470f752e8746c2eef\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/aa68d789593c4c354498712e3ed5a2383c202c63",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7529101,
+          "observed_sha256": "2a6b7002fe6677376456063bd66be7a5baba39a422f2eb44e08913608516c1c1",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/aa68d789593c4c354498712e3ed5a2383c202c63",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:30Z"
+        }
+      ],
+      "audit_id": "676771f35cd70430",
+      "completed_at": "2026-08-31T07:47:34Z",
+      "expected_bytes": 7529101,
+      "expected_sha256": "2a6b7002fe6677376456063bd66be7a5baba39a422f2eb44e08913608516c1c1",
+      "observed_bytes": 7529101,
+      "observed_sha256": "2a6b7002fe6677376456063bd66be7a5baba39a422f2eb44e08913608516c1c1",
+      "replay_index": 40,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/aa68d789593c4c354498712e3ed5a2383c202c63"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7efe4b63da119566a7aaff2174269af4f66c0b18302408900e7e9ec38f07951d\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/825306586d2ba40bcf9e0f941cf8aa6a6d5602e0",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7530115,
+          "observed_sha256": "e7a719646654da84b7c8cef545fd9483f6b4c05e377839434f7fcbe1f8ce01d1",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/825306586d2ba40bcf9e0f941cf8aa6a6d5602e0",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:34Z"
+        }
+      ],
+      "audit_id": "69ccb1dc71c99a98",
+      "completed_at": "2026-08-31T07:47:38Z",
+      "expected_bytes": 7530115,
+      "expected_sha256": "e7a719646654da84b7c8cef545fd9483f6b4c05e377839434f7fcbe1f8ce01d1",
+      "observed_bytes": 7530115,
+      "observed_sha256": "e7a719646654da84b7c8cef545fd9483f6b4c05e377839434f7fcbe1f8ce01d1",
+      "replay_index": 41,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/825306586d2ba40bcf9e0f941cf8aa6a6d5602e0"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"323ccea18a6f1aed8286905f718bbaa538080c6b4895ef5926b5472f91d7539f\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/838f3af8fdf03c0f9526fc14564d612f2c6850f6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 7530086,
+          "observed_sha256": "41b5ade38985f590d50e595c3392b9168f9346525422c1638bbe91051a5d9b18",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/838f3af8fdf03c0f9526fc14564d612f2c6850f6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:34Z"
+        }
+      ],
+      "audit_id": "7a200d93d613e8e6",
+      "completed_at": "2026-08-31T07:47:38Z",
+      "expected_bytes": 7530086,
+      "expected_sha256": "41b5ade38985f590d50e595c3392b9168f9346525422c1638bbe91051a5d9b18",
+      "observed_bytes": 7530086,
+      "observed_sha256": "41b5ade38985f590d50e595c3392b9168f9346525422c1638bbe91051a5d9b18",
+      "replay_index": 42,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/838f3af8fdf03c0f9526fc14564d612f2c6850f6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4aa1b0ec65712daf3b0b9ad7849b6d9ce188f981bd0bc1412c0d098681a11c04\"",
+          "final_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a2aa1b061b4c59927f3607dde822204d1814b3f8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9849845,
+          "observed_sha256": "d930b14171846fb375b48edb9512b97ec387040fdba7fd8dc8f6fefc7cb5dcd5",
+          "requested_url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a2aa1b061b4c59927f3607dde822204d1814b3f8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:38Z"
+        }
+      ],
+      "audit_id": "808d024e6144ca91",
+      "completed_at": "2026-08-31T07:47:42Z",
+      "expected_bytes": 9849845,
+      "expected_sha256": "d930b14171846fb375b48edb9512b97ec387040fdba7fd8dc8f6fefc7cb5dcd5",
+      "observed_bytes": 9849845,
+      "observed_sha256": "d930b14171846fb375b48edb9512b97ec387040fdba7fd8dc8f6fefc7cb5dcd5",
+      "replay_index": 43,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NLPchina/ansj_seg/tar.gz/a2aa1b061b4c59927f3607dde822204d1814b3f8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"82058a355ebf7e1e24686debd4fb11a13177679e186b105d084a1870969b8564\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/11d4761bcb89077c6af358d95aa82d870cf069af",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 472731,
+          "observed_sha256": "75113fba164b04c88ec487ee0bd1a7d90ab706fe8a8b0d05f001aae6e91981ce",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/11d4761bcb89077c6af358d95aa82d870cf069af",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:38Z"
+        }
+      ],
+      "audit_id": "00a3d52816fb06e8",
+      "completed_at": "2026-08-31T07:47:42Z",
+      "expected_bytes": 472731,
+      "expected_sha256": "75113fba164b04c88ec487ee0bd1a7d90ab706fe8a8b0d05f001aae6e91981ce",
+      "observed_bytes": 472731,
+      "observed_sha256": "75113fba164b04c88ec487ee0bd1a7d90ab706fe8a8b0d05f001aae6e91981ce",
+      "replay_index": 44,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/11d4761bcb89077c6af358d95aa82d870cf069af"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"87f7eb138b8eb35781e2f689deda99527d48de85f6f83432c951cadba7cdd945\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/a0defe575bf505d7b91edff443f3fbe0d0fe75af",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 311569,
+          "observed_sha256": "035dd8ba6b4d87090a396cdcf56b5cb4f24cc1a5e055ad06894b657cf1fce2c5",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/a0defe575bf505d7b91edff443f3fbe0d0fe75af",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:39Z"
+        }
+      ],
+      "audit_id": "012854e055c0efbd",
+      "completed_at": "2026-08-31T07:47:42Z",
+      "expected_bytes": 311569,
+      "expected_sha256": "035dd8ba6b4d87090a396cdcf56b5cb4f24cc1a5e055ad06894b657cf1fce2c5",
+      "observed_bytes": 311569,
+      "observed_sha256": "035dd8ba6b4d87090a396cdcf56b5cb4f24cc1a5e055ad06894b657cf1fce2c5",
+      "replay_index": 45,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/a0defe575bf505d7b91edff443f3fbe0d0fe75af"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"997d6b6565bddde794f0d386077a91f8a83e63f2bdc9adee159e7f40cabbc05e\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/83fee4ffbbc87903f05f297615fee87aac2eaf2a",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 343589,
+          "observed_sha256": "f933dd8a33dd2132ed135ba828c7345648e201efa8ceeef5e251504c378f8a2b",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/83fee4ffbbc87903f05f297615fee87aac2eaf2a",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:40Z"
+        }
+      ],
+      "audit_id": "01386bf13f004399",
+      "completed_at": "2026-08-31T07:47:43Z",
+      "expected_bytes": 343589,
+      "expected_sha256": "f933dd8a33dd2132ed135ba828c7345648e201efa8ceeef5e251504c378f8a2b",
+      "observed_bytes": 343589,
+      "observed_sha256": "f933dd8a33dd2132ed135ba828c7345648e201efa8ceeef5e251504c378f8a2b",
+      "replay_index": 46,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/83fee4ffbbc87903f05f297615fee87aac2eaf2a"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"68b8f14194707efa13acf887858a64bcb43c27e2c0026daab1ebfb12d90f51c0\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/c935f06344057d8f95b0eca5a6cd271c07315c05",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 316751,
+          "observed_sha256": "589c9b0c08ee898e80717dcc9eaab474bb72735dbd5e8ab0083285511ef8e747",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/c935f06344057d8f95b0eca5a6cd271c07315c05",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:42Z"
+        }
+      ],
+      "audit_id": "0141386264e3e850",
+      "completed_at": "2026-08-31T07:47:45Z",
+      "expected_bytes": 316751,
+      "expected_sha256": "589c9b0c08ee898e80717dcc9eaab474bb72735dbd5e8ab0083285511ef8e747",
+      "observed_bytes": 316751,
+      "observed_sha256": "589c9b0c08ee898e80717dcc9eaab474bb72735dbd5e8ab0083285511ef8e747",
+      "replay_index": 47,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/c935f06344057d8f95b0eca5a6cd271c07315c05"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4f2258c831ac54a938ff07d08146303b30d41ab19e127f16354afd21a5ca8db4\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/ae521195c52c63e3db12f455ef3f67851d199ac8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 312384,
+          "observed_sha256": "106553aa16efa52c73ab639b7b827d0f6a62f472f551e7542bba03a1ca678565",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/ae521195c52c63e3db12f455ef3f67851d199ac8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:42Z"
+        }
+      ],
+      "audit_id": "0190d593fee11c42",
+      "completed_at": "2026-08-31T07:47:45Z",
+      "expected_bytes": 312384,
+      "expected_sha256": "106553aa16efa52c73ab639b7b827d0f6a62f472f551e7542bba03a1ca678565",
+      "observed_bytes": 312384,
+      "observed_sha256": "106553aa16efa52c73ab639b7b827d0f6a62f472f551e7542bba03a1ca678565",
+      "replay_index": 48,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/ae521195c52c63e3db12f455ef3f67851d199ac8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7ac940bbe2e00325aa7a0b61d5a03c3b5ea4a8f9c5c9d9d30fa2e872309065ee\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/44f2b74862f67eeac2b16738475ff48cb4abdb6c",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 319632,
+          "observed_sha256": "d845827ebbfd00a4ca6594535b17a459a6d7642490a7eb0a9161f10ca261839c",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/44f2b74862f67eeac2b16738475ff48cb4abdb6c",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:42Z"
+        }
+      ],
+      "audit_id": "02643bf13c7ee984",
+      "completed_at": "2026-08-31T07:47:46Z",
+      "expected_bytes": 319632,
+      "expected_sha256": "d845827ebbfd00a4ca6594535b17a459a6d7642490a7eb0a9161f10ca261839c",
+      "observed_bytes": 319632,
+      "observed_sha256": "d845827ebbfd00a4ca6594535b17a459a6d7642490a7eb0a9161f10ca261839c",
+      "replay_index": 49,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/44f2b74862f67eeac2b16738475ff48cb4abdb6c"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"41542f23fcc10a8cc24167812827a27a24c64ebfdbb9a2f0024e3eea9c7ad8b7\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/20b0b39b14c94e65844b53064308902a127cac56",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 508137,
+          "observed_sha256": "bd355c325276937c2cdca988a6fafe3edc2c65ffe7e6a8ee3e98378ad8130359",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/20b0b39b14c94e65844b53064308902a127cac56",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:43Z"
+        }
+      ],
+      "audit_id": "02a99c2e48fbb23a",
+      "completed_at": "2026-08-31T07:47:46Z",
+      "expected_bytes": 508137,
+      "expected_sha256": "bd355c325276937c2cdca988a6fafe3edc2c65ffe7e6a8ee3e98378ad8130359",
+      "observed_bytes": 508137,
+      "observed_sha256": "bd355c325276937c2cdca988a6fafe3edc2c65ffe7e6a8ee3e98378ad8130359",
+      "replay_index": 50,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/20b0b39b14c94e65844b53064308902a127cac56"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"94f8e4654c89761bbc94bd6c890b7968c7526ee9023d34495c767e15a05e00a5\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/2cebfa04dd6889141c408e94d64b4bedb4fc9cea",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 354573,
+          "observed_sha256": "16b5659515fb50fcf45ccdec42bf7640e6cfe27c0348b47bdf20e1fb7166fe77",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/2cebfa04dd6889141c408e94d64b4bedb4fc9cea",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:43Z"
+        }
+      ],
+      "audit_id": "0306f920d6e1f0c0",
+      "completed_at": "2026-08-31T07:47:46Z",
+      "expected_bytes": 354573,
+      "expected_sha256": "16b5659515fb50fcf45ccdec42bf7640e6cfe27c0348b47bdf20e1fb7166fe77",
+      "observed_bytes": 354573,
+      "observed_sha256": "16b5659515fb50fcf45ccdec42bf7640e6cfe27c0348b47bdf20e1fb7166fe77",
+      "replay_index": 51,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/2cebfa04dd6889141c408e94d64b4bedb4fc9cea"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"65512eb89a8876e0e503efb19aa906a9152078f97cdb2f7a1b3b1f7686fdbe59\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/f867b183ab2f26a2382a8944076a8067ae3fc48f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 418235,
+          "observed_sha256": "2c8a4bf195e9ccedf501754f26db7ba4196dcd86211c41b20591c2c8ede7d6d6",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/f867b183ab2f26a2382a8944076a8067ae3fc48f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:45Z"
+        }
+      ],
+      "audit_id": "0399230f1322a12f",
+      "completed_at": "2026-08-31T07:47:49Z",
+      "expected_bytes": 418235,
+      "expected_sha256": "2c8a4bf195e9ccedf501754f26db7ba4196dcd86211c41b20591c2c8ede7d6d6",
+      "observed_bytes": 418235,
+      "observed_sha256": "2c8a4bf195e9ccedf501754f26db7ba4196dcd86211c41b20591c2c8ede7d6d6",
+      "replay_index": 52,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/f867b183ab2f26a2382a8944076a8067ae3fc48f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"c68204a2c7b8390aff5dcc4a50c4bcda16ffa20fe6112bd9cfa15b4f791ef6b6\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/752a3cd66ad5be4998b4dc6f98e7ae89f5e656e0",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1031854,
+          "observed_sha256": "96826c0b98d2df552193452fb1c538de9c90498394e4e398c74147adc67028a5",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/752a3cd66ad5be4998b4dc6f98e7ae89f5e656e0",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:45Z"
+        }
+      ],
+      "audit_id": "03aae178a3c924a5",
+      "completed_at": "2026-08-31T07:47:49Z",
+      "expected_bytes": 1031854,
+      "expected_sha256": "96826c0b98d2df552193452fb1c538de9c90498394e4e398c74147adc67028a5",
+      "observed_bytes": 1031854,
+      "observed_sha256": "96826c0b98d2df552193452fb1c538de9c90498394e4e398c74147adc67028a5",
+      "replay_index": 53,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/752a3cd66ad5be4998b4dc6f98e7ae89f5e656e0"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9b8a9a6a1399b6877ae611b5ac516adc92f918fb5d5a226f6253ac001246e9e9\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/b16f4844a113ed5f21bdf13a1defbad4f3bfbffb",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 318816,
+          "observed_sha256": "cebdcb2c872e790114088c03a4e6cf5ef99f7a327616ea499df71f3c2621025f",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/b16f4844a113ed5f21bdf13a1defbad4f3bfbffb",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:46Z"
+        }
+      ],
+      "audit_id": "03c583031506d7c3",
+      "completed_at": "2026-08-31T07:47:49Z",
+      "expected_bytes": 318816,
+      "expected_sha256": "cebdcb2c872e790114088c03a4e6cf5ef99f7a327616ea499df71f3c2621025f",
+      "observed_bytes": 318816,
+      "observed_sha256": "cebdcb2c872e790114088c03a4e6cf5ef99f7a327616ea499df71f3c2621025f",
+      "replay_index": 54,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/b16f4844a113ed5f21bdf13a1defbad4f3bfbffb"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"d290b0ba5dd06abfcc33e2331fee1182a955bf5180ee9dc1d82153c748f0f939\"",
+          "final_url": "https://codeload.github.com/alibaba/canal/tar.gz/8ae8f526a6e6b10896864ef56216c58886c23889",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 958167,
+          "observed_sha256": "7c376e8f1e833dab600037fa55274c0f8dd435e5b7b2cad10245ad0663e58509",
+          "requested_url": "https://codeload.github.com/alibaba/canal/tar.gz/8ae8f526a6e6b10896864ef56216c58886c23889",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:46Z"
+        }
+      ],
+      "audit_id": "03ed925184d216bf",
+      "completed_at": "2026-08-31T07:47:50Z",
+      "expected_bytes": 958167,
+      "expected_sha256": "7c376e8f1e833dab600037fa55274c0f8dd435e5b7b2cad10245ad0663e58509",
+      "observed_bytes": 958167,
+      "observed_sha256": "7c376e8f1e833dab600037fa55274c0f8dd435e5b7b2cad10245ad0663e58509",
+      "replay_index": 55,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/alibaba/canal/tar.gz/8ae8f526a6e6b10896864ef56216c58886c23889"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9c8062120f69680e873aff2c4c940d655bf566a94f5728befc49c792062012b6\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/e72ffdcd039189e3fe230d160e093ae6ba8f24cf",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 679425,
+          "observed_sha256": "a7cf3aa6c3ee00549c230d12ec0e4e771e1ff54cc64742a5a36becc6350c38b4",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/e72ffdcd039189e3fe230d160e093ae6ba8f24cf",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:46Z"
+        }
+      ],
+      "audit_id": "002f36e19660fd0d",
+      "completed_at": "2026-08-31T07:47:50Z",
+      "expected_bytes": 679425,
+      "expected_sha256": "a7cf3aa6c3ee00549c230d12ec0e4e771e1ff54cc64742a5a36becc6350c38b4",
+      "observed_bytes": 679425,
+      "observed_sha256": "a7cf3aa6c3ee00549c230d12ec0e4e771e1ff54cc64742a5a36becc6350c38b4",
+      "replay_index": 56,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/e72ffdcd039189e3fe230d160e093ae6ba8f24cf"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b4ea0f4714ce05951582a28a11227fa61325e99cfa95b6fbf0fc8c760370996f\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/4b9d084a0600a3fa99b973328b81cb89a35b3198",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 547353,
+          "observed_sha256": "487fc5a4103935e55cb17acb6905700c6ac30b636e07d98a2ff71bf90e9d9e2c",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/4b9d084a0600a3fa99b973328b81cb89a35b3198",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:49Z"
+        }
+      ],
+      "audit_id": "006517a4ceb5d1b3",
+      "completed_at": "2026-08-31T07:47:52Z",
+      "expected_bytes": 547353,
+      "expected_sha256": "487fc5a4103935e55cb17acb6905700c6ac30b636e07d98a2ff71bf90e9d9e2c",
+      "observed_bytes": 547353,
+      "observed_sha256": "487fc5a4103935e55cb17acb6905700c6ac30b636e07d98a2ff71bf90e9d9e2c",
+      "replay_index": 57,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/4b9d084a0600a3fa99b973328b81cb89a35b3198"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"257f81d8f2258e2c04ad027fe90b29c05971e83036d32555ce67d8e539437f50\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/6d1d9f6e5dcc7d8a925485e55d96d1f1530b2366",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 546859,
+          "observed_sha256": "53f630be017a08b82a61311dc9fcd0c31867ba6fd77c8017d6627429078be79b",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/6d1d9f6e5dcc7d8a925485e55d96d1f1530b2366",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:49Z"
+        }
+      ],
+      "audit_id": "0094dc4c7747cb9c",
+      "completed_at": "2026-08-31T07:47:53Z",
+      "expected_bytes": 546859,
+      "expected_sha256": "53f630be017a08b82a61311dc9fcd0c31867ba6fd77c8017d6627429078be79b",
+      "observed_bytes": 546859,
+      "observed_sha256": "53f630be017a08b82a61311dc9fcd0c31867ba6fd77c8017d6627429078be79b",
+      "replay_index": 58,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/6d1d9f6e5dcc7d8a925485e55d96d1f1530b2366"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"53dab35629578ea99534e7cb408332ea1becf312fe3332a0f7081118b8068d2c\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/df503a67e8f282a38c1177fce57543b1543dd158",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 679617,
+          "observed_sha256": "d0c57f6fbe194a44a66f28f5d52dc82368f87db67cf958228fd77beffb7d76e1",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/df503a67e8f282a38c1177fce57543b1543dd158",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:49Z"
+        }
+      ],
+      "audit_id": "00a7af92b5ef72cb",
+      "completed_at": "2026-08-31T07:47:53Z",
+      "expected_bytes": 679617,
+      "expected_sha256": "d0c57f6fbe194a44a66f28f5d52dc82368f87db67cf958228fd77beffb7d76e1",
+      "observed_bytes": 679617,
+      "observed_sha256": "d0c57f6fbe194a44a66f28f5d52dc82368f87db67cf958228fd77beffb7d76e1",
+      "replay_index": 59,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/df503a67e8f282a38c1177fce57543b1543dd158"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"e79396e68e4e6bb85e76109a7ce55151a5ea9eb4f05bc2f94ce9b5e6d46ba606\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/e58042cb78cdb83a8885f7c014a9d0659d4102e6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 620528,
+          "observed_sha256": "60661c138facec13bd515b68d3834d2ec035a427556f6828ffae479606995bfa",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/e58042cb78cdb83a8885f7c014a9d0659d4102e6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:50Z"
+        }
+      ],
+      "audit_id": "00d71d49dbdd330e",
+      "completed_at": "2026-08-31T07:47:54Z",
+      "expected_bytes": 620528,
+      "expected_sha256": "60661c138facec13bd515b68d3834d2ec035a427556f6828ffae479606995bfa",
+      "observed_bytes": 620528,
+      "observed_sha256": "60661c138facec13bd515b68d3834d2ec035a427556f6828ffae479606995bfa",
+      "replay_index": 60,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/e58042cb78cdb83a8885f7c014a9d0659d4102e6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"30ab0d60ef80ff55fafcb2057fa2c0e0539cb4ad72dc281930968b90bf8148b7\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/65ae7482a9b09c69d2eb8355a8ecfb43441d584e",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 278870,
+          "observed_sha256": "60c64d1d0541da817750d33e06cd2cc17f98a4e9f694f4722cebbb1563a431cc",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/65ae7482a9b09c69d2eb8355a8ecfb43441d584e",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:50Z"
+        }
+      ],
+      "audit_id": "00f66a83fa3f68de",
+      "completed_at": "2026-08-31T07:47:53Z",
+      "expected_bytes": 278870,
+      "expected_sha256": "60c64d1d0541da817750d33e06cd2cc17f98a4e9f694f4722cebbb1563a431cc",
+      "observed_bytes": 278870,
+      "observed_sha256": "60c64d1d0541da817750d33e06cd2cc17f98a4e9f694f4722cebbb1563a431cc",
+      "replay_index": 61,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/65ae7482a9b09c69d2eb8355a8ecfb43441d584e"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ab3fc571402f19be5c2253393082a2c7ec3f27d23d943b574dbd09f648ff0d16\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/946986785f6b28384d0cba68deef4623da20bf84",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 261632,
+          "observed_sha256": "48c65f15749256147ddfc249da2bc38f9d0dd7e0a352b2e1b0f6c1b368d5dc51",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/946986785f6b28384d0cba68deef4623da20bf84",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:52Z"
+        }
+      ],
+      "audit_id": "01447228bc9fc1a8",
+      "completed_at": "2026-08-31T07:47:55Z",
+      "expected_bytes": 261632,
+      "expected_sha256": "48c65f15749256147ddfc249da2bc38f9d0dd7e0a352b2e1b0f6c1b368d5dc51",
+      "observed_bytes": 261632,
+      "observed_sha256": "48c65f15749256147ddfc249da2bc38f9d0dd7e0a352b2e1b0f6c1b368d5dc51",
+      "replay_index": 62,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/946986785f6b28384d0cba68deef4623da20bf84"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"202b6511609b70d168783029f2b37d4960fab559227f909bfa47a33231239306\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/ece45b1f02aa86655215a8a09af9ad3d983cf79c",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 221480,
+          "observed_sha256": "bfcbf9c18b85a909111fe76d483e2f66c969ab684b0d7598fa650a3259c1514b",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/ece45b1f02aa86655215a8a09af9ad3d983cf79c",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:53Z"
+        }
+      ],
+      "audit_id": "0199b7759d5ab36d",
+      "completed_at": "2026-08-31T07:47:56Z",
+      "expected_bytes": 221480,
+      "expected_sha256": "bfcbf9c18b85a909111fe76d483e2f66c969ab684b0d7598fa650a3259c1514b",
+      "observed_bytes": 221480,
+      "observed_sha256": "bfcbf9c18b85a909111fe76d483e2f66c969ab684b0d7598fa650a3259c1514b",
+      "replay_index": 63,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/ece45b1f02aa86655215a8a09af9ad3d983cf79c"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4f7b2c8e7dfa677942b372f20e91a19ff2bf1f2470e8dd3d8632faeb6af6938d\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/42f082dd7504de775f4ec62aee05c42fa3129f99",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 239543,
+          "observed_sha256": "8983655dcf7a501bc705f33228c8dfbca84599c32ca95a01ffa1d61834ca0b7d",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/42f082dd7504de775f4ec62aee05c42fa3129f99",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:53Z"
+        }
+      ],
+      "audit_id": "01d390188fc619f0",
+      "completed_at": "2026-08-31T07:47:56Z",
+      "expected_bytes": 239543,
+      "expected_sha256": "8983655dcf7a501bc705f33228c8dfbca84599c32ca95a01ffa1d61834ca0b7d",
+      "observed_bytes": 239543,
+      "observed_sha256": "8983655dcf7a501bc705f33228c8dfbca84599c32ca95a01ffa1d61834ca0b7d",
+      "replay_index": 64,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/42f082dd7504de775f4ec62aee05c42fa3129f99"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b45a987880516b9587d1fcf981320d0e2cc64568e90a4d395c05bb458c5fac3f\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/10f55098a94c8846c3b116147ed3a5a4c28e902e",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 207177,
+          "observed_sha256": "f4b8fd5b6304b2eabc511d4e558a503c8edf38b707da3669e7a82acbbd06f3f0",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/10f55098a94c8846c3b116147ed3a5a4c28e902e",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:53Z"
+        }
+      ],
+      "audit_id": "022a88966698cf8b",
+      "completed_at": "2026-08-31T07:47:57Z",
+      "expected_bytes": 207177,
+      "expected_sha256": "f4b8fd5b6304b2eabc511d4e558a503c8edf38b707da3669e7a82acbbd06f3f0",
+      "observed_bytes": 207177,
+      "observed_sha256": "f4b8fd5b6304b2eabc511d4e558a503c8edf38b707da3669e7a82acbbd06f3f0",
+      "replay_index": 65,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/10f55098a94c8846c3b116147ed3a5a4c28e902e"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"db059df4701a4de66dfe3d0a131173fb2ba79cf8ea18f6e51940b6bdea5f15d0\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/f7c4a6220aeb36150ddfacbafa68a9218c0f7841",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 667190,
+          "observed_sha256": "2541b1bfb8f15b34924b1c04eb76c00439390fcf220838345e5e5a2cfe07b440",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/f7c4a6220aeb36150ddfacbafa68a9218c0f7841",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:54Z"
+        }
+      ],
+      "audit_id": "024a37b4ac34bbf3",
+      "completed_at": "2026-08-31T07:47:57Z",
+      "expected_bytes": 667190,
+      "expected_sha256": "2541b1bfb8f15b34924b1c04eb76c00439390fcf220838345e5e5a2cfe07b440",
+      "observed_bytes": 667190,
+      "observed_sha256": "2541b1bfb8f15b34924b1c04eb76c00439390fcf220838345e5e5a2cfe07b440",
+      "replay_index": 66,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/f7c4a6220aeb36150ddfacbafa68a9218c0f7841"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"8938da889818957326fa1f8f210603500f9c824836a1a837b9c9ce847050cc0c\"",
+          "final_url": "https://codeload.github.com/clojure/clojure/tar.gz/8c9580cb6706f2dc40bb31bbdb96a6aefe341bd5",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 617587,
+          "observed_sha256": "945775f3dbe6d6456e75c71651e23ef7d1b12c97c8b834fa2ed634c9fa0dbc76",
+          "requested_url": "https://codeload.github.com/clojure/clojure/tar.gz/8c9580cb6706f2dc40bb31bbdb96a6aefe341bd5",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:55Z"
+        }
+      ],
+      "audit_id": "02c43bcb854e1250",
+      "completed_at": "2026-08-31T07:47:59Z",
+      "expected_bytes": 617587,
+      "expected_sha256": "945775f3dbe6d6456e75c71651e23ef7d1b12c97c8b834fa2ed634c9fa0dbc76",
+      "observed_bytes": 617587,
+      "observed_sha256": "945775f3dbe6d6456e75c71651e23ef7d1b12c97c8b834fa2ed634c9fa0dbc76",
+      "replay_index": 67,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/clojure/clojure/tar.gz/8c9580cb6706f2dc40bb31bbdb96a6aefe341bd5"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"51b965e818a6e180b56dd66349df0755c2a7c03a5169bf2479288b7dd1b8c2f3\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/31e5ba4e617326f16a7fc0d6f82143db9ebae6b7",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4591,
+          "observed_sha256": "2ea83420fe7a9bb62b882236bd14a1df1fd6fab937db6b6066ae41110cc78eb1",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/31e5ba4e617326f16a7fc0d6f82143db9ebae6b7",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:56Z"
+        }
+      ],
+      "audit_id": "0048a9d09b1401ae",
+      "completed_at": "2026-08-31T07:47:59Z",
+      "expected_bytes": 4591,
+      "expected_sha256": "2ea83420fe7a9bb62b882236bd14a1df1fd6fab937db6b6066ae41110cc78eb1",
+      "observed_bytes": 4591,
+      "observed_sha256": "2ea83420fe7a9bb62b882236bd14a1df1fd6fab937db6b6066ae41110cc78eb1",
+      "replay_index": 68,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/31e5ba4e617326f16a7fc0d6f82143db9ebae6b7"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"70da178a5eb3f2baa2bef086d974dce615e5d040091b070f3ab7f6184bd42e76\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/9febf03a25f7381cfb483beaab66047d38beee80",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9015,
+          "observed_sha256": "3ac8fcc0b77d19fe47a2f6dfca890678bcf46b41db98216edfc2a58716e7938d",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/9febf03a25f7381cfb483beaab66047d38beee80",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:56Z"
+        }
+      ],
+      "audit_id": "005216ae1335f550",
+      "completed_at": "2026-08-31T07:47:59Z",
+      "expected_bytes": 9015,
+      "expected_sha256": "3ac8fcc0b77d19fe47a2f6dfca890678bcf46b41db98216edfc2a58716e7938d",
+      "observed_bytes": 9015,
+      "observed_sha256": "3ac8fcc0b77d19fe47a2f6dfca890678bcf46b41db98216edfc2a58716e7938d",
+      "replay_index": 69,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/9febf03a25f7381cfb483beaab66047d38beee80"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"655942b3439e3645bde077ae5406c08c62f2524736cc015e4ffb6006be3ae26f\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/949fa58ed533412637adf9682a0c5aa61bea9cfb",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9008,
+          "observed_sha256": "41ca598db30d715bce646215c4329eb8b153ee753731f9b46835e5b4432ee190",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/949fa58ed533412637adf9682a0c5aa61bea9cfb",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:57Z"
+        }
+      ],
+      "audit_id": "05053395a85ecc5c",
+      "completed_at": "2026-08-31T07:47:59Z",
+      "expected_bytes": 9008,
+      "expected_sha256": "41ca598db30d715bce646215c4329eb8b153ee753731f9b46835e5b4432ee190",
+      "observed_bytes": 9008,
+      "observed_sha256": "41ca598db30d715bce646215c4329eb8b153ee753731f9b46835e5b4432ee190",
+      "replay_index": 70,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/949fa58ed533412637adf9682a0c5aa61bea9cfb"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9769004c1607b4407e6a25a2c6e434bc68aff640467752ea4839a9d59b0457d0\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/b22aab93436f2af2a575bbf7e6f1701e8ca73b5d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4450,
+          "observed_sha256": "bb9bdb73b434cc258c574ceecc452cd20bc07fd703b78970228058111bfd0719",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/b22aab93436f2af2a575bbf7e6f1701e8ca73b5d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:57Z"
+        }
+      ],
+      "audit_id": "084c5c40df602c04",
+      "completed_at": "2026-08-31T07:48:00Z",
+      "expected_bytes": 4450,
+      "expected_sha256": "bb9bdb73b434cc258c574ceecc452cd20bc07fd703b78970228058111bfd0719",
+      "observed_bytes": 4450,
+      "observed_sha256": "bb9bdb73b434cc258c574ceecc452cd20bc07fd703b78970228058111bfd0719",
+      "replay_index": 71,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/b22aab93436f2af2a575bbf7e6f1701e8ca73b5d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"a23c176cce59b1c2cb14274f39d1a5fc1543e8bd4c9fff9ed470b33f9569dc4b\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/5c9ae5dfbd6a297ba57f9682fcf7a6ecda10a70f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4662,
+          "observed_sha256": "7d3720281a2d6c38c96723e2009416667ba9ca713b2477544296af8bfae67c10",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/5c9ae5dfbd6a297ba57f9682fcf7a6ecda10a70f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:59Z"
+        }
+      ],
+      "audit_id": "088ecf23e9c816a6",
+      "completed_at": "2026-08-31T07:48:01Z",
+      "expected_bytes": 4662,
+      "expected_sha256": "7d3720281a2d6c38c96723e2009416667ba9ca713b2477544296af8bfae67c10",
+      "observed_bytes": 4662,
+      "observed_sha256": "7d3720281a2d6c38c96723e2009416667ba9ca713b2477544296af8bfae67c10",
+      "replay_index": 72,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/5c9ae5dfbd6a297ba57f9682fcf7a6ecda10a70f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4cf06dc85a86086a533aaf015c97fc461fffd35119aadfb46eff897607e0c6e6\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/02c5acc986f8e03be3d6c1bd29aab80670cfcaff",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9005,
+          "observed_sha256": "ed7c67eb93df318827128516c71116a2c595abc6e3b96e69122bd6a6893c66d3",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/02c5acc986f8e03be3d6c1bd29aab80670cfcaff",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:59Z"
+        }
+      ],
+      "audit_id": "0b48348dc350adc9",
+      "completed_at": "2026-08-31T07:48:01Z",
+      "expected_bytes": 9005,
+      "expected_sha256": "ed7c67eb93df318827128516c71116a2c595abc6e3b96e69122bd6a6893c66d3",
+      "observed_bytes": 9005,
+      "observed_sha256": "ed7c67eb93df318827128516c71116a2c595abc6e3b96e69122bd6a6893c66d3",
+      "replay_index": 73,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/02c5acc986f8e03be3d6c1bd29aab80670cfcaff"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"27991fd01bc11fc6ed055096cbf7223ca4dbe1d09828d9f9628720658c1c0129\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/24c51043db6901dae75e7dbfede9553392cac7d8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4459,
+          "observed_sha256": "cf1e1267e1d9d1762c9a1945bfe9128d86afd060e5c47609b74366c075ee5862",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/24c51043db6901dae75e7dbfede9553392cac7d8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:59Z"
+        }
+      ],
+      "audit_id": "0c9bebbcf83dcf38",
+      "completed_at": "2026-08-31T07:48:01Z",
+      "expected_bytes": 4459,
+      "expected_sha256": "cf1e1267e1d9d1762c9a1945bfe9128d86afd060e5c47609b74366c075ee5862",
+      "observed_bytes": 4459,
+      "observed_sha256": "cf1e1267e1d9d1762c9a1945bfe9128d86afd060e5c47609b74366c075ee5862",
+      "replay_index": 74,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/24c51043db6901dae75e7dbfede9553392cac7d8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"63f68dd08167e7ec2a9f80f83cbf19d5f73f300811af415baebdf49853b08122\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/be76e62eea28f098c8717679f8f7b181e654d7b8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9029,
+          "observed_sha256": "4764ccfaa90b332cec55feb683ec66c40bbf58aa10285c603ef829099602c702",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/be76e62eea28f098c8717679f8f7b181e654d7b8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:47:59Z"
+        }
+      ],
+      "audit_id": "132f85a0272a3ab7",
+      "completed_at": "2026-08-31T07:48:02Z",
+      "expected_bytes": 9029,
+      "expected_sha256": "4764ccfaa90b332cec55feb683ec66c40bbf58aa10285c603ef829099602c702",
+      "observed_bytes": 9029,
+      "observed_sha256": "4764ccfaa90b332cec55feb683ec66c40bbf58aa10285c603ef829099602c702",
+      "replay_index": 75,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/be76e62eea28f098c8717679f8f7b181e654d7b8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"d8c7b6c0aa98c103a9581d81e377490dd80d0bf7a2e0f072a6a148661d66f4ab\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/dd9ce32494c4c7c6fca5765598d54f7ce6a40413",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9001,
+          "observed_sha256": "01e731fdb0157e93c5abbbf4b258b78227f613df5c01831441efcf33a1740b12",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/dd9ce32494c4c7c6fca5765598d54f7ce6a40413",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:00Z"
+        }
+      ],
+      "audit_id": "1640d04091c44645",
+      "completed_at": "2026-08-31T07:48:02Z",
+      "expected_bytes": 9001,
+      "expected_sha256": "01e731fdb0157e93c5abbbf4b258b78227f613df5c01831441efcf33a1740b12",
+      "observed_bytes": 9001,
+      "observed_sha256": "01e731fdb0157e93c5abbbf4b258b78227f613df5c01831441efcf33a1740b12",
+      "replay_index": 76,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/dd9ce32494c4c7c6fca5765598d54f7ce6a40413"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"495d5543929229d29476efcce972ff3dbc3d6403673d56a092b0264d43e23f5c\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/d69ce7972ee908b079b1c3e822abd5fc6a99fe3d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 9038,
+          "observed_sha256": "95d1a7bb6a6d4224bddb5446918732429a15addae09fdc33965f595e80768dc1",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/d69ce7972ee908b079b1c3e822abd5fc6a99fe3d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:01Z"
+        }
+      ],
+      "audit_id": "1865be6666f2b243",
+      "completed_at": "2026-08-31T07:48:04Z",
+      "expected_bytes": 9038,
+      "expected_sha256": "95d1a7bb6a6d4224bddb5446918732429a15addae09fdc33965f595e80768dc1",
+      "observed_bytes": 9038,
+      "observed_sha256": "95d1a7bb6a6d4224bddb5446918732429a15addae09fdc33965f595e80768dc1",
+      "replay_index": 77,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/d69ce7972ee908b079b1c3e822abd5fc6a99fe3d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"09a7c206bd8ac8780e050ebf46f103d05f04c7e65ba5e04b9f6d49aa73a5c40e\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/a4fac20c63a7437d04dda94d3249d73849b84eb0",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4459,
+          "observed_sha256": "5d4c8ea835b3152b88da71d56c2d18a701358f2b4557084edf0ed8cdf4dd88e7",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/a4fac20c63a7437d04dda94d3249d73849b84eb0",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:01Z"
+        }
+      ],
+      "audit_id": "1a8b7ad9172dbb33",
+      "completed_at": "2026-08-31T07:48:04Z",
+      "expected_bytes": 4459,
+      "expected_sha256": "5d4c8ea835b3152b88da71d56c2d18a701358f2b4557084edf0ed8cdf4dd88e7",
+      "observed_bytes": 4459,
+      "observed_sha256": "5d4c8ea835b3152b88da71d56c2d18a701358f2b4557084edf0ed8cdf4dd88e7",
+      "replay_index": 78,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/a4fac20c63a7437d04dda94d3249d73849b84eb0"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b4d00880d1c5664b56415a0cffd03c768bceebff1ade45b5c5770b141ab64fde\"",
+          "final_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/53157c6f3878474b1f290e2ccc772e0785cf42ad",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4456,
+          "observed_sha256": "535800d3cf2e50a55e3202e1f577c1597302836a3f024e4609ddd0615a80de83",
+          "requested_url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/53157c6f3878474b1f290e2ccc772e0785cf42ad",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:01Z"
+        }
+      ],
+      "audit_id": "1b3881197c451ce2",
+      "completed_at": "2026-08-31T07:48:04Z",
+      "expected_bytes": 4456,
+      "expected_sha256": "535800d3cf2e50a55e3202e1f577c1597302836a3f024e4609ddd0615a80de83",
+      "observed_bytes": 4456,
+      "observed_sha256": "535800d3cf2e50a55e3202e1f577c1597302836a3f024e4609ddd0615a80de83",
+      "replay_index": 79,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/Graylog2/graylog2-server/tar.gz/53157c6f3878474b1f290e2ccc772e0785cf42ad"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"1681ea48893ed7f3c82e5cecd2b13d6295f6d5a3866b6c9727f23d8dadf316e7\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/c6f8f2035d5f2287e391849ac66996e2fc04bcf7",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36300048,
+          "observed_sha256": "a1ae040b7d0a4c74ffc1c1c7aad8b8436149d74c84df6c1a8c42ae453b3a0a3a",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/c6f8f2035d5f2287e391849ac66996e2fc04bcf7",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:02Z"
+        }
+      ],
+      "audit_id": "073b63d92348293f",
+      "completed_at": "2026-08-31T07:48:10Z",
+      "expected_bytes": 36300048,
+      "expected_sha256": "a1ae040b7d0a4c74ffc1c1c7aad8b8436149d74c84df6c1a8c42ae453b3a0a3a",
+      "observed_bytes": 36300048,
+      "observed_sha256": "a1ae040b7d0a4c74ffc1c1c7aad8b8436149d74c84df6c1a8c42ae453b3a0a3a",
+      "replay_index": 80,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/c6f8f2035d5f2287e391849ac66996e2fc04bcf7"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"c0a92a5f65d4c9d68b7a9c535c301e1286d29e25eddbe30f5e9e2a316d776092\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/bc47900d640c2264fb8a9f0cf799c3985adb9a27",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36308044,
+          "observed_sha256": "cb879d9a8901f2372fd30992afc1406a885201e627a8601bbb9fe70dcaf9fcdb",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/bc47900d640c2264fb8a9f0cf799c3985adb9a27",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:02Z"
+        }
+      ],
+      "audit_id": "07908993016d3875",
+      "completed_at": "2026-08-31T07:48:08Z",
+      "expected_bytes": 36308044,
+      "expected_sha256": "cb879d9a8901f2372fd30992afc1406a885201e627a8601bbb9fe70dcaf9fcdb",
+      "observed_bytes": 36308044,
+      "observed_sha256": "cb879d9a8901f2372fd30992afc1406a885201e627a8601bbb9fe70dcaf9fcdb",
+      "replay_index": 81,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/bc47900d640c2264fb8a9f0cf799c3985adb9a27"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"d03e21da37dafe1a129c3d24bfb01b2b6436d99ffa4d49481f92e34f0f5b4e61\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/859a3816b268781af1802719a7d0a5a2158121ee",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36302212,
+          "observed_sha256": "a0a8311f2f97ae082f60cefa3a1f767e8444c49ec3c8199087a5916a9d1ef3f6",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/859a3816b268781af1802719a7d0a5a2158121ee",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:04Z"
+        }
+      ],
+      "audit_id": "0928052f08e30ad6",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 36302212,
+      "expected_sha256": "a0a8311f2f97ae082f60cefa3a1f767e8444c49ec3c8199087a5916a9d1ef3f6",
+      "observed_bytes": 36302212,
+      "observed_sha256": "a0a8311f2f97ae082f60cefa3a1f767e8444c49ec3c8199087a5916a9d1ef3f6",
+      "replay_index": 82,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/859a3816b268781af1802719a7d0a5a2158121ee"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"010aafa08ddbcb39aa6cb402faae5a1c7b024f40e4ed7ff1efaef0cd234e7e14\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/4211cf3a0e11ba822a37ebd45a149cd959015f8c",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1325658,
+          "observed_sha256": "da0a6c51b603afa8cceee0f3432ee8d92ca96e5ee44a04f4a1b505708f75d4df",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/4211cf3a0e11ba822a37ebd45a149cd959015f8c",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:04Z"
+        }
+      ],
+      "audit_id": "092b166f61dcdc09",
+      "completed_at": "2026-08-31T07:48:09Z",
+      "expected_bytes": 1325658,
+      "expected_sha256": "da0a6c51b603afa8cceee0f3432ee8d92ca96e5ee44a04f4a1b505708f75d4df",
+      "observed_bytes": 1325658,
+      "observed_sha256": "da0a6c51b603afa8cceee0f3432ee8d92ca96e5ee44a04f4a1b505708f75d4df",
+      "replay_index": 83,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/4211cf3a0e11ba822a37ebd45a149cd959015f8c"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"eadf6e7b40d0ab81dd9fbdd0a9ac94335204a15866632e56629906b9aa3d0d3b\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/c785a6817e6c62b1a5a4c6687cbc7f50a0eb4ccf",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1328424,
+          "observed_sha256": "34ea45353eb9ec7e1596819d1c4da4dae4895f3901b8b96c2759f2210f54998d",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/c785a6817e6c62b1a5a4c6687cbc7f50a0eb4ccf",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:04Z"
+        }
+      ],
+      "audit_id": "0e0e7088561ea654",
+      "completed_at": "2026-08-31T07:48:08Z",
+      "expected_bytes": 1328424,
+      "expected_sha256": "34ea45353eb9ec7e1596819d1c4da4dae4895f3901b8b96c2759f2210f54998d",
+      "observed_bytes": 1328424,
+      "observed_sha256": "34ea45353eb9ec7e1596819d1c4da4dae4895f3901b8b96c2759f2210f54998d",
+      "replay_index": 84,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/c785a6817e6c62b1a5a4c6687cbc7f50a0eb4ccf"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3176feb84a16e610c307ea1ae685aab942c1be2f88a20d3befbd718df478f5bd\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/58c90ae66c33501b0d301e2307aeb53c5082bf6d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36311407,
+          "observed_sha256": "25563f77c577ad6b4e12c0827812e5b62ded1b41ea2237e71fe3c5dbdde98866",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/58c90ae66c33501b0d301e2307aeb53c5082bf6d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:08Z"
+        }
+      ],
+      "audit_id": "0e4485ba35bdea36",
+      "completed_at": "2026-08-31T07:48:13Z",
+      "expected_bytes": 36311407,
+      "expected_sha256": "25563f77c577ad6b4e12c0827812e5b62ded1b41ea2237e71fe3c5dbdde98866",
+      "observed_bytes": 36311407,
+      "observed_sha256": "25563f77c577ad6b4e12c0827812e5b62ded1b41ea2237e71fe3c5dbdde98866",
+      "replay_index": 85,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/58c90ae66c33501b0d301e2307aeb53c5082bf6d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"847548cec5c209d4f756127220f7c6a97e3751878b38aa01f955e4716b0c478b\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/5ef30df12a54b06d59416feeb53ae1891d9579ff",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 23381112,
+          "observed_sha256": "7ea3f55d4c8d74cd2151534d95b082bbe7990f7565254fda7d6a52ec3b7a63a0",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/5ef30df12a54b06d59416feeb53ae1891d9579ff",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:08Z"
+        }
+      ],
+      "audit_id": "0ed79da2ed934b6e",
+      "completed_at": "2026-08-31T07:48:14Z",
+      "expected_bytes": 23381112,
+      "expected_sha256": "7ea3f55d4c8d74cd2151534d95b082bbe7990f7565254fda7d6a52ec3b7a63a0",
+      "observed_bytes": 23381112,
+      "observed_sha256": "7ea3f55d4c8d74cd2151534d95b082bbe7990f7565254fda7d6a52ec3b7a63a0",
+      "replay_index": 86,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/5ef30df12a54b06d59416feeb53ae1891d9579ff"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"6e7b2f42731e14c0d04030626b5453c1b3eb13a4c7bc5ee531624769f060aa4a\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/6febfcaeb5cee048529e38cb781a8dc7a06252c4",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 23381411,
+          "observed_sha256": "31ba04bdc50689e7182011f7937ba07eb39e2a01bec81b65a9b66fad83ff93dd",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/6febfcaeb5cee048529e38cb781a8dc7a06252c4",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:09Z"
+        }
+      ],
+      "audit_id": "0fb00f73c8f81ec7",
+      "completed_at": "2026-08-31T07:48:14Z",
+      "expected_bytes": 23381411,
+      "expected_sha256": "31ba04bdc50689e7182011f7937ba07eb39e2a01bec81b65a9b66fad83ff93dd",
+      "observed_bytes": 23381411,
+      "observed_sha256": "31ba04bdc50689e7182011f7937ba07eb39e2a01bec81b65a9b66fad83ff93dd",
+      "replay_index": 87,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/6febfcaeb5cee048529e38cb781a8dc7a06252c4"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"1b2b6d6f277b04bd7446ffeada2cd763708c8fa1707aa779255d91d76199bc0e\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/65b86a4b57abbc844279a307339a4a615d57bb42",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36300275,
+          "observed_sha256": "28582bfce8dbb5d5c75876f3fb9b3c80d22c23fa66b4a4dcca5e39d48adaec15",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/65b86a4b57abbc844279a307339a4a615d57bb42",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:10Z"
+        }
+      ],
+      "audit_id": "143415482aa087f8",
+      "completed_at": "2026-08-31T07:48:16Z",
+      "expected_bytes": 36300275,
+      "expected_sha256": "28582bfce8dbb5d5c75876f3fb9b3c80d22c23fa66b4a4dcca5e39d48adaec15",
+      "observed_bytes": 36300275,
+      "observed_sha256": "28582bfce8dbb5d5c75876f3fb9b3c80d22c23fa66b4a4dcca5e39d48adaec15",
+      "replay_index": 88,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/65b86a4b57abbc844279a307339a4a615d57bb42"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3ef055ebdeac6de79d49382eb3658a086821fe6e92cd78e5d1a3b9a888ea2b82\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/e6d92d2323a96871aef78be3ff4e57cf5edd33f7",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36302216,
+          "observed_sha256": "1adf6b137c5612a9b9c993a71b15bccee6c50b487ae313e10528b9003d65284d",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/e6d92d2323a96871aef78be3ff4e57cf5edd33f7",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:13Z"
+        }
+      ],
+      "audit_id": "146e4d2ecf68f897",
+      "completed_at": "2026-08-31T07:48:19Z",
+      "expected_bytes": 36302216,
+      "expected_sha256": "1adf6b137c5612a9b9c993a71b15bccee6c50b487ae313e10528b9003d65284d",
+      "observed_bytes": 36302216,
+      "observed_sha256": "1adf6b137c5612a9b9c993a71b15bccee6c50b487ae313e10528b9003d65284d",
+      "replay_index": 89,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/e6d92d2323a96871aef78be3ff4e57cf5edd33f7"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ee5dd3d91c8935fc7ab5d583d933f31d8b59e630a4952767294589d6d928fe9d\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/205d7fdf0469960ab65820e3c850f4e8efa2961f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 36300828,
+          "observed_sha256": "c1727a6a1502870554da643cac499f4b6e7318b133c2b65cfa1f2e359e1d484b",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/205d7fdf0469960ab65820e3c850f4e8efa2961f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:14Z"
+        }
+      ],
+      "audit_id": "16a31a3507884286",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 36300828,
+      "expected_sha256": "c1727a6a1502870554da643cac499f4b6e7318b133c2b65cfa1f2e359e1d484b",
+      "observed_bytes": 36300828,
+      "observed_sha256": "c1727a6a1502870554da643cac499f4b6e7318b133c2b65cfa1f2e359e1d484b",
+      "replay_index": 90,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/205d7fdf0469960ab65820e3c850f4e8efa2961f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"2d42da0d4804e5ab01599867b71a6c18690f38b3637d7584cfc5b7e6233ed4ac\"",
+          "final_url": "https://codeload.github.com/google/guava/tar.gz/51eb6fc0de824525ed0aa8728359efb12d88001d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1343649,
+          "observed_sha256": "332ae77a881428367fc87c30c09da96c1ec98bea5e623783de118c3189d50454",
+          "requested_url": "https://codeload.github.com/google/guava/tar.gz/51eb6fc0de824525ed0aa8728359efb12d88001d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:14Z"
+        }
+      ],
+      "audit_id": "18845efd500282fa",
+      "completed_at": "2026-08-31T07:48:18Z",
+      "expected_bytes": 1343649,
+      "expected_sha256": "332ae77a881428367fc87c30c09da96c1ec98bea5e623783de118c3189d50454",
+      "observed_bytes": 1343649,
+      "observed_sha256": "332ae77a881428367fc87c30c09da96c1ec98bea5e623783de118c3189d50454",
+      "replay_index": 91,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/google/guava/tar.gz/51eb6fc0de824525ed0aa8728359efb12d88001d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b841546cadb8bd5765300c9b9eaa5c64b3ccddf27d9991fd15caa070c5bb25b8\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/8fb4d3257eb100dc9fb3e0045a6560f842881819",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1301065,
+          "observed_sha256": "19d8e98637161c558584a94dbfb3a03aa505389ca9dcfc41088c6717d89b41e1",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/8fb4d3257eb100dc9fb3e0045a6560f842881819",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:14Z"
+        }
+      ],
+      "audit_id": "0073fbd83620d2fc",
+      "completed_at": "2026-08-31T07:48:18Z",
+      "expected_bytes": 1301065,
+      "expected_sha256": "19d8e98637161c558584a94dbfb3a03aa505389ca9dcfc41088c6717d89b41e1",
+      "observed_bytes": 1301065,
+      "observed_sha256": "19d8e98637161c558584a94dbfb3a03aa505389ca9dcfc41088c6717d89b41e1",
+      "replay_index": 92,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/8fb4d3257eb100dc9fb3e0045a6560f842881819"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"028960c8f0f4f8fb964a96270198b5b7864072c86a2a112c62fecae8c86a21ab\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/3ad98e0099cedada07ec5654cf9577aecee52dfc",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1304884,
+          "observed_sha256": "5cbe91befd83eeb7f58cf3cb08c296d545471b03446abc81fa1ba9ceb0e39d99",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/3ad98e0099cedada07ec5654cf9577aecee52dfc",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:16Z"
+        }
+      ],
+      "audit_id": "0233c789112cebdb",
+      "completed_at": "2026-08-31T07:48:20Z",
+      "expected_bytes": 1304884,
+      "expected_sha256": "5cbe91befd83eeb7f58cf3cb08c296d545471b03446abc81fa1ba9ceb0e39d99",
+      "observed_bytes": 1304884,
+      "observed_sha256": "5cbe91befd83eeb7f58cf3cb08c296d545471b03446abc81fa1ba9ceb0e39d99",
+      "replay_index": 93,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/3ad98e0099cedada07ec5654cf9577aecee52dfc"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"272633cfe7595c00b0f1a7bd06b45e5cc75991efbd36592dfe0fd3572e3b3ff1\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c0c902870f3de62a3d661e99b3912e509a724c39",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1321882,
+          "observed_sha256": "5a91e212ee884431417d6561ae2d8956c4962f412588d57279185b5858a47b2a",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c0c902870f3de62a3d661e99b3912e509a724c39",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:16Z"
+        }
+      ],
+      "audit_id": "03ba8f71084c7237",
+      "completed_at": "2026-08-31T07:48:20Z",
+      "expected_bytes": 1321882,
+      "expected_sha256": "5a91e212ee884431417d6561ae2d8956c4962f412588d57279185b5858a47b2a",
+      "observed_bytes": 1321882,
+      "observed_sha256": "5a91e212ee884431417d6561ae2d8956c4962f412588d57279185b5858a47b2a",
+      "replay_index": 94,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c0c902870f3de62a3d661e99b3912e509a724c39"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b5e884e605d85c2bc4ed14d6583cc918b245168f67ac5e726ef161958151c11f\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/05d212959ad63a2f6ecbd3e6dee773b8aa73aa52",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1297404,
+          "observed_sha256": "3229a9065ccc1e6efd034e5209676c993b6612972f05e9ec27bcf211c0bb8796",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/05d212959ad63a2f6ecbd3e6dee773b8aa73aa52",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:17Z"
+        }
+      ],
+      "audit_id": "04d86250b0328d93",
+      "completed_at": "2026-08-31T07:48:21Z",
+      "expected_bytes": 1297404,
+      "expected_sha256": "3229a9065ccc1e6efd034e5209676c993b6612972f05e9ec27bcf211c0bb8796",
+      "observed_bytes": 1297404,
+      "observed_sha256": "3229a9065ccc1e6efd034e5209676c993b6612972f05e9ec27bcf211c0bb8796",
+      "replay_index": 95,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/05d212959ad63a2f6ecbd3e6dee773b8aa73aa52"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9ef360bb220dea599691db7eebd7b60f7fb45ca627bcd833eb489780d2a32a76\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1f1854436801b126ba7df0f528fd7b959e31ca17",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1118157,
+          "observed_sha256": "5bfecf1b639e0a4963a5ea49ced4babe6bb9e1c0e58c94d03143695573a7da2c",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1f1854436801b126ba7df0f528fd7b959e31ca17",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:18Z"
+        }
+      ],
+      "audit_id": "06ef3a9993187946",
+      "completed_at": "2026-08-31T07:48:22Z",
+      "expected_bytes": 1118157,
+      "expected_sha256": "5bfecf1b639e0a4963a5ea49ced4babe6bb9e1c0e58c94d03143695573a7da2c",
+      "observed_bytes": 1118157,
+      "observed_sha256": "5bfecf1b639e0a4963a5ea49ced4babe6bb9e1c0e58c94d03143695573a7da2c",
+      "replay_index": 96,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1f1854436801b126ba7df0f528fd7b959e31ca17"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"4733c42d485ed38b2100fab81ba0e5c7fd42f9905f6883dd9d2954542d432b5e\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c61198b80ee2041281ebaf7a71356754db7f9d4a",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1035383,
+          "observed_sha256": "9a70a93d3c838dc50dd839b16d6897e979e79112c567cd6b15129efee5a2279f",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c61198b80ee2041281ebaf7a71356754db7f9d4a",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:18Z"
+        }
+      ],
+      "audit_id": "08091daa7d0a2a14",
+      "completed_at": "2026-08-31T07:48:22Z",
+      "expected_bytes": 1035383,
+      "expected_sha256": "9a70a93d3c838dc50dd839b16d6897e979e79112c567cd6b15129efee5a2279f",
+      "observed_bytes": 1035383,
+      "observed_sha256": "9a70a93d3c838dc50dd839b16d6897e979e79112c567cd6b15129efee5a2279f",
+      "replay_index": 97,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/c61198b80ee2041281ebaf7a71356754db7f9d4a"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"0d4c91f2c614ce1917f4b2a9d49206fc2e8cf6cb2c915984b1176ce8e0b57018\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/106b0b9c0d9418a7fdc09bad35633eee63f50478",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1269502,
+          "observed_sha256": "b387a7f86695e69828e25b829e54c520f1cfc04a9e5528e6d4df184ba200d4c2",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/106b0b9c0d9418a7fdc09bad35633eee63f50478",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:19Z"
+        }
+      ],
+      "audit_id": "08a4361efd88d889",
+      "completed_at": "2026-08-31T07:48:23Z",
+      "expected_bytes": 1269502,
+      "expected_sha256": "b387a7f86695e69828e25b829e54c520f1cfc04a9e5528e6d4df184ba200d4c2",
+      "observed_bytes": 1269502,
+      "observed_sha256": "b387a7f86695e69828e25b829e54c520f1cfc04a9e5528e6d4df184ba200d4c2",
+      "replay_index": 98,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/106b0b9c0d9418a7fdc09bad35633eee63f50478"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"567594a0ad2738aef6cac1cc93e996f448b34de93934738b5fdb6fdbb2d52cec\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/92d73282fb7df06e24e54cd9bd97f34971479d9f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 140009,
+          "observed_sha256": "711a6c334472502104f451ce59c577a8ecd6146edeccda11155dc90f8f61223f",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/92d73282fb7df06e24e54cd9bd97f34971479d9f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:20Z"
+        }
+      ],
+      "audit_id": "08adb9a6709bba82",
+      "completed_at": "2026-08-31T07:48:23Z",
+      "expected_bytes": 140009,
+      "expected_sha256": "711a6c334472502104f451ce59c577a8ecd6146edeccda11155dc90f8f61223f",
+      "observed_bytes": 140009,
+      "observed_sha256": "711a6c334472502104f451ce59c577a8ecd6146edeccda11155dc90f8f61223f",
+      "replay_index": 99,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/92d73282fb7df06e24e54cd9bd97f34971479d9f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9a21b05e4440530524b2d34a85b73db92fb6b075d452a7d1b72c481a0b14169e\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/fb24bf8c1f56418e74c4004ecb9248f86f7be40a",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 3422,
+          "observed_sha256": "b4386bc38609a2b01e3b5e141c04976d2d9307cefe40538ba8bcaf563888349f",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/fb24bf8c1f56418e74c4004ecb9248f86f7be40a",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:20Z"
+        }
+      ],
+      "audit_id": "0befe9ae5a04341b",
+      "completed_at": "2026-08-31T07:48:23Z",
+      "expected_bytes": 3422,
+      "expected_sha256": "b4386bc38609a2b01e3b5e141c04976d2d9307cefe40538ba8bcaf563888349f",
+      "observed_bytes": 3422,
+      "observed_sha256": "b4386bc38609a2b01e3b5e141c04976d2d9307cefe40538ba8bcaf563888349f",
+      "replay_index": 100,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/fb24bf8c1f56418e74c4004ecb9248f86f7be40a"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"46afc4042b10eb89c4963065046441b442db7401259d426fad3f537058164673\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/ff82d13cdac27b3db773887dec6eba519d275285",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 451203,
+          "observed_sha256": "e5a4b257f27e5eae344a71442c6db0aad76258648108e4fecf1ef4301ffad235",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/ff82d13cdac27b3db773887dec6eba519d275285",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:21Z"
+        }
+      ],
+      "audit_id": "0cc5059b435d4d19",
+      "completed_at": "2026-08-31T07:48:24Z",
+      "expected_bytes": 451203,
+      "expected_sha256": "e5a4b257f27e5eae344a71442c6db0aad76258648108e4fecf1ef4301ffad235",
+      "observed_bytes": 451203,
+      "observed_sha256": "e5a4b257f27e5eae344a71442c6db0aad76258648108e4fecf1ef4301ffad235",
+      "replay_index": 101,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/ff82d13cdac27b3db773887dec6eba519d275285"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5ccd71c2897080b6720cb3bcf855e275ba61398c318431c5c5cbaa8b442bee96\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 8149,
+          "observed_sha256": "85bc6c01bbad90206f75a854198e66ad2af501855248f04377746ce07f6b35c8",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:22Z"
+        }
+      ],
+      "audit_id": "0d3faec769cba3a5",
+      "completed_at": "2026-08-31T07:48:25Z",
+      "expected_bytes": 8149,
+      "expected_sha256": "85bc6c01bbad90206f75a854198e66ad2af501855248f04377746ce07f6b35c8",
+      "observed_bytes": 8149,
+      "observed_sha256": "85bc6c01bbad90206f75a854198e66ad2af501855248f04377746ce07f6b35c8",
+      "replay_index": 102,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/1d4f0f1e29ef45aefa9b3d40a4fc1ed20eeeb583"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"524041e213af0d23c53ed848b237006591e714d644d26c8697ffb56db6bf43d7\"",
+          "final_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/180810cca3fd7da5732fb66d83bd881d1f24f472",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 19031,
+          "observed_sha256": "5a79410c10ff97d1bd8f658794caa38e13ebb5ed6a6fa1b7c54950de4b5b0e28",
+          "requested_url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/180810cca3fd7da5732fb66d83bd881d1f24f472",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:22Z"
+        }
+      ],
+      "audit_id": "110dc3598a2d0a47",
+      "completed_at": "2026-08-31T07:48:25Z",
+      "expected_bytes": 19031,
+      "expected_sha256": "5a79410c10ff97d1bd8f658794caa38e13ebb5ed6a6fa1b7c54950de4b5b0e28",
+      "observed_bytes": 19031,
+      "observed_sha256": "5a79410c10ff97d1bd8f658794caa38e13ebb5ed6a6fa1b7c54950de4b5b0e28",
+      "replay_index": 103,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/iluwatar/java-design-patterns/tar.gz/180810cca3fd7da5732fb66d83bd881d1f24f472"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5519a072db76fb564aaddf1439a997f38ab4cf05f5651c30adef72a178db088c\"",
+          "final_url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/70b7b65de5efca26a345fd0dc52f76a87718fb85",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 753104,
+          "observed_sha256": "21b50152e0c3b92df9510599eb48147aa82d930a8ea0439d3e50206a1dbd8f3f",
+          "requested_url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/70b7b65de5efca26a345fd0dc52f76a87718fb85",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:23Z"
+        }
+      ],
+      "audit_id": "9f669f1890de4a7b",
+      "completed_at": "2026-08-31T07:48:27Z",
+      "expected_bytes": 753104,
+      "expected_sha256": "21b50152e0c3b92df9510599eb48147aa82d930a8ea0439d3e50206a1dbd8f3f",
+      "observed_bytes": 753104,
+      "observed_sha256": "21b50152e0c3b92df9510599eb48147aa82d930a8ea0439d3e50206a1dbd8f3f",
+      "replay_index": 104,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/70b7b65de5efca26a345fd0dc52f76a87718fb85"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"d5bd7b67ab0a28fb66b02eda9b072b37ddae775f8e1bcf963a31dac490ab4e13\"",
+          "final_url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/712d5c16fbdb3ba6bf5de028cfdabaf284be9e9f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 753093,
+          "observed_sha256": "b8ace995f468a0b986934a68940931a7ef457642b21d58ef7f285435134da4be",
+          "requested_url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/712d5c16fbdb3ba6bf5de028cfdabaf284be9e9f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:23Z"
+        }
+      ],
+      "audit_id": "eec279a49dbb2234",
+      "completed_at": "2026-08-31T07:48:27Z",
+      "expected_bytes": 753093,
+      "expected_sha256": "b8ace995f468a0b986934a68940931a7ef457642b21d58ef7f285435134da4be",
+      "observed_bytes": 753093,
+      "observed_sha256": "b8ace995f468a0b986934a68940931a7ef457642b21d58ef7f285435134da4be",
+      "replay_index": 105,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/javaee-samples/javaee7-samples/tar.gz/712d5c16fbdb3ba6bf5de028cfdabaf284be9e9f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"72748fddb1361efed6c9bf7fa6ef1c2e2674dad3344d0bb0bda6db7ac41d2b54\"",
+          "final_url": "https://codeload.github.com/square/javapoet/tar.gz/9b4d2d842e152ffb49d42c450be053d8ada4984e",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 10668,
+          "observed_sha256": "539828306be928fc0ea9b26bafd4c30384172eb5b5e7b0de8f7913cc1d0f13cd",
+          "requested_url": "https://codeload.github.com/square/javapoet/tar.gz/9b4d2d842e152ffb49d42c450be053d8ada4984e",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:23Z"
+        }
+      ],
+      "audit_id": "3efcd9a577bca877",
+      "completed_at": "2026-08-31T07:48:26Z",
+      "expected_bytes": 10668,
+      "expected_sha256": "539828306be928fc0ea9b26bafd4c30384172eb5b5e7b0de8f7913cc1d0f13cd",
+      "observed_bytes": 10668,
+      "observed_sha256": "539828306be928fc0ea9b26bafd4c30384172eb5b5e7b0de8f7913cc1d0f13cd",
+      "replay_index": 106,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/square/javapoet/tar.gz/9b4d2d842e152ffb49d42c450be053d8ada4984e"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"0de42cb6e6a312d4d991e88fb48dd79fafb527c2f98e9ecfb013aad83669e14f\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/6200253df7b934c807eb3436b51a3b039406457d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15587,
+          "observed_sha256": "d79be99903d83503043b6060b468bb69c905277d408fa6c91e8e33a1d9d33f2a",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/6200253df7b934c807eb3436b51a3b039406457d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:24Z"
+        }
+      ],
+      "audit_id": "06dc2fa609cb85f5",
+      "completed_at": "2026-08-31T07:48:27Z",
+      "expected_bytes": 15587,
+      "expected_sha256": "d79be99903d83503043b6060b468bb69c905277d408fa6c91e8e33a1d9d33f2a",
+      "observed_bytes": 15587,
+      "observed_sha256": "d79be99903d83503043b6060b468bb69c905277d408fa6c91e8e33a1d9d33f2a",
+      "replay_index": 107,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/6200253df7b934c807eb3436b51a3b039406457d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3a8137504e796fa2d2521a919b276ab38886f6439cbc1b7b48b0f9fda35f5be0\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/9788c5b7900b4c7ff27355f69fee4e14630eb412",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 14846,
+          "observed_sha256": "c3927743da708792142b30b7ff396f55e6c46f3f6b46654c4e320b50f7f5c588",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/9788c5b7900b4c7ff27355f69fee4e14630eb412",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:25Z"
+        }
+      ],
+      "audit_id": "0e411e94c0cfdbf5",
+      "completed_at": "2026-08-31T07:48:27Z",
+      "expected_bytes": 14846,
+      "expected_sha256": "c3927743da708792142b30b7ff396f55e6c46f3f6b46654c4e320b50f7f5c588",
+      "observed_bytes": 14846,
+      "observed_sha256": "c3927743da708792142b30b7ff396f55e6c46f3f6b46654c4e320b50f7f5c588",
+      "replay_index": 108,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/9788c5b7900b4c7ff27355f69fee4e14630eb412"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"f27ba88c0c1a0d681a7416dceb6677d0b56c7b9d95fe62e6fd13f8442068fbe1\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/3dc8918984596a24c8e9fbeff46781d50d930f7b",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 24627,
+          "observed_sha256": "08e1fb2d6a39b9c7986148b855eeec97f99b6da0e648799603189bfd9138d450",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/3dc8918984596a24c8e9fbeff46781d50d930f7b",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:25Z"
+        }
+      ],
+      "audit_id": "1c144e8ca16e69dd",
+      "completed_at": "2026-08-31T07:48:28Z",
+      "expected_bytes": 24627,
+      "expected_sha256": "08e1fb2d6a39b9c7986148b855eeec97f99b6da0e648799603189bfd9138d450",
+      "observed_bytes": 24627,
+      "observed_sha256": "08e1fb2d6a39b9c7986148b855eeec97f99b6da0e648799603189bfd9138d450",
+      "replay_index": 109,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/3dc8918984596a24c8e9fbeff46781d50d930f7b"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9a5654650e2490cd9d902421221f454acadcf21b4d1eb803da0a88988918d137\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8fa8e5a7a23ed96583e072832f8e74a7a84dbe20",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 13776,
+          "observed_sha256": "66971dae2465187c7b2176c93556bcb28e5a1a47091e094bdc7be9fcb808bf49",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8fa8e5a7a23ed96583e072832f8e74a7a84dbe20",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:26Z"
+        }
+      ],
+      "audit_id": "27ef1cf44c54bd4d",
+      "completed_at": "2026-08-31T07:48:28Z",
+      "expected_bytes": 13776,
+      "expected_sha256": "66971dae2465187c7b2176c93556bcb28e5a1a47091e094bdc7be9fcb808bf49",
+      "observed_bytes": 13776,
+      "observed_sha256": "66971dae2465187c7b2176c93556bcb28e5a1a47091e094bdc7be9fcb808bf49",
+      "replay_index": 110,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8fa8e5a7a23ed96583e072832f8e74a7a84dbe20"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"a5136e0881fe73ed222cdcb6249cb4fd52a3710e3aeec4cb08c95cf25067ad07\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/1d08f5f14b5bfeb6ab61f0f653a42f8c731d191d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15454,
+          "observed_sha256": "17a0339642317d67b24d4d1f7ffe5302133dc1e635adf3ecb4488efa5fdff02a",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/1d08f5f14b5bfeb6ab61f0f653a42f8c731d191d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:27Z"
+        }
+      ],
+      "audit_id": "29ab5cd357d0fe0f",
+      "completed_at": "2026-08-31T07:48:30Z",
+      "expected_bytes": 15454,
+      "expected_sha256": "17a0339642317d67b24d4d1f7ffe5302133dc1e635adf3ecb4488efa5fdff02a",
+      "observed_bytes": 15454,
+      "observed_sha256": "17a0339642317d67b24d4d1f7ffe5302133dc1e635adf3ecb4488efa5fdff02a",
+      "replay_index": 111,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/1d08f5f14b5bfeb6ab61f0f653a42f8c731d191d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"206dd94a669a5f246abffaf328c3ca7429bb1c11ba5dc2c52f77cf8d9532c611\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/18277161a73258f1b4a2cf12fb0dceea25cd06b6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 24621,
+          "observed_sha256": "13ca85410c17d0a0d7e9f1508e09dc5a7e03828ac010e5fbd0fcdef7fcfd8293",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/18277161a73258f1b4a2cf12fb0dceea25cd06b6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:27Z"
+        }
+      ],
+      "audit_id": "30e221865298ae87",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 24621,
+      "expected_sha256": "13ca85410c17d0a0d7e9f1508e09dc5a7e03828ac010e5fbd0fcdef7fcfd8293",
+      "observed_bytes": 24621,
+      "observed_sha256": "13ca85410c17d0a0d7e9f1508e09dc5a7e03828ac010e5fbd0fcdef7fcfd8293",
+      "replay_index": 112,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/18277161a73258f1b4a2cf12fb0dceea25cd06b6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3c8e32861dceaa15c9b8d6e1e07386e5705739ff2862a1964e9868bfc2ec04f3\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/2b54eda5fee8430268a99d73b061e790362db544",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 24811,
+          "observed_sha256": "ab6f2cb072746f2459085a7819afa7658e68b954db711c70d290ef7d1dcb70d7",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/2b54eda5fee8430268a99d73b061e790362db544",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:27Z"
+        }
+      ],
+      "audit_id": "3d6476bf6e6df127",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 24811,
+      "expected_sha256": "ab6f2cb072746f2459085a7819afa7658e68b954db711c70d290ef7d1dcb70d7",
+      "observed_bytes": 24811,
+      "observed_sha256": "ab6f2cb072746f2459085a7819afa7658e68b954db711c70d290ef7d1dcb70d7",
+      "replay_index": 113,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/2b54eda5fee8430268a99d73b061e790362db544"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"edc4b4774c4f71be224798050aefa9824a38960b82f3ca0d9be3b46e533593cc\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/19454b6662a9db07d9b050dbd0dcfaf6a0c7c225",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 14783,
+          "observed_sha256": "555258e8f012c44b684a10d8a3d5a61953949fb4b21cf40472331cfa31c42763",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/19454b6662a9db07d9b050dbd0dcfaf6a0c7c225",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:27Z"
+        }
+      ],
+      "audit_id": "3ef151f5b50e0e5e",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 14783,
+      "expected_sha256": "555258e8f012c44b684a10d8a3d5a61953949fb4b21cf40472331cfa31c42763",
+      "observed_bytes": 14783,
+      "observed_sha256": "555258e8f012c44b684a10d8a3d5a61953949fb4b21cf40472331cfa31c42763",
+      "replay_index": 114,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/19454b6662a9db07d9b050dbd0dcfaf6a0c7c225"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"43d7a21278fa3eb3f5aa50f56335a69edfbc48ae52bb8f8a43b3b65f8bd2c2e7\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8d7af5a4836b2cb28ee1113f0e19e287d9dbf6d8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 24897,
+          "observed_sha256": "8c02e6c74458280ebbfa3c982d34c8ae5b198d4cf32d558e417bdf32ee8b2924",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8d7af5a4836b2cb28ee1113f0e19e287d9dbf6d8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:28Z"
+        }
+      ],
+      "audit_id": "42b3d1921ec6960b",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 24897,
+      "expected_sha256": "8c02e6c74458280ebbfa3c982d34c8ae5b198d4cf32d558e417bdf32ee8b2924",
+      "observed_bytes": 24897,
+      "observed_sha256": "8c02e6c74458280ebbfa3c982d34c8ae5b198d4cf32d558e417bdf32ee8b2924",
+      "replay_index": 115,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8d7af5a4836b2cb28ee1113f0e19e287d9dbf6d8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"53fce68774cef27ee1657ea3989de582026984ac1d7d3cdbcfa316658c447b52\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/4e1ae19daee9a8e9437476af6b07a6aba950802c",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15043,
+          "observed_sha256": "9566d3da2f0183480d31dc1179fdcaee3d7dfbdd37d1b6c75d58c7506a445266",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/4e1ae19daee9a8e9437476af6b07a6aba950802c",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:28Z"
+        }
+      ],
+      "audit_id": "496aa03d8735d40e",
+      "completed_at": "2026-08-31T07:48:31Z",
+      "expected_bytes": 15043,
+      "expected_sha256": "9566d3da2f0183480d31dc1179fdcaee3d7dfbdd37d1b6c75d58c7506a445266",
+      "observed_bytes": 15043,
+      "observed_sha256": "9566d3da2f0183480d31dc1179fdcaee3d7dfbdd37d1b6c75d58c7506a445266",
+      "replay_index": 116,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/4e1ae19daee9a8e9437476af6b07a6aba950802c"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ae69ac720d0cb62377ce785b20e0732bce0e12e79447b33f0c853af94ccb8022\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8e74cc25475b88456765122be169abfd9cc22343",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 24947,
+          "observed_sha256": "ed37afb50816dc6d38d709ccbfc630352f83d8c2ee55ca14a82ebe539b04c772",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8e74cc25475b88456765122be169abfd9cc22343",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:30Z"
+        }
+      ],
+      "audit_id": "53d4bc53bea41799",
+      "completed_at": "2026-08-31T07:48:33Z",
+      "expected_bytes": 24947,
+      "expected_sha256": "ed37afb50816dc6d38d709ccbfc630352f83d8c2ee55ca14a82ebe539b04c772",
+      "observed_bytes": 24947,
+      "observed_sha256": "ed37afb50816dc6d38d709ccbfc630352f83d8c2ee55ca14a82ebe539b04c772",
+      "replay_index": 117,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/8e74cc25475b88456765122be169abfd9cc22343"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"1ea15280215fda909f7c4a39e487c883089f95d0e656e20b1ec3dff7a9fbebe0\"",
+          "final_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/c31b377c70c84b87f64576c8d86f14b1b1d12c09",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 13475,
+          "observed_sha256": "bdfc186bf8c0746ad513859cdc3cb67fa9ab36fdd59d64de7356133ce9af2abf",
+          "requested_url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/c31b377c70c84b87f64576c8d86f14b1b1d12c09",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "814df96ba3d430d4",
+      "completed_at": "2026-08-31T07:48:33Z",
+      "expected_bytes": 13475,
+      "expected_sha256": "bdfc186bf8c0746ad513859cdc3cb67fa9ab36fdd59d64de7356133ce9af2abf",
+      "observed_bytes": 13475,
+      "observed_sha256": "bdfc186bf8c0746ad513859cdc3cb67fa9ab36fdd59d64de7356133ce9af2abf",
+      "replay_index": 118,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/NanoHttpd/nanohttpd/tar.gz/c31b377c70c84b87f64576c8d86f14b1b1d12c09"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"43da2b995a39dd3506430b84b36f7f1a97881fa64eeb2d50166125c6dbee2f3b\"",
+          "final_url": "https://codeload.github.com/prestodb/presto/tar.gz/9e427ad20773aa791cb2424cc585da3300a7a9b8",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4283,
+          "observed_sha256": "a75af02309744240a8dab011b2a084dba7dfa3788ddbc3cb3752e8cba3494db5",
+          "requested_url": "https://codeload.github.com/prestodb/presto/tar.gz/9e427ad20773aa791cb2424cc585da3300a7a9b8",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "086bee66878476d6",
+      "completed_at": "2026-08-31T07:48:34Z",
+      "expected_bytes": 4283,
+      "expected_sha256": "a75af02309744240a8dab011b2a084dba7dfa3788ddbc3cb3752e8cba3494db5",
+      "observed_bytes": 4283,
+      "observed_sha256": "a75af02309744240a8dab011b2a084dba7dfa3788ddbc3cb3752e8cba3494db5",
+      "replay_index": 119,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/prestodb/presto/tar.gz/9e427ad20773aa791cb2424cc585da3300a7a9b8"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"0cb5d0062f043e42ede0292ed43d81a249c7ac9d96c3af13df40ad4b9e70cbb0\"",
+          "final_url": "https://codeload.github.com/prestodb/presto/tar.gz/1909a3a58c5570b80df70004cd7abfc47fc81996",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4289,
+          "observed_sha256": "b3a21b02e1db3248e97e700b78725b0fa3b426608110662f85cf7b260ac0bb8f",
+          "requested_url": "https://codeload.github.com/prestodb/presto/tar.gz/1909a3a58c5570b80df70004cd7abfc47fc81996",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "75f35204ae47bd16",
+      "completed_at": "2026-08-31T07:48:33Z",
+      "expected_bytes": 4289,
+      "expected_sha256": "b3a21b02e1db3248e97e700b78725b0fa3b426608110662f85cf7b260ac0bb8f",
+      "observed_bytes": 4289,
+      "observed_sha256": "b3a21b02e1db3248e97e700b78725b0fa3b426608110662f85cf7b260ac0bb8f",
+      "replay_index": 120,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/prestodb/presto/tar.gz/1909a3a58c5570b80df70004cd7abfc47fc81996"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ef91fc959bbe724b77a7fd324d15a685b7e3c83615d563dc346dc99148a51422\"",
+          "final_url": "https://codeload.github.com/prestodb/presto/tar.gz/ea40c59a6d90e2917cdd70517a05fb713a9b2bfa",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1225,
+          "observed_sha256": "b86c38a9fbd08bf4e0ef3dbfb9279696940e05fc5b85bc5048edc1217e031c6e",
+          "requested_url": "https://codeload.github.com/prestodb/presto/tar.gz/ea40c59a6d90e2917cdd70517a05fb713a9b2bfa",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "abba72ee0d5e57fa",
+      "completed_at": "2026-08-31T07:48:33Z",
+      "expected_bytes": 1225,
+      "expected_sha256": "b86c38a9fbd08bf4e0ef3dbfb9279696940e05fc5b85bc5048edc1217e031c6e",
+      "observed_bytes": 1225,
+      "observed_sha256": "b86c38a9fbd08bf4e0ef3dbfb9279696940e05fc5b85bc5048edc1217e031c6e",
+      "replay_index": 121,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/prestodb/presto/tar.gz/ea40c59a6d90e2917cdd70517a05fb713a9b2bfa"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"3e1a4a93ee4f58ffc0644ca89b99a49bfda1f2f02fa688185a2045592a0aacb2\"",
+          "final_url": "https://codeload.github.com/prestodb/presto/tar.gz/cce36cfcff0f2a4843b66b344d8c35105a16130f",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 4486,
+          "observed_sha256": "756eb3d8e11c6b95300ee8401e42e980cefee75f4e3789bb5011a48e39516383",
+          "requested_url": "https://codeload.github.com/prestodb/presto/tar.gz/cce36cfcff0f2a4843b66b344d8c35105a16130f",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "b6d277f9e1985ead",
+      "completed_at": "2026-08-31T07:48:34Z",
+      "expected_bytes": 4486,
+      "expected_sha256": "756eb3d8e11c6b95300ee8401e42e980cefee75f4e3789bb5011a48e39516383",
+      "observed_bytes": 4486,
+      "observed_sha256": "756eb3d8e11c6b95300ee8401e42e980cefee75f4e3789bb5011a48e39516383",
+      "replay_index": 122,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/prestodb/presto/tar.gz/cce36cfcff0f2a4843b66b344d8c35105a16130f"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5b69fe487c3190721b51312b066da6cde7f7fc1af95dfb8aa08244c2d7ed4519\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/1c1bf895225ada46154ab3a282861cfe4aa2b52b",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114575,
+          "observed_sha256": "f7d3e70071684b62613790b330129a3e38e988a71d2c104127fb61f8d65b63fb",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/1c1bf895225ada46154ab3a282861cfe4aa2b52b",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "3201c15995b85d6a",
+      "completed_at": "2026-08-31T07:48:34Z",
+      "expected_bytes": 114575,
+      "expected_sha256": "f7d3e70071684b62613790b330129a3e38e988a71d2c104127fb61f8d65b63fb",
+      "observed_bytes": 114575,
+      "observed_sha256": "f7d3e70071684b62613790b330129a3e38e988a71d2c104127fb61f8d65b63fb",
+      "replay_index": 123,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/1c1bf895225ada46154ab3a282861cfe4aa2b52b"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"11263ec2963c24803a20a2fbbfa61765a71e3dd507cc9f60e90141a97b69bebd\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/c2e691a55f77d1b8bac45cbace82b810abfb0016",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 113508,
+          "observed_sha256": "0d04e37ea3cc16aa16d629e8d13b4b6e7cadcfa438cd2d33d8fad8d32152e644",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/c2e691a55f77d1b8bac45cbace82b810abfb0016",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:31Z"
+        }
+      ],
+      "audit_id": "32e7e9d1ba2d4449",
+      "completed_at": "2026-08-31T07:48:35Z",
+      "expected_bytes": 113508,
+      "expected_sha256": "0d04e37ea3cc16aa16d629e8d13b4b6e7cadcfa438cd2d33d8fad8d32152e644",
+      "observed_bytes": 113508,
+      "observed_sha256": "0d04e37ea3cc16aa16d629e8d13b4b6e7cadcfa438cd2d33d8fad8d32152e644",
+      "replay_index": 124,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/c2e691a55f77d1b8bac45cbace82b810abfb0016"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"0e937e00cddf578203dee506090c150d7e1c34bb6f51f86bccc94033878b792c\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/906e68cbfa918617583a3a40e308ef7fc6d25c08",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114387,
+          "observed_sha256": "6ec0c16c86c10e288de9aa1caf6f0771157c3f65917aa069f0aa1b5649c86088",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/906e68cbfa918617583a3a40e308ef7fc6d25c08",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:33Z"
+        }
+      ],
+      "audit_id": "3e925864101ba211",
+      "completed_at": "2026-08-31T07:48:36Z",
+      "expected_bytes": 114387,
+      "expected_sha256": "6ec0c16c86c10e288de9aa1caf6f0771157c3f65917aa069f0aa1b5649c86088",
+      "observed_bytes": 114387,
+      "observed_sha256": "6ec0c16c86c10e288de9aa1caf6f0771157c3f65917aa069f0aa1b5649c86088",
+      "replay_index": 125,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/906e68cbfa918617583a3a40e308ef7fc6d25c08"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7fd637dbcf310e87e29c17fb561d67a8d433d890e261a78d5246a14634f1dda8\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/8774cce7dabd5fb906ff77956aea6fa9443c603b",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114557,
+          "observed_sha256": "06f2e7dc3353c6f8f3abb8beae80b808e88700fe4e86a43f9fb8c0b1cce2905b",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/8774cce7dabd5fb906ff77956aea6fa9443c603b",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:33Z"
+        }
+      ],
+      "audit_id": "4ba0c02dfd162a31",
+      "completed_at": "2026-08-31T07:48:36Z",
+      "expected_bytes": 114557,
+      "expected_sha256": "06f2e7dc3353c6f8f3abb8beae80b808e88700fe4e86a43f9fb8c0b1cce2905b",
+      "observed_bytes": 114557,
+      "observed_sha256": "06f2e7dc3353c6f8f3abb8beae80b808e88700fe4e86a43f9fb8c0b1cce2905b",
+      "replay_index": 126,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/8774cce7dabd5fb906ff77956aea6fa9443c603b"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9b483b4acbf12d3614ff86dae88e49dc873f9e04ffab76e1cf57d02f3959dbb3\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/755b9aa84e1b3a61e218efa6497e358a086bcb13",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 110467,
+          "observed_sha256": "b7e0bdeb57eca8415cba2134d75b4e08cc9331d7048b2261d66bb9af788dc350",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/755b9aa84e1b3a61e218efa6497e358a086bcb13",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:33Z"
+        }
+      ],
+      "audit_id": "8cdf5b40a3b0799e",
+      "completed_at": "2026-08-31T07:48:36Z",
+      "expected_bytes": 110467,
+      "expected_sha256": "b7e0bdeb57eca8415cba2134d75b4e08cc9331d7048b2261d66bb9af788dc350",
+      "observed_bytes": 110467,
+      "observed_sha256": "b7e0bdeb57eca8415cba2134d75b4e08cc9331d7048b2261d66bb9af788dc350",
+      "replay_index": 127,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/755b9aa84e1b3a61e218efa6497e358a086bcb13"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"bcd725a793dcb5e897b7a3a9bc473f1988411670e58e0ea2947f80ca9b58316e\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/9d04fe3a76f7252ffe7add580738000b3c1c0203",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 112476,
+          "observed_sha256": "e46f042872b7ba2a797f631275b87b47bb7c46837a6b0df026d923aca6010124",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/9d04fe3a76f7252ffe7add580738000b3c1c0203",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:33Z"
+        }
+      ],
+      "audit_id": "8cea3a6da5eeb831",
+      "completed_at": "2026-08-31T07:48:37Z",
+      "expected_bytes": 112476,
+      "expected_sha256": "e46f042872b7ba2a797f631275b87b47bb7c46837a6b0df026d923aca6010124",
+      "observed_bytes": 112476,
+      "observed_sha256": "e46f042872b7ba2a797f631275b87b47bb7c46837a6b0df026d923aca6010124",
+      "replay_index": 128,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/9d04fe3a76f7252ffe7add580738000b3c1c0203"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"53313690250786c3d577e2ff97f68d82609bdd632a143156c2fbe2e9fdc427ea\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/412abeb8df60f07a5ae4377b95f34ff5cfa78bcf",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114384,
+          "observed_sha256": "b740a808e858711684280be869c8fb4a2cca9f7c4eaa860dc4b9350c1988e42f",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/412abeb8df60f07a5ae4377b95f34ff5cfa78bcf",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:34Z"
+        }
+      ],
+      "audit_id": "b89769a4d4c7c323",
+      "completed_at": "2026-08-31T07:48:37Z",
+      "expected_bytes": 114384,
+      "expected_sha256": "b740a808e858711684280be869c8fb4a2cca9f7c4eaa860dc4b9350c1988e42f",
+      "observed_bytes": 114384,
+      "observed_sha256": "b740a808e858711684280be869c8fb4a2cca9f7c4eaa860dc4b9350c1988e42f",
+      "replay_index": 129,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/412abeb8df60f07a5ae4377b95f34ff5cfa78bcf"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"5b8f9bf8c856d53b429c3d91c3e21153ee729063c51be475ed0dd9758c80390c\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/ecb61d13857a0ddb35a406b540ac77b1f74819ba",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 112527,
+          "observed_sha256": "d526b51586884ac59e938cfc42e76415713ae194e38c50291b3441c030e91d1e",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/ecb61d13857a0ddb35a406b540ac77b1f74819ba",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:34Z"
+        }
+      ],
+      "audit_id": "c5d8ce2b016ff020",
+      "completed_at": "2026-08-31T07:48:37Z",
+      "expected_bytes": 112527,
+      "expected_sha256": "d526b51586884ac59e938cfc42e76415713ae194e38c50291b3441c030e91d1e",
+      "observed_bytes": 112527,
+      "observed_sha256": "d526b51586884ac59e938cfc42e76415713ae194e38c50291b3441c030e91d1e",
+      "replay_index": 130,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/ecb61d13857a0ddb35a406b540ac77b1f74819ba"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ff9eec3cef0bf1d10925b01fb41a1a67e049b88e9c7170e1f48240a24d10c766\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/e6d415cd69a80eaafa18345ab467c3e5010612d1",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114282,
+          "observed_sha256": "adb321e8840f9ed16680f69d1052936522d3a1d22fc7cf06bb3184e921083442",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/e6d415cd69a80eaafa18345ab467c3e5010612d1",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:34Z"
+        }
+      ],
+      "audit_id": "caec859b217c327b",
+      "completed_at": "2026-08-31T07:48:37Z",
+      "expected_bytes": 114282,
+      "expected_sha256": "adb321e8840f9ed16680f69d1052936522d3a1d22fc7cf06bb3184e921083442",
+      "observed_bytes": 114282,
+      "observed_sha256": "adb321e8840f9ed16680f69d1052936522d3a1d22fc7cf06bb3184e921083442",
+      "replay_index": 131,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/e6d415cd69a80eaafa18345ab467c3e5010612d1"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"f1348e130f9f06efa274bbb6f252a95b324dd2adcfa2d5f726f67fb863a563f3\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/3d4ad02b2943e6102f2ba6ccf3f61ef10a686e29",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 114538,
+          "observed_sha256": "27c46fe2446a10d211b4fb66a3fd539feb3abfe712aa66ef146873a33c99ef78",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/3d4ad02b2943e6102f2ba6ccf3f61ef10a686e29",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:35Z"
+        }
+      ],
+      "audit_id": "d947bacbb5c308f0",
+      "completed_at": "2026-08-31T07:48:38Z",
+      "expected_bytes": 114538,
+      "expected_sha256": "27c46fe2446a10d211b4fb66a3fd539feb3abfe712aa66ef146873a33c99ef78",
+      "observed_bytes": 114538,
+      "observed_sha256": "27c46fe2446a10d211b4fb66a3fd539feb3abfe712aa66ef146873a33c99ef78",
+      "replay_index": 132,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/3d4ad02b2943e6102f2ba6ccf3f61ef10a686e29"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b2cde060c918c9fa00dcddc731ae76f786b465a1430835e9a612500cb0fbab0b\"",
+          "final_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/6dc88fa111b273b01694eca37cac8f5daba3fe14",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 235475,
+          "observed_sha256": "b81d1a91ff06a72eb7403383a9f93f378b4362775f0b03066d02aaf8c3b12254",
+          "requested_url": "https://codeload.github.com/code4craft/webmagic/tar.gz/6dc88fa111b273b01694eca37cac8f5daba3fe14",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:36Z"
+        }
+      ],
+      "audit_id": "e5f0b8d4f9642058",
+      "completed_at": "2026-08-31T07:48:40Z",
+      "expected_bytes": 235475,
+      "expected_sha256": "b81d1a91ff06a72eb7403383a9f93f378b4362775f0b03066d02aaf8c3b12254",
+      "observed_bytes": 235475,
+      "observed_sha256": "b81d1a91ff06a72eb7403383a9f93f378b4362775f0b03066d02aaf8c3b12254",
+      "replay_index": 133,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/code4craft/webmagic/tar.gz/6dc88fa111b273b01694eca37cac8f5daba3fe14"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"c40a1a894be93ccc8ad4004929971ebc55bf9a9ccc8149e483ccff495d7b9a46\"",
+          "final_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/1a065b4951b532ea4f9e3477e0aed8c68d4601d6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 1932,
+          "observed_sha256": "f3a71879e4dad9ea8a16e75d9ec9e541eccb44162cf90585386fdf371c67c16d",
+          "requested_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/1a065b4951b532ea4f9e3477e0aed8c68d4601d6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:36Z"
+        }
+      ],
+      "audit_id": "b3cabf38232d79ab",
+      "completed_at": "2026-08-31T07:48:39Z",
+      "expected_bytes": 1932,
+      "expected_sha256": "f3a71879e4dad9ea8a16e75d9ec9e541eccb44162cf90585386fdf371c67c16d",
+      "observed_bytes": 1932,
+      "observed_sha256": "f3a71879e4dad9ea8a16e75d9ec9e541eccb44162cf90585386fdf371c67c16d",
+      "replay_index": 134,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/wildfly/wildfly/tar.gz/1a065b4951b532ea4f9e3477e0aed8c68d4601d6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ba11556f297120b1c35c73d446538ab6cd89d902573f67542ef453041ea29855\"",
+          "final_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/abbf9a52d39f3b81a591a0eabb52f985d454dccd",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 2688,
+          "observed_sha256": "27f67a74e5422ce549935cde7ce6e9c2db9556089c12a740dd118e6e0cf7db04",
+          "requested_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/abbf9a52d39f3b81a591a0eabb52f985d454dccd",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:36Z"
+        }
+      ],
+      "audit_id": "ba186da44bdcf0d3",
+      "completed_at": "2026-08-31T07:48:39Z",
+      "expected_bytes": 2688,
+      "expected_sha256": "27f67a74e5422ce549935cde7ce6e9c2db9556089c12a740dd118e6e0cf7db04",
+      "observed_bytes": 2688,
+      "observed_sha256": "27f67a74e5422ce549935cde7ce6e9c2db9556089c12a740dd118e6e0cf7db04",
+      "replay_index": 135,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/wildfly/wildfly/tar.gz/abbf9a52d39f3b81a591a0eabb52f985d454dccd"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"aaa7acc9e49d156e51f4b8e2c8dc7603da8dd1ce4372f113345a80ce9e3e5ad5\"",
+          "final_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/3cc56d37d5c4902c4b772b0532a9bf2c5c9f3195",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 2607,
+          "observed_sha256": "9847f97f79e89889d82618d6a31a05df466e74ad2715b382eef8ac516f06d13e",
+          "requested_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/3cc56d37d5c4902c4b772b0532a9bf2c5c9f3195",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:37Z"
+        }
+      ],
+      "audit_id": "d5ad0b7db3f36f6d",
+      "completed_at": "2026-08-31T07:48:39Z",
+      "expected_bytes": 2607,
+      "expected_sha256": "9847f97f79e89889d82618d6a31a05df466e74ad2715b382eef8ac516f06d13e",
+      "observed_bytes": 2607,
+      "observed_sha256": "9847f97f79e89889d82618d6a31a05df466e74ad2715b382eef8ac516f06d13e",
+      "replay_index": 136,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/wildfly/wildfly/tar.gz/3cc56d37d5c4902c4b772b0532a9bf2c5c9f3195"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"b97066860e35219f4e801f6efbcc9bd9f3b2d39021de74cec847782ae7ec9af4\"",
+          "final_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/5d9581a327658ef5d58ab4cdd8b9dea4e25f5314",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 2475,
+          "observed_sha256": "0ef377b0e8b08789d526c1b689fd445ac24a4777b5a59efb083c47b3aa584710",
+          "requested_url": "https://codeload.github.com/wildfly/wildfly/tar.gz/5d9581a327658ef5d58ab4cdd8b9dea4e25f5314",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:37Z"
+        }
+      ],
+      "audit_id": "e0adc04190ac3e0c",
+      "completed_at": "2026-08-31T07:48:39Z",
+      "expected_bytes": 2475,
+      "expected_sha256": "0ef377b0e8b08789d526c1b689fd445ac24a4777b5a59efb083c47b3aa584710",
+      "observed_bytes": 2475,
+      "observed_sha256": "0ef377b0e8b08789d526c1b689fd445ac24a4777b5a59efb083c47b3aa584710",
+      "replay_index": 137,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/wildfly/wildfly/tar.gz/5d9581a327658ef5d58ab4cdd8b9dea4e25f5314"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"94a232f658dc55cab242c98c565530026390472188d8f36615a65b1efa2c3f79\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/4f4a28c2c970c02cde2e30efb6682cc7422a2b65",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15948991,
+          "observed_sha256": "0d88b72428c7847b8480ac102aef3415072d1ddc2b343669977236371fdd040b",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/4f4a28c2c970c02cde2e30efb6682cc7422a2b65",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:37Z"
+        }
+      ],
+      "audit_id": "003bfdd53ee7e782",
+      "completed_at": "2026-08-31T07:48:42Z",
+      "expected_bytes": 15948991,
+      "expected_sha256": "0d88b72428c7847b8480ac102aef3415072d1ddc2b343669977236371fdd040b",
+      "observed_bytes": 15948991,
+      "observed_sha256": "0d88b72428c7847b8480ac102aef3415072d1ddc2b343669977236371fdd040b",
+      "replay_index": 138,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/4f4a28c2c970c02cde2e30efb6682cc7422a2b65"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"446f7cacc82515bbd0d358d6e9a598d270f65b5a68efe8eee152bda40dbeceab\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/248b57b24c7b5bb1ce4c2fe58b28e6dfd8e240c4",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 16329642,
+          "observed_sha256": "fab2ee136da3673068e10c4982d0d7e3bd7a260aa2b6d4a23d9e14a191e0a086",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/248b57b24c7b5bb1ce4c2fe58b28e6dfd8e240c4",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:37Z"
+        }
+      ],
+      "audit_id": "00bd43ea5fe4236e",
+      "completed_at": "2026-08-31T07:48:42Z",
+      "expected_bytes": 16329642,
+      "expected_sha256": "fab2ee136da3673068e10c4982d0d7e3bd7a260aa2b6d4a23d9e14a191e0a086",
+      "observed_bytes": 16329642,
+      "observed_sha256": "fab2ee136da3673068e10c4982d0d7e3bd7a260aa2b6d4a23d9e14a191e0a086",
+      "replay_index": 139,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/248b57b24c7b5bb1ce4c2fe58b28e6dfd8e240c4"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"ae03b720a0f42486c673e88e73e9691c3457fce5d80a81a7e9d9c42312760671\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/825771c3ae9fbbc92f6b550cf0e95eac2a3b0aac",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 11516497,
+          "observed_sha256": "889e7479eabbf76d28453f25a6417056e11480018d84db60f3b7340c208eb2bd",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/825771c3ae9fbbc92f6b550cf0e95eac2a3b0aac",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:38Z"
+        }
+      ],
+      "audit_id": "012364e41b21698e",
+      "completed_at": "2026-08-31T07:48:42Z",
+      "expected_bytes": 11516497,
+      "expected_sha256": "889e7479eabbf76d28453f25a6417056e11480018d84db60f3b7340c208eb2bd",
+      "observed_bytes": 11516497,
+      "observed_sha256": "889e7479eabbf76d28453f25a6417056e11480018d84db60f3b7340c208eb2bd",
+      "replay_index": 140,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/825771c3ae9fbbc92f6b550cf0e95eac2a3b0aac"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"91f65f3367a8390cab08ae5cc6706e5366d1a9ce032e16abdd1c84b7900b5e20\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/a28d15877c89b405132b84f3ec8ac76e5e53c79b",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 11449129,
+          "observed_sha256": "83cf3655f35098d7b3cff903662b0242029088471ac8b3b0c53132570780487a",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/a28d15877c89b405132b84f3ec8ac76e5e53c79b",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:39Z"
+        }
+      ],
+      "audit_id": "02c2759e36ff3b79",
+      "completed_at": "2026-08-31T07:48:44Z",
+      "expected_bytes": 11449129,
+      "expected_sha256": "83cf3655f35098d7b3cff903662b0242029088471ac8b3b0c53132570780487a",
+      "observed_bytes": 11449129,
+      "observed_sha256": "83cf3655f35098d7b3cff903662b0242029088471ac8b3b0c53132570780487a",
+      "replay_index": 141,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/a28d15877c89b405132b84f3ec8ac76e5e53c79b"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"1c994bac96acdebdeb9ce52f21a702282319d7e32024db1a709c07ac3a6c6935\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/5a501a63c902f971d794ad3e77397bd6224dd3f4",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15947634,
+          "observed_sha256": "97d66b661176ea7a3784142e997d60eaa2003b840396a81b6fbadb6464f0eea7",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/5a501a63c902f971d794ad3e77397bd6224dd3f4",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:39Z"
+        }
+      ],
+      "audit_id": "03b1703f2c9c71ed",
+      "completed_at": "2026-08-31T07:48:44Z",
+      "expected_bytes": 15947634,
+      "expected_sha256": "97d66b661176ea7a3784142e997d60eaa2003b840396a81b6fbadb6464f0eea7",
+      "observed_bytes": 15947634,
+      "observed_sha256": "97d66b661176ea7a3784142e997d60eaa2003b840396a81b6fbadb6464f0eea7",
+      "replay_index": 142,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/5a501a63c902f971d794ad3e77397bd6224dd3f4"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"57077aca30f19431d0b7ca17e3946910a19b432223525b93ab6358fab7f10d36\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/07365ec1050576896f8a4d24ff9881a765c62f36",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15101580,
+          "observed_sha256": "b4f80b53c5aaf95c107b865cdfffd90817b10d93954a2173aadd615a52803021",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/07365ec1050576896f8a4d24ff9881a765c62f36",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:39Z"
+        }
+      ],
+      "audit_id": "043db55303e3a255",
+      "completed_at": "2026-08-31T07:48:44Z",
+      "expected_bytes": 15101580,
+      "expected_sha256": "b4f80b53c5aaf95c107b865cdfffd90817b10d93954a2173aadd615a52803021",
+      "observed_bytes": 15101580,
+      "observed_sha256": "b4f80b53c5aaf95c107b865cdfffd90817b10d93954a2173aadd615a52803021",
+      "replay_index": 143,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/07365ec1050576896f8a4d24ff9881a765c62f36"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"72eec031121450e1240c422b735166e9fe53f5840ba3467d51a4efb85d5be393\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/c08fefe864c64a4eb69f8979933a38706b454ebf",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 424080,
+          "observed_sha256": "ae963f56d08cd1f24b5dd52c1524667954a6bdbd8e63f763f0025cbba9818e87",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/c08fefe864c64a4eb69f8979933a38706b454ebf",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:39Z"
+        }
+      ],
+      "audit_id": "0500b672f0692dfb",
+      "completed_at": "2026-08-31T07:48:43Z",
+      "expected_bytes": 424080,
+      "expected_sha256": "ae963f56d08cd1f24b5dd52c1524667954a6bdbd8e63f763f0025cbba9818e87",
+      "observed_bytes": 424080,
+      "observed_sha256": "ae963f56d08cd1f24b5dd52c1524667954a6bdbd8e63f763f0025cbba9818e87",
+      "replay_index": 144,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/c08fefe864c64a4eb69f8979933a38706b454ebf"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"752ae11935cb3f17a2fa35320b84ed9baecfb0bf97c9525b2a46d7b15365e797\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/0c00aea107326b10908ea778712b5508363ab21d",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 16324697,
+          "observed_sha256": "0b8023f6d07ebe3a3ca8252fc0edf5b77fe2c5301e2791801565fd34d2f05893",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/0c00aea107326b10908ea778712b5508363ab21d",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:40Z"
+        }
+      ],
+      "audit_id": "078a979c07aa175c",
+      "completed_at": "2026-08-31T07:48:49Z",
+      "expected_bytes": 16324697,
+      "expected_sha256": "0b8023f6d07ebe3a3ca8252fc0edf5b77fe2c5301e2791801565fd34d2f05893",
+      "observed_bytes": 16324697,
+      "observed_sha256": "0b8023f6d07ebe3a3ca8252fc0edf5b77fe2c5301e2791801565fd34d2f05893",
+      "replay_index": 145,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/0c00aea107326b10908ea778712b5508363ab21d"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"2b27e9f05f46b1f503247e6728219066b1f1ef4d957273cdc893fcf07fa49308\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/49093ccee33c33c9f239bb7ec3a4ef1ac54bdb91",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 11515514,
+          "observed_sha256": "41248ca99f4d20f164385986f65ea789808716fe058c4e5d9c83c79de5b059c9",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/49093ccee33c33c9f239bb7ec3a4ef1ac54bdb91",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:42Z"
+        }
+      ],
+      "audit_id": "07ae1bb43de2d2c6",
+      "completed_at": "2026-08-31T07:48:47Z",
+      "expected_bytes": 11515514,
+      "expected_sha256": "41248ca99f4d20f164385986f65ea789808716fe058c4e5d9c83c79de5b059c9",
+      "observed_bytes": 11515514,
+      "observed_sha256": "41248ca99f4d20f164385986f65ea789808716fe058c4e5d9c83c79de5b059c9",
+      "replay_index": 146,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/49093ccee33c33c9f239bb7ec3a4ef1ac54bdb91"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"9859913ee5be298feaafeb50b19ac11a25476d7036d2ff58107a9cc665e8bde7\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/2bff02e8a428641a991b99f8cbea24061e78d8a6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 15357221,
+          "observed_sha256": "48357200782f852c051593496df1c950e6713494fcbaea18e1091430e8118909",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/2bff02e8a428641a991b99f8cbea24061e78d8a6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:42Z"
+        }
+      ],
+      "audit_id": "086b57845d5dea3a",
+      "completed_at": "2026-08-31T07:48:59Z",
+      "expected_bytes": 15357221,
+      "expected_sha256": "48357200782f852c051593496df1c950e6713494fcbaea18e1091430e8118909",
+      "observed_bytes": 15357221,
+      "observed_sha256": "48357200782f852c051593496df1c950e6713494fcbaea18e1091430e8118909",
+      "replay_index": 147,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/2bff02e8a428641a991b99f8cbea24061e78d8a6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"68c39e3b039e05eb842d571454346630e0a9992fc7a23488bc914791bac153fd\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/b0d1c1c9f83e0b0a00ca2905bd559402a9955cb6",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 16580497,
+          "observed_sha256": "5091334bdc4cd7476b6656d66e9b8ab839dcd112e78a70bc2420c14772f61255",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/b0d1c1c9f83e0b0a00ca2905bd559402a9955cb6",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:42Z"
+        }
+      ],
+      "audit_id": "093299da422b3443",
+      "completed_at": "2026-08-31T07:48:48Z",
+      "expected_bytes": 16580497,
+      "expected_sha256": "5091334bdc4cd7476b6656d66e9b8ab839dcd112e78a70bc2420c14772f61255",
+      "observed_bytes": 16580497,
+      "observed_sha256": "5091334bdc4cd7476b6656d66e9b8ab839dcd112e78a70bc2420c14772f61255",
+      "replay_index": 148,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/b0d1c1c9f83e0b0a00ca2905bd559402a9955cb6"
+    },
+    {
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "content_type": "application/x-gzip",
+          "etag": "\"7ef4bb39928febcb0e40c831955edb291c62d898158277313352e926294f66ac\"",
+          "final_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/55b669ea9237e287f04f5eab4fdd48a2417c9420",
+          "http_status": 200,
+          "last_modified": null,
+          "observed_bytes": 342605,
+          "observed_sha256": "c766c5985bf93ca56c1b60ec47efd5ba484723fdfa16c579e28d2064d52d3ec2",
+          "requested_url": "https://codeload.github.com/shuzheng/zheng/tar.gz/55b669ea9237e287f04f5eab4fdd48a2417c9420",
+          "status": "PASS",
+          "timestamp": "2026-08-31T07:48:43Z"
+        }
+      ],
+      "audit_id": "098229294eb778a1",
+      "completed_at": "2026-08-31T07:48:47Z",
+      "expected_bytes": 342605,
+      "expected_sha256": "c766c5985bf93ca56c1b60ec47efd5ba484723fdfa16c579e28d2064d52d3ec2",
+      "observed_bytes": 342605,
+      "observed_sha256": "c766c5985bf93ca56c1b60ec47efd5ba484723fdfa16c579e28d2064d52d3ec2",
+      "replay_index": 149,
+      "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_RECEIPT_1_0",
+      "status": "PASS",
+      "url": "https://codeload.github.com/shuzheng/zheng/tar.gz/55b669ea9237e287f04f5eab4fdd48a2417c9420"
+    }
+  ],
+  "schema": "PAPER04_N2_V3_2_ARCHIVE_RETRIEVAL_LEDGER_1_0",
+  "status": "PASS",
+  "unit_order_manifest_sha256": "3c5c6da630c31b4cf00b0f5588a00c6c53f8cb996a02ca2891c45a150a3ddfb8"
+}

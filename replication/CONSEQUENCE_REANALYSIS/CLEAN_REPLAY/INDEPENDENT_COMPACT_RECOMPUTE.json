@@ -1,0 +1,12 @@
+{
+  "boundary": {
+    "corrected_rate_claimed": false,
+    "runtime_identified": false
+  },
+  "canonical_exact_leaf_sha256": "273a5a4e5dbb31dada3eb12d3ae75e6caa90718773dc559cfef213a4f2d26db4",
+  "categorical_and_scope_match": true,
+  "exact_leaves_compared": 1706,
+  "mismatches": [],
+  "schema": "paper04-independent-compact-recompute/1.0",
+  "status": "PASS"
+}

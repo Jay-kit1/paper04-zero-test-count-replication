@@ -1,0 +1,156 @@
+{
+  "archive": {
+    "bytes": 1343649,
+    "sha256": "332ae77a881428367fc87c30c09da96c1ec98bea5e623783de118c3189d50454",
+    "validity": "VALID"
+  },
+  "audit_id": "18845efd500282fa",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "test/com/google/common/base/CaseFormatTest.java",
+      "sha256": "d14afa992b16062bcb4675e8740bb23a28f7582bfeee629b16614aa8163d3ae6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/CharMatcherTest.java",
+      "sha256": "ab8451bcb2bc61fd1c76d0ff51a9fffa143c82e7bbe8678e1ae04981f63690bb",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/CharsetsTest.java",
+      "sha256": "2d535da1977186832788b258f8190e721e53804f5ba37ed27d7973173bf2bca4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/DefaultsTest.java",
+      "sha256": "93a19ef86ae0fd6f46f21e9950f545abf98c8ca291d5da522c9614407679eefa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/EquivalencesTest.java",
+      "sha256": "9a9bd26f7606e6c35b3d4f8b44ff7af5a6e6515af77221a2cb255d6e1e20d426",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/FinalizableReferenceQueueTest.java",
+      "sha256": "321683af2ad45ba371df6ff2e1a5791adc3e79d0acf12d4c3147bedd021c9f27",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/FunctionsTest.java",
+      "sha256": "6d9f43d7fddc1f4f384453e36be4d41ff08c04bd6b135388f79e44995f90b068",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/JoinerTest.java",
+      "sha256": "81a7e4a14bba028e038ad1ceab81b3de5757444b13efe78acd21463afd428083",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/ObjectsTest.java",
+      "sha256": "c5d4ea157d3fc00508882f79925fa8b3005d813cf3d52e192f05465fddc2bb2f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/PreconditionsTest.java",
+      "sha256": "d9fd71439b33b25512548cc270a59c1d5035999eadb5e36b1da4aa9d52da1e25",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/PredicatesTest.java",
+      "sha256": "7413a79000a7416a03f1f2c9425ce6f41b1ad07179e072dea4b08444be6eec7d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/SplitterTest.java",
+      "sha256": "862f34544521658c1a4723d7247c71603e7cb8e749f7ce0693e0461d487781df",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/StringsTest.java",
+      "sha256": "09a67eca03324c8e7723bbdc43dffa742c6d00cb585ddebe089cd2f29908e045",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/SuppliersTest.java",
+      "sha256": "5e2120074a287c0e146a7cfadc4e6212557a95944e8ff394c924dafcf93b3724",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/ThrowablesTest.java",
+      "sha256": "35f725790e170e3771b08baf965760603ea31750677616f7344feed040a209a4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/com/google/common/base/ToStringHelperTest.java",
+      "sha256": "38392613fb19e6c2e997415eeeeb7dc7f1230eef5a4dd968c769448e7d3148cf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

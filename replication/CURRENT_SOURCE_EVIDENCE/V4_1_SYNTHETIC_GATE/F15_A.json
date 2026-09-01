@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "bytes": 152,
+    "sha256": "e8828b52fc9da1c8b003f7bb176a876daaac3973fa271f9165e8c377c9a8b88a",
+    "validity": "VALID"
+  },
+  "audit_id": "f00000000000000f",
+  "category": "SOURCE_EVIDENCE_UNRESOLVED",
+  "decision_blocking_unresolved_reasons": [
+    "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+  ],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": false,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

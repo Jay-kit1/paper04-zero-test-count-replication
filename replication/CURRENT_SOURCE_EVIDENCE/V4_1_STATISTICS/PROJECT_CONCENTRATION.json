@@ -1,0 +1,116 @@
+{
+  "sample_hhi": {
+    "decimal": "0.127900059488",
+    "fraction": "215/1681"
+  },
+  "sample_max_project": "zheng",
+  "sample_max_share": {
+    "decimal": "0.146341463415",
+    "fraction": "6/41"
+  },
+  "sample_supported_by_project": {
+    "Bukkit": 0,
+    "CoreNLP": 3,
+    "DiskLruCache": 0,
+    "alluxio": 1,
+    "android-volley": 12,
+    "ansj_seg": 10,
+    "canal": 12,
+    "clojure": 7,
+    "graylog2-server": 0,
+    "guava": 12,
+    "java-design-patterns": 0,
+    "javaee7-samples": 2,
+    "javapoet": 0,
+    "nanohttpd": 0,
+    "presto": 0,
+    "webmagic": 11,
+    "wildfly": 0,
+    "zheng": 12
+  },
+  "sample_supported_total": 82,
+  "schema": "PAPER04_N2_REFERENCE_V4_1_PROJECT_CONCENTRATION_1_0",
+  "snapshot_weighted_hhi": {
+    "decimal": "0.331799493890",
+    "fraction": "8036849/24222005"
+  },
+  "snapshot_weighted_max_project": "clojure",
+  "snapshot_weighted_max_share": {
+    "decimal": "0.460517946388",
+    "fraction": "5068/11005"
+  },
+  "snapshot_weighted_supported_contribution_by_project": {
+    "Bukkit": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "CoreNLP": {
+      "decimal": "3.000000000000",
+      "fraction": "3/1"
+    },
+    "DiskLruCache": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "alluxio": {
+      "decimal": "1.000000000000",
+      "fraction": "1/1"
+    },
+    "android-volley": {
+      "decimal": "19.000000000000",
+      "fraction": "19/1"
+    },
+    "ansj_seg": {
+      "decimal": "22.500000000000",
+      "fraction": "45/2"
+    },
+    "canal": {
+      "decimal": "570.000000000000",
+      "fraction": "570/1"
+    },
+    "clojure": {
+      "decimal": "844.666666666667",
+      "fraction": "2534/3"
+    },
+    "graylog2-server": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "guava": {
+      "decimal": "104.000000000000",
+      "fraction": "104/1"
+    },
+    "java-design-patterns": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "javaee7-samples": {
+      "decimal": "2.000000000000",
+      "fraction": "2/1"
+    },
+    "javapoet": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "nanohttpd": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "presto": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "webmagic": {
+      "decimal": "11.000000000000",
+      "fraction": "11/1"
+    },
+    "wildfly": {
+      "decimal": "0.000000000000",
+      "fraction": "0/1"
+    },
+    "zheng": {
+      "decimal": "257.000000000000",
+      "fraction": "257/1"
+    }
+  }
+}

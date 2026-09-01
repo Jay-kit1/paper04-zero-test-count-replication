@@ -1,0 +1,30 @@
+{
+  "archive": {
+    "bytes": 1321882,
+    "sha256": "5a91e212ee884431417d6561ae2d8956c4962f412588d57279185b5858a47b2a",
+    "validity": "VALID"
+  },
+  "audit_id": "03ba8f71084c7237",
+  "category": "SOURCE_EVIDENCE_UNRESOLVED",
+  "decision_blocking_unresolved_reasons": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "java-design-patterns",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "03ba8f71084c7237d0d699bf27ac73e5d13fcd1fece518cede4543b60860e557",
+  "v4_category_invariant": true
+}

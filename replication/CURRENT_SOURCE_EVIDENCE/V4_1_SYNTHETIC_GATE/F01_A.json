@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "bytes": 203,
+    "sha256": "c9278aa01accc9e15e4aff034e52c4a0e291264e5b9f881b4fc6f33e7456977c",
+    "validity": "VALID"
+  },
+  "audit_id": "f000000000000001",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [
+    {
+      "path": "src/test/java/ExampleTest.java",
+      "sha256": "f83a6a1a01c173775f6dc053c4fc1721004d9190944109829be92bc0403b71d1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

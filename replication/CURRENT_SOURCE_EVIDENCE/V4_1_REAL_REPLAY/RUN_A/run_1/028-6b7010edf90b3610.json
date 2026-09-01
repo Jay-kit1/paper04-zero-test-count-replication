@@ -1,0 +1,68 @@
+{
+  "archive": {
+    "bytes": 148530,
+    "sha256": "dd152601c74422860aef0c37d05af3569c950e7e1d194dda35d8d9e86e2b9101",
+    "validity": "VALID"
+  },
+  "audit_id": "6b7010edf90b3610",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "tests/src/com/android/volley/CacheDispatcherTest.java",
+      "sha256": "d978d9749f077fb7d19661870b8125e9d438654add9ba68a4549f33e916b415e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "tests/src/com/android/volley/NetworkDispatcherTest.java",
+      "sha256": "853ae11c70d1d7e544f6121350331d0ebf9b045da0f361df922d169fe7348f0e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "tests/src/com/android/volley/RequestTest.java",
+      "sha256": "3d1c8556bc7b9a7dafb39adcbc56b2acdee8dc2d2c8b93f8834dd339ad86c33f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "tests/src/com/android/volley/ResponseDeliveryTest.java",
+      "sha256": "f544d83a72cc513defc3ee85b99ffb18efb31681752fd70dcfc994450e209d4e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "tests/src/com/android/volley/toolbox/HttpHeaderParserTest.java",
+      "sha256": "49448060085fba7c39375d486b405f524a612870e0d0e6213d0c9748a6dd5963",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

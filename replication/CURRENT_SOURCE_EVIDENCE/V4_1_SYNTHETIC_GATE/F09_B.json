@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "bytes": 270,
+    "sha256": "c7a1332dcad6753eb1bc719f48dc66c39795f547a352f23525fa1851494a94a2",
+    "validity": "VALID"
+  },
+  "audit_id": "f000000000000009",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [
+    {
+      "path": "test/sample/real_test.clj",
+      "sha256": "47227842dfe415f4b1075119f7814f10924050430e5bb88044dd9589028f3540",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

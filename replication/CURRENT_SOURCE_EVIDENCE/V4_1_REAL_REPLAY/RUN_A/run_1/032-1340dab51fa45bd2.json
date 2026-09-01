@@ -1,0 +1,36 @@
+{
+  "archive": {
+    "bytes": 7527258,
+    "sha256": "998081a8f60a3623f2ded3dd29ab06658969ebc170fc377580d676038032c45a",
+    "validity": "VALID"
+  },
+  "audit_id": "1340dab51fa45bd2",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "plug/ansj_lucene4_plug/src/test/java/org/ansj/ansj_lucene4_plug/AppTest.java",
+      "sha256": "1d79826bed652834f7d233b2986a8e1f70003119521c7ed8b5723d9e0103a6b7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

@@ -1,0 +1,14 @@
+{
+  "anchor_scopes": [
+    "EXCLUDED",
+    "INCLUDED"
+  ],
+  "category_counts_agreement": true,
+  "exact_projection_agreement": true,
+  "implementation_a": "STATISTICS_A_PYTHON_EXACT_RATIONAL",
+  "implementation_b": "STATISTICS_B_RUBY_EXACT_RATIONAL",
+  "lopo_project_count": 18,
+  "schema": "PAPER04_N2_REFERENCE_V4_1_STATISTICS_COMPARISON_1_0",
+  "sensitivity_scenario_count": 3,
+  "status": "PASS"
+}

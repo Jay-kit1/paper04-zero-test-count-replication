@@ -1,0 +1,96 @@
+{
+  "schema": "paper04-deterministic-consequence-protocol-freeze/1.0",
+  "status": "FROZEN_BEFORE_CONSEQUENCE_COMPUTATION",
+  "science_question": "Sensitivity of the fixed anchor's published downstream rate calculation to collector-zero snapshots with protocol-supported source evidence while runtime outcomes remain unidentified.",
+  "population": {
+    "scope": "14 exact published-downstream retained projects",
+    "included_projects": [
+      "Bukkit",
+      "CoreNLP",
+      "DiskLruCache",
+      "alluxio",
+      "android-volley",
+      "ansj_seg",
+      "graylog2-server",
+      "guava",
+      "java-design-patterns",
+      "javaee7-samples",
+      "javapoet",
+      "nanohttpd",
+      "presto",
+      "webmagic"
+    ],
+    "scope_only_excluded_projects": ["canal", "clojure", "wildfly", "zheng"],
+    "join_key": ["project", "exact commit/snapshot string"],
+    "heuristic_matching": false
+  },
+  "inputs": {
+    "r4_1_handoff_sha256": "1fd82364b8212f64c7b066382c78fd73bedbfdb5fda8d87c71cf3d8ad0599f05",
+    "authority_sha256": "919bec7f7b7849f6258d4dec88b00c9344b1bdf7bb258053d0286d1c3abb45d4",
+    "processed_results_sha256": "5f36ea3e93816c854c8366219f16574612493a4d25e3229ee560e23e43b6e862",
+    "published_many4j_sha256": "4d5e03a8d77470ef76a8820e7f985a082c01cd65a856640c765933469ec57cf2",
+    "frame_sha256": "1d7e5726b636fc69f38434346d4f5cc64426bb305939b01355657ad9f2f3591a",
+    "sample_sha256": "5752e81215295a3d8b05583a934952e6d4ac18cde0b85704005150e454f7e626",
+    "labels_sha256": "dbc6b71fc3b79f190b62e926570eac71a0d3e87372592e3d60a60d886a0f8e56",
+    "anchor_reproduction_receipt_sha256": "e3f73d14f9c92a96d314f3574912bbd01377ab18432fed39360232c7fd059755",
+    "join_audit_sha256": "49770acf301b177310388e87ffa26c675faa9cceb64979697ef078523c7d042e"
+  },
+  "categories": {
+    "L": ["SUPPORTED_TEST_SOURCE_PRESENT"],
+    "U": ["SUPPORTED_TEST_SOURCE_PRESENT", "SOURCE_EVIDENCE_UNRESOLVED"],
+    "negative": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+    "boundary": "U is a classification-uncertainty endpoint, not test presence; negative is not semantic proof of absence."
+  },
+  "primary_estimand": {
+    "name": "denominator_exclusion_sensitivity",
+    "design_plugin": {
+      "L": "S_hat_j = N_j * s_j / n_j",
+      "U": "S_hat_j = N_j * (s_j + u_j) / n_j",
+      "outputs": [
+        "potential_additional_denominator_count",
+        "expanded_positive_row_coverage=(K_j+S_j)/C_j",
+        "candidate_exclusion_share=S_j/(K_j+S_j)"
+      ]
+    },
+    "simultaneous_exact": {
+      "method": "equal-tailed hypergeometric inversion within project",
+      "family_alpha": "1/20",
+      "per_project_alpha": "1/280",
+      "multiplicity": "Bonferroni across 14 fixed projects separately for L and U",
+      "joint_L_U_coverage_claimed": false,
+      "superpopulation_claimed": false
+    },
+    "worst_case_partial_identification": {
+      "L": "S_j in [s_j, N_j-n_j+s_j]",
+      "U": "S_j in [s_j+u_j, N_j-z_j]",
+      "exchangeability_used": false
+    }
+  },
+  "secondary_estimand": {
+    "all_commits_rate": "A_j(S_j,q_j)=A_j+q_j*S_j/C_j, q_j in [0,1]",
+    "positive_parsed_test_rate": "T_j(S_j,q_j)=(K_j*T_j+q_j*S_j)/(K_j+S_j), q_j in [0,1]",
+    "runtime_q_identified": false,
+    "source_support_treated_as_runtime_success": false
+  },
+  "aggregation": {
+    "project_order": "lexicographic; no post-result omission",
+    "project_balanced": "mean of defined project-level quantities with contributing-project count",
+    "pooled_commit_weighted": "exact sums over C_j, K_j, S_j, C_j*A_j, and K_j*T_j"
+  },
+  "reporting": {
+    "primary": "denominator sensitivity",
+    "secondary": "rate envelopes",
+    "main": "14-project scope plus pooled and project-balanced bounded summaries",
+    "supplement": "all 14 projects, both endpoint families, design and worst-case analyses, undefined states"
+  },
+  "arithmetic": "exact rational primary; decimal presentation only",
+  "independent_recomputation_required": true,
+  "stop_status": "KILL_DETERMINISTIC_REANALYSIS_INVALID_CONSEQUENCE_ESTIMAND",
+  "forbidden_claims": [
+    "corrected or true testability rate",
+    "tests would run or pass",
+    "the anchor is false",
+    "V4.1 recovers missed tests",
+    "source support equals executability, reachability, positive n_test, or semantic correctness"
+  ]
+}

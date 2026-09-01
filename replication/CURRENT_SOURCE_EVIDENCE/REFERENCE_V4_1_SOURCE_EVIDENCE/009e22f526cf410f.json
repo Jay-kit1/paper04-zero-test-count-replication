@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 79279,
+    "sha256": "880912e355cdf0e2eda4c417bff2f38700406d5782896a62ead5a9d3e5150b53",
+    "validity": "VALID"
+  },
+  "audit_id": "009e22f526cf410f",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "Bukkit",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "009e22f526cf410fa141d05e797415863ccb10b2abcdf4c2a967277e952df10c",
+  "v4_category_invariant": true
+}

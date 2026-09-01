@@ -1,0 +1,11 @@
+{
+  "schema": "PAPER04_N2_REFERENCE_V4_1_TRANSITION_SOURCE_BINDING_1_0",
+  "source_handoff": "PAPER04_N2_FINAL_Q1_UPGRADE_HANDOFF.zip",
+  "source_handoff_sha256": "72e1ac4554107576e99af1778f52c72f358d00fc6f9b5fcfe15ae7e0a45a85bd",
+  "source_member": "REFERENCE_AUTHORITY_EVIDENCE/reference/N2_REFERENCE_V3_LABELS.jsonl",
+  "source_member_sha256": "54eaa37662cdbadbbbfce0da0d20aa657f6628b24a15c4f43b82b5db83ca2703",
+  "source_member_rows": 149,
+  "reachability_basis": "The frozen V4 AUTHORITY_STATE_V4.md binds the preserved Q1 handoff by exact SHA-256.",
+  "use": "historical comparison input only",
+  "scientific_authority": "not V4.1 primary classification authority"
+}

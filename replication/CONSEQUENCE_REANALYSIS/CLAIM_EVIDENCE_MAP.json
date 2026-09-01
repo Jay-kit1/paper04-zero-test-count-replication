@@ -1,0 +1,14 @@
+{
+  "schema": "paper04-deterministic-consequence-claim-evidence/1.0",
+  "claims": [
+    {"id":"DC-01","claim":"Fixed downstream target exactly reproducible","evidence":"05_REPRODUCTION/ANCHOR_DOWNSTREAM_REPRODUCTION_RECEIPT.json","status":"PASS","numbers":{"projects":66,"comparisons":528,"maximum_rate_absolute_difference":3.3306690738754696e-16}},
+    {"id":"DC-02","claim":"Exact anchor-frame join","evidence":"06_JOIN/ANCHOR_FRAME_JOIN_AUDIT.json","status":"PASS","numbers":{"frame_rows":3393,"joined_rows":3393,"sample_rows":149}},
+    {"id":"DC-03","claim":"Published-downstream overlap scope","evidence":"06_JOIN/ANCHOR_FRAME_JOIN_AUDIT.json","status":"PASS","numbers":{"projects":14,"frame_rows":1114,"sample_units":109}},
+    {"id":"DC-04","claim":"Pooled candidate-exclusion share","evidence":"08_RESULTS/FULL_CONSEQUENCE_RESULTS.json","status":"ASSUMPTION_DEPENDENT","values":{"L":"325/28383","U":"539/14568"}},
+    {"id":"DC-05","claim":"Pooled all-commits maximum upward envelope","evidence":"08_RESULTS/FULL_CONSEQUENCE_RESULTS.json","status":"Q_EQUALS_ONE_ENVELOPE","values":{"L":"325/205784","U":"539/102892"}},
+    {"id":"DC-06","claim":"Project-balanced candidate-exclusion share","evidence":"08_RESULTS/FULL_CONSEQUENCE_RESULTS.json","status":"ASSUMPTION_DEPENDENT","values":{"L":"3538071031238579/155472167057251170","U":"2979807563431673950926689/52891458603993656143786380"}},
+    {"id":"DC-07","claim":"Project-level maximum all-commits envelope","evidence":"08_RESULTS/PROJECT_CONSEQUENCE_SUMMARY.csv","status":"Q_EQUALS_ONE_ENVELOPE","values":{"L":{"project":"ansj_seg","decimal":"0.032005689900"},"U":{"project":"Bukkit","decimal":"0.145129224652"}}},
+    {"id":"DC-08","claim":"Primary-independent exact agreement","evidence":"09_INDEPENDENT_RECOMPUTE/INDEPENDENT_COMPACT_RECOMPUTE.json","status":"PASS","numbers":{"exact_leaves_compared":1706,"mismatches":0}},
+    {"id":"DC-09","claim":"Runtime and corrected truth remain unidentified","evidence":"07_PROTOCOL_FREEZE/DETERMINISTIC_REANALYSIS_PROTOCOL_FREEZE.md","status":"BOUNDARY"}
+  ]
+}

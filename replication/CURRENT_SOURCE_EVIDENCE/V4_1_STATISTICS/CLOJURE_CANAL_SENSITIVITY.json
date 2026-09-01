@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "excluded_projects": [
+        "clojure"
+      ],
+      "frame_rows": 1945,
+      "project_balanced_lower": {
+        "decimal": "0.519607843137",
+        "fraction": "53/102"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.666666666667",
+        "fraction": "2/3"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "scenario": "EXCLUDE_CLOJURE",
+      "snapshot_weighted_lower": {
+        "decimal": "0.508740359897",
+        "fraction": "1979/3890"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.702313624679",
+        "fraction": "1366/1945"
+      }
+    },
+    {
+      "excluded_projects": [
+        "canal"
+      ],
+      "frame_rows": 2823,
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "scenario": "EXCLUDE_CANAL",
+      "snapshot_weighted_lower": {
+        "decimal": "0.447809658755",
+        "fraction": "7585/16938"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.581178415397",
+        "fraction": "4922/8469"
+      }
+    },
+    {
+      "excluded_projects": [
+        "canal",
+        "clojure"
+      ],
+      "frame_rows": 1375,
+      "project_balanced_lower": {
+        "decimal": "0.489583333333",
+        "fraction": "47/96"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.645833333333",
+        "fraction": "31/48"
+      },
+      "project_count": 16,
+      "sample_units": 125,
+      "scenario": "EXCLUDE_CLOJURE_AND_CANAL",
+      "snapshot_weighted_lower": {
+        "decimal": "0.305090909091",
+        "fraction": "839/2750"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.578909090909",
+        "fraction": "796/1375"
+      }
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CLOJURE_CANAL_SENSITIVITY_1_0"
+}

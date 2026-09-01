@@ -1,0 +1,52 @@
+{
+  "archive": {
+    "bytes": 424080,
+    "sha256": "ae963f56d08cd1f24b5dd52c1524667954a6bdbd8e63f763f0025cbba9818e87",
+    "validity": "VALID"
+  },
+  "audit_id": "0500b672f0692dfb",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "cms/cms-service/src/test/java/com/zheng/cms/service/UserServiceTest.java",
+      "sha256": "b402e5e7a457fe2119be1bfaeb87e033e0a0a54995d2e98831a631a036c7b8d6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "qa/qa-service/src/test/java/com/zheng/qa/service/AppTest.java",
+      "sha256": "01b22609f4658a6f93730dd175ee04f3346d960f3830a8723d01912510205461",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "upms/upms-service/src/test/java/com/zheng/upms/service/AppTest.java",
+      "sha256": "fda82de4b5fc859b681ba4f6784bca6eb829e7afb86b6411d59d3e72d7522e11",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

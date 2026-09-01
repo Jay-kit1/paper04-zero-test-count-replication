@@ -1,0 +1,249 @@
+{
+  "a_b_exact_agreement": 15,
+  "all_three_categories_exercised": true,
+  "archive_bytes_processed": true,
+  "cases": [
+    {
+      "archive": "fixtures/F01.tar.gz",
+      "audit_id": "f000000000000001",
+      "bytes": 203,
+      "case_id": "F01",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/ExampleTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_DECLARATION"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "c9278aa01accc9e15e4aff034e52c4a0e291264e5b9f881b4fc6f33e7456977c"
+    },
+    {
+      "archive": "fixtures/F02.tar.gz",
+      "audit_id": "f000000000000002",
+      "bytes": 180,
+      "case_id": "F02",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/ImportOnly.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "8aa41f01b45d2fd3f25c50bb03587a2f702158e7951540827ebfc4ee0c9ed0d4"
+    },
+    {
+      "archive": "fixtures/F03.tar.gz",
+      "audit_id": "f000000000000003",
+      "bytes": 238,
+      "case_id": "F03",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/GoodTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_DECLARATION"
+        ]
+      },
+      "expected_warnings": [
+        "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+      ],
+      "sha256": "6882dc464b131a398c64366ce2f394fca02ffeb23115d70d2b488819de82a681"
+    },
+    {
+      "archive": "fixtures/F04.tar.gz",
+      "audit_id": "f000000000000004",
+      "bytes": 242,
+      "case_id": "F04",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/GoodTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_DECLARATION"
+        ]
+      },
+      "expected_warnings": [
+        "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+      ],
+      "sha256": "a87972f1ebe4200ac003c7b282e78ed606a00eb75321c636140694a6af6cde7e"
+    },
+    {
+      "archive": "fixtures/F05.tar.gz",
+      "audit_id": "f000000000000005",
+      "bytes": 275,
+      "case_id": "F05",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/GoodTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_DECLARATION"
+        ]
+      },
+      "expected_warnings": [
+        "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK",
+        "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+      ],
+      "sha256": "35e2c2ac08c769b685212a2472effcc14b187df1cb72d7ab25f29efde0a6e113"
+    },
+    {
+      "archive": "fixtures/F06.tar.gz",
+      "audit_id": "f000000000000006",
+      "bytes": 209,
+      "case_id": "F06",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "test/sample/core_test.clj": [
+          "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_CLOJURE_DECLARATION"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "ddf263cc2f14879167f651bafc3f06231a2aeb6c4685c2c3d37bdbb026ae839e"
+    },
+    {
+      "archive": "fixtures/F07.tar.gz",
+      "audit_id": "f000000000000007",
+      "bytes": 205,
+      "case_id": "F07",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "test/sample/token_only.clj": [
+          "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "8065a927d19d1d74094f6a350c1e7c31ff3a68451ad432a4b523711f7bd1edab"
+    },
+    {
+      "archive": "fixtures/F08.tar.gz",
+      "audit_id": "f000000000000008",
+      "bytes": 186,
+      "case_id": "F08",
+      "expected_blocking_reasons": [],
+      "expected_category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+      "expected_supporting_rules_by_path": {},
+      "expected_warnings": [],
+      "sha256": "312c6889a42728e2d2242b9873584c5caccbfdbe224c9b7c6e15ad7296925037"
+    },
+    {
+      "archive": "fixtures/F09.tar.gz",
+      "audit_id": "f000000000000009",
+      "bytes": 270,
+      "case_id": "F09",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "test/sample/real_test.clj": [
+          "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_CLOJURE_DECLARATION"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "c7a1332dcad6753eb1bc719f48dc66c39795f547a352f23525fa1851494a94a2"
+    },
+    {
+      "archive": "fixtures/F10.tar.gz",
+      "audit_id": "f00000000000000a",
+      "bytes": 195,
+      "case_id": "F10",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/LegacyTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_TESTCASE_INHERITANCE"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "bdfb9903c95a99624380a748c531a2cbf7172c07d6ba5032d15baa35ec25232a"
+    },
+    {
+      "archive": "fixtures/F11.tar.gz",
+      "audit_id": "f00000000000000b",
+      "bytes": 231,
+      "case_id": "F11",
+      "expected_blocking_reasons": [],
+      "expected_category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+      "expected_supporting_rules_by_path": {
+        "src/test/java/GoodTest.java": [
+          "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+          "STRONG_JUNIT_DECLARATION"
+        ]
+      },
+      "expected_warnings": [],
+      "sha256": "b616db4fb07c5215312bafdbef227041915ff60bed3e77a5841b6c54bf14587a"
+    },
+    {
+      "archive": "fixtures/F12.tar.gz",
+      "audit_id": "f00000000000000c",
+      "bytes": 221,
+      "case_id": "F12",
+      "expected_blocking_reasons": [
+        "DECISIVE_CASE_UNICODE_COLLISION"
+      ],
+      "expected_category": "SOURCE_EVIDENCE_UNRESOLVED",
+      "expected_supporting_rules_by_path": {},
+      "expected_warnings": [],
+      "sha256": "bbe8e37b9a4824598a1ce3e4fa79afcc08885337bf5f3ee60616bb8f81001c53"
+    },
+    {
+      "archive": "fixtures/F13.tar.gz",
+      "audit_id": "f00000000000000d",
+      "bytes": 173,
+      "case_id": "F13",
+      "expected_blocking_reasons": [],
+      "expected_category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+      "expected_supporting_rules_by_path": {},
+      "expected_warnings": [],
+      "sha256": "4fb7681c676d74eb2c543eda417b482fca8832dbd13a8faf2cb6ecbccc81764c"
+    },
+    {
+      "archive": "fixtures/F14.tar.gz",
+      "audit_id": "f00000000000000e",
+      "bytes": 177,
+      "case_id": "F14",
+      "expected_blocking_reasons": [
+        "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+      ],
+      "expected_category": "SOURCE_EVIDENCE_UNRESOLVED",
+      "expected_supporting_rules_by_path": {},
+      "expected_warnings": [],
+      "sha256": "799156b5085ba8acbcd86d4ef3b93bd086a8c8dada287c58d2fd8b96d8716efd"
+    },
+    {
+      "archive": "fixtures/F15.tar.gz",
+      "audit_id": "f00000000000000f",
+      "bytes": 152,
+      "case_id": "F15",
+      "expected_blocking_reasons": [
+        "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+      ],
+      "expected_category": "SOURCE_EVIDENCE_UNRESOLVED",
+      "expected_supporting_rules_by_path": {},
+      "expected_warnings": [],
+      "sha256": "e8828b52fc9da1c8b003f7bb176a876daaac3973fa271f9165e8c377c9a8b88a"
+    }
+  ],
+  "category_totals": {
+    "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 2,
+    "SOURCE_EVIDENCE_UNRESOLVED": 3,
+    "SOURCE_SUPPORTED_TEST_PRESENCE": 10
+  },
+  "decision_blocking_unresolved_exercised": true,
+  "fixture_count": 15,
+  "framework_implementation_control_exercised": true,
+  "implementations": [
+    "V4.1-A",
+    "V4.1-B"
+  ],
+  "multi_rule_witness_exercised": true,
+  "nondecisive_warnings_exercised": true,
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SYNTHETIC_GATE_1_0",
+  "status": "PASS"
+}

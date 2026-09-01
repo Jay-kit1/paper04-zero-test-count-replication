@@ -1,0 +1,133 @@
+{
+  "archive": {
+    "bytes": 114538,
+    "sha256": "27c46fe2446a10d211b4fb66a3fd539feb3abfe712aa66ef146873a33c99ef78",
+    "validity": "VALID"
+  },
+  "audit_id": "d947bacbb5c308f0",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/HtmlTest.java",
+      "sha256": "35ee61153e8c4f9329070034c749665e8bc882d98b5f9c4295bd1cc5eb1308cf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/SpiderTest.java",
+      "sha256": "a9547e437e5ba45b8a2787724b09e80abc00dea6721484abbca2e2c2495a182c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/selector/HtmlCleanerTest.java",
+      "sha256": "5e0077945c653796dbf9a3c885dee90432d2fd62a65e49601c0fb3d54ea20369",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/selector/RegexSelectorTest.java",
+      "sha256": "821620c250cbb356b51310f8909959ce505389778104690c498f3ebac7a93d4b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/selector/SmartConentSelectorTest.java",
+      "sha256": "12714cd0a51cbb01be5fe7ce5d84f360fb0fa9705d9c914ddc152121b614ad14",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/selector/XpathSelectorTest.java",
+      "sha256": "b50ac7b7d0f649d56f8edd0a8e089bbdb01e82c9b5829e4ae55405929c2594d1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-core/src/test/java/us/codecraft/webmagic/utils/UrlUtilsTest.java",
+      "sha256": "7b87fbca62aae234b32d951121a0452612401519224b890108f8dfeebe42294f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-plugin/src/test/java/us/codecraft/webmagic/FreemarkerPipelineTest.java",
+      "sha256": "94f7dd229affb086062126f5659adff9320baaf1f8efa59d75066bdf4906719c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-samples/src/test/java/us/codecraft/webmagic/HtmlTest.java",
+      "sha256": "35ee61153e8c4f9329070034c749665e8bc882d98b5f9c4295bd1cc5eb1308cf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-samples/src/test/java/us/codecraft/webmagic/SpiderTest.java",
+      "sha256": "f1a2d667958a73e9e976c1d528475df9b57f5813661e2150a16c0d286681e32a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-samples/src/test/java/us/codecraft/webmagic/processor/DiandianProcessorTest.java",
+      "sha256": "6175f5c1238605ae54c4c275469e2ab3cefe939c60dba2aa8413b9cbfa7c6f1c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-samples/src/test/java/us/codecraft/webmagic/processor/DiaoyuwengProcessorTest.java",
+      "sha256": "8734c48f02259422db2a25ad4b10a9cdc6ec7e655aef5ccee9b605e99e1a36c0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "webmagic-samples/src/test/java/us/codecraft/webmagic/processor/SinablogProcessorTest.java",
+      "sha256": "ccd9c2816d30300339ff3936b04de01d7b280b96de3fcfbb811116b856a65cd0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "project": "webmagic",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "d947bacbb5c308f058f7ac899e11d58f3aa748dcba8162675c839703e9c534f4",
+  "v4_category_invariant": true
+}

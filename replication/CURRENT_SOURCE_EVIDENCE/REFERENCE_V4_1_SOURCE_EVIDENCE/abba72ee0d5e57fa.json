@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 1225,
+    "sha256": "b86c38a9fbd08bf4e0ef3dbfb9279696940e05fc5b85bc5048edc1217e031c6e",
+    "validity": "VALID"
+  },
+  "audit_id": "abba72ee0d5e57fa",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "presto",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "abba72ee0d5e57fa9bc02bce2d8e1cd8ce05459703ff9d804dd87c22c65e87fa",
+  "v4_category_invariant": true
+}

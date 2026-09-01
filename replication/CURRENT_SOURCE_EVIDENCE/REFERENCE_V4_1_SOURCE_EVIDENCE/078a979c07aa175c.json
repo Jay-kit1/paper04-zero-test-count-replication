@@ -1,0 +1,72 @@
+{
+  "archive": {
+    "bytes": 16324697,
+    "sha256": "0b8023f6d07ebe3a3ca8252fc0edf5b77fe2c5301e2791801565fd34d2f05893",
+    "validity": "VALID"
+  },
+  "audit_id": "078a979c07aa175c",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": false,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK",
+    "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+  ],
+  "positive_evidence": [
+    {
+      "path": "zheng-demo/zheng-demo-rpc-service/src/test/java/com/zheng/AppTest.java",
+      "sha256": "3c0cc4cf3e2484822b7f5dabd04bcf0fcd42dc999ef73e36c5a10ea9acc84b0a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "zheng-pay/zheng-pay-sdk/src/test/java/com/zheng/pay/sdk/AppTest.java",
+      "sha256": "49d1aa30e73800e8262a172b6f20d23184c142cfd25eba3cbd6c8e626680356f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "zheng-upms/zheng-upms-rpc-service/src/test/java/com/zheng/upms/rpc/service/UpmsServiceTest.java",
+      "sha256": "47246f34ce6ede5fd3acaa5e8155d3994b0dc5e68d4528dec652808d92592fef",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "zheng-upms/zheng-upms-server/src/test/java/com/zheng/upms/server/UpmsServiceTest.java",
+      "sha256": "11cd4d227acd5e52db5f300716d7a86ae397ab60b22a838f127c9b9cbed883c0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "zheng-wechat/zheng-wechat-mp/zheng-wechat-mp-service/src/test/java/com/zheng/wechat/mp/service/AppTest.java",
+      "sha256": "b15203d8e553d68b259243e6dc54c5176766f46c692234d68f0604997bdf0c96",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "project": "zheng",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "078a979c07aa175ca42fbf91c815a9a8121bfbd5a7f1c11d3f9ee76f6c5b4ede",
+  "v4_category_invariant": true
+}

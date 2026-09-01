@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 4459,
+    "sha256": "cf1e1267e1d9d1762c9a1945bfe9128d86afd060e5c47609b74366c075ee5862",
+    "validity": "VALID"
+  },
+  "audit_id": "0c9bebbcf83dcf38",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "graylog2-server",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "0c9bebbcf83dcf38a264db7d84fdcdbc6e04c84ae424f353f5467154f2bf9110",
+  "v4_category_invariant": true
+}

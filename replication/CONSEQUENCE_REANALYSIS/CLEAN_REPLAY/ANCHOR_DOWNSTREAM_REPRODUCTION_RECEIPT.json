@@ -1,0 +1,5331 @@
+{
+  "comparison_rule": {
+    "counts": "exact integer equality",
+    "rates": "absolute difference <= 5e-15 (binary floating-point replay tolerance)"
+  },
+  "count_mismatches": [],
+  "processed_root": {
+    "files_used": 132,
+    "project_directories_used": 66
+  },
+  "projects": [
+    {
+      "collector_zero_success_rows": 861,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 928,
+          "recomputed": 928
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 1.3877787807814457e-17,
+          "difference": 1.3877787807814457e-17,
+          "pass": true,
+          "published": 0.0862613868748838,
+          "recomputed": 0.08626138687488381,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.128141397404032,
+          "recomputed": 0.12814139740403205,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 8169,
+          "recomputed": 8169
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 7242,
+          "recomputed": 7242
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6613241930610338,
+          "recomputed": 0.6613241930610338,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9823979106532176,
+          "recomputed": 0.9823979106532177,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 10758,
+          "recomputed": 10758
+        }
+      },
+      "fully_testability_a": 0.08626138687488381,
+      "fully_testability_t": 0.12814139740403205,
+      "fully_testable_commits": 928,
+      "input_files": {
+        "report.csv": {
+          "rows": 10758,
+          "sha256": "3ed91a4463d094ec2d21d75dfac6a4b932bcff1aedcba913e83de6c596802038"
+        },
+        "summary.csv": {
+          "rows": 10758,
+          "sha256": "2dc6220d352cd1343920f53f715315e57e5e85af6bc381e1abb5a44fba1f4f6a"
+        }
+      },
+      "project": "Activiti",
+      "source_buildable_commits": 8169,
+      "test_buildable_commits": 7242,
+      "testability_rate_a": 0.6613241930610338,
+      "testability_rate_t": 0.9823979106532177,
+      "total_commits": 10758
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 396,
+          "recomputed": 396
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4680851063829787,
+          "recomputed": 0.46808510638297873,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 398,
+          "recomputed": 398
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 396,
+          "recomputed": 396
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4680851063829787,
+          "recomputed": 0.46808510638297873,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 846,
+          "recomputed": 846
+        }
+      },
+      "fully_testability_a": 0.46808510638297873,
+      "fully_testability_t": 1.0,
+      "fully_testable_commits": 396,
+      "input_files": {
+        "report.csv": {
+          "rows": 846,
+          "sha256": "ce64bec8789ae695d5937e4c414a816190d3a783000b0008627be333089b0e5b"
+        },
+        "summary.csv": {
+          "rows": 846,
+          "sha256": "8736099dd70454c7c26e4785071ed4a85e6aa40fe543b2bf061ff070fb26cec6"
+        }
+      },
+      "project": "javapoet",
+      "source_buildable_commits": 398,
+      "test_buildable_commits": 396,
+      "testability_rate_a": 0.46808510638297873,
+      "testability_rate_t": 1.0,
+      "total_commits": 846
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2,
+          "recomputed": 2
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 8.391724815037804e-17,
+          "difference": 8.391724815037804e-17,
+          "pass": true,
+          "published": 0.0011007154650522,
+          "recomputed": 0.001100715465052284,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 4.163336342344337e-17,
+          "difference": 4.163336342344337e-17,
+          "pass": true,
+          "published": 0.0011435105774728,
+          "recomputed": 0.0011435105774728416,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1766,
+          "recomputed": 1766
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1749,
+          "recomputed": 1749
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.3877787807814457e-17,
+          "difference": -1.3877787807814457e-17,
+          "pass": true,
+          "published": 0.0729379937130419,
+          "recomputed": 0.07293799371304188,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 4.163336342344337e-17,
+          "difference": -4.163336342344337e-17,
+          "pass": true,
+          "published": 0.0757737762015993,
+          "recomputed": 0.07577377620159925,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1817,
+          "recomputed": 1817
+        }
+      },
+      "fully_testability_a": 0.001100715465052284,
+      "fully_testability_t": 0.0011435105774728416,
+      "fully_testable_commits": 2,
+      "input_files": {
+        "report.csv": {
+          "rows": 1817,
+          "sha256": "da5a71c3c84747c379ed5dbceba51bf71b0f0a28c25d17fadd392725176bf0cb"
+        },
+        "summary.csv": {
+          "rows": 1817,
+          "sha256": "cda6d6d0418b515970b8a90224bef9c6eb489809481cd3e694d88ca64f3d7996"
+        }
+      },
+      "project": "jedis",
+      "source_buildable_commits": 1766,
+      "test_buildable_commits": 1749,
+      "testability_rate_a": 0.07293799371304188,
+      "testability_rate_t": 0.07577377620159925,
+      "total_commits": 1817
+    },
+    {
+      "collector_zero_success_rows": 281,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 79,
+          "recomputed": 79
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1670190274841437,
+          "recomputed": 0.16701902748414377,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 360,
+          "recomputed": 360
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 79,
+          "recomputed": 79
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1670190274841437,
+          "recomputed": 0.16701902748414377,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 473,
+          "recomputed": 473
+        }
+      },
+      "fully_testability_a": 0.16701902748414377,
+      "fully_testability_t": 1.0,
+      "fully_testable_commits": 79,
+      "input_files": {
+        "report.csv": {
+          "rows": 473,
+          "sha256": "6b427a178737fe2849f6aaa28ef1be90a69cf5bd337a9c69d706af79b15afdb2"
+        },
+        "summary.csv": {
+          "rows": 473,
+          "sha256": "68d8bd099ac22e9c9dc817eb6a246c332f55c8c2164120f1cc03291b1f027c7f"
+        }
+      },
+      "project": "jfinal",
+      "source_buildable_commits": 360,
+      "test_buildable_commits": 79,
+      "testability_rate_a": 0.16701902748414377,
+      "testability_rate_t": 1.0,
+      "total_commits": 473
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 174,
+          "recomputed": 174
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1464646464646464,
+          "recomputed": 0.14646464646464646,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.710204081632653,
+          "recomputed": 0.710204081632653,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 248,
+          "recomputed": 248
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 245,
+          "recomputed": 245
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.2053720458813885,
+          "recomputed": 0.2053720458813886,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9958448592126108,
+          "recomputed": 0.9958448592126108,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1188,
+          "recomputed": 1188
+        }
+      },
+      "fully_testability_a": 0.14646464646464646,
+      "fully_testability_t": 0.710204081632653,
+      "fully_testable_commits": 174,
+      "input_files": {
+        "report.csv": {
+          "rows": 1188,
+          "sha256": "4d9746aa8d01ea938ee74582f706bc261b54c8c19157418ad56c3c2187002772"
+        },
+        "summary.csv": {
+          "rows": 1188,
+          "sha256": "5ab3a269e14c0c73560f79f44b4bafe49fabaf753fdebfc2ae75a35c72d204d9"
+        }
+      },
+      "project": "jsonschema2pojo",
+      "source_buildable_commits": 248,
+      "test_buildable_commits": 245,
+      "testability_rate_a": 0.2053720458813886,
+      "testability_rate_t": 0.9958448592126108,
+      "total_commits": 1188
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1349,
+          "recomputed": 1349
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.935506241331484,
+          "recomputed": 0.9355062413314841,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9615110477548112,
+          "recomputed": 0.9615110477548111,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1410,
+          "recomputed": 1410
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1403,
+          "recomputed": 1403
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9683979947510896,
+          "recomputed": 0.9683979947510896,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9953171122103144,
+          "recomputed": 0.9953171122103145,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1442,
+          "recomputed": 1442
+        }
+      },
+      "fully_testability_a": 0.9355062413314841,
+      "fully_testability_t": 0.9615110477548111,
+      "fully_testable_commits": 1349,
+      "input_files": {
+        "report.csv": {
+          "rows": 1442,
+          "sha256": "c96150282ed16d0e336bf98f7f34dd8d5c77b85ddf11ca2ce95184c21948c6f8"
+        },
+        "summary.csv": {
+          "rows": 1442,
+          "sha256": "b9a665d22bb84e9ab431ab608b59c8c82a764718056c291d6b3c9707c6068d70"
+        }
+      },
+      "project": "jsoup",
+      "source_buildable_commits": 1410,
+      "test_buildable_commits": 1403,
+      "testability_rate_a": 0.9683979947510896,
+      "testability_rate_t": 0.9953171122103145,
+      "total_commits": 1442
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 528,
+          "recomputed": 528
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.2133333333333333,
+          "recomputed": 0.21333333333333335,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.4528301886792453,
+          "recomputed": 0.4528301886792453,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1168,
+          "recomputed": 1168
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1166,
+          "recomputed": 1166
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4695935854818132,
+          "recomputed": 0.46959358548181324,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9967788371076224,
+          "recomputed": 0.9967788371076223,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2475,
+          "recomputed": 2475
+        }
+      },
+      "fully_testability_a": 0.21333333333333335,
+      "fully_testability_t": 0.4528301886792453,
+      "fully_testable_commits": 528,
+      "input_files": {
+        "report.csv": {
+          "rows": 2475,
+          "sha256": "274e00bb9017f4076c54b88a6032c3d5bee3a9c19b72a44ae36de8bc083c8204"
+        },
+        "summary.csv": {
+          "rows": 2475,
+          "sha256": "95ef43ea2abcadf826c08ca0b79a385607b91bb7f8f5f9fdcdda33e1debcdddc"
+        }
+      },
+      "project": "junit",
+      "source_buildable_commits": 1168,
+      "test_buildable_commits": 1166,
+      "testability_rate_a": 0.46959358548181324,
+      "testability_rate_t": 0.9967788371076223,
+      "total_commits": 2475
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 150,
+          "recomputed": 150
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 4.5102810375396984e-17,
+          "difference": 4.5102810375396984e-17,
+          "pass": true,
+          "published": 0.0102075535896563,
+          "recomputed": 0.010207553589656346,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1479,
+          "recomputed": 1479
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 150,
+          "recomputed": 150
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 4.5102810375396984e-17,
+          "difference": 4.5102810375396984e-17,
+          "pass": true,
+          "published": 0.0102075535896563,
+          "recomputed": 0.010207553589656346,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 14695,
+          "recomputed": 14695
+        }
+      },
+      "fully_testability_a": 0.010207553589656346,
+      "fully_testability_t": 1.0,
+      "fully_testable_commits": 150,
+      "input_files": {
+        "report.csv": {
+          "rows": 14695,
+          "sha256": "cc020ff4c64f40bfa94fd88721ed2cc16db73f3d3723e38379b2be5e78d421cb"
+        },
+        "summary.csv": {
+          "rows": 14695,
+          "sha256": "8d2956ba8d641108ae936cade96aa7f07777d6b80b481150e8a81e84bbda7624"
+        }
+      },
+      "project": "libgdx",
+      "source_buildable_commits": 1479,
+      "test_buildable_commits": 150,
+      "testability_rate_a": 0.010207553589656346,
+      "testability_rate_t": 1.0,
+      "total_commits": 14695
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1312,
+          "recomputed": 1312
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.4347249834327369,
+          "recomputed": 0.4347249834327369,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.8277602523659306,
+          "recomputed": 0.8277602523659306,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1590,
+          "recomputed": 1590
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1585,
+          "recomputed": 1585
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.5247809120536494,
+          "recomputed": 0.5247809120536493,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9992358312794408,
+          "recomputed": 0.9992358312794408,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3018,
+          "recomputed": 3018
+        }
+      },
+      "fully_testability_a": 0.4347249834327369,
+      "fully_testability_t": 0.8277602523659306,
+      "fully_testable_commits": 1312,
+      "input_files": {
+        "report.csv": {
+          "rows": 3018,
+          "sha256": "a5233f8e406e1f86c3790b2851a6693aca1371865604748a74db8dc64a8c6fd2"
+        },
+        "summary.csv": {
+          "rows": 3018,
+          "sha256": "37b5a678cbeeaf135bb80d24ad4d36eb47a883807cafcedf446fcf2388c9bb2d"
+        }
+      },
+      "project": "metrics",
+      "source_buildable_commits": 1590,
+      "test_buildable_commits": 1585,
+      "testability_rate_a": 0.5247809120536493,
+      "testability_rate_t": 0.9992358312794408,
+      "total_commits": 3018
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1392,
+          "recomputed": 1392
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.368156572335361,
+          "recomputed": 0.36815657233536103,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6660287081339713,
+          "recomputed": 0.6660287081339713,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2093,
+          "recomputed": 2093
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2090,
+          "recomputed": 2090
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5519932255583349,
+          "recomputed": 0.5519932255583349,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9986059262373512,
+          "recomputed": 0.9986059262373512,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3781,
+          "recomputed": 3781
+        }
+      },
+      "fully_testability_a": 0.36815657233536103,
+      "fully_testability_t": 0.6660287081339713,
+      "fully_testable_commits": 1392,
+      "input_files": {
+        "report.csv": {
+          "rows": 3781,
+          "sha256": "9105185302c0d970a95b132a7f1989a6fb6c62af8e92a014f0287f0bad316327"
+        },
+        "summary.csv": {
+          "rows": 3781,
+          "sha256": "505be79424e960ca667ba2f8da984a82821d81ba99939bcbb63372045f9d207b"
+        }
+      },
+      "project": "mybatis-3",
+      "source_buildable_commits": 2093,
+      "test_buildable_commits": 2090,
+      "testability_rate_a": 0.5519932255583349,
+      "testability_rate_t": 0.9986059262373512,
+      "total_commits": 3781
+    },
+    {
+      "collector_zero_success_rows": 26,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 331,
+          "recomputed": 331
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5525876460767947,
+          "recomputed": 0.5525876460767947,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6727642276422764,
+          "recomputed": 0.6727642276422764,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 531,
+          "recomputed": 531
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 492,
+          "recomputed": 492
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.8175271263244254,
+          "recomputed": 0.8175271263244255,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9953226598949813,
+          "recomputed": 0.9953226598949814,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 599,
+          "recomputed": 599
+        }
+      },
+      "fully_testability_a": 0.5525876460767947,
+      "fully_testability_t": 0.6727642276422764,
+      "fully_testable_commits": 331,
+      "input_files": {
+        "report.csv": {
+          "rows": 599,
+          "sha256": "e974cff6268585fe41b114adde3e95f504844d570727207061d10612d7e378a7"
+        },
+        "summary.csv": {
+          "rows": 599,
+          "sha256": "80b0488b36c4819b23b4fd0c2c14ce0f221821b931dcf98eb157e14c0b090d58"
+        }
+      },
+      "project": "nanohttpd",
+      "source_buildable_commits": 531,
+      "test_buildable_commits": 492,
+      "testability_rate_a": 0.8175271263244255,
+      "testability_rate_t": 0.9953226598949814,
+      "total_commits": 599
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 46,
+          "recomputed": 46
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 6.591949208711867e-17,
+          "difference": 6.591949208711867e-17,
+          "pass": true,
+          "published": 0.0094630734416786,
+          "recomputed": 0.009463073441678667,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0193929173693086,
+          "recomputed": 0.0193929173693086,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2374,
+          "recomputed": 2374
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2372,
+          "recomputed": 2372
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": -5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4483354093237834,
+          "recomputed": 0.44833540932378335,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9187851706251734,
+          "recomputed": 0.9187851706251734,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 4861,
+          "recomputed": 4861
+        }
+      },
+      "fully_testability_a": 0.009463073441678667,
+      "fully_testability_t": 0.0193929173693086,
+      "fully_testable_commits": 46,
+      "input_files": {
+        "report.csv": {
+          "rows": 4861,
+          "sha256": "0497c09459557572b67d30b15c65f169a5f76d2f6bcf8650c1baa79ae6e4b88e"
+        },
+        "summary.csv": {
+          "rows": 4861,
+          "sha256": "eee280c547c53e39e3c7c081b1113f213183306ff4f4a899dabd5e6f24badafb"
+        }
+      },
+      "project": "okhttp",
+      "source_buildable_commits": 2374,
+      "test_buildable_commits": 2372,
+      "testability_rate_a": 0.44833540932378335,
+      "testability_rate_t": 0.9187851706251734,
+      "total_commits": 4861
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 314,
+          "recomputed": 314
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.2627615062761506,
+          "recomputed": 0.26276150627615064,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.728538283062645,
+          "recomputed": 0.728538283062645,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 438,
+          "recomputed": 438
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 431,
+          "recomputed": 431
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.3601599455796985,
+          "recomputed": 0.3601599455796985,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.998587320110765,
+          "recomputed": 0.998587320110765,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1195,
+          "recomputed": 1195
+        }
+      },
+      "fully_testability_a": 0.26276150627615064,
+      "fully_testability_t": 0.728538283062645,
+      "fully_testable_commits": 314,
+      "input_files": {
+        "report.csv": {
+          "rows": 1195,
+          "sha256": "b65f318fc25384e1cdc4aa787916694acd54b4f60423bcc328018c6ae1d6a9bc"
+        },
+        "summary.csv": {
+          "rows": 1195,
+          "sha256": "8d1940865bd8d74bc28354ea8f26c3a3a446c958837e1b5f50114e2a5988160b"
+        }
+      },
+      "project": "okio",
+      "source_buildable_commits": 438,
+      "test_buildable_commits": 431,
+      "testability_rate_a": 0.3601599455796985,
+      "testability_rate_t": 0.998587320110765,
+      "total_commits": 1195
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 578,
+          "recomputed": 578
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 576,
+          "recomputed": 576
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0503219892386345,
+          "recomputed": 0.0503219892386345,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": -2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9996253487299585,
+          "recomputed": 0.9996253487299582,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 11442,
+          "recomputed": 11442
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 11442,
+          "sha256": "f5e40a7918cf842ca169fdc081e6db02d2363092ace15ba4a98a5825facaafdb"
+        },
+        "summary.csv": {
+          "rows": 11442,
+          "sha256": "4269c045ee893ce318068b4d2e066759d3bc8b9a2d5aed879bfbca140bfd2c18"
+        }
+      },
+      "project": "openmrs-core",
+      "source_buildable_commits": 578,
+      "test_buildable_commits": 576,
+      "testability_rate_a": 0.0503219892386345,
+      "testability_rate_t": 0.9996253487299582,
+      "total_commits": 11442
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 18,
+          "recomputed": 18
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.0878048780487804,
+          "recomputed": 0.08780487804878048,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 18,
+          "recomputed": 18
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 18,
+          "recomputed": 18
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.0878048780487804,
+          "recomputed": 0.08780487804878048,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 205,
+          "recomputed": 205
+        }
+      },
+      "fully_testability_a": 0.08780487804878048,
+      "fully_testability_t": 1.0,
+      "fully_testable_commits": 18,
+      "input_files": {
+        "report.csv": {
+          "rows": 205,
+          "sha256": "74b7b5291d8518f13d6ddd7d12af0f9138dc88ade295cd3b9e26420ae42362ac"
+        },
+        "summary.csv": {
+          "rows": 205,
+          "sha256": "70d26a35927bf4126dcb3046ec90e9b664b1c5bb536c4f12dc5ad08f0c366584"
+        }
+      },
+      "project": "otto",
+      "source_buildable_commits": 18,
+      "test_buildable_commits": 18,
+      "testability_rate_a": 0.08780487804878048,
+      "testability_rate_t": 1.0,
+      "total_commits": 205
+    },
+    {
+      "collector_zero_success_rows": 39,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 54,
+          "recomputed": 54
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 8.500145032286355e-17,
+          "difference": 8.500145032286355e-17,
+          "pass": true,
+          "published": 0.0045519683048132,
+          "recomputed": 0.004551968304813285,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3417721518987341,
+          "recomputed": 0.34177215189873417,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 201,
+          "recomputed": 201
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 158,
+          "recomputed": 158
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.5612511283791264e-17,
+          "difference": 1.5612511283791264e-17,
+          "pass": true,
+          "published": 0.0124351572742733,
+          "recomputed": 0.012435157274273316,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9336599414221796,
+          "recomputed": 0.9336599414221797,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 11863,
+          "recomputed": 11863
+        }
+      },
+      "fully_testability_a": 0.004551968304813285,
+      "fully_testability_t": 0.34177215189873417,
+      "fully_testable_commits": 54,
+      "input_files": {
+        "report.csv": {
+          "rows": 11863,
+          "sha256": "ef16efafff0a988a34b3dfb5d5238a63d57bb5e0dd961cbcb285604709c705d4"
+        },
+        "summary.csv": {
+          "rows": 11863,
+          "sha256": "3a7968fae083cf3a78f9b6648e8b7a71bdeac6da143e69fad98dbb83489b0903"
+        }
+      },
+      "project": "pinpoint",
+      "source_buildable_commits": 201,
+      "test_buildable_commits": 158,
+      "testability_rate_a": 0.012435157274273316,
+      "testability_rate_t": 0.9336599414221797,
+      "total_commits": 11863
+    },
+    {
+      "collector_zero_success_rows": 4,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 168,
+          "recomputed": 168
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.898059818321144e-17,
+          "difference": 5.898059818321144e-17,
+          "pass": true,
+          "published": 0.0088462956137117,
+          "recomputed": 0.008846295613711759,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5060240963855421,
+          "recomputed": 0.5060240963855421,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 346,
+          "recomputed": 346
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 332,
+          "recomputed": 332
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 7.632783294297951e-17,
+          "difference": 7.632783294297951e-17,
+          "pass": true,
+          "published": 0.0174354630843357,
+          "recomputed": 0.017435463084335776,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9973399982970504,
+          "recomputed": 0.9973399982970503,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 18991,
+          "recomputed": 18991
+        }
+      },
+      "fully_testability_a": 0.008846295613711759,
+      "fully_testability_t": 0.5060240963855421,
+      "fully_testable_commits": 168,
+      "input_files": {
+        "report.csv": {
+          "rows": 18991,
+          "sha256": "1ceb09a2f0d86851dd30670d41e8cc43775eca38af2143e857d9961a1452b0dc"
+        },
+        "summary.csv": {
+          "rows": 18991,
+          "sha256": "d74607ea0340bc517aed5580c2496cb38b4c5043b5cf066ace353105f4028b92"
+        }
+      },
+      "project": "presto",
+      "source_buildable_commits": 346,
+      "test_buildable_commits": 332,
+      "testability_rate_a": 0.017435463084335776,
+      "testability_rate_t": 0.9973399982970503,
+      "total_commits": 18991
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1411,
+          "recomputed": 1411
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7565683646112601,
+          "recomputed": 0.7565683646112601,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9860237596086652,
+          "recomputed": 0.9860237596086653,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1431,
+          "recomputed": 1431
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1431,
+          "recomputed": 1431
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.7672048665107455,
+          "recomputed": 0.7672048665107456,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.999886146780252,
+          "recomputed": 0.9998861467802519,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1865,
+          "recomputed": 1865
+        }
+      },
+      "fully_testability_a": 0.7565683646112601,
+      "fully_testability_t": 0.9860237596086653,
+      "fully_testable_commits": 1411,
+      "input_files": {
+        "report.csv": {
+          "rows": 1865,
+          "sha256": "0ab9db649c10bdb8cdd63e94bba50e2447ffdb121939f9fe0ec0b76296d4d703"
+        },
+        "summary.csv": {
+          "rows": 1865,
+          "sha256": "dede834fb37e6e9ce23cba98c9ee0f511864b28d32e74ec7113184a6939c4037"
+        }
+      },
+      "project": "retrofit",
+      "source_buildable_commits": 1431,
+      "test_buildable_commits": 1431,
+      "testability_rate_a": 0.7672048665107456,
+      "testability_rate_t": 0.9998861467802519,
+      "total_commits": 1865
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 364,
+          "recomputed": 364
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.2949756888168557,
+          "recomputed": 0.29497568881685576,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.573228346456693,
+          "recomputed": 0.573228346456693,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 642,
+          "recomputed": 642
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 635,
+          "recomputed": 635
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5095244700584209,
+          "recomputed": 0.5095244700584209,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9901625134678604,
+          "recomputed": 0.9901625134678605,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1234,
+          "recomputed": 1234
+        }
+      },
+      "fully_testability_a": 0.29497568881685576,
+      "fully_testability_t": 0.573228346456693,
+      "fully_testable_commits": 364,
+      "input_files": {
+        "report.csv": {
+          "rows": 1234,
+          "sha256": "59d1c5a1d7378af3491d5b24845edd2e7d9d0482fb046845e65f9eda3e49a59d"
+        },
+        "summary.csv": {
+          "rows": 1234,
+          "sha256": "d18044fd8ee0f822d021c00e933c175e4a2c896abe222587e26156e812647718"
+        }
+      },
+      "project": "scribejava",
+      "source_buildable_commits": 642,
+      "test_buildable_commits": 635,
+      "testability_rate_a": 0.5095244700584209,
+      "testability_rate_t": 0.9901625134678605,
+      "total_commits": 1234
+    },
+    {
+      "collector_zero_success_rows": 61,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 921,
+          "recomputed": 921
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.867231638418079,
+          "recomputed": 0.867231638418079,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.934077079107505,
+          "recomputed": 0.934077079107505,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1051,
+          "recomputed": 1051
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 986,
+          "recomputed": 986
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": -2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9215031017063924,
+          "recomputed": 0.9215031017063922,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9925317383490756,
+          "recomputed": 0.9925317383490756,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1062,
+          "recomputed": 1062
+        }
+      },
+      "fully_testability_a": 0.867231638418079,
+      "fully_testability_t": 0.934077079107505,
+      "fully_testable_commits": 921,
+      "input_files": {
+        "report.csv": {
+          "rows": 1062,
+          "sha256": "7054bb306308998f57b9540d6e0897b3e03cbea7eded22c29a1783de24e6d0e8"
+        },
+        "summary.csv": {
+          "rows": 1062,
+          "sha256": "a8f89515949c2e61d9f72600af9985ac9a902f84558a79fc9c179735d833a622"
+        }
+      },
+      "project": "spark",
+      "source_buildable_commits": 1051,
+      "test_buildable_commits": 986,
+      "testability_rate_a": 0.9215031017063922,
+      "testability_rate_t": 0.9925317383490756,
+      "total_commits": 1062
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 15,
+          "recomputed": 15
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.1973684210526315,
+          "recomputed": 0.19736842105263158,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9375,
+          "recomputed": 0.9375,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 16,
+          "recomputed": 16
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 16,
+          "recomputed": 16
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2102014294996751,
+          "recomputed": 0.2102014294996751,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9984567901234568,
+          "recomputed": 0.9984567901234568,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 76,
+          "recomputed": 76
+        }
+      },
+      "fully_testability_a": 0.19736842105263158,
+      "fully_testability_t": 0.9375,
+      "fully_testable_commits": 15,
+      "input_files": {
+        "report.csv": {
+          "rows": 76,
+          "sha256": "48fe6720b0e3832ec9c34345e7924a0e8020f35fb32a846c38fb1ecbce567135"
+        },
+        "summary.csv": {
+          "rows": 76,
+          "sha256": "db690438cfb53bd250de4da13ed68728daeba9d19fbafde2486cd0312b3a0269"
+        }
+      },
+      "project": "spring-mvc-showcase",
+      "source_buildable_commits": 16,
+      "test_buildable_commits": 16,
+      "testability_rate_a": 0.2102014294996751,
+      "testability_rate_t": 0.9984567901234568,
+      "total_commits": 76
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 519,
+          "recomputed": 519
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7023004059539919,
+          "recomputed": 0.7023004059539919,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9774011299435028,
+          "recomputed": 0.9774011299435028,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 531,
+          "recomputed": 531
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 531,
+          "recomputed": 531
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7161375438568923,
+          "recomputed": 0.7161375438568923,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9966584649910422,
+          "recomputed": 0.996658464991042,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 739,
+          "recomputed": 739
+        }
+      },
+      "fully_testability_a": 0.7023004059539919,
+      "fully_testability_t": 0.9774011299435028,
+      "fully_testable_commits": 519,
+      "input_files": {
+        "report.csv": {
+          "rows": 739,
+          "sha256": "b969cdb361667e7e1881bb898c7161526041548bca19a14c524989192e3509d8"
+        },
+        "summary.csv": {
+          "rows": 739,
+          "sha256": "31cee401c353155a622c22758a09a875abece1734bc23fbd40a5b904bfde8ef5"
+        }
+      },
+      "project": "spring-petclinic",
+      "source_buildable_commits": 531,
+      "test_buildable_commits": 531,
+      "testability_rate_a": 0.7161375438568923,
+      "testability_rate_t": 0.996658464991042,
+      "total_commits": 739
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 227,
+          "recomputed": 227
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1614509246088193,
+          "recomputed": 0.16145092460881935,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3715220949263502,
+          "recomputed": 0.37152209492635024,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 769,
+          "recomputed": 769
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 611,
+          "recomputed": 611
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.423730482275191,
+          "recomputed": 0.42373048227519106,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9750655615039584,
+          "recomputed": 0.9750655615039585,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1406,
+          "recomputed": 1406
+        }
+      },
+      "fully_testability_a": 0.16145092460881935,
+      "fully_testability_t": 0.37152209492635024,
+      "fully_testable_commits": 227,
+      "input_files": {
+        "report.csv": {
+          "rows": 1406,
+          "sha256": "caf95a53461bc4f4cd23c82d68344709dca3b0c7d5de55c44061c70b171b05c0"
+        },
+        "summary.csv": {
+          "rows": 1406,
+          "sha256": "d7f96f3c43e94fae455c67b294c8510aafd9d5c5b29d2081becb7586a0d2aec1"
+        }
+      },
+      "project": "spring-security-oauth",
+      "source_buildable_commits": 769,
+      "test_buildable_commits": 611,
+      "testability_rate_a": 0.42373048227519106,
+      "testability_rate_t": 0.9750655615039585,
+      "total_commits": 1406
+    },
+    {
+      "collector_zero_success_rows": 195,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 34,
+          "recomputed": 34
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 4.85722573273506e-17,
+          "difference": 4.85722573273506e-17,
+          "pass": true,
+          "published": 0.031657355679702,
+          "recomputed": 0.03165735567970205,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.1307692307692307,
+          "recomputed": 0.13076923076923078,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 459,
+          "recomputed": 459
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 260,
+          "recomputed": 260
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.2362634728873208,
+          "recomputed": 0.23626347288732089,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9759498841576256,
+          "recomputed": 0.9759498841576255,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1074,
+          "recomputed": 1074
+        }
+      },
+      "fully_testability_a": 0.03165735567970205,
+      "fully_testability_t": 0.13076923076923078,
+      "fully_testable_commits": 34,
+      "input_files": {
+        "report.csv": {
+          "rows": 1074,
+          "sha256": "223ce3582d32133753b77fdbaafbe22fdb0bc9067f3a9b194068b9e9b0cf32ba"
+        },
+        "summary.csv": {
+          "rows": 1074,
+          "sha256": "e0a70390c98cfbc5544a9e08c02c784d44c52af9783831e84ef5f58063bbe272"
+        }
+      },
+      "project": "springside4",
+      "source_buildable_commits": 459,
+      "test_buildable_commits": 260,
+      "testability_rate_a": 0.23626347288732089,
+      "testability_rate_t": 0.9759498841576255,
+      "total_commits": 1074
+    },
+    {
+      "collector_zero_success_rows": 738,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 53,
+          "recomputed": 53
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 2.0816681711721685e-17,
+          "difference": 2.0816681711721685e-17,
+          "pass": true,
+          "published": 0.0050766283524904,
+          "recomputed": 0.005076628352490421,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.0596846846846846,
+          "recomputed": 0.059684684684684686,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1636,
+          "recomputed": 1636
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 888,
+          "recomputed": 888
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 6.938893903907228e-17,
+          "difference": 6.938893903907228e-17,
+          "pass": true,
+          "published": 0.0806948641651365,
+          "recomputed": 0.08069486416513658,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": 2.220446049250313e-16,
+          "pass": true,
+          "published": 0.948709889509038,
+          "recomputed": 0.9487098895090382,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 10440,
+          "recomputed": 10440
+        }
+      },
+      "fully_testability_a": 0.005076628352490421,
+      "fully_testability_t": 0.059684684684684686,
+      "fully_testable_commits": 53,
+      "input_files": {
+        "report.csv": {
+          "rows": 10440,
+          "sha256": "b826043fc3623e8fe10852c33f46fb9608ebf7f9a117f0718f8e099e21173557"
+        },
+        "summary.csv": {
+          "rows": 10440,
+          "sha256": "b1268a65b946a1f9dbf5f8b581012f366d318ed8862de973a46c34fb0883e545"
+        }
+      },
+      "project": "storm",
+      "source_buildable_commits": 1636,
+      "test_buildable_commits": 888,
+      "testability_rate_a": 0.08069486416513658,
+      "testability_rate_t": 0.9487098895090382,
+      "total_commits": 10440
+    },
+    {
+      "collector_zero_success_rows": 46,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3367,
+          "recomputed": 3367
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2968088857545839,
+          "recomputed": 0.2968088857545839,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.967528735632184,
+          "recomputed": 0.9675287356321839,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3577,
+          "recomputed": 3577
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3480,
+          "recomputed": 3480
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3062040419607184,
+          "recomputed": 0.30620404196071843,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.998154785058158,
+          "recomputed": 0.9981547850581581,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 11344,
+          "recomputed": 11344
+        }
+      },
+      "fully_testability_a": 0.2968088857545839,
+      "fully_testability_t": 0.9675287356321839,
+      "fully_testable_commits": 3367,
+      "input_files": {
+        "report.csv": {
+          "rows": 11344,
+          "sha256": "e8fd0c21d72742b5b98e283506094acde683a0dc6674645c2b5f0733f52b64fb"
+        },
+        "summary.csv": {
+          "rows": 11344,
+          "sha256": "8c29f568536730d9a44c350d966b66808077f53d2331aad90ca1b109605bec79"
+        }
+      },
+      "project": "swagger-codegen",
+      "source_buildable_commits": 3577,
+      "test_buildable_commits": 3480,
+      "testability_rate_a": 0.30620404196071843,
+      "testability_rate_t": 0.9981547850581581,
+      "total_commits": 11344
+    },
+    {
+      "collector_zero_success_rows": 4,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2487,
+          "recomputed": 2487
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6256603773584906,
+          "recomputed": 0.6256603773584906,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9207700851536468,
+          "recomputed": 0.9207700851536468,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2739,
+          "recomputed": 2739
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2701,
+          "recomputed": 2701
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6775356979698463,
+          "recomputed": 0.6775356979698463,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": -2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9971138094891296,
+          "recomputed": 0.9971138094891294,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3975,
+          "recomputed": 3975
+        }
+      },
+      "fully_testability_a": 0.6256603773584906,
+      "fully_testability_t": 0.9207700851536468,
+      "fully_testable_commits": 2487,
+      "input_files": {
+        "report.csv": {
+          "rows": 3975,
+          "sha256": "45e6cfce2a5131d7dc59ac16687263a9d3c35e7c28e6f636cceed3be36c42d4b"
+        },
+        "summary.csv": {
+          "rows": 3975,
+          "sha256": "5f5a1831077ea970b6fb58e758bcba1fc220567a374444a87ce457a7a9d0970d"
+        }
+      },
+      "project": "swagger-core",
+      "source_buildable_commits": 2739,
+      "test_buildable_commits": 2701,
+      "testability_rate_a": 0.6775356979698463,
+      "testability_rate_t": 0.9971138094891294,
+      "total_commits": 3975
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 191,
+          "recomputed": 191
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 2.0816681711721685e-17,
+          "difference": 2.0816681711721685e-17,
+          "pass": true,
+          "published": 0.0430762291384754,
+          "recomputed": 0.04307622913847542,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2732474964234621,
+          "recomputed": 0.2732474964234621,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1206,
+          "recomputed": 1206
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 699,
+          "recomputed": 699
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1566471950585889,
+          "recomputed": 0.1566471950585889,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9936676150068428,
+          "recomputed": 0.9936676150068428,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 4434,
+          "recomputed": 4434
+        }
+      },
+      "fully_testability_a": 0.04307622913847542,
+      "fully_testability_t": 0.2732474964234621,
+      "fully_testable_commits": 191,
+      "input_files": {
+        "report.csv": {
+          "rows": 4434,
+          "sha256": "fe2585fde474d2d09d88f9a27f58afc0377d6f278eb1b30d5e39c670d53cb0f1"
+        },
+        "summary.csv": {
+          "rows": 4434,
+          "sha256": "f5ec787f562525b61c167c6e1be4e2f96371177ca4494a95fe5195214959df24"
+        }
+      },
+      "project": "titan",
+      "source_buildable_commits": 1206,
+      "test_buildable_commits": 699,
+      "testability_rate_a": 0.1566471950585889,
+      "testability_rate_t": 0.9936676150068428,
+      "total_commits": 4434
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 851,
+          "recomputed": 851
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 849,
+          "recomputed": 849
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.1324638752556463,
+          "recomputed": 0.13246387525564637,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": -5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3616622648322595,
+          "recomputed": 0.36166226483225944,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2318,
+          "recomputed": 2318
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 2318,
+          "sha256": "40e39b191c811a8006bba3b0fc55bbe4fea816dd989d255938ef727f46e6c1e6"
+        },
+        "summary.csv": {
+          "rows": 2318,
+          "sha256": "f75c5b2fa36f1c3f2b065be49218f710c75bc4db2ce21aa2679b0032eb9eff90"
+        }
+      },
+      "project": "twitter4j",
+      "source_buildable_commits": 851,
+      "test_buildable_commits": 849,
+      "testability_rate_a": 0.13246387525564637,
+      "testability_rate_t": 0.36166226483225944,
+      "total_commits": 2318
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 304,
+          "recomputed": 304
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 303,
+          "recomputed": 303
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": 2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.058632376049105,
+          "recomputed": 0.058632376049105026,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": 2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9735296498450406,
+          "recomputed": 0.9735296498450409,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5031,
+          "recomputed": 5031
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 5031,
+          "sha256": "3d5288ae1d8ff5ce3b70efc32270266f89055be3fcd14671f0f92072499f8034"
+        },
+        "summary.csv": {
+          "rows": 5031,
+          "sha256": "0b2022688ed053340b87e745adce542f08720a1df7818589015b6e88f13e5c01"
+        }
+      },
+      "project": "vert.x",
+      "source_buildable_commits": 304,
+      "test_buildable_commits": 303,
+      "testability_rate_a": 0.058632376049105026,
+      "testability_rate_t": 0.9735296498450409,
+      "total_commits": 5031
+    },
+    {
+      "collector_zero_success_rows": 20,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 438,
+          "recomputed": 438
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 352,
+          "recomputed": 352
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": 2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.0617286819303735,
+          "recomputed": 0.06172868193037353,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2695368867243867,
+          "recomputed": 0.2695368867243867,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1537,
+          "recomputed": 1537
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 1537,
+          "sha256": "e5be2799bf7fae0d4da8ddab752a9a075af7d78832fb9ab3d6fe77355c6d374d"
+        },
+        "summary.csv": {
+          "rows": 1537,
+          "sha256": "be7c482b605305696c3a68facaf716bf0b7a134e08c118f4c187f7feb786563d"
+        }
+      },
+      "project": "javaee7-samples",
+      "source_buildable_commits": 438,
+      "test_buildable_commits": 352,
+      "testability_rate_a": 0.06172868193037353,
+      "testability_rate_t": 0.2695368867243867,
+      "total_commits": 1537
+    },
+    {
+      "collector_zero_success_rows": 167,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 350,
+          "recomputed": 350
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1124678663239074,
+          "recomputed": 0.11246786632390746,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6194690265486725,
+          "recomputed": 0.6194690265486725,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 733,
+          "recomputed": 733
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 565,
+          "recomputed": 565
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.180424014253771,
+          "recomputed": 0.18042401425377108,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9937690838190012,
+          "recomputed": 0.9937690838190011,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3112,
+          "recomputed": 3112
+        }
+      },
+      "fully_testability_a": 0.11246786632390746,
+      "fully_testability_t": 0.6194690265486725,
+      "fully_testable_commits": 350,
+      "input_files": {
+        "report.csv": {
+          "rows": 3112,
+          "sha256": "44648295a71dcf0f09e423e1ec8be6f233f1e02da8a994304e51cf6170a33a86"
+        },
+        "summary.csv": {
+          "rows": 3112,
+          "sha256": "8f64aef117e20c26095a8552d71fa1a19ca2b54d9b6f4a639934688a64c5547d"
+        }
+      },
+      "project": "java-design-patterns",
+      "source_buildable_commits": 733,
+      "test_buildable_commits": 565,
+      "testability_rate_a": 0.18042401425377108,
+      "testability_rate_t": 0.9937690838190011,
+      "total_commits": 3112
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 106,
+          "recomputed": 106
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 106,
+          "recomputed": 106
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 3.729655473350135e-17,
+          "difference": 3.729655473350135e-17,
+          "pass": true,
+          "published": 0.0041938749020915,
+          "recomputed": 0.004193874902091537,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": 2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9906644686176416,
+          "recomputed": 0.9906644686176418,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 25039,
+          "recomputed": 25039
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 25039,
+          "sha256": "9ba3bd20bb8cca9d9558ce9af4009e269b4ca1a5c83c2885f3ba2c366eb5e44b"
+        },
+        "summary.csv": {
+          "rows": 25039,
+          "sha256": "cdc49c2931c12043a024e50e6b4724e7c46278ed3b788b8076cb46d5542cab94"
+        }
+      },
+      "project": "hadoop",
+      "source_buildable_commits": 106,
+      "test_buildable_commits": 106,
+      "testability_rate_a": 0.004193874902091537,
+      "testability_rate_t": 0.9906644686176418,
+      "total_commits": 25039
+    },
+    {
+      "collector_zero_success_rows": 112,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1260,
+          "recomputed": 1260
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1032,
+          "recomputed": 1032
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.1850119619593115,
+          "recomputed": 0.1850119619593116,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9999968253963566,
+          "recomputed": 0.9999968253963567,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5578,
+          "recomputed": 5578
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 5578,
+          "sha256": "bb8a4ab2458d10460286e2ec4e7b390f0949203eca0a605718c94200035b0704"
+        },
+        "summary.csv": {
+          "rows": 5578,
+          "sha256": "2774d18594a526dd25b6eaae47f07577e96f4c4a3a020a24219bf32ea44f1377"
+        }
+      },
+      "project": "guava",
+      "source_buildable_commits": 1260,
+      "test_buildable_commits": 1032,
+      "testability_rate_a": 0.1850119619593116,
+      "testability_rate_t": 0.9999968253963567,
+      "total_commits": 5578
+    },
+    {
+      "collector_zero_success_rows": 657,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 736,
+          "recomputed": 736
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.487740225314778,
+          "recomputed": 0.487740225314778,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9919137466307276,
+          "recomputed": 0.9919137466307277,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1404,
+          "recomputed": 1404
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 742,
+          "recomputed": 742
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4916602275268845,
+          "recomputed": 0.49166022752688454,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9998858266011708,
+          "recomputed": 0.9998858266011709,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1509,
+          "recomputed": 1509
+        }
+      },
+      "fully_testability_a": 0.487740225314778,
+      "fully_testability_t": 0.9919137466307277,
+      "fully_testable_commits": 736,
+      "input_files": {
+        "report.csv": {
+          "rows": 1509,
+          "sha256": "0b9813db100e75a691cb2449e4bafba3af9ee973bbfcc4b8fa6f23a373833cde"
+        },
+        "summary.csv": {
+          "rows": 1509,
+          "sha256": "c04046645cb5f4a78834f9e9c425a61937071cbfa6be7a1c7112cf7f8d21bc5c"
+        }
+      },
+      "project": "Bukkit",
+      "source_buildable_commits": 1404,
+      "test_buildable_commits": 742,
+      "testability_rate_a": 0.49166022752688454,
+      "testability_rate_t": 0.9998858266011709,
+      "total_commits": 1509
+    },
+    {
+      "collector_zero_success_rows": 3,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2587,
+          "recomputed": 2587
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1571020829537863,
+          "recomputed": 0.15710208295378636,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.931580842635938,
+          "recomputed": 0.9315808426359381,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2787,
+          "recomputed": 2787
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2777,
+          "recomputed": 2777
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1686029606451967,
+          "recomputed": 0.1686029606451967,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9997785210458964,
+          "recomputed": 0.9997785210458964,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 16467,
+          "recomputed": 16467
+        }
+      },
+      "fully_testability_a": 0.15710208295378636,
+      "fully_testability_t": 0.9315808426359381,
+      "fully_testable_commits": 2587,
+      "input_files": {
+        "report.csv": {
+          "rows": 16467,
+          "sha256": "e1013e2d81ad99ce210ccdc0101db2ad6de6428f2c53ef7061fbcee4e7f59601"
+        },
+        "summary.csv": {
+          "rows": 16467,
+          "sha256": "ee6f40cfc141aa8a8c399ba4d7c668e4be2d702f086ecae3394fe8f0bac1b006"
+        }
+      },
+      "project": "CoreNLP",
+      "source_buildable_commits": 2787,
+      "test_buildable_commits": 2777,
+      "testability_rate_a": 0.1686029606451967,
+      "testability_rate_t": 0.9997785210458964,
+      "total_commits": 16467
+    },
+    {
+      "collector_zero_success_rows": 3,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 96,
+          "recomputed": 96
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7058823529411765,
+          "recomputed": 0.7058823529411765,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7218045112781954,
+          "recomputed": 0.7218045112781954,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 136,
+          "recomputed": 136
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 133,
+          "recomputed": 133
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.972880577604239,
+          "recomputed": 0.972880577604239,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9948252522870412,
+          "recomputed": 0.9948252522870413,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 136,
+          "recomputed": 136
+        }
+      },
+      "fully_testability_a": 0.7058823529411765,
+      "fully_testability_t": 0.7218045112781954,
+      "fully_testable_commits": 96,
+      "input_files": {
+        "report.csv": {
+          "rows": 136,
+          "sha256": "fac4dd55b4449b174aaf68ac576036805f9e52ed7da5fc640e9fe79ff3bc5e00"
+        },
+        "summary.csv": {
+          "rows": 136,
+          "sha256": "580ee8d569376e1a8b96db66a6fc0834c0617d5079542288fd0116d5a2f03ff5"
+        }
+      },
+      "project": "DiskLruCache",
+      "source_buildable_commits": 136,
+      "test_buildable_commits": 133,
+      "testability_rate_a": 0.972880577604239,
+      "testability_rate_t": 0.9948252522870413,
+      "total_commits": 136
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 84,
+          "recomputed": 84
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4565217391304347,
+          "recomputed": 0.45652173913043476,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6131386861313869,
+          "recomputed": 0.6131386861313869,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 141,
+          "recomputed": 141
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 137,
+          "recomputed": 137
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4565217391304347,
+          "recomputed": 0.45652173913043476,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6131386861313869,
+          "recomputed": 0.6131386861313869,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 184,
+          "recomputed": 184
+        }
+      },
+      "fully_testability_a": 0.45652173913043476,
+      "fully_testability_t": 0.6131386861313869,
+      "fully_testable_commits": 84,
+      "input_files": {
+        "report.csv": {
+          "rows": 184,
+          "sha256": "928ce4e5ba93f29efe2803e18c090c01feafca0486afea569d7971b8981b9248"
+        },
+        "summary.csv": {
+          "rows": 184,
+          "sha256": "9aeb19b61115ecc628b9686d888d2746f468042070058e38a3eed86c4a7226c3"
+        }
+      },
+      "project": "FizzBuzzEnterpriseEdition",
+      "source_buildable_commits": 141,
+      "test_buildable_commits": 137,
+      "testability_rate_a": 0.45652173913043476,
+      "testability_rate_t": 0.6131386861313869,
+      "total_commits": 184
+    },
+    {
+      "collector_zero_success_rows": 415,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 37,
+          "recomputed": 37
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 1.0408340855860843e-17,
+          "difference": 1.0408340855860843e-17,
+          "pass": true,
+          "published": 0.0247823174815807,
+          "recomputed": 0.02478231748158071,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 6.245004513516506e-17,
+          "difference": 6.245004513516506e-17,
+          "pass": true,
+          "published": 0.0612582781456953,
+          "recomputed": 0.061258278145695365,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1082,
+          "recomputed": 1082
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 604,
+          "recomputed": 604
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3375289537188506,
+          "recomputed": 0.33752895371885067,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.8343223971891458,
+          "recomputed": 0.8343223971891457,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1493,
+          "recomputed": 1493
+        }
+      },
+      "fully_testability_a": 0.02478231748158071,
+      "fully_testability_t": 0.061258278145695365,
+      "fully_testable_commits": 37,
+      "input_files": {
+        "report.csv": {
+          "rows": 1493,
+          "sha256": "c42bf304f60773b1272e9809720e3f8b4f2f8f8a9d518cf525fae31cb0cfc302"
+        },
+        "summary.csv": {
+          "rows": 1493,
+          "sha256": "bf64b8b1fe5ca11e1167b55ba3e002f4830f889fd20f49c0feeeb3ac6a2c5728"
+        }
+      },
+      "project": "HanLP",
+      "source_buildable_commits": 1082,
+      "test_buildable_commits": 604,
+      "testability_rate_a": 0.33752895371885067,
+      "testability_rate_t": 0.8343223971891457,
+      "total_commits": 1493
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 472,
+          "recomputed": 472
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1692969870875179,
+          "recomputed": 0.16929698708751795,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.1777777777777777,
+          "recomputed": 0.17777777777777778,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2677,
+          "recomputed": 2677
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2655,
+          "recomputed": 2655
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.887613280759226,
+          "recomputed": 0.8876132807592259,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9320775242021552,
+          "recomputed": 0.9320775242021551,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2788,
+          "recomputed": 2788
+        }
+      },
+      "fully_testability_a": 0.16929698708751795,
+      "fully_testability_t": 0.17777777777777778,
+      "fully_testable_commits": 472,
+      "input_files": {
+        "report.csv": {
+          "rows": 2788,
+          "sha256": "9fd52698979866f31852215f55fb35e8f7368b223d3f3fb19a42d1886e1e0d9a"
+        },
+        "summary.csv": {
+          "rows": 2788,
+          "sha256": "ddfb050558e196b607904d26be7628a6a31abd758b937ed54798d82ef6f02ee0"
+        }
+      },
+      "project": "HikariCP",
+      "source_buildable_commits": 2677,
+      "test_buildable_commits": 2655,
+      "testability_rate_a": 0.8876132807592259,
+      "testability_rate_t": 0.9320775242021551,
+      "total_commits": 2788
+    },
+    {
+      "collector_zero_success_rows": 2,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1288,
+          "recomputed": 1288
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 9.020562075079397e-17,
+          "difference": 9.020562075079397e-17,
+          "pass": true,
+          "published": 0.0413085311096856,
+          "recomputed": 0.041308531109685694,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.2282473861421229,
+          "recomputed": 0.22824738614212298,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5701,
+          "recomputed": 5701
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5643,
+          "recomputed": 5643
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1782657094280799,
+          "recomputed": 0.17826570942807995,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.984994651775214,
+          "recomputed": 0.9849946517752141,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 31180,
+          "recomputed": 31180
+        }
+      },
+      "fully_testability_a": 0.041308531109685694,
+      "fully_testability_t": 0.22824738614212298,
+      "fully_testable_commits": 1288,
+      "input_files": {
+        "report.csv": {
+          "rows": 31180,
+          "sha256": "118e8707ad7637209eb078047b134dbe1ed2b0a2784a6359bffd95ea2a0c8f9e"
+        },
+        "summary.csv": {
+          "rows": 31180,
+          "sha256": "e81347f105f8e9e908823ac8e25bd31e74c5104ae37b44fdc1f68789d2760b80"
+        }
+      },
+      "project": "alluxio",
+      "source_buildable_commits": 5701,
+      "test_buildable_commits": 5643,
+      "testability_rate_a": 0.17826570942807995,
+      "testability_rate_t": 0.9849946517752141,
+      "total_commits": 31180
+    },
+    {
+      "collector_zero_success_rows": 19,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 123,
+          "recomputed": 123
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 1.3877787807814457e-17,
+          "difference": 1.3877787807814457e-17,
+          "pass": true,
+          "published": 0.0636645962732919,
+          "recomputed": 0.06366459627329192,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9761904761904762,
+          "recomputed": 0.9761904761904762,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 145,
+          "recomputed": 145
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 126,
+          "recomputed": 126
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 6.938893903907228e-17,
+          "difference": 6.938893903907228e-17,
+          "pass": true,
+          "published": 0.0652018633540372,
+          "recomputed": 0.06520186335403727,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9997619047619049,
+          "recomputed": 0.9997619047619047,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1932,
+          "recomputed": 1932
+        }
+      },
+      "fully_testability_a": 0.06366459627329192,
+      "fully_testability_t": 0.9761904761904762,
+      "fully_testable_commits": 123,
+      "input_files": {
+        "report.csv": {
+          "rows": 1932,
+          "sha256": "ca9edbda8cdea1a1e0041412c00aa3224084eef0abaa41ed23e4962d86bd471d"
+        },
+        "summary.csv": {
+          "rows": 1932,
+          "sha256": "18cd3d39e8b78a60f71475202a02d534d2dd7607522cf5799f19e960e85ab31f"
+        }
+      },
+      "project": "android-volley",
+      "source_buildable_commits": 145,
+      "test_buildable_commits": 126,
+      "testability_rate_a": 0.06520186335403727,
+      "testability_rate_t": 0.9997619047619047,
+      "total_commits": 1932
+    },
+    {
+      "collector_zero_success_rows": 27,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 209,
+          "recomputed": 209
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2972972972972973,
+          "recomputed": 0.2972972972972973,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7827715355805244,
+          "recomputed": 0.7827715355805244,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 304,
+          "recomputed": 304
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 267,
+          "recomputed": 267
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.3731088914583513,
+          "recomputed": 0.3731088914583513,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9823803396824756,
+          "recomputed": 0.9823803396824756,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 703,
+          "recomputed": 703
+        }
+      },
+      "fully_testability_a": 0.2972972972972973,
+      "fully_testability_t": 0.7827715355805244,
+      "fully_testable_commits": 209,
+      "input_files": {
+        "report.csv": {
+          "rows": 703,
+          "sha256": "fa59495f6e8bdac524654ce56122733e6e4f19bb16191c965cf2fa700f0c6eb0"
+        },
+        "summary.csv": {
+          "rows": 703,
+          "sha256": "1796c9c016a1b86dee7a32dfe4000f8e2ca0fcd57b1510044b67fbcfdc6a45ec"
+        }
+      },
+      "project": "ansj_seg",
+      "source_buildable_commits": 304,
+      "test_buildable_commits": 267,
+      "testability_rate_a": 0.3731088914583513,
+      "testability_rate_t": 0.9823803396824756,
+      "total_commits": 703
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 51,
+          "recomputed": 51
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 6.765421556309548e-17,
+          "difference": 6.765421556309548e-17,
+          "pass": true,
+          "published": 0.0094392004441976,
+          "recomputed": 0.009439200444197668,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 4.163336342344337e-17,
+          "difference": 4.163336342344337e-17,
+          "pass": true,
+          "published": 0.0357643758765778,
+          "recomputed": 0.03576437587657784,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1464,
+          "recomputed": 1464
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1426,
+          "recomputed": 1426
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.2022175528168583,
+          "recomputed": 0.20221755281685838,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.7661861415634542,
+          "recomputed": 0.7661861415634543,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5403,
+          "recomputed": 5403
+        }
+      },
+      "fully_testability_a": 0.009439200444197668,
+      "fully_testability_t": 0.03576437587657784,
+      "fully_testable_commits": 51,
+      "input_files": {
+        "report.csv": {
+          "rows": 5403,
+          "sha256": "a40759e1c6e7d9da7af606f3bbe5e60bb5886e1c2b6cfb68ebdb7b36521ff707"
+        },
+        "summary.csv": {
+          "rows": 5403,
+          "sha256": "d867a2fdaf0c9c78b0df1dc15145a77466b5bd05900f915daf1c0d55dabbd403"
+        }
+      },
+      "project": "antlr4",
+      "source_buildable_commits": 1464,
+      "test_buildable_commits": 1426,
+      "testability_rate_a": 0.20221755281685838,
+      "testability_rate_t": 0.7661861415634543,
+      "total_commits": 5403
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 45,
+          "recomputed": 45
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 6.331740687315346e-17,
+          "difference": 6.331740687315346e-17,
+          "pass": true,
+          "published": 0.0040668775417984,
+          "recomputed": 0.004066877541798464,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 9.367506770274758e-17,
+          "difference": 9.367506770274758e-17,
+          "pass": true,
+          "published": 0.0190677966101694,
+          "recomputed": 0.019067796610169493,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2365,
+          "recomputed": 2365
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2360,
+          "recomputed": 2360
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": -2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.2132528194665982,
+          "recomputed": 0.21325281946659816,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9998484946601308,
+          "recomputed": 0.9998484946601308,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 11065,
+          "recomputed": 11065
+        }
+      },
+      "fully_testability_a": 0.004066877541798464,
+      "fully_testability_t": 0.019067796610169493,
+      "fully_testable_commits": 45,
+      "input_files": {
+        "report.csv": {
+          "rows": 11065,
+          "sha256": "28a4d56741d1f39de7ae473c620ca38dca9fe691102bfccadce754cd207ff39e"
+        },
+        "summary.csv": {
+          "rows": 11065,
+          "sha256": "fec8625848f2d68fe6608ee2102a22ff61ad6286df80d02346b04ff9ee9c494c"
+        }
+      },
+      "project": "apache-druid",
+      "source_buildable_commits": 2365,
+      "test_buildable_commits": 2360,
+      "testability_rate_a": 0.21325281946659816,
+      "testability_rate_t": 0.9998484946601308,
+      "total_commits": 11065
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1873,
+          "recomputed": 1873
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1664,
+          "recomputed": 1664
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.3988588539555968,
+          "recomputed": 0.3988588539555968,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9830049038893646,
+          "recomputed": 0.9830049038893645,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 4101,
+          "recomputed": 4101
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 4101,
+          "sha256": "63f2c0d33d54f64118d24560af23a6fe34b788f04b35a68f1851bff88a16430d"
+        },
+        "summary.csv": {
+          "rows": 4101,
+          "sha256": "57a130d92e6e7f50c6c8e9e30f0426efc7113b5e2b59fd1e016c00b22220a6d6"
+        }
+      },
+      "project": "async-http-client",
+      "source_buildable_commits": 1873,
+      "test_buildable_commits": 1664,
+      "testability_rate_a": 0.3988588539555968,
+      "testability_rate_t": 0.9830049038893645,
+      "total_commits": 4101
+    },
+    {
+      "collector_zero_success_rows": 31,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 908,
+          "recomputed": 908
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1512073272273105,
+          "recomputed": 0.15120732722731056,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4905456509994597,
+          "recomputed": 0.49054565099945974,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1890,
+          "recomputed": 1890
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1851,
+          "recomputed": 1851
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.3070587641890557,
+          "recomputed": 0.3070587641890557,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.99615768717195,
+          "recomputed": 0.99615768717195,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 6005,
+          "recomputed": 6005
+        }
+      },
+      "fully_testability_a": 0.15120732722731056,
+      "fully_testability_t": 0.49054565099945974,
+      "fully_testable_commits": 908,
+      "input_files": {
+        "report.csv": {
+          "rows": 6005,
+          "sha256": "fc44a5493faa5a7f22f585fdba9d0bed1077680b885196bd52c7fd16d11eadec"
+        },
+        "summary.csv": {
+          "rows": 6005,
+          "sha256": "44845fe47ddbc5946af53b4a44ca6cf1229d7946a2423de196d7523453e1ad76"
+        }
+      },
+      "project": "atmosphere",
+      "source_buildable_commits": 1890,
+      "test_buildable_commits": 1851,
+      "testability_rate_a": 0.3070587641890557,
+      "testability_rate_t": 0.99615768717195,
+      "total_commits": 6005
+    },
+    {
+      "collector_zero_success_rows": 903,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 151,
+          "recomputed": 151
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1164225134926754,
+          "recomputed": 0.1164225134926754,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.993421052631579,
+          "recomputed": 0.993421052631579,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1055,
+          "recomputed": 1055
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 152,
+          "recomputed": 152
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.11714533538936,
+          "recomputed": 0.11714533538936006,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9995888157894736,
+          "recomputed": 0.9995888157894737,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1297,
+          "recomputed": 1297
+        }
+      },
+      "fully_testability_a": 0.1164225134926754,
+      "fully_testability_t": 0.993421052631579,
+      "fully_testable_commits": 151,
+      "input_files": {
+        "report.csv": {
+          "rows": 1297,
+          "sha256": "53ecf59ca956040a4537c23e993b9dc62196fab5749ae5f7ff4268a196f5639c"
+        },
+        "summary.csv": {
+          "rows": 1297,
+          "sha256": "5654cf84109b08739f97c59549202a29b7ddf89fa2278588328edd7e51034c92"
+        }
+      },
+      "project": "auto",
+      "source_buildable_commits": 1055,
+      "test_buildable_commits": 152,
+      "testability_rate_a": 0.11714533538936006,
+      "testability_rate_t": 0.9995888157894737,
+      "total_commits": 1297
+    },
+    {
+      "collector_zero_success_rows": 11,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 406,
+          "recomputed": 406
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3618538324420677,
+          "recomputed": 0.36185383244206776,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.425130890052356,
+          "recomputed": 0.42513089005235605,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 989,
+          "recomputed": 989
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 955,
+          "recomputed": 955
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.8309675457692546,
+          "recomputed": 0.8309675457692547,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9762781008933022,
+          "recomputed": 0.9762781008933022,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1122,
+          "recomputed": 1122
+        }
+      },
+      "fully_testability_a": 0.36185383244206776,
+      "fully_testability_t": 0.42513089005235605,
+      "fully_testable_commits": 406,
+      "input_files": {
+        "report.csv": {
+          "rows": 1122,
+          "sha256": "a14efdc1347ec398808d924dd32baf1053b081addd8bb493336dfb715335b065"
+        },
+        "summary.csv": {
+          "rows": 1122,
+          "sha256": "2e70a180a90f52ff8fbb11ea471475ee06ec114f25c05bebf1dfa1b55131122a"
+        }
+      },
+      "project": "webmagic",
+      "source_buildable_commits": 989,
+      "test_buildable_commits": 955,
+      "testability_rate_a": 0.8309675457692547,
+      "testability_rate_t": 0.9762781008933022,
+      "total_commits": 1122
+    },
+    {
+      "collector_zero_success_rows": 212,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 341,
+          "recomputed": 341
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1186499652052888,
+          "recomputed": 0.1186499652052888,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1387306753458096,
+          "recomputed": 0.1387306753458096,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2674,
+          "recomputed": 2674
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2458,
+          "recomputed": 2458
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.8535253810003522,
+          "recomputed": 0.8535253810003521,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9979788222111522,
+          "recomputed": 0.9979788222111522,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2874,
+          "recomputed": 2874
+        }
+      },
+      "fully_testability_a": 0.1186499652052888,
+      "fully_testability_t": 0.1387306753458096,
+      "fully_testable_commits": 341,
+      "input_files": {
+        "report.csv": {
+          "rows": 2874,
+          "sha256": "35002f0e70d6598e23fc2911cb99a158b19f515e0216084158d9aa05e916f1e0"
+        },
+        "summary.csv": {
+          "rows": 2874,
+          "sha256": "7dcc2cb22304006d0129f7d67db22f74987adc1404be664e70d899946827e534"
+        }
+      },
+      "project": "aws-sdk-java",
+      "source_buildable_commits": 2674,
+      "test_buildable_commits": 2458,
+      "testability_rate_a": 0.8535253810003521,
+      "testability_rate_t": 0.9979788222111522,
+      "total_commits": 2874
+    },
+    {
+      "collector_zero_success_rows": 307,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 81,
+          "recomputed": 81
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 3.122502256758253e-17,
+          "difference": 3.122502256758253e-17,
+          "pass": true,
+          "published": 0.0078336557059961,
+          "recomputed": 0.007833655705996131,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 7.28583859910259e-17,
+          "difference": 7.28583859910259e-17,
+          "pass": true,
+          "published": 0.0105359001040582,
+          "recomputed": 0.010535900104058273,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 8036,
+          "recomputed": 8036
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 7688,
+          "recomputed": 7688
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7422952654774555,
+          "recomputed": 0.7422952654774555,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9983523731837786,
+          "recomputed": 0.9983523731837786,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 10340,
+          "recomputed": 10340
+        }
+      },
+      "fully_testability_a": 0.007833655705996131,
+      "fully_testability_t": 0.010535900104058273,
+      "fully_testable_commits": 81,
+      "input_files": {
+        "report.csv": {
+          "rows": 10340,
+          "sha256": "45ae51f1b0b4bebf488f00ec6e4c9ae56e56516784c3591c84c3d2401ff43c3e"
+        },
+        "summary.csv": {
+          "rows": 10340,
+          "sha256": "6268f99d40e00ab048ffb7d79f83832ec7fe3c97efbcdb6372d4fb1b68c49d31"
+        }
+      },
+      "project": "checkstyle",
+      "source_buildable_commits": 8036,
+      "test_buildable_commits": 7688,
+      "testability_rate_a": 0.7422952654774555,
+      "testability_rate_t": 0.9983523731837786,
+      "total_commits": 10340
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 9498,
+          "recomputed": 9498
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5581805359661495,
+          "recomputed": 0.5581805359661495,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9327310222920554,
+          "recomputed": 0.9327310222920554,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 10241,
+          "recomputed": 10241
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 10183,
+          "recomputed": 10183
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5984056217934909,
+          "recomputed": 0.5984056217934909,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9999479584049926,
+          "recomputed": 0.9999479584049926,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 17016,
+          "recomputed": 17016
+        }
+      },
+      "fully_testability_a": 0.5581805359661495,
+      "fully_testability_t": 0.9327310222920554,
+      "fully_testable_commits": 9498,
+      "input_files": {
+        "report.csv": {
+          "rows": 17016,
+          "sha256": "df15997dc58994ce019e69cfeb31758632b96a80af687e945f1247f6adf91896"
+        },
+        "summary.csv": {
+          "rows": 17016,
+          "sha256": "5d424e98c81261c1564ab06bac17793eabc4cd8f9c08c9a1d6abe4161f8d6603"
+        }
+      },
+      "project": "closure-compiler",
+      "source_buildable_commits": 10241,
+      "test_buildable_commits": 10183,
+      "testability_rate_a": 0.5984056217934909,
+      "testability_rate_t": 0.9999479584049926,
+      "total_commits": 17016
+    },
+    {
+      "collector_zero_success_rows": 20,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 232,
+          "recomputed": 232
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4504854368932038,
+          "recomputed": 0.45048543689320386,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.8854961832061069,
+          "recomputed": 0.8854961832061069,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 282,
+          "recomputed": 282
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 262,
+          "recomputed": 262
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": -5.551115123125783e-17,
+          "pass": true,
+          "published": 0.4993246136541109,
+          "recomputed": 0.49932461365411085,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9814968550834622,
+          "recomputed": 0.9814968550834622,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 515,
+          "recomputed": 515
+        }
+      },
+      "fully_testability_a": 0.45048543689320386,
+      "fully_testability_t": 0.8854961832061069,
+      "fully_testable_commits": 232,
+      "input_files": {
+        "report.csv": {
+          "rows": 515,
+          "sha256": "d72d78c20230fe4081cb81be28c44ddb07a862bb9979a4b402646040a8e939ee"
+        },
+        "summary.csv": {
+          "rows": 515,
+          "sha256": "af93e86fe7c4d3fb46d9b927cd0573b99cf57518257c238e34dd49bee0179523"
+        }
+      },
+      "project": "crawler4j",
+      "source_buildable_commits": 282,
+      "test_buildable_commits": 262,
+      "testability_rate_a": 0.49932461365411085,
+      "testability_rate_t": 0.9814968550834622,
+      "total_commits": 515
+    },
+    {
+      "collector_zero_success_rows": 8,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 934,
+          "recomputed": 934
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": 2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.1816060664981528,
+          "recomputed": 0.18160606649815283,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.6281102891728312,
+          "recomputed": 0.6281102891728312,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1820,
+          "recomputed": 1820
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1487,
+          "recomputed": 1487
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.2768393852721261,
+          "recomputed": 0.27683938527212615,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": 2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9574882033991556,
+          "recomputed": 0.9574882033991559,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 5143,
+          "recomputed": 5143
+        }
+      },
+      "fully_testability_a": 0.18160606649815283,
+      "fully_testability_t": 0.6281102891728312,
+      "fully_testable_commits": 934,
+      "input_files": {
+        "report.csv": {
+          "rows": 5143,
+          "sha256": "273108c9d980f34f24a290185b57b121aee31dcaf89f72d0b0e81a2aec823932"
+        },
+        "summary.csv": {
+          "rows": 5143,
+          "sha256": "a1d7cb87495a4f0306de6306fe6a3416427e2a049092d5e8a0fa9f20806d406e"
+        }
+      },
+      "project": "cucumber-jvm",
+      "source_buildable_commits": 1820,
+      "test_buildable_commits": 1487,
+      "testability_rate_a": 0.27683938527212615,
+      "testability_rate_t": 0.9574882033991559,
+      "total_commits": 5143
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 373,
+          "recomputed": 373
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5305832147937412,
+          "recomputed": 0.5305832147937412,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9920212765957448,
+          "recomputed": 0.9920212765957447,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 376,
+          "recomputed": 376
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 376,
+          "recomputed": 376
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.5346783879291619,
+          "recomputed": 0.534678387929162,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.999677943388832,
+          "recomputed": 0.9996779433888321,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 703,
+          "recomputed": 703
+        }
+      },
+      "fully_testability_a": 0.5305832147937412,
+      "fully_testability_t": 0.9920212765957447,
+      "fully_testable_commits": 373,
+      "input_files": {
+        "report.csv": {
+          "rows": 703,
+          "sha256": "2d2c3463002016108e844010e676c7e947c039af2fa174bf9a31ea57cfec23d5"
+        },
+        "summary.csv": {
+          "rows": 703,
+          "sha256": "2c15bbcc1a85b2e09076c79d51086136519ee9b7e26cb9244cff0e1d15111ae6"
+        }
+      },
+      "project": "dagger",
+      "source_buildable_commits": 376,
+      "test_buildable_commits": 376,
+      "testability_rate_a": 0.534678387929162,
+      "testability_rate_t": 0.9996779433888321,
+      "total_commits": 703
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 229,
+          "recomputed": 229
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.4103942652329749,
+          "recomputed": 0.4103942652329749,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.7339743589743589,
+          "recomputed": 0.7339743589743589,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 313,
+          "recomputed": 313
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 312,
+          "recomputed": 312
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5062718921618159,
+          "recomputed": 0.5062718921618159,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 3.3306690738754696e-16,
+          "difference": 3.3306690738754696e-16,
+          "pass": true,
+          "published": 0.9054478071355552,
+          "recomputed": 0.9054478071355555,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 558,
+          "recomputed": 558
+        }
+      },
+      "fully_testability_a": 0.4103942652329749,
+      "fully_testability_t": 0.7339743589743589,
+      "fully_testable_commits": 229,
+      "input_files": {
+        "report.csv": {
+          "rows": 558,
+          "sha256": "cb8185a0a59e3726f13b96b406319ee93c27800e16afea83fcdacf9fe08d3dd1"
+        },
+        "summary.csv": {
+          "rows": 558,
+          "sha256": "66d895f182eaded8af5738ca3bb0b8a41892951b54190bc67580b8f34b3225b7"
+        }
+      },
+      "project": "dex2jar",
+      "source_buildable_commits": 313,
+      "test_buildable_commits": 312,
+      "testability_rate_a": 0.5062718921618159,
+      "testability_rate_t": 0.9054478071355555,
+      "total_commits": 558
+    },
+    {
+      "collector_zero_success_rows": 81,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 137,
+          "recomputed": 137
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": 2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.118307426597582,
+          "recomputed": 0.11830742659758203,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 2.7755575615628914e-17,
+          "difference": 2.7755575615628914e-17,
+          "pass": true,
+          "published": 0.1997084548104956,
+          "recomputed": 0.19970845481049562,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 772,
+          "recomputed": 772
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 686,
+          "recomputed": 686
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.5571216460943876,
+          "recomputed": 0.5571216460943877,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 2.220446049250313e-16,
+          "difference": 2.220446049250313e-16,
+          "pass": true,
+          "published": 0.9404473267890684,
+          "recomputed": 0.9404473267890686,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1158,
+          "recomputed": 1158
+        }
+      },
+      "fully_testability_a": 0.11830742659758203,
+      "fully_testability_t": 0.19970845481049562,
+      "fully_testable_commits": 137,
+      "input_files": {
+        "report.csv": {
+          "rows": 1158,
+          "sha256": "4861000e9b3871f66ca4c21ae532d1526670f09d94f3523d11a11d001c4de76e"
+        },
+        "summary.csv": {
+          "rows": 1158,
+          "sha256": "cba23f91bf000e84427680a0f6937559df4a271f53d887991f7703f577c3cfc8"
+        }
+      },
+      "project": "disconf",
+      "source_buildable_commits": 772,
+      "test_buildable_commits": 686,
+      "testability_rate_a": 0.5571216460943877,
+      "testability_rate_t": 0.9404473267890686,
+      "total_commits": 1158
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 578,
+          "recomputed": 578
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.2793620106331561,
+          "recomputed": 0.27936201063315613,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9649415692821368,
+          "recomputed": 0.9649415692821369,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 599,
+          "recomputed": 599
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 599,
+          "recomputed": 599
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.2893373800987687,
+          "recomputed": 0.2893373800987687,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9993973946984182,
+          "recomputed": 0.9993973946984183,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2069,
+          "recomputed": 2069
+        }
+      },
+      "fully_testability_a": 0.27936201063315613,
+      "fully_testability_t": 0.9649415692821369,
+      "fully_testable_commits": 578,
+      "input_files": {
+        "report.csv": {
+          "rows": 2069,
+          "sha256": "d4aa9ee867b3ffdd3e0c4f59a712d51e63f283db7ae2120a015ca5c01f758589"
+        },
+        "summary.csv": {
+          "rows": 2069,
+          "sha256": "4375a31f199260b00e56624b8b28e8ef5eac8a816b89c6e10745ced572b60fb1"
+        }
+      },
+      "project": "dropwizard",
+      "source_buildable_commits": 599,
+      "test_buildable_commits": 599,
+      "testability_rate_a": 0.2893373800987687,
+      "testability_rate_t": 0.9993973946984183,
+      "total_commits": 2069
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1143,
+          "recomputed": 1143
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.1774844720496894,
+          "recomputed": 0.17748447204968945,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.3369693396226415,
+          "recomputed": 0.33696933962264153,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3472,
+          "recomputed": 3472
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3392,
+          "recomputed": 3392
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5262274668572172,
+          "recomputed": 0.5262274668572172,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9990875255190091,
+          "recomputed": 0.9990875255190091,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 6440,
+          "recomputed": 6440
+        }
+      },
+      "fully_testability_a": 0.17748447204968945,
+      "fully_testability_t": 0.33696933962264153,
+      "fully_testable_commits": 1143,
+      "input_files": {
+        "report.csv": {
+          "rows": 6440,
+          "sha256": "8fb2ad643c4937404719588147532a585231f19ba9d53caffcaad08f438e1a37"
+        },
+        "summary.csv": {
+          "rows": 6440,
+          "sha256": "70e7e9bef6572719cf96a98b31028b1ea1ced154958d9ad8fa5917e10225686e"
+        }
+      },
+      "project": "druid",
+      "source_buildable_commits": 3472,
+      "test_buildable_commits": 3392,
+      "testability_rate_a": 0.5262274668572172,
+      "testability_rate_t": 0.9990875255190091,
+      "total_commits": 6440
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 356,
+          "recomputed": 356
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 8.326672684688674e-17,
+          "difference": 8.326672684688674e-17,
+          "pass": true,
+          "published": 0.075970977379428,
+          "recomputed": 0.07597097737942808,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.1496427070197562,
+          "recomputed": 0.1496427070197562,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2571,
+          "recomputed": 2571
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2379,
+          "recomputed": 2379
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5063653424221803,
+          "recomputed": 0.5063653424221803,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9974056303448242,
+          "recomputed": 0.9974056303448242,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 4686,
+          "recomputed": 4686
+        }
+      },
+      "fully_testability_a": 0.07597097737942808,
+      "fully_testability_t": 0.1496427070197562,
+      "fully_testable_commits": 356,
+      "input_files": {
+        "report.csv": {
+          "rows": 4686,
+          "sha256": "083ca13aa557bce922b273226be0404f50c90f24b7426e9aa1eae548e951dfde"
+        },
+        "summary.csv": {
+          "rows": 4686,
+          "sha256": "0017405aa96599bc376ead83cf7418e9fb5d2f3135c2785bc8235d3380a37920"
+        }
+      },
+      "project": "dubbo",
+      "source_buildable_commits": 2571,
+      "test_buildable_commits": 2379,
+      "testability_rate_a": 0.5063653424221803,
+      "testability_rate_t": 0.9974056303448242,
+      "total_commits": 4686
+    },
+    {
+      "collector_zero_success_rows": 2,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 1158,
+          "recomputed": 1158
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.5361111111111111,
+          "recomputed": 0.5361111111111111,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.571287617168229,
+          "recomputed": 0.571287617168229,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2032,
+          "recomputed": 2032
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2027,
+          "recomputed": 2027
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9352621614943412,
+          "recomputed": 0.9352621614943412,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": -1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.996628647670339,
+          "recomputed": 0.9966286476703389,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 2160,
+          "recomputed": 2160
+        }
+      },
+      "fully_testability_a": 0.5361111111111111,
+      "fully_testability_t": 0.571287617168229,
+      "fully_testable_commits": 1158,
+      "input_files": {
+        "report.csv": {
+          "rows": 2160,
+          "sha256": "5489306af7a39abe392db6a8233e0e5d16011d70894c2cf00886c0339d90d0af"
+        },
+        "summary.csv": {
+          "rows": 2160,
+          "sha256": "4112d71b62e0513344fc89c2fa104aadc81e4a4f53f1bd7e8a2d83bd8d8e424f"
+        }
+      },
+      "project": "elastic-job",
+      "source_buildable_commits": 2032,
+      "test_buildable_commits": 2027,
+      "testability_rate_a": 0.9352621614943412,
+      "testability_rate_t": 0.9966286476703389,
+      "total_commits": 2160
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 0,
+          "recomputed": 0
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.0,
+          "recomputed": 0.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3641,
+          "recomputed": 3641
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3413,
+          "recomputed": 3413
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.8780899072580175,
+          "recomputed": 0.8780899072580175,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.9938650195539764,
+          "recomputed": 0.9938650195539764,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3863,
+          "recomputed": 3863
+        }
+      },
+      "fully_testability_a": 0.0,
+      "fully_testability_t": 0.0,
+      "fully_testable_commits": 0,
+      "input_files": {
+        "report.csv": {
+          "rows": 3863,
+          "sha256": "09af56bb922ba12f0dc6cd6e62452ed1a7ba49198d287775222c6808c26d87dd"
+        },
+        "summary.csv": {
+          "rows": 3863,
+          "sha256": "8367b349f00797096e3860bc4915b43bf37916b0f426701ffee6bdcf188f3b33"
+        }
+      },
+      "project": "fastjson",
+      "source_buildable_commits": 3641,
+      "test_buildable_commits": 3413,
+      "testability_rate_a": 0.8780899072580175,
+      "testability_rate_t": 0.9938650195539764,
+      "total_commits": 3863
+    },
+    {
+      "collector_zero_success_rows": 0,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3,
+          "recomputed": 3
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 7.779150587583494e-17,
+          "difference": 7.779150587583494e-17,
+          "pass": true,
+          "published": 0.0001603763498342,
+          "recomputed": 0.00016037634983427778,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 5.551115123125783e-17,
+          "difference": 5.551115123125783e-17,
+          "pass": true,
+          "published": 0.031578947368421,
+          "recomputed": 0.031578947368421054,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 98,
+          "recomputed": 98
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 95,
+          "recomputed": 95
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 4.336808689942018e-18,
+          "difference": 4.336808689942018e-18,
+          "pass": true,
+          "published": 0.0049512699687163,
+          "recomputed": 0.0049512699687163046,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9749311161558653,
+          "recomputed": 0.9749311161558654,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 18706,
+          "recomputed": 18706
+        }
+      },
+      "fully_testability_a": 0.00016037634983427778,
+      "fully_testability_t": 0.031578947368421054,
+      "fully_testable_commits": 3,
+      "input_files": {
+        "report.csv": {
+          "rows": 18706,
+          "sha256": "5d24755086d86c28541599b969b976e6d482042e7243007ddc0916ddb98ecc06"
+        },
+        "summary.csv": {
+          "rows": 18706,
+          "sha256": "b2c70033b2daa35952340c9baf198a6984034cae7f469176397efb71958a5eed"
+        }
+      },
+      "project": "flink",
+      "source_buildable_commits": 98,
+      "test_buildable_commits": 95,
+      "testability_rate_a": 0.0049512699687163046,
+      "testability_rate_t": 0.9749311161558654,
+      "total_commits": 18706
+    },
+    {
+      "collector_zero_success_rows": 89,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 195,
+          "recomputed": 195
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 6.071532165918825e-17,
+          "difference": 6.071532165918825e-17,
+          "pass": true,
+          "published": 0.0101668404588112,
+          "recomputed": 0.010166840458811261,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.8986175115207373,
+          "recomputed": 0.8986175115207373,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 307,
+          "recomputed": 307
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 217,
+          "recomputed": 217
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 9.71445146547012e-17,
+          "difference": 9.71445146547012e-17,
+          "pass": true,
+          "published": 0.0112066967906383,
+          "recomputed": 0.011206696790638397,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9905273937532002,
+          "recomputed": 0.9905273937532003,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 19180,
+          "recomputed": 19180
+        }
+      },
+      "fully_testability_a": 0.010166840458811261,
+      "fully_testability_t": 0.8986175115207373,
+      "fully_testable_commits": 195,
+      "input_files": {
+        "report.csv": {
+          "rows": 19180,
+          "sha256": "c9beb0db47b55bfab8a3997665487092c9253383d09568fa9f9a246c2413b67d"
+        },
+        "summary.csv": {
+          "rows": 19180,
+          "sha256": "962f6a6e53cc25dc64d42b36656912337445500dd4ef65edcfd527c4cc3f0081"
+        }
+      },
+      "project": "graylog2-server",
+      "source_buildable_commits": 307,
+      "test_buildable_commits": 217,
+      "testability_rate_a": 0.011206696790638397,
+      "testability_rate_t": 0.9905273937532003,
+      "total_commits": 19180
+    },
+    {
+      "collector_zero_success_rows": 1,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 20,
+          "recomputed": 20
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 6.841315708383533e-17,
+          "difference": 6.841315708383533e-17,
+          "pass": true,
+          "published": 0.0003753331081334,
+          "recomputed": 0.0003753331081334684,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 21,
+          "recomputed": 21
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 20,
+          "recomputed": 20
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 6.841315708383533e-17,
+          "difference": 6.841315708383533e-17,
+          "pass": true,
+          "published": 0.0003753331081334,
+          "recomputed": 0.0003753331081334684,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 1.0,
+          "recomputed": 1.0,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 53286,
+          "recomputed": 53286
+        }
+      },
+      "fully_testability_a": 0.0003753331081334684,
+      "fully_testability_t": 1.0,
+      "fully_testable_commits": 20,
+      "input_files": {
+        "report.csv": {
+          "rows": 53286,
+          "sha256": "474cae34a9cf42934f58f2c765f480c3bab05b5c6ca15bb2811824dc07329c24"
+        },
+        "summary.csv": {
+          "rows": 53286,
+          "sha256": "072b00fd958a9921df3625deb029ae41d92711ce41ad2a68fa95129e5a7fa6fd"
+        }
+      },
+      "project": "camel",
+      "source_buildable_commits": 21,
+      "test_buildable_commits": 20,
+      "testability_rate_a": 0.0003753331081334684,
+      "testability_rate_t": 1.0,
+      "total_commits": 53286
+    },
+    {
+      "collector_zero_success_rows": 3,
+      "comparisons": {
+        "Fully Testable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 889,
+          "recomputed": 889
+        },
+        "FullyTestability_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.248046875,
+          "recomputed": 0.248046875,
+          "tolerance": 5e-15
+        },
+        "FullyTestability_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9769230769230768,
+          "recomputed": 0.9769230769230769,
+          "tolerance": 5e-15
+        },
+        "Source buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 913,
+          "recomputed": 913
+        },
+        "Test buildable commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 910,
+          "recomputed": 910
+        },
+        "TestabilityRate_A": {
+          "absolute_difference": 0.0,
+          "difference": 0.0,
+          "pass": true,
+          "published": 0.253895942964444,
+          "recomputed": 0.253895942964444,
+          "tolerance": 5e-15
+        },
+        "TestabilityRate_T": {
+          "absolute_difference": 1.1102230246251565e-16,
+          "difference": 1.1102230246251565e-16,
+          "pass": true,
+          "published": 0.9999594061368872,
+          "recomputed": 0.9999594061368873,
+          "tolerance": 5e-15
+        },
+        "Total Commits": {
+          "difference": 0,
+          "pass": true,
+          "published": 3584,
+          "recomputed": 3584
+        }
+      },
+      "fully_testability_a": 0.248046875,
+      "fully_testability_t": 0.9769230769230769,
+      "fully_testable_commits": 889,
+      "input_files": {
+        "report.csv": {
+          "rows": 3584,
+          "sha256": "18a99b5e3e75ed8eee38a7b6428eeb3d2d82d54e161bd60d3b2acab6b968965b"
+        },
+        "summary.csv": {
+          "rows": 3584,
+          "sha256": "87c9fd1517fd9e9c6ded820548955acc080175ad9af2965a2e97eafa29468330"
+        }
+      },
+      "project": "zxing",
+      "source_buildable_commits": 913,
+      "test_buildable_commits": 910,
+      "testability_rate_a": 0.253895942964444,
+      "testability_rate_t": 0.9999594061368873,
+      "total_commits": 3584
+    }
+  ],
+  "published_csv": {
+    "rows": 66,
+    "sha256": "4d5e03a8d77470ef76a8820e7f985a082c01cd65a856640c765933469ec57cf2"
+  },
+  "rate_mismatches": [],
+  "runtime": {
+    "pandas": "2.2.3",
+    "python": "3.12.13"
+  },
+  "schema": "paper04-anchor-downstream-reproduction/1.0",
+  "scope": "All 66 projects in the fixed bundled Many4JResults.csv; no Paper04 consequence output was computed.",
+  "source_contract": {
+    "cells_zero_based": [
+      4,
+      5
+    ],
+    "notebook": "notebooks/ProjectAnalysis/TestAnalysis/01-CreateResume.ipynb",
+    "repository_commit": "033be23df608e83621625955171fccc0db553e47",
+    "target_columns": [
+      "Total Commits",
+      "Source buildable commits",
+      "Test buildable commits",
+      "Fully Testable commits",
+      "FullyTestability_A",
+      "FullyTestability_T",
+      "TestabilityRate_A",
+      "TestabilityRate_T"
+    ]
+  },
+  "status": "PASS",
+  "summary": {
+    "count_comparisons": 264,
+    "count_mismatches": 0,
+    "maximum_rate_absolute_difference": 3.3306690738754696e-16,
+    "projects": 66,
+    "rate_comparisons": 264,
+    "rate_mismatches": 0
+  }
+}

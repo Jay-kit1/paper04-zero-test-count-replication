@@ -1,0 +1,401 @@
+{
+  "records": [
+    {
+      "frame_rows": 2736,
+      "omitted_project": "Bukkit",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.681372549020",
+        "fraction": "139/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.670382553606",
+        "fraction": "11005/16416"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.727948343080",
+        "fraction": "5975/8208"
+      }
+    },
+    {
+      "frame_rows": 3390,
+      "omitted_project": "CoreNLP",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 146,
+      "snapshot_weighted_lower": {
+        "decimal": "0.540167158309",
+        "fraction": "10987/20340"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.651229105211",
+        "fraction": "6623/10170"
+      }
+    },
+    {
+      "frame_rows": 3390,
+      "omitted_project": "DiskLruCache",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.700980392157",
+        "fraction": "143/204"
+      },
+      "project_count": 17,
+      "sample_units": 146,
+      "snapshot_weighted_lower": {
+        "decimal": "0.541052114061",
+        "fraction": "2201/4068"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.652114060964",
+        "fraction": "3316/5085"
+      }
+    },
+    {
+      "frame_rows": 3392,
+      "omitted_project": "alluxio",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 148,
+      "snapshot_weighted_lower": {
+        "decimal": "0.540438286164",
+        "fraction": "10999/20352"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.651434748428",
+        "fraction": "6629/10176"
+      }
+    },
+    {
+      "frame_rows": 3374,
+      "omitted_project": "android-volley",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.537986563920",
+        "fraction": "10891/20244"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.649575182770",
+        "fraction": "6575/10122"
+      }
+    },
+    {
+      "frame_rows": 3366,
+      "omitted_project": "ansj_seg",
+      "project_balanced_lower": {
+        "decimal": "0.504901960784",
+        "fraction": "103/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.538225391167",
+        "fraction": "5435/10098"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.648742325213",
+        "fraction": "6551/10098"
+      }
+    },
+    {
+      "frame_rows": 2823,
+      "omitted_project": "canal",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.447809658755",
+        "fraction": "7585/16938"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.581178415397",
+        "fraction": "4922/8469"
+      }
+    },
+    {
+      "frame_rows": 1945,
+      "omitted_project": "clojure",
+      "project_balanced_lower": {
+        "decimal": "0.519607843137",
+        "fraction": "53/102"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.666666666667",
+        "fraction": "2/3"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.508740359897",
+        "fraction": "1979/3890"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.702313624679",
+        "fraction": "1366/1945"
+      }
+    },
+    {
+      "frame_rows": 3304,
+      "omitted_project": "graylog2-server",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.700980392157",
+        "fraction": "143/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.555135189669",
+        "fraction": "11005/19824"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.669087974173",
+        "fraction": "829/1239"
+      }
+    },
+    {
+      "frame_rows": 3289,
+      "omitted_project": "guava",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.526046417351",
+        "fraction": "10381/19734"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.640518901388",
+        "fraction": "6320/9867"
+      }
+    },
+    {
+      "frame_rows": 3226,
+      "omitted_project": "java-design-patterns",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.651960784314",
+        "fraction": "133/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.568557553213",
+        "fraction": "11005/19356"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.642126472412",
+        "fraction": "4143/6452"
+      }
+    },
+    {
+      "frame_rows": 3391,
+      "omitted_project": "javaee7-samples",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 147,
+      "snapshot_weighted_lower": {
+        "decimal": "0.540302762214",
+        "fraction": "10993/20346"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.651331957141",
+        "fraction": "6626/10173"
+      }
+    },
+    {
+      "frame_rows": 3392,
+      "omitted_project": "javapoet",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.700980392157",
+        "fraction": "143/204"
+      },
+      "project_count": 17,
+      "sample_units": 148,
+      "snapshot_weighted_lower": {
+        "decimal": "0.540733097484",
+        "fraction": "11005/20352"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.651729559748",
+        "fraction": "829/1272"
+      }
+    },
+    {
+      "frame_rows": 3367,
+      "omitted_project": "nanohttpd",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.676470588235",
+        "fraction": "23/34"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.544748044748",
+        "fraction": "11005/20202"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.653351153351",
+        "fraction": "13199/20202"
+      }
+    },
+    {
+      "frame_rows": 3389,
+      "omitted_project": "presto",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.656862745098",
+        "fraction": "67/102"
+      },
+      "project_count": 17,
+      "sample_units": 145,
+      "snapshot_weighted_lower": {
+        "decimal": "0.541211763549",
+        "fraction": "11005/20334"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.651421264877",
+        "fraction": "6623/10167"
+      }
+    },
+    {
+      "frame_rows": 3382,
+      "omitted_project": "webmagic",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 138,
+      "snapshot_weighted_lower": {
+        "decimal": "0.539079440173",
+        "fraction": "10939/20292"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.650404100138",
+        "fraction": "6599/10146"
+      }
+    },
+    {
+      "frame_rows": 3389,
+      "omitted_project": "wildfly",
+      "project_balanced_lower": {
+        "decimal": "0.553921568627",
+        "fraction": "113/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.700980392157",
+        "fraction": "143/204"
+      },
+      "project_count": 17,
+      "sample_units": 145,
+      "snapshot_weighted_lower": {
+        "decimal": "0.541211763549",
+        "fraction": "11005/20334"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.652306481755",
+        "fraction": "6632/10167"
+      }
+    },
+    {
+      "frame_rows": 3136,
+      "omitted_project": "zheng",
+      "project_balanced_lower": {
+        "decimal": "0.495098039216",
+        "fraction": "101/204"
+      },
+      "project_balanced_upper": {
+        "decimal": "0.642156862745",
+        "fraction": "131/204"
+      },
+      "project_count": 17,
+      "sample_units": 137,
+      "snapshot_weighted_lower": {
+        "decimal": "0.502923044218",
+        "fraction": "9463/18816"
+      },
+      "snapshot_weighted_upper": {
+        "decimal": "0.622980442177",
+        "fraction": "5861/9408"
+      }
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_LOPO_1_0"
+}

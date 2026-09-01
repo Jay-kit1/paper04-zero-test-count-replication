@@ -1,0 +1,852 @@
+{
+  "archive": {
+    "bytes": 753093,
+    "sha256": "b8ace995f468a0b986934a68940931a7ef457642b21d58ef7f285435134da4be",
+    "validity": "VALID"
+  },
+  "audit_id": "eec279a49dbb2234",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": false,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK",
+    "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+  ],
+  "positive_evidence": [
+    {
+      "path": "batch/batch-listeners/src/test/java/org.javaee7.batch.listeners/BatchListenersTest.java",
+      "sha256": "29ba732185f8e1358737277c6325ea0c9b9386bd2c903b49a5e0280137ef40d4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/batchlet-simple/src/test/java/org/javaee7/batch/batchlet/simple/MyBatchletTest.java",
+      "sha256": "480d64e78c8a0136f6ac56ce15d4aa1edc2922c294e992b80c43d6ca0a81b322",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/chunk-checkpoint/src/test/java/org/javaee7/batch/chunk/checkpoint/BatchChunkCheckpointTest.java",
+      "sha256": "88faa2434d3a81af21d4678b75c154f3cbeaa7b9e3ac81be7b951ecd665f3324",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/chunk-csv-database/src/test/java/org/javaee7/batch/chunk/csv/database/BatchCSVDatabaseTest.java",
+      "sha256": "9e0e38a4efbc052cf3ea26d0609f5cda8e7f72dd9b3349cf14f64026354504ce",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/chunk-exception/src/test/java/org/javaee7/batch/chunk/exception/BatchChunkExceptionTest.java",
+      "sha256": "7211f39628676017a539ce202991f1c65b3491ec158f5ff8763bbdf53c961a4d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/chunk-mapper/src/test/java/org/javaee7/batch/sample/chunk/mapper/BatchChunkMapperTest.java",
+      "sha256": "cd620bc623804d8685ba49d7231c1cbd56f046e0cb17ee030c8cce24ec134503",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "batch/chunk-simple/src/test/java/org/javaee7/batch/chunk/simple/ChunkSimpleTest.java",
+      "sha256": "f2ac44dffbc2b17e4fbcab92df8afc431919046142fd3817be537fe98ad968f8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/alternatives/src/test/java/org/javaee7/cdi/alternatives/GreetingTest.java",
+      "sha256": "ce4f009b0ee33eb7a27d766e8b8774e8d95e17292f1360279b6a756dd267b1f5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/bean-discovery-all/src/test/java/org/javaee7/cdi/nobeans/xml/GreetingTest.java",
+      "sha256": "71ea8bf4f8886c9602fbc23db1c4844a64379af578c9e0863ea0979ceeabe44b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/bean-discovery-annotated/src/test/java/org/javaee7/cdi/bean/discovery/annotated/GreetingTest.java",
+      "sha256": "8cbf985b54a095222a655f1872c342d08dd43e70fca4e172aee92a1bebdb0c48",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/bean-discovery-none/src/test/java/org/javaee7/cdi/bean/discovery/none/GreetingTest.java",
+      "sha256": "b7031f7d56babb5f0aaeb01ca442507eaf2aa2d778261ce9dcdffafde4586f79",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/beansxml-noversion/src/test/java/org/javaee7/cdi/beansxml/noversion/GreetingTest.java",
+      "sha256": "a5cc266208d5959ccb0670f38651bdbce66f9df631332b8516af0b4dd8a4e7c1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/decorators/src/test/java/org/javaee7/cdi/decorators/DecoratorTest.java",
+      "sha256": "6aec5c632fa2e4a62e375cd6c69e6f4f5075b156cbbad2ab7a4ab6489a1481a5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/nobeans-el-injection-flowscoped/src/test/java/org/javaee7/cdi/nobeans/el/injection/flowscoped/FlowScopedBeanTest.java",
+      "sha256": "f0b7b9675b3fbb2ce9e4eca9a63025876a44861c978c94e7dfcb0174a8b85d13",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/nobeans-el-injection/src/test/java/org/javaee7/cdi/nobeans/el/injection/ScopedBeanTest.java",
+      "sha256": "cbd96a4fd6ea19bb31356e30910e8dfbfae002bf0b8b993479c0105b57fc6cfd",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "cdi/nobeans-xml/src/test/java/org/javaee7/cdi/nobeans/xml/ScopedBeanTest.java",
+      "sha256": "179dffc332265a2508fd0a2f2efb8ec7d802c3436f864b16c1b2e58069bd78a1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "concurrency/managedexecutor/src/test/java/org/javaee7/concurrency/managedexecutor/ExecutorInjectTest.java",
+      "sha256": "c839a6f1c27f3201ea7de367948e1fa3787c5a6e762788cee2ccdaffc643e374",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "concurrency/managedexecutor/src/test/java/org/javaee7/concurrency/managedexecutor/ExecutorJNDITest.java",
+      "sha256": "2ec6d34b90c2b397d9ee80a627a0c3207c9a1bf9390e0a03bc5e4f409054f13b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "concurrency/managedthreadfactory/src/test/java/org/javaee7/concurrency/managedthreadfactory/MyTaskTest.java",
+      "sha256": "2ed6715273cf1e1ed3771845c13866dc224d58ac5ca5f3ca78191409ef90e9ac",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "ejb/async-ejb/src/test/java/org/javaee7/ejb/async/AsyncClassBeanTest.java",
+      "sha256": "b3624b990dee7fadc8a5666959cb18a85fe99ab777e4813fd66c9565ea4abb55",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/async-ejb/src/test/java/org/javaee7/ejb/async/AsyncMethodBeanTest.java",
+      "sha256": "ff11a2ee0d5e7e5f20f3da5cbb088e0589213bd258ecf2289389253a999586a1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/embeddable/src/test/java/org/javaee7/ejb/embeddable/MyBeanTest.java",
+      "sha256": "c79df619132326ecd13e321d6b6c7ce2e777c21db4891a00e68a77ff23117ce3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanStatefulnessTest.java",
+      "sha256": "ea75f195c8bd82681a5cf6d028384a3e0d60b3a855d5e37c184e5dcb0d7b8938",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanTest.java",
+      "sha256": "f2262557711ab12b3e3457d5f9f4eba6e9e2a814e0239bbdbc797cad391f0f8a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanWithInterfaceTest.java",
+      "sha256": "a73754badc68397f9f708da2501f6731d78c89e966d5457ab9d48350ca517cf5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/stateless/src/test/java/org/javaee7/ejb/stateless/AccountSessionBeanTest.java",
+      "sha256": "ab78c180998219a3a1fede452d76ee7a174a83748c3906442ae8e3e430085d1a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/stateless/src/test/java/org/javaee7/ejb/stateless/AccountSessionBeanWithInterfaceTest.java",
+      "sha256": "b2d900fb50ca496bcabf64edf02c3cc82a364c4b169764b2bbf38f97864c1818",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/stateless/src/test/java/org/javaee7/ejb/stateless/AccountSessionStatelessnessTest.java",
+      "sha256": "b79bfc28cf0c460468869273bb3ee171fd6ccb472438e2ed9424e8bc8155fa7a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "ejb/timer/src/test/java/org/javaee7/ejb/timer/TimerSessionBeanTest.java",
+      "sha256": "20b5c17f5b87f941d6cb4285781aee78892ec64b937b9d87534a0ffe8145d1da",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "el/standalone/src/test/java/org/javaee7/el/standalone/ELResolverTest.java",
+      "sha256": "9639e54ac858a35c04b225405232b74620cbff79b27f80f8bd06a3fcea48ec48",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "extra/nosql/hibernate-ogm/src/test/java/org/javaee7/extra/nosql/hibernateogm/EhcacheTest.java",
+      "sha256": "61f9474cf7687cec90caa9e2808b3ef5dc5a3e9655957a373ddaa65c9075a244",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "extra/nosql/hibernate-ogm/src/test/java/org/javaee7/extra/nosql/hibernateogm/commons/AbstractOgmTest.java",
+      "sha256": "31172f068613548167c8da07c382e44d4fed7236f9f48fe677d67bcb7e9f4a75",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/basic-authentication/src/test/java/org/javaee7/jaspic/basicauthentication/BasicAuthenticationProtectedTest.java",
+      "sha256": "fadd1db89fc7e440b3c3c1b9b6ba1fe32956948820b57b1aa70cbb2820ecd768",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/basic-authentication/src/test/java/org/javaee7/jaspic/basicauthentication/BasicAuthenticationPublicTest.java",
+      "sha256": "0f247aa01a218b2b6f33b1f979b73e0d94c122a2b9a472b770244582fcd1c0b7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/basic-authentication/src/test/java/org/javaee7/jaspic/basicauthentication/BasicAuthenticationStatelessTest.java",
+      "sha256": "6ffd1203c10dd60dfba9b2ace769fbe28e28e654429964c71f7d7f224d711805",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/ejb-propagation/src/test/java/org/javaee7/jaspic/ejbpropagation/ProtectedEJBPropagationTest.java",
+      "sha256": "1d44e06d6b92d96a42d780e56202ddfab818d68e569aca17b4a515b491ff5324",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/ejb-propagation/src/test/java/org/javaee7/jaspic/ejbpropagation/PublicEJBPropagationTest.java",
+      "sha256": "64ed87ab4765322e4690a94b131bc0b7a47c5cd540d394270e48403b661cfb08",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/lifecycle/src/test/java/org/javaee7/jaspic/lifecycle/AuthModuleMethodInvocationTest.java",
+      "sha256": "f89e89e07101dbb7c759cca7f28d939a3ef7207edfbcebf6fdd1bc290d991a56",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/register-session/src/test/java/org/javaee7/jaspic/registersession/RegisterSessionTest.java",
+      "sha256": "2ed0efd9fc3d5a29faae3764c7cd30a40e73ae13b665c2f2e458e334279170e1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaspic/wrapping/src/test/java/org/javaee7/jaspic/wrapping/WrappingTest.java",
+      "sha256": "2d23dfb81cd2495fd5993c1e1b2fb4d66ee475c6a59003d6009433a4f29c603d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/angularjs/src/test/java/org/javaee7/jaxrs/angularjs/NoteResourceImplTest.java",
+      "sha256": "7d764caec88b05eaa3335ddff7679817e1ed62de5a12091a22917db6c7a40721",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/async-client/src/test/java/org/javaee7/jaxrs/asyncclient/MyResourceTest.java",
+      "sha256": "e07b306cf811e943ac4805ab8263f2d5b274dc0e8b01e5d88dc7134da1ad2ba6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/async-server/src/test/java/org/javaee7/jaxrs/asyncserver/MyResourceTest.java",
+      "sha256": "d4b6e1693ec5be7fe6e8f5198cb9095a07cb95ff2b2d835f38c950bdd849b563",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/beanvalidation/src/test/java/org/javaee7/jaxrs/beanvalidation/MyResourceTest.java",
+      "sha256": "8105e088378d916f044f44e0a1ad44386a609f1c4f4b780efd7fe59d480c1400",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/client-negotiation/src/test/java/org/javaee7/jaxrs/client/negotiation/MyResourceTest.java",
+      "sha256": "7765cfcc4924faeaaa40337440e6c56ac7bbcecd785c37a0068c604a08f446e9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/dynamicfilter/src/test/java/org/javaee7/jaxrs/dynamicfilter/MyResourceTest.java",
+      "sha256": "9d3f4b4cbcbe2d2c4de1c7076391d635ecae3e853b09ad111835aa72be5f07a5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/filter/src/test/java/org/javaee7/jaxrs/filter/MyResourceTest.java",
+      "sha256": "aa2d37e76e0fab0a397eefdfdd16dfdd02388782b7f0bba61f90aca12346656b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/jaxrs-client/src/test/java/org/javaee7/jaxrs/client/MyResourceTest.java",
+      "sha256": "71e226a17c21fd55022b577c553627a62399abd5b4247a0c81f8304aee79f22e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/jaxrs-endpoint/src/test/java/org/javaee7/jaxrs/endpoint/MyResourceTest.java",
+      "sha256": "10c1e44875f2a59f5ce189af6d75e1708e5f86f3497268995fcbc65bc928b47e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/jaxrs-security-declarative/src/test/java/org/javaee7/jaxrs/security/declarative/MyResourceTest.java",
+      "sha256": "5f526c33dc357ed5d569dc38d9c17cafc551b14fd301853842a3d594ae3e6afa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/jsonp/src/test/java/org/javaee7/jaxrs/jsonp/MyResourceTest.java",
+      "sha256": "f4e7f4a1fd76521335da8cd88bb5c025098b59a30dd816223cea8692080ee62e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/mapping-exceptions/src/test/java/org/javaee7/jaxrs/mapping/exceptions/MyResourceTest.java",
+      "sha256": "573475baa0e971854258453f9759365da2c573c03960b03131fb1a3d79ce0ca3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/readerwriter-injection/src/test/java/org/javaee7/jaxrs/readerwriter/injection/MyResourceTest.java",
+      "sha256": "d93f476bc4c9d808c6e25ad1cdb6c2bdf34dbcd2d4a06973c0e05a58bf1ade63",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/readerwriter/src/test/java/org/javaee7/jaxrs/readerwriter/MyResourceTest.java",
+      "sha256": "fd7bcedc045a41e389299455e8285bf50072505343fb57d9e3ef0bff8997e722",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/resource-validation/src/test/java/org/javaee7/jaxrs/resource/validation/NameAddResourceTest.java",
+      "sha256": "40ab1ef5d6dfbb3c6f9e8f42b6617b54fcac08eb7b61d03063ad126c9cfc29b9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/server-negotiation/src/test/java/org/javaee7/jaxrs/server/negotiation/MyResourceTest.java",
+      "sha256": "7cb7bf9847b5563a6f53011e66d9bd1daf1472458979226194c7e645b5d06113",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/singleton/src/test/java/org/javaee7/jaxrs/singleton/AnnotatedSingletonResourceTest.java",
+      "sha256": "10295750642b5c003dda20245c77d9aa31de73a81fa7d5913b6ae1460d4770b0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jaxrs/singleton/src/test/java/org/javaee7/jaxrs/singleton/ApplicationSingletonResourceTest.java",
+      "sha256": "c96167ea2d381d4e116e64c22e31189baef882a671d5fdb6e68788149e25cf55",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jca/connector-simple/connector/src/test/java/org/javaee7/jca/connector/simple/connector/AppTest.java",
+      "sha256": "f163811db6b67a7797a42d19cf1f295f2e0678a9f626e61b2f45634cb38dd55e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "jms/jms-xa/src/test/java/org/javaee7/jms/xa/AbstractUserManagerTest.java",
+      "sha256": "ddf8cb16e5d9a574bb48e28553c9e72d3daa2b58dfad582db15a76b9e579a2e2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "jms/jms-xa/src/test/java/org/javaee7/jms/xa/UserManagerNonXATest.java",
+      "sha256": "34e540e659cc502b34f4649a140a5610f5f401a56423731e3580532297ac7068",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jms/jms-xa/src/test/java/org/javaee7/jms/xa/UserManagerXATest.java",
+      "sha256": "e74de1477867e461efca3ec99b7083f247f4254d583b84ff2e9fc5ee4fdd9036",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jms/send-receive/src/test/java/org/javaee7/jms/send/receive/SyncTest.java",
+      "sha256": "9cc42ab619ff4979df7b42c5baec0d597fd565758acefa1fe3adcc2842201c67",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jms/send-receive/src/test/java/org/javaee7/jms/send/receive/mdb/AsyncTest.java",
+      "sha256": "c842f8cac5a63047106ac120b32a26676a07e5ed1dc18040cda11680c955bd34",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jms/send-receive/src/test/java/org/javaee7/jms/send/receive/mdb/ReceptionSynchronizerTest.java",
+      "sha256": "f0b4117021b71c16d39158985c652b26595703238cacc038ee527ca8714b6128",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jpa/datasourcedefinition/src/test/java/org/javaee7/jpa/datasourcedefinition/DataSourceDefinitionTest.java",
+      "sha256": "eb112db786a026d36c2288344dc4363e118e362985b06ae53c557d64ebd1817e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jpa/dynamic-named-query/src/test/java/org/javaee7/jpa/dynamicnamedquery/DynamicNamedQueryTest.java",
+      "sha256": "8cdf877761033a935d44eed32675982d1b3baf7687c283d9e683ced4643c0131",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jpa/schema-gen-metadata/src/test/java/org/javaee7/jpa/schemagen/metadata/EmployeeBeanTest.java",
+      "sha256": "420f12e0b8a129f0a4105558f37e38de2ee541a7514ead3fb43629bb45fc1466",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jpa/schema-gen-scripts/src/test/java/org/javaee7/jpa/schemagen/scripts/EmployeeBeanTest.java",
+      "sha256": "1954dda5c435d13b41ca3d997cab8442f070718f1361514b61d12eb94f71e3a5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java",
+      "sha256": "2b5f5d2b14a0c1c21086b1920751d1486884df9fc88549f42e4deb765e76e7d0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jsf/http-get/src/test/java/org/javaee7/jsf/http/get/UserTest.java",
+      "sha256": "3608dc8bfcc37ec6712a82e81b17aee5a000f12c5989d0126b57152d9f701263",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/object-builder/src/test/java/org/javaee7/json/object/builder/DOMGeneratorTest.java",
+      "sha256": "58edda21d791b96bc25e4650a0fc72f8dab16a68a5534ea73f691df5610fd2c5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/object-reader/src/test/java/org/javaee7/json/object/reader/JsonReaderFromReaderTest.java",
+      "sha256": "b2b9e416991d3479dea5d0826ebe862052ea3d4218bf23f449c138bd50a1116b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/object-reader/src/test/java/org/javaee7/json/object/reader/JsonReaderFromStreamTest.java",
+      "sha256": "71ea68869c0a793d6267bab6b3fff0ca70b79b4bdc7c35dbfdd4cd9fd4145380",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/streaming-generate/src/test/java/org/javaee7/json/streaming/generate/StreamingGeneratorTest.java",
+      "sha256": "75d3e6c52e4457ba4d40f4d46d362a74c52ca9893ebb7623b887453195790f4f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/streaming-parser/src/test/java/org/javaee7/json/streaming/parser/JsonParserFromReaderTest.java",
+      "sha256": "14573561ec3bf351b806f4fe9264b4ed3e7a1dcb3b7ba377eb07796e0fc25600",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "json/streaming-parser/src/test/java/org/javaee7/json/streaming/parser/JsonParserFromStreamTest.java",
+      "sha256": "0b9a1f5650effd5e2f2a36ab98590ce95828a9931083848061e05d02ad4f315e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jta/transactional/src/test/java/org/javaee7/jta/transaction/scope/MyTransactionalBeanTest.java",
+      "sha256": "608af9d499bf3ba741a4817f90b80b1d416358885b962c627ab18ecae4a49823",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jta/transactional/src/test/java/org/javaee7/jta/transaction/scope/MyTransactionalBeanWithUserTransactionTest.java",
+      "sha256": "4306a0bd4d9019aa17973c5eb752ca6a13dbfde41eef1d1c7ef1cbda67d5b7a8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jta/transactional/src/test/java/org/javaee7/jta/transactional/MyTransactionalTxTypeBeanTest.java",
+      "sha256": "256495287a731ea6fb93132f45e3bb1a00bccf77e724298316986f41896ee4e4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jta/tx-exception/src/test/java/org/javaee7/jta/tx/exception/EmployeeBeanTest.java",
+      "sha256": "2e43fee3fb9b7479636971200869097efda20cb4a1caad07e919b6a5facf7a21",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "jta/user-transaction/src/test/java/org/javaee7/jta/user/transaction/UserTransactionTest.java",
+      "sha256": "b882a399b1f0bdd3bcd75f554c929426aa3df0a5d921933ebd7dd93564f2d723",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/file-upload/src/test/java/org/javaee7/servlet/file/upload/FileUploadTest.java",
+      "sha256": "1861b7ec865726c9005001309c45a8f50a9e66b98ea50f206a33516dcdf273d2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/metadata-complete/src/test/java/org/javaee7/servlet/metadata/complete/TestServletTest.java",
+      "sha256": "e4549ee58cd0e23668d19992ecb82b9d4bf5bae7060e7a0543e4245adaa65398",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/resource-packaging/src/test/java/org/javaee7/servlet/resource/packaging/ResourcePackagingTest.java",
+      "sha256": "f1f384f0f81402fda564907fbba7efce16ec6fd9c640a7b3d0ced964074d47d1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-annotated/src/test/java/org/javaee7/servlet/security/annotated/SecureServletTest.java",
+      "sha256": "04b23869615f89be3608aa23a1fca78f6a83379fd986405380088b82fa055c66",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-basicauth-omission/src/test/java/org/javaee7/servlet/security/basicauth/omission/SecureServletTest.java",
+      "sha256": "1ce9cf7295202c21420d4c9d886dcd0bf3eb24d031af9bdcd2cd060634a3b50a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-basicauth/src/test/java/org/javaee7/servlet/security/basicauth/SecureServletTest.java",
+      "sha256": "2ac1e1aba3058bf48f3224103f295af0305bca1c374635df15fd6664d508af08",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-deny-uncovered/src/test/java/org/javaee7/servlet/security/deny/uncovered/SecureServletTest.java",
+      "sha256": "8c7125446d3e6ef555acafb5eb6b9f642b3b7eab63a1690e4873f02a04a56d58",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-form-based/src/test/java/org/javaee7/servlet/security/form/based/FormTest.java",
+      "sha256": "8b6c36c4045ca2bc72a77d87ee7f9c22e19417fada071862c76abe4e110cab7d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "servlet/security-programmatic/src/test/java/org/javaee7/servlet/programmatic/login/LoginServletTest.java",
+      "sha256": "b9229bf6fe64f77762e4eb7e37b5defab5a6cf5ac01a709e1095f2ccbd3668cc",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "validation/custom-constraint/src/test/java/org/javaee7/validation/custom/constraint/CustomConstraintTest.java",
+      "sha256": "8561d93301d101d2819cb259bcdddd874e1ab249809689bef6fdeae2d375014f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "validation/methods/src/test/java/org/javaee7/validation/methods/ConstructorParametersConstraintsTest.java",
+      "sha256": "f548792f7ddbd0fe941f12be1616e6cad1a3a697b5fceea7601a421871768fc5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "validation/methods/src/test/java/org/javaee7/validation/methods/ConstructorParametersInjectionTest.java",
+      "sha256": "87fa2c4023f2ba007d2c8b35ae6815c0983b55fab424fadc8795f6242a09c209",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "validation/methods/src/test/java/org/javaee7/validation/methods/MethodParametersConstraintsTest.java",
+      "sha256": "ac3062593e47e93a6e9a13a8871736d0f53e03c0b84f52cebd7b57b923aaffbe",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/binary/src/test/java/org/javaee7/websocket/binary/test/MyEndpointTest.java",
+      "sha256": "41739a6e881eb598a35f5f37d1e8f74b1686624ee241835e3f6d770f8b62b8b5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/chat/src/test/java/org/javaee7/websocket/chat/ChatTest.java",
+      "sha256": "049c668106ea7f97d549fd49e4f0ced08c9a56d81714ce983bc37811f017653c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/encoder-client/src/test/java/org/javaee7/websocket/encoder/client/MyClientTest.java",
+      "sha256": "c55a9860678368da18882c6ddaea060891a463c3a8d076de926e8b4d02cf5ba7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/encoder-programmatic/src/test/java/org/javaee7/websocket/encoder/programmatic/MyClientTest.java",
+      "sha256": "c2120b9a7d301ee48044f945a22074765d488b4fc5c6835ae98a411fa6c38f92",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/encoder/src/test/java/org/javaee7/websocket/encoder/EncoderEndpointTest.java",
+      "sha256": "9608de40fdfcb5822b514676e29ac7ae35b03ece041aa9456bc9e42e5b853c02",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/endpoint-async/src/test/java/org/javaee7/websocket/endpoint/async/MyAsyncEndpointTest.java",
+      "sha256": "e6a102254caae672f7904d0b88721f78813589ac8ee2c2ef6febcde901eeeeac",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/endpoint-programmatic/src/test/java/org/javaee7/websocket/endpoint/programmatic/MyEndpointTest.java",
+      "sha256": "c4255fbc6b6da733c30601c8c863d693fbc8562ecde2d9ecb1544de36af3c695",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "websocket/endpoint/src/test/java/org/javaee7/websocket/endpoint/MyEndpointTest.java",
+      "sha256": "6ee53dd9527f647093f3774935887bc77fb50d8ad63572bb842586d4d3bb34df",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "project": "javaee7-samples",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "eec279a49dbb22348a83f55c079d006c996961617956e95accc7404fc1041586",
+  "v4_category_invariant": true
+}

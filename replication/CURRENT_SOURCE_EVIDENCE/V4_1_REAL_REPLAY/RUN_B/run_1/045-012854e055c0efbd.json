@@ -1,0 +1,388 @@
+{
+  "archive": {
+    "bytes": 311569,
+    "sha256": "035dd8ba6b4d87090a396cdcf56b5cb4f24cc1a5e055ad06894b657cf1fce2c5",
+    "validity": "VALID"
+  },
+  "audit_id": "012854e055c0efbd",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "client/src/test/java/com/alibaba/otter/canal/client/running/AbstractZkTest.java",
+      "sha256": "22dd3c63eb55caa0dc495fa544d35427494e9ef5887b6870ce31f19f1a9f523c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "client/src/test/java/com/alibaba/otter/canal/client/running/ClientRunningTest.java",
+      "sha256": "1223beb0387281dc1362860a1670ff11e03c18c5bd06f425dd83e7c440983394",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "common/src/test/java/com/alibaba/otter/canal/common/AbstractZkTest.java",
+      "sha256": "0bfc53ef73138431d52a0ad4c8b517c91d008511e200c3106f5b93f7a3eda646",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "common/src/test/java/com/alibaba/otter/canal/common/ServerRunningTest.java",
+      "sha256": "ad7dd8a40d21a4ce42a9e62bb70469ef14f9b78ced7281222c9704dbbe926265",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "dbsync/src/test/java/com/taobao/tddl/dbsync/binlog/DirectLogFetcherTest.java",
+      "sha256": "fbc49cd1c9e15b95da5f91c87507f98aaa3e3ed9d0a446803e9cc0ec5cfc99d7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "dbsync/src/test/java/com/taobao/tddl/dbsync/binlog/FileLogFetcherTest.java",
+      "sha256": "7b90ffc897eb74b705d1a73cf1568ca0eed291cda3c742d0971ce678a1a9be50",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "dbsync/src/test/java/com/taobao/tddl/dbsync/binlog/LogBufferTest.java",
+      "sha256": "d15801cc3df948532057db8804f9919d1c1808890d8815708393be3ea62d72c0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "driver/src/test/java/com/alibaba/otter/canal/parse/driver/mysql/MysqlConnectorTest.java",
+      "sha256": "954bdf3a999cc4fe103f52241a0a5d8d46e0beecc4b2564a85c81e632f2e0128",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "filter/src/test/java/com/alibaba/otter/canal/filter/AviaterFilterTest.java",
+      "sha256": "d2db74a85254478495a2e25daae8cb146ba63c8276f63e5ef9a0728dabd7b687",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "filter/src/test/java/com/alibaba/otter/canal/filter/MutliAviaterFilterTest.java",
+      "sha256": "54cdd2276f2d8736e6fb55c53afa06c8a130d3f693ede0055094cf7c3a74a32d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "instance/spring/src/test/java/com/alibaba/otter/canal/instance/spring/integrated/DefaultSpringInstanceTest.java",
+      "sha256": "a090eb454b91ccb768ffcb05243f185edbe983052b90fc1cc58e15b440b90d9a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "instance/spring/src/test/java/com/alibaba/otter/canal/instance/spring/integrated/GroupSpringInstanceTest.java",
+      "sha256": "e49b7f0e6f03c5c9535cc2719983457acd8b08faf04385addab12ba119dee33f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "instance/spring/src/test/java/com/alibaba/otter/canal/instance/spring/integrated/MemorySpringInstanceTest.java",
+      "sha256": "7b6abb176f4b49a8af3ed58c4239d4f03047f8701274f58f96d58de02ee8d425",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/AbstractMetaManagerTest.java",
+      "sha256": "480af8aabbbcaf06c2c85a48533eb983885d36f6b24aabf3747f3195b445211b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/AbstractZkTest.java",
+      "sha256": "c31297cd42c5cffe36bb2149cff02d6d4eedb8c8822f49d4bafaae4be54df459",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/FileMixedMetaManagerTest.java",
+      "sha256": "e3d192f2edf65992b7a33cf21fda3a0d303521bcbd1d8d9b67e63ebd4f6a55df",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/MemoryMetaManagerTest.java",
+      "sha256": "f406f27780bf642a0cc3c97977623dc5c9f138caebab06609105a7871b3944c8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/MixedMetaManagerTest.java",
+      "sha256": "4f647ed3e530965e0e295040faf46cc9050a8bcc67b5271f84b33f6309b614f2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/PeriodMixedMetaManagerTest.java",
+      "sha256": "5b82ba3465ed54fdbb6984dab001a8bc43cf620ecbb1b3d122b8f8c02c9f9059",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "meta/src/test/java/com/alibaba/otter/canal/meta/ZooKeeperMetaManagerTest.java",
+      "sha256": "6703704d3531dbc9a775a4ce87e48b04e21efaa833a7b264e79c3feeb3fec036",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/DirectLogFetcherTest.java",
+      "sha256": "6ea81d77ebc34a5d3d1b1e026a1776477528ace68c603083b97d150234986831",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/EventTransactionBufferTest.java",
+      "sha256": "1917d31a57bc3ea04ebfd5a4ad1a25a5e79f3e055256a3306c1955651431ae0e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/TableMetaCacheTest.java",
+      "sha256": "06bbdf29aa2e401e6d3dadc5de9e4ab1a5698d3f40624660456910ee5f815bf4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/group/GroupEventPaserTest.java",
+      "sha256": "b2feab542a1f88e96f734231ec6c6dc6b99ab5715cf1a0038c1fdbb51db80d4b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/LocalBinlogDumpTest.java",
+      "sha256": "b9f3c07b59328ec39d0b1daee20fc532640ad2b7d324b5dd8e641747d3bcb9a6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/LocalBinlogEventParserTest.java",
+      "sha256": "99d3e1cc36a47dc87e0b6f82d6c8821e46c1cefb32dee89fecf1d2dce7c080a0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/MysqlDumpTest.java",
+      "sha256": "e4694141f8474795e1a55d883873de6b63a8a47fdd2e8dc89d08b1f327b73604",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/MysqlEventParserTest.java",
+      "sha256": "9abfc15afe866f5c857d4753d5ea268ce9ca02e8318640744320d1907ce99c78",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/inbound/mysql/SimpleDdlParserTest.java",
+      "sha256": "ad1c24057d4a2a078f66b6ce4c65d7533232d72a8719e9a42d24d8a3b3103112",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/AbstractLogPositionManagerTest.java",
+      "sha256": "1e25b667d15f12d42c5a0c864bba96a6e3e6c35acbb995c06680f33478f3978c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/AbstractZkTest.java",
+      "sha256": "34785b537d2b9ca655b39c96d660ab21106f0ac9f47e79857d9fee8669a50d9e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/FileMixedLogPositionManagerTest.java",
+      "sha256": "9ce672f50fb9770072917f19932d63c63e5119779b23f8c8407efe9959a57183",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/MemoryLogPositionManagerTest.java",
+      "sha256": "ca31959d615cfc69d26a620fa036aad03b609795594bdfe7897e62553fea9dad",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/MetaLogPositionManagerTest.java",
+      "sha256": "9de5db2f46a4c100c2c2f1e2ccdce46fb2866251f2b75858a6b698bc2c7b664a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/MixedLogPositionManagerTest.java",
+      "sha256": "d29080632a1a36402db3807a7a02b8d5176b72603ec2f86137263a5ca81863b5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/PeriodMixedLogPositionManagerTest.java",
+      "sha256": "230406320eed00022b3a700c7ed412a267490c5728907d46f184efc83b728ff9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "parse/src/test/java/com/alibaba/otter/canal/parse/index/ZooKeeperLogPositionManagerTest.java",
+      "sha256": "7c7e36143a7d01a3c3df5fc6747581e15acea2f5c29915e8c405e60963aef56d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "server/src/test/java/com/alibaba/otter/canal/server/BaseCanalServerWithEmbededTest.java",
+      "sha256": "b2868b695f312b3851dd0f9a76759a60ce973b44811c822056373c19927041e0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "server/src/test/java/com/alibaba/otter/canal/server/CanalServerWithEmbeded_StandbyTest.java",
+      "sha256": "6e38868501c540465ba9067eee9eca23931f61882bfe47789e79423dcf77f8e3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "server/src/test/java/com/alibaba/otter/canal/server/CanalServerWithNettyTest.java",
+      "sha256": "19e377a1f3d5b68098115e4a3e17c3aadc136df1d7ded32d227b46e120e834de",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "sink/src/test/java/com/alibaba/otter/canal/sink/GroupEventSinkTest.java",
+      "sha256": "e2ee6689ff3df1a045fb6b4481c46c1285acfa26d5e96ef088c0db0b6988e684",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "store/src/test/java/com/alibaba/otter/cancel/store/memory/buffer/MemoryEventStoreBase.java",
+      "sha256": "f6d755d122f9ee2b3448489d8a0185ba9648938fb6b110e3803152bc9eea0f58",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "store/src/test/java/com/alibaba/otter/cancel/store/memory/buffer/MemoryEventStoreMemBatchTest.java",
+      "sha256": "064d51936a40402fba2851f8a97c6ce30fb2d7e4eaff45d4d0dcde79728ee733",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "store/src/test/java/com/alibaba/otter/cancel/store/memory/buffer/MemoryEventStoreMultiThreadTest.java",
+      "sha256": "d6b7e1a0cd0a8a4be8c8e06ecc762419d98882c876ce4e33ec40213a672499a9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "store/src/test/java/com/alibaba/otter/cancel/store/memory/buffer/MemoryEventStorePutAndGetTest.java",
+      "sha256": "90758412e98a8e5f15dbca436e41bcce067e3d238fe925c126c0c0ec717cf14a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "store/src/test/java/com/alibaba/otter/cancel/store/memory/buffer/MemoryEventStoreRollbackAndAckTest.java",
+      "sha256": "3cace035c81dfd2a3b0364985b76e7825506a55076a1113acc33aa8c4bded8e1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

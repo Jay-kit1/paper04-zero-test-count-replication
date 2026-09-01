@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the manuscript and this repository."
+title: "Replication materials for When a Zero Test Count Does Not Establish Test-Source Absence"
+type: dataset
+authors:
+  - family-names: Zeng
+    given-names: Jiebao
+    orcid: "https://orcid.org/0009-0009-2931-7232"
+date-released: 2026-09-01
+license: CC-BY-4.0
+repository-code: "https://github.com/Jay-kit1/paper04-zero-test-count-replication"
+keywords:
+  - software engineering
+  - repository mining
+  - software testing
+  - measurement audit
+  - reproducibility

@@ -1,0 +1,37 @@
+{
+  "archive": {
+    "bytes": 275,
+    "sha256": "35e2c2ac08c769b685212a2472effcc14b187df1cb72d7ab25f29efde0a6e113",
+    "validity": "VALID"
+  },
+  "audit_id": "f000000000000005",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": false,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK",
+    "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+  ],
+  "positive_evidence": [
+    {
+      "path": "src/test/java/GoodTest.java",
+      "sha256": "f11a9b3e625ec30dc87a9566c06d9e3f2a121d472f84cfc6f12ee3098938601e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

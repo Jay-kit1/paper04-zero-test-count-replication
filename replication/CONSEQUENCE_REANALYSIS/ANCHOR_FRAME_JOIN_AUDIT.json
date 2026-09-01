@@ -1,0 +1,356 @@
+{
+  "failures": {
+    "duplicate_anchor_keys": [],
+    "frozen_field_mismatches": [],
+    "sampled_label_mismatches": [],
+    "sampled_missing_frame": [],
+    "unmatched_report": [],
+    "unmatched_summary": []
+  },
+  "heuristic_matching": false,
+  "inputs": {
+    "anchor_projects": {
+      "Bukkit": {
+        "published_downstream_project": true,
+        "report_rows": 1509,
+        "report_sha256": "0b9813db100e75a691cb2449e4bafba3af9ee973bbfcc4b8fa6f23a373833cde",
+        "summary_rows": 1509,
+        "summary_sha256": "c04046645cb5f4a78834f9e9c425a61937071cbfa6be7a1c7112cf7f8d21bc5c"
+      },
+      "CoreNLP": {
+        "published_downstream_project": true,
+        "report_rows": 16467,
+        "report_sha256": "e1013e2d81ad99ce210ccdc0101db2ad6de6428f2c53ef7061fbcee4e7f59601",
+        "summary_rows": 16467,
+        "summary_sha256": "ee6f40cfc141aa8a8c399ba4d7c668e4be2d702f086ecae3394fe8f0bac1b006"
+      },
+      "DiskLruCache": {
+        "published_downstream_project": true,
+        "report_rows": 136,
+        "report_sha256": "fac4dd55b4449b174aaf68ac576036805f9e52ed7da5fc640e9fe79ff3bc5e00",
+        "summary_rows": 136,
+        "summary_sha256": "580ee8d569376e1a8b96db66a6fc0834c0617d5079542288fd0116d5a2f03ff5"
+      },
+      "alluxio": {
+        "published_downstream_project": true,
+        "report_rows": 31180,
+        "report_sha256": "118e8707ad7637209eb078047b134dbe1ed2b0a2784a6359bffd95ea2a0c8f9e",
+        "summary_rows": 31180,
+        "summary_sha256": "e81347f105f8e9e908823ac8e25bd31e74c5104ae37b44fdc1f68789d2760b80"
+      },
+      "android-volley": {
+        "published_downstream_project": true,
+        "report_rows": 1932,
+        "report_sha256": "ca9edbda8cdea1a1e0041412c00aa3224084eef0abaa41ed23e4962d86bd471d",
+        "summary_rows": 1932,
+        "summary_sha256": "18cd3d39e8b78a60f71475202a02d534d2dd7607522cf5799f19e960e85ab31f"
+      },
+      "ansj_seg": {
+        "published_downstream_project": true,
+        "report_rows": 703,
+        "report_sha256": "fa59495f6e8bdac524654ce56122733e6e4f19bb16191c965cf2fa700f0c6eb0",
+        "summary_rows": 703,
+        "summary_sha256": "1796c9c016a1b86dee7a32dfe4000f8e2ca0fcd57b1510044b67fbcfdc6a45ec"
+      },
+      "canal": {
+        "published_downstream_project": false,
+        "report_rows": 1442,
+        "report_sha256": "50e6a22b46fe5cc3e8da23f370180da9eff512c76dc8ff25b454be790f4a2872",
+        "summary_rows": 1442,
+        "summary_sha256": "69caa57d3e6e9b35900368efaa7574aae3e0b65c7c7ea85b675649c9da5f131b"
+      },
+      "clojure": {
+        "published_downstream_project": false,
+        "report_rows": 3347,
+        "report_sha256": "460eedd66d37552722c112a8dd8da60ec2f9972a924512f5a1120c678d8d0099",
+        "summary_rows": 3347,
+        "summary_sha256": "066eef3c96cb64341bce077d77d4bff00fe12f164c23d1f4034a29b689efe34a"
+      },
+      "graylog2-server": {
+        "published_downstream_project": true,
+        "report_rows": 19180,
+        "report_sha256": "c9beb0db47b55bfab8a3997665487092c9253383d09568fa9f9a246c2413b67d",
+        "summary_rows": 19180,
+        "summary_sha256": "962f6a6e53cc25dc64d42b36656912337445500dd4ef65edcfd527c4cc3f0081"
+      },
+      "guava": {
+        "published_downstream_project": true,
+        "report_rows": 5578,
+        "report_sha256": "bb8a4ab2458d10460286e2ec4e7b390f0949203eca0a605718c94200035b0704",
+        "summary_rows": 5578,
+        "summary_sha256": "2774d18594a526dd25b6eaae47f07577e96f4c4a3a020a24219bf32ea44f1377"
+      },
+      "java-design-patterns": {
+        "published_downstream_project": true,
+        "report_rows": 3112,
+        "report_sha256": "44648295a71dcf0f09e423e1ec8be6f233f1e02da8a994304e51cf6170a33a86",
+        "summary_rows": 3112,
+        "summary_sha256": "8f64aef117e20c26095a8552d71fa1a19ca2b54d9b6f4a639934688a64c5547d"
+      },
+      "javaee7-samples": {
+        "published_downstream_project": true,
+        "report_rows": 1537,
+        "report_sha256": "e5be2799bf7fae0d4da8ddab752a9a075af7d78832fb9ab3d6fe77355c6d374d",
+        "summary_rows": 1537,
+        "summary_sha256": "be7c482b605305696c3a68facaf716bf0b7a134e08c118f4c187f7feb786563d"
+      },
+      "javapoet": {
+        "published_downstream_project": true,
+        "report_rows": 846,
+        "report_sha256": "ce64bec8789ae695d5937e4c414a816190d3a783000b0008627be333089b0e5b",
+        "summary_rows": 846,
+        "summary_sha256": "8736099dd70454c7c26e4785071ed4a85e6aa40fe543b2bf061ff070fb26cec6"
+      },
+      "nanohttpd": {
+        "published_downstream_project": true,
+        "report_rows": 599,
+        "report_sha256": "e974cff6268585fe41b114adde3e95f504844d570727207061d10612d7e378a7",
+        "summary_rows": 599,
+        "summary_sha256": "80b0488b36c4819b23b4fd0c2c14ce0f221821b931dcf98eb157e14c0b090d58"
+      },
+      "presto": {
+        "published_downstream_project": true,
+        "report_rows": 18991,
+        "report_sha256": "1ceb09a2f0d86851dd30670d41e8cc43775eca38af2143e857d9961a1452b0dc",
+        "summary_rows": 18991,
+        "summary_sha256": "d74607ea0340bc517aed5580c2496cb38b4c5043b5cf066ace353105f4028b92"
+      },
+      "webmagic": {
+        "published_downstream_project": true,
+        "report_rows": 1122,
+        "report_sha256": "a14efdc1347ec398808d924dd32baf1053b081addd8bb493336dfb715335b065",
+        "summary_rows": 1122,
+        "summary_sha256": "2e70a180a90f52ff8fbb11ea471475ee06ec114f25c05bebf1dfa1b55131122a"
+      },
+      "wildfly": {
+        "published_downstream_project": false,
+        "report_rows": 30874,
+        "report_sha256": "8cd59a982f1f5f5934abb613fa49429828171d5c8818df71a08fb399b2da0a1e",
+        "summary_rows": 31971,
+        "summary_sha256": "8712fed9aadbb2952ec5b839b3ccc5ef77a2015466eeb2f35c4df7b94dea6089"
+      },
+      "zheng": {
+        "published_downstream_project": false,
+        "report_rows": 1241,
+        "report_sha256": "f4d9f83d8ea26b0b098a2b19b8afe8fe5ee320f7bd4d9507b9ebda6b93d9c4e7",
+        "summary_rows": 1241,
+        "summary_sha256": "dec7310c53eb357f67d3a3c7d8f1c129bcb30534daf479240c6851a829cd6832"
+      }
+    },
+    "frame": {
+      "rows": 3393,
+      "sha256": "1d7e5726b636fc69f38434346d4f5cc64426bb305939b01355657ad9f2f3591a"
+    },
+    "labels": {
+      "rows": 149,
+      "sha256": "dbc6b71fc3b79f190b62e926570eac71a0d3e87372592e3d60a60d886a0f8e56"
+    },
+    "published_csv": {
+      "rows": 66,
+      "sha256": "4d5e03a8d77470ef76a8820e7f985a082c01cd65a856640c765933469ec57cf2"
+    },
+    "sample": {
+      "rows": 149,
+      "sha256": "5752e81215295a3d8b05583a934952e6d4ac18cde0b85704005150e454f7e626"
+    }
+  },
+  "join_key": [
+    "project",
+    "exact commit/snapshot string"
+  ],
+  "project_matrix": [
+    {
+      "exactly_joined_rows": 657,
+      "frame_rows": 657,
+      "negative_sample": 8,
+      "project": "Bukkit",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 0,
+      "unresolved_sample": 4
+    },
+    {
+      "exactly_joined_rows": 3,
+      "frame_rows": 3,
+      "negative_sample": 0,
+      "project": "CoreNLP",
+      "published_downstream_project": true,
+      "sample_rows": 3,
+      "supported_sample": 3,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 3,
+      "frame_rows": 3,
+      "negative_sample": 3,
+      "project": "DiskLruCache",
+      "published_downstream_project": true,
+      "sample_rows": 3,
+      "supported_sample": 0,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 1,
+      "frame_rows": 1,
+      "negative_sample": 0,
+      "project": "alluxio",
+      "published_downstream_project": true,
+      "sample_rows": 1,
+      "supported_sample": 1,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 19,
+      "frame_rows": 19,
+      "negative_sample": 0,
+      "project": "android-volley",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 12,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 27,
+      "frame_rows": 27,
+      "negative_sample": 0,
+      "project": "ansj_seg",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 10,
+      "unresolved_sample": 2
+    },
+    {
+      "exactly_joined_rows": 570,
+      "frame_rows": 570,
+      "negative_sample": 0,
+      "project": "canal",
+      "published_downstream_project": false,
+      "sample_rows": 12,
+      "supported_sample": 12,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 1448,
+      "frame_rows": 1448,
+      "negative_sample": 5,
+      "project": "clojure",
+      "published_downstream_project": false,
+      "sample_rows": 12,
+      "supported_sample": 7,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 89,
+      "frame_rows": 89,
+      "negative_sample": 12,
+      "project": "graylog2-server",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 0,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 104,
+      "frame_rows": 104,
+      "negative_sample": 0,
+      "project": "guava",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 12,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 167,
+      "frame_rows": 167,
+      "negative_sample": 2,
+      "project": "java-design-patterns",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 0,
+      "unresolved_sample": 10
+    },
+    {
+      "exactly_joined_rows": 2,
+      "frame_rows": 2,
+      "negative_sample": 0,
+      "project": "javaee7-samples",
+      "published_downstream_project": true,
+      "sample_rows": 2,
+      "supported_sample": 2,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 1,
+      "frame_rows": 1,
+      "negative_sample": 1,
+      "project": "javapoet",
+      "published_downstream_project": true,
+      "sample_rows": 1,
+      "supported_sample": 0,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 26,
+      "frame_rows": 26,
+      "negative_sample": 7,
+      "project": "nanohttpd",
+      "published_downstream_project": true,
+      "sample_rows": 12,
+      "supported_sample": 0,
+      "unresolved_sample": 5
+    },
+    {
+      "exactly_joined_rows": 4,
+      "frame_rows": 4,
+      "negative_sample": 1,
+      "project": "presto",
+      "published_downstream_project": true,
+      "sample_rows": 4,
+      "supported_sample": 0,
+      "unresolved_sample": 3
+    },
+    {
+      "exactly_joined_rows": 11,
+      "frame_rows": 11,
+      "negative_sample": 0,
+      "project": "webmagic",
+      "published_downstream_project": true,
+      "sample_rows": 11,
+      "supported_sample": 11,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 4,
+      "frame_rows": 4,
+      "negative_sample": 4,
+      "project": "wildfly",
+      "published_downstream_project": false,
+      "sample_rows": 4,
+      "supported_sample": 0,
+      "unresolved_sample": 0
+    },
+    {
+      "exactly_joined_rows": 257,
+      "frame_rows": 257,
+      "negative_sample": 0,
+      "project": "zheng",
+      "published_downstream_project": false,
+      "sample_rows": 12,
+      "supported_sample": 12,
+      "unresolved_sample": 0
+    }
+  ],
+  "schema": "paper04-anchor-frame-join-audit/1.0",
+  "status": "PASS",
+  "summary": {
+    "exactly_joined_rows": 3393,
+    "frame_projects": 18,
+    "frame_rows": 3393,
+    "label_rows": 149,
+    "pre_filter_only_frame_rows": 2279,
+    "pre_filter_only_projects": 4,
+    "published_downstream_overlap_frame_rows": 1114,
+    "published_downstream_overlap_projects": 14,
+    "sample_rows": 149
+  }
+}

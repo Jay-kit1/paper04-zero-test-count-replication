@@ -1,0 +1,148 @@
+{
+  "created_at_utc": "2026-08-31T13:33:31Z",
+  "freeze_projection_sha256": "6514c92c18fdad8058b0decc3a0d21930029f7daee2f926c32db6e4c603243f2",
+  "frozen_file_count": 27,
+  "frozen_files": [
+    {
+      "bytes": 904,
+      "path": "V4_1_IMPLEMENTATION_A/IMPLEMENTATION_FREEZE.json",
+      "sha256": "829e669b79ec87bd8d5b13fbf0679f1938c135a0c838642b124a82890d53a55b"
+    },
+    {
+      "bytes": 747,
+      "path": "V4_1_IMPLEMENTATION_B/IMPLEMENTATION_FREEZE.json",
+      "sha256": "f12efb19e0d3da9fc7ece9f42cc5b4b38a97d068e47ef38f5a53b59fecfaf349"
+    },
+    {
+      "bytes": 195084,
+      "path": "V4_1_PROTOCOL_FREEZE/FROZEN_149_ARCHIVE_IDENTITY_LEDGER.json",
+      "sha256": "6fd3dd99537676952bcbf3031382b890fb08113600a8ed33639940348c533113"
+    },
+    {
+      "bytes": 150503,
+      "path": "V4_1_PROTOCOL_FREEZE/FROZEN_149_UNIT_ORDER_MANIFEST.json",
+      "sha256": "3c5c6da630c31b4cf00b0f5588a00c6c53f8cb996a02ca2891c45a150a3ddfb8"
+    },
+    {
+      "bytes": 21072,
+      "path": "V4_1_PROTOCOL_FREEZE/PAPER04_N2_REFERENCE_V4_1_AUTHORITY_PROMPT.md",
+      "sha256": "5995f4f0dae204fa568c14428ee332a66aa8bd11d7398686d1ee7be515ae5256"
+    },
+    {
+      "bytes": 331,
+      "path": "V4_1_PROTOCOL_FREEZE/PROHIBITED_CONTEXT_SCAN.json",
+      "sha256": "2a04064a4a45a1e25908fdd72197b25f3494bb8584f21830a26cffa178199485"
+    },
+    {
+      "bytes": 900,
+      "path": "V4_1_PROTOCOL_FREEZE/REFERENCE_V4_1_COMPARISON_CONTRACT.json",
+      "sha256": "a54e931cd7dd66b77502d0b6a6d98b2eb8cc6c8d007dbf52bd372d40ee856244"
+    },
+    {
+      "bytes": 3271,
+      "path": "V4_1_PROTOCOL_FREEZE/REFERENCE_V4_1_EVIDENCE_SCHEMA.json",
+      "sha256": "91a97af48c6ee572e00d7af8ee7fb28542f9418f756e626ae1f2e5665f503636"
+    },
+    {
+      "bytes": 2370,
+      "path": "V4_1_PROTOCOL_FREEZE/REFERENCE_V4_1_EVIDENCE_SEMANTICS.md",
+      "sha256": "ddf1bfb7489528bda6f2aa1386f58b5b4f6ffe697cc9b5815eaa1f31c5305f47"
+    },
+    {
+      "bytes": 2927,
+      "path": "V4_1_PROTOCOL_FREEZE/REFERENCE_V4_1_FRAMEWORK_REGISTRY.json",
+      "sha256": "93f2b681258a5dc94f770d99acecb513b699deaa9db8fbe3aa5f917b24ba8099"
+    },
+    {
+      "bytes": 7885,
+      "path": "V4_1_SYNTHETIC_GATE/FIXTURE_MANIFEST.json",
+      "sha256": "849740c975f872f88f885edf73b50d79137af9f5ee7b9f6badb9fa541be8d583"
+    },
+    {
+      "bytes": 8422,
+      "path": "V4_1_SYNTHETIC_GATE/SYNTHETIC_GATE_REPORT.json",
+      "sha256": "4d18f5583ea389bc50203b47c2169cfabb502580f76804459aef60db781c51f7"
+    },
+    {
+      "bytes": 203,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F01.tar.gz",
+      "sha256": "c9278aa01accc9e15e4aff034e52c4a0e291264e5b9f881b4fc6f33e7456977c"
+    },
+    {
+      "bytes": 180,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F02.tar.gz",
+      "sha256": "8aa41f01b45d2fd3f25c50bb03587a2f702158e7951540827ebfc4ee0c9ed0d4"
+    },
+    {
+      "bytes": 238,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F03.tar.gz",
+      "sha256": "6882dc464b131a398c64366ce2f394fca02ffeb23115d70d2b488819de82a681"
+    },
+    {
+      "bytes": 242,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F04.tar.gz",
+      "sha256": "a87972f1ebe4200ac003c7b282e78ed606a00eb75321c636140694a6af6cde7e"
+    },
+    {
+      "bytes": 275,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F05.tar.gz",
+      "sha256": "35e2c2ac08c769b685212a2472effcc14b187df1cb72d7ab25f29efde0a6e113"
+    },
+    {
+      "bytes": 209,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F06.tar.gz",
+      "sha256": "ddf263cc2f14879167f651bafc3f06231a2aeb6c4685c2c3d37bdbb026ae839e"
+    },
+    {
+      "bytes": 205,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F07.tar.gz",
+      "sha256": "8065a927d19d1d74094f6a350c1e7c31ff3a68451ad432a4b523711f7bd1edab"
+    },
+    {
+      "bytes": 186,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F08.tar.gz",
+      "sha256": "312c6889a42728e2d2242b9873584c5caccbfdbe224c9b7c6e15ad7296925037"
+    },
+    {
+      "bytes": 270,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F09.tar.gz",
+      "sha256": "c7a1332dcad6753eb1bc719f48dc66c39795f547a352f23525fa1851494a94a2"
+    },
+    {
+      "bytes": 195,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F10.tar.gz",
+      "sha256": "bdfb9903c95a99624380a748c531a2cbf7172c07d6ba5032d15baa35ec25232a"
+    },
+    {
+      "bytes": 231,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F11.tar.gz",
+      "sha256": "b616db4fb07c5215312bafdbef227041915ff60bed3e77a5841b6c54bf14587a"
+    },
+    {
+      "bytes": 221,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F12.tar.gz",
+      "sha256": "bbe8e37b9a4824598a1ce3e4fa79afcc08885337bf5f3ee60616bb8f81001c53"
+    },
+    {
+      "bytes": 173,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F13.tar.gz",
+      "sha256": "4fb7681c676d74eb2c543eda417b482fca8832dbd13a8faf2cb6ecbccc81764c"
+    },
+    {
+      "bytes": 177,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F14.tar.gz",
+      "sha256": "799156b5085ba8acbcd86d4ef3b93bd086a8c8dada287c58d2fd8b96d8716efd"
+    },
+    {
+      "bytes": 152,
+      "path": "V4_1_SYNTHETIC_GATE/fixtures/F15.tar.gz",
+      "sha256": "e8828b52fc9da1c8b003f7bb176a876daaac3973fa271f9165e8c377c9a8b88a"
+    }
+  ],
+  "prohibited_context_scan": "PASS",
+  "real_replay_output_count_at_freeze": 0,
+  "schema": "PAPER04_N2_REFERENCE_V4_1_FREEZE_1_0",
+  "status": "FROZEN_BEFORE_REAL_REPLAY",
+  "synthetic_fixture_count": 15,
+  "unit_count": 149
+}

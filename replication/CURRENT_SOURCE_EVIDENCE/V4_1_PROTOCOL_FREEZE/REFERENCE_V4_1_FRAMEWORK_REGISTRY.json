@@ -1,0 +1,38 @@
+{
+  "schema": "PAPER04_N2_REFERENCE_V4_1_FRAMEWORK_REGISTRY_1_0",
+  "supported_extensions": [".java", ".kt", ".kts", ".groovy", ".scala", ".clj"],
+  "unsupported_test_extensions": [".js", ".ts", ".py", ".rs", ".rb", ".cs"],
+  "test_path_segments": ["test", "tests", "integration-test", "integration-tests", "it"],
+  "test_filename_patterns": ["Test*", "*Test", "*Tests", "*TestCase", "*IT", "*ITCase"],
+  "generated_markers": ["add-test-source", "generated-test", "generateTests", "test-generation"],
+  "canonical_rule_ids": {
+    "clojure_deftest": "STRONG_CLOJURE_DECLARATION",
+    "clojure_qualified_deftest": "STRONG_CLOJURE_QUALIFIED_DECLARATION",
+    "cucumber_options": "STRONG_CUCUMBER_OPTIONS",
+    "cucumber_runner": "STRONG_CUCUMBER_RUNNER",
+    "junit_at_test": "STRONG_JUNIT_DECLARATION",
+    "junit_testcase_inheritance": "STRONG_JUNIT_TESTCASE_INHERITANCE",
+    "scalatest_anyfunsuite_or_suite": "STRONG_SCALATEST_DECLARATION",
+    "scalatest_funsuite": "STRONG_SCALATEST_FUNSUITE",
+    "spock_specification": "STRONG_SPOCK_DECLARATION",
+    "testng_at_test": "STRONG_TESTNG_DECLARATION",
+    "path_b_junit": "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+    "path_b_testng": "PATH_B_TESTNG_TEST_INTENT_FRAMEWORK_EVIDENCE",
+    "path_b_spock": "PATH_B_SPOCK_TEST_INTENT_FRAMEWORK_EVIDENCE",
+    "path_b_scalatest": "PATH_B_SCALATEST_TEST_INTENT_FRAMEWORK_EVIDENCE",
+    "path_b_clojure": "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+    "path_b_cucumber": "PATH_B_CUCUMBER_TEST_INTENT_FRAMEWORK_EVIDENCE"
+  },
+  "frameworks": {
+    "clojure": {"tokens": ["clojure.test"], "strong": ["deftest", "clojure.test/deftest"], "path_b_rule_key": "path_b_clojure"},
+    "cucumber": {"tokens": ["io.cucumber", "cucumber.api"], "strong": ["@RunWith(Cucumber.class)", "@CucumberOptions"], "path_b_rule_key": "path_b_cucumber"},
+    "junit": {"tokens": ["org.junit", "org.junit.jupiter", "junit.framework"], "strong": ["@Test", "@org.junit.Test", "extends TestCase"], "path_b_rule_key": "path_b_junit"},
+    "scalatest": {"tokens": ["org.scalatest"], "strong": ["extends AnyFunSuite", "extends FunSuite", "extends Suite"], "path_b_rule_key": "path_b_scalatest"},
+    "spock": {"tokens": ["spock.lang"], "strong": ["extends Specification"], "path_b_rule_key": "path_b_spock"},
+    "testng": {"tokens": ["org.testng"], "strong": ["@Test"], "path_b_rule_key": "path_b_testng"}
+  },
+  "framework_implementation_safeguards": {
+    "clojure": {"path_suffixes": ["clojure/test.clj"], "namespace_regex": "\\(ns\\s+clojure\\.test(?:\\s|\\))", "applies_to": ["PATH_A", "PATH_B"]}
+  },
+  "reason_order": ["ARCHIVE_IDENTITY_FAILURE", "ARCHIVE_READ_FAILURE", "ARCHIVE_PATH_INTEGRITY_FAILURE", "DECISIVE_CASE_UNICODE_COLLISION", "DECISIVE_NONREGULAR_MEMBER", "SUPPORTED_SOURCE_DECODE_FAILURE", "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK", "GENERATED_TEST_SOURCE_NOT_STATICALLY_PRESENT", "UNSUPPORTED_LANGUAGE_TEST_INTENT"]
+}

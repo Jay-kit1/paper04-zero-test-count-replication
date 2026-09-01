@@ -1,0 +1,121 @@
+{
+  "estimand": "fraction for which collector-zero is contradicted by supported repository test-source evidence",
+  "partitions": {
+    "EXCLUDED": {
+      "category_counts": {
+        "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 9,
+        "SOURCE_SUPPORTED_TEST_PRESENCE": 31
+      },
+      "frame_rows": 2279,
+      "lower": {
+        "project_balanced": {
+          "decimal": "0.645833333333",
+          "design_variance_fraction": "12565/9174528",
+          "fraction": "31/48",
+          "standard_error_decimal": "0.037007468764",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.573298694557",
+            "0.718367972110"
+          ]
+        },
+        "snapshot_weighted": {
+          "decimal": "0.733508848910",
+          "design_variance_fraction": "4548530/514190259",
+          "fraction": "5015/6837",
+          "standard_error_decimal": "0.094053207143",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.549164562910",
+            "0.917853134911"
+          ]
+        }
+      },
+      "project_count": 4,
+      "sample_units": 40,
+      "upper": {
+        "project_balanced": {
+          "decimal": "0.645833333333",
+          "design_variance_fraction": "12565/9174528",
+          "fraction": "31/48",
+          "standard_error_decimal": "0.037007468764",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.573298694557",
+            "0.718367972110"
+          ]
+        },
+        "snapshot_weighted": {
+          "decimal": "0.733508848910",
+          "design_variance_fraction": "4548530/514190259",
+          "fraction": "5015/6837",
+          "standard_error_decimal": "0.094053207143",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.549164562910",
+            "0.917853134911"
+          ]
+        }
+      }
+    },
+    "INCLUDED": {
+      "category_counts": {
+        "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 34,
+        "SOURCE_EVIDENCE_UNRESOLVED": 24,
+        "SOURCE_SUPPORTED_TEST_PRESENCE": 51
+      },
+      "frame_rows": 1114,
+      "lower": {
+        "project_balanced": {
+          "decimal": "0.488095238095",
+          "design_variance_fraction": "25/698544",
+          "fraction": "41/84",
+          "standard_error_decimal": "0.005982367948",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.476369796917",
+            "0.499820679273"
+          ]
+        },
+        "snapshot_weighted": {
+          "decimal": "0.145870736086",
+          "design_variance_fraction": "225/54603824",
+          "fraction": "325/2228",
+          "standard_error_decimal": "0.002029923774",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.141892085489",
+            "0.149849386683"
+          ]
+        }
+      },
+      "project_count": 14,
+      "sample_units": 109,
+      "upper": {
+        "project_balanced": {
+          "decimal": "0.666666666667",
+          "design_variance_fraction": "32722565/147609798336",
+          "fraction": "2/3",
+          "standard_error_decimal": "0.014889018724",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.637484189967",
+            "0.695849143366"
+          ]
+        },
+        "snapshot_weighted": {
+          "decimal": "0.483842010772",
+          "design_variance_fraction": "1761365/245717208",
+          "fraction": "539/1114",
+          "standard_error_decimal": "0.084665581424",
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED",
+          "wald_95_decimal": [
+            "0.317897471180",
+            "0.649786550364"
+          ]
+        }
+      }
+    }
+  },
+  "schema": "PAPER04_N2_REFERENCE_V4_1_ANCHOR_PARTITION_1_0"
+}

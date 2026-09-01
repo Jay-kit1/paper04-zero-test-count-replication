@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 239543,
+    "sha256": "8983655dcf7a501bc705f33228c8dfbca84599c32ca95a01ffa1d61834ca0b7d",
+    "validity": "VALID"
+  },
+  "audit_id": "01d390188fc619f0",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "clojure",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "01d390188fc619f0599ddf218fbffd6e5baffdd4e2c10e0a8b4ad279c92f3959",
+  "v4_category_invariant": true
+}

@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 15587,
+    "sha256": "d79be99903d83503043b6060b468bb69c905277d408fa6c91e8e33a1d9d33f2a",
+    "validity": "VALID"
+  },
+  "audit_id": "06dc2fa609cb85f5",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "nanohttpd",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "06dc2fa609cb85f5dc2b82e4861cc0f1e64e911c60f9e29493ba86e62ff2ed07",
+  "v4_category_invariant": true
+}

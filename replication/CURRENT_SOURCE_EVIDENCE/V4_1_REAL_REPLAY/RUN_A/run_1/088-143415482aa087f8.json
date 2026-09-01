@@ -1,0 +1,164 @@
+{
+  "archive": {
+    "bytes": 36300275,
+    "sha256": "28582bfce8dbb5d5c75876f3fb9b3c80d22c23fa66b4a4dcca5e39d48adaec15",
+    "validity": "VALID"
+  },
+  "audit_id": "143415482aa087f8",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "guava/test/com/google/common/base/AsciiTest.java",
+      "sha256": "33df8b79b89550ff5d9407aa62e0cbdfcdd4c2266633053a11b713fb267dc844",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/CaseFormatTest.java",
+      "sha256": "6ff4c9b508fc29e4638ca7e5d3fba412fd9ed6f64387a94fb9009e607f26bc76",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/CharMatcherTest.java",
+      "sha256": "588032e4dfa8eea417c94dfe01157d3c67c479a2054688d453cf06ba04e3fd2b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/CharsetsTest.java",
+      "sha256": "33c5da6f6f3d5c9f92d82037cd1314b8df28b6bc6c8b630cb00bf5caf662c4da",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/DefaultsTest.java",
+      "sha256": "c3a7c8ad3efafdc5c218d10ff99eeeeced6afeb610e507f40f440d8ce62f48f5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/EquivalencesTest.java",
+      "sha256": "91f7921da3a1b15010fd60d7bb6ba45f8ee0d4ce652039a0b763e7898d042ef1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/FinalizableReferenceQueueTest.java",
+      "sha256": "1a6c863128a4be3e06e1a92d6f9b1d8c0bc2acfee2d0dac94136449cf3091b5f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/FunctionsTest.java",
+      "sha256": "8bed677eea798addfd9b6a8df190cc594a79511b9e085bace4d3d8fd4940ce18",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/JoinerTest.java",
+      "sha256": "65acbf118aa3854d01f610ad287e74102a6cb2ba1ca840d67407b80818d8b8f2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/ObjectsTest.java",
+      "sha256": "27fa839f4e2eede0610067051d2c076e2b13ee851d4e8093e786b23b7952d632",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/PreconditionsTest.java",
+      "sha256": "e6c3aeef3d6ed7676e3a66a6c13a148ce580c26447be2b6eac4b403ce23bef77",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/PredicatesTest.java",
+      "sha256": "4eaddc3f4b183801fe86549d16faef21b7259fa554e1e8d1d8b7142840b93cec",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/SplitterTest.java",
+      "sha256": "016e7eb25f448f7e4fb145bb57580e12331e8905ac271cf0dd53ff857238f09e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/StringsTest.java",
+      "sha256": "168b9742e2cd5f5a393aa7007f8e9d2dd81924096b77cd2e0ed69078f552d8d7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/SuppliersTest.java",
+      "sha256": "7cf25dec9b864f16b3b1f195be4148bbe485e81195a08c919d1f1cfe844cf647",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/ThrowablesTest.java",
+      "sha256": "a11c14c8c479c45874517f963a5c99c9b46d4dd0ad2fe60c8aa62c4cc371c9d9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "guava/test/com/google/common/base/ToStringHelperTest.java",
+      "sha256": "11f75ac0e456683680a4a44edc6d815dbb56644d156ed288aea66830f664df47",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

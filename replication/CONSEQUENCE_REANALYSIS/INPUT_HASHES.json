@@ -1,0 +1,17 @@
+{
+  "schema": "paper04-deterministic-consequence-input-hashes/1.0",
+  "authority": {"sha256":"919bec7f7b7849f6258d4dec88b00c9344b1bdf7bb258053d0286d1c3abb45d4","packaged":false,"identity":"Desktop authority received and fully read"},
+  "r4_1_handoff": {"sha256":"1fd82364b8212f64c7b066382c78fd73bedbfdb5fda8d87c71cf3d8ad0599f05","packaged":false,"identity":"exact deterministic rebuild from preserved FINAL_PACKAGE_R4_1"},
+  "anchor": {
+    "repository":"https://github.com/codeurjc/TestabilityStudy",
+    "fixed_commit":"033be23df608e83621625955171fccc0db553e47",
+    "notebook_sha256":"49195106a965808f429a98529d2ec197f6309e5bf2222c823d6ca9eecc738d60",
+    "published_csv_sha256":"4d5e03a8d77470ef76a8820e7f985a082c01cd65a856640c765933469ec57cf2",
+    "processed_results":{"doi":"10.5281/zenodo.10069834","url":"https://zenodo.org/api/records/10069834/files/processed-results.tar.gz/content","size":98645977,"md5":"56aa5b678a6e8c16627b7c93492218e8","sha256":"5f36ea3e93816c854c8366219f16574612493a4d25e3229ee560e23e43b6e862","record_license":"cc-by-4.0"}
+  },
+  "paper04": {
+    "frame":{"sha256":"1d7e5726b636fc69f38434346d4f5cc64426bb305939b01355657ad9f2f3591a","rows":3393,"packaged":true},
+    "sample":{"sha256":"5752e81215295a3d8b05583a934952e6d4ac18cde0b85704005150e454f7e626","rows":149,"packaged":true},
+    "labels":{"sha256":"dbc6b71fc3b79f190b62e926570eac71a0d3e87372592e3d60a60d886a0f8e56","rows":149,"packaged":true}
+  }
+}

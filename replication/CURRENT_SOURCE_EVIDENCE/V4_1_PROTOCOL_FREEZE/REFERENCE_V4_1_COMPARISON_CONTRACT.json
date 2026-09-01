@@ -1,0 +1,21 @@
+{
+  "schema": "PAPER04_N2_REFERENCE_V4_1_COMPARISON_CONTRACT_1_0",
+  "unit_population": 149,
+  "canonical_witness_identity": ["path", "sha256"],
+  "exact_agreement_fields": [
+    "category",
+    "positive_evidence[].path",
+    "positive_evidence[].sha256",
+    "positive_evidence[].supporting_rules",
+    "decision_blocking_unresolved_reasons",
+    "nondecisive_warnings",
+    "negative_decision_completeness"
+  ],
+  "determinism_runs_per_implementation": 2,
+  "category_invariance_reference": "V4_REAL_REPLAY/RUN_A/run_1",
+  "category_invariance_required": "149/149",
+  "warning_ordering_policy": "canonicalize_only",
+  "warning_membership_disagreement_terminal": "PAPER04_N2_REFERENCE_V4_1_WARNING_SEMANTICS_DISAGREEMENT",
+  "category_change_terminal": "PAPER04_N2_REFERENCE_V4_1_CATEGORY_AUTHORITY_REQUIRED",
+  "evidence_disagreement_terminal": "PAPER04_N2_REFERENCE_V4_1_EVIDENCE_DISAGREEMENT"
+}

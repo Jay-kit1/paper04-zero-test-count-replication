@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 10668,
+    "sha256": "539828306be928fc0ea9b26bafd4c30384172eb5b5e7b0de8f7913cc1d0f13cd",
+    "validity": "VALID"
+  },
+  "audit_id": "3efcd9a577bca877",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "javapoet",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "3efcd9a577bca877d184e5305568f50a6c16bb9a4c14d1689fce2dd24d75a693",
+  "v4_category_invariant": true
+}

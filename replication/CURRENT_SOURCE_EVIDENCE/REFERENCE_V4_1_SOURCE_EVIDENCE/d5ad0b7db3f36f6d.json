@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "bytes": 2607,
+    "sha256": "9847f97f79e89889d82618d6a31a05df466e74ad2715b382eef8ac516f06d13e",
+    "validity": "VALID"
+  },
+  "audit_id": "d5ad0b7db3f36f6d",
+  "category": "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_a_b_exact_agreement": true,
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": true,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [],
+  "project": "wildfly",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_CANONICAL_EVIDENCE_1_0",
+  "snapshot_key": "d5ad0b7db3f36f6d75f55295a1cdb364ab017091a4cceb37d54fb754acce349c",
+  "v4_category_invariant": true
+}

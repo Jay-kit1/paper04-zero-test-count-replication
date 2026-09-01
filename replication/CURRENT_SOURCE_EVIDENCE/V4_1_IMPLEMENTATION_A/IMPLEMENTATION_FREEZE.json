@@ -1,0 +1,27 @@
+{
+  "files": [
+    {
+      "bytes": 1362,
+      "path": "V4_1_IMPLEMENTATION_A/bin/classify_v4_1.py",
+      "sha256": "cd8768276f234ea11800b7f2f6379b434adeb5194e4e37373c6c5456b14cb191"
+    },
+    {
+      "bytes": 186,
+      "path": "V4_1_IMPLEMENTATION_A/v4a/__init__.py",
+      "sha256": "a6f31b46e9513def3c63631d5b3a07f280715f4bb21a38fb39b34a214fc8ab6e"
+    },
+    {
+      "bytes": 17780,
+      "path": "V4_1_IMPLEMENTATION_A/v4a/classifier.py",
+      "sha256": "e52ddc08843d32551c9fd3f46570830b8c5046971e2f7b5dfb18d0503d8882b1"
+    },
+    {
+      "bytes": 2709,
+      "path": "V4_1_IMPLEMENTATION_A/v4a/schema.py",
+      "sha256": "8ce8626a8c1dcfcf5de81a142d053cd8a73ad131f8c6a331efa2e70d51a2f4d8"
+    }
+  ],
+  "implementation": "V4.1-A",
+  "schema": "PAPER04_N2_REFERENCE_V4_1_IMPLEMENTATION_A_FREEZE_1_0",
+  "source_tree_sha256": "7e246967a95d69b5a3f9d70b132788d78dce022ef5388d2781c6dd90dd67ac19"
+}

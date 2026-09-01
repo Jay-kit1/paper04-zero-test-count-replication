@@ -1,0 +1,34 @@
+{
+  "archive": {
+    "bytes": 195,
+    "sha256": "bdfb9903c95a99624380a748c531a2cbf7172c07d6ba5032d15baa35ec25232a",
+    "validity": "VALID"
+  },
+  "audit_id": "f00000000000000a",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [
+    {
+      "path": "src/test/java/LegacyTest.java",
+      "sha256": "7828523b14c5748f022bad22ffc654543d3103d091481660303efb1992698e44",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

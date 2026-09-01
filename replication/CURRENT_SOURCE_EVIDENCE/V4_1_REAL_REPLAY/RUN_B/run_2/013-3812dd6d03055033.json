@@ -1,0 +1,1901 @@
+{
+  "archive": {
+    "bytes": 64709291,
+    "sha256": "044441578803c6c16d469ff25422f3bd12f7a03d56f606e108f46d8e0fde10bc",
+    "validity": "VALID"
+  },
+  "audit_id": "3812dd6d03055033",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": false,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK",
+    "UNSUPPORTED_LANGUAGE_TEST_INTENT"
+  ],
+  "positive_evidence": [
+    {
+      "path": "itest/src/edu/stanford/nlp/classify/ColumnDataClassifierITest.java",
+      "sha256": "6951a88de5e6ea19d12fe1a17579cb68d7e0c135d7a6ead313b0609a2c4e43cf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/classify/LinearClassifierITest.java",
+      "sha256": "d37fb2c4b87109b838d0dda8ddacac6284572f18e2fbdd3e91b46b6a70edbe50",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/classify/ShiftParamsLogisticClassifierITest.java",
+      "sha256": "6df14ad4d8dc5d5258198d0d00e43a317eb6a307587890cf7b77d440b1a041ac",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/coref/hybrid/ChineseCorefBenchmarkSlowITest.java",
+      "sha256": "10abb420c90314b1d085d7e9007534b05953592a6cc974cb4be5fe22bb41a81e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/dcoref/DcorefBenchmarkSlowITest.java",
+      "sha256": "bf5ffa5b3d4df6d42d07fc5e93096999a5ad54b8eec2ad08ca065e74b34ec101",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/dcoref/DcorefExactOutputITest.java",
+      "sha256": "97f20f8bccc4eb295723faa9ced18b44a742cf53cbf9d094277a2f5adc319391",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/dcoref/DcorefSlowITest.java",
+      "sha256": "d4de04bbb3d7062c9cd2387b80b310a46522e373fede0240a85c53b45807a608",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/NERFeatureFactoryITest.java",
+      "sha256": "706205098580ccd46e5cd74f2773a55e7e9f47e456ae05e0696112cb2e163c93",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/NERServerITest.java",
+      "sha256": "78774708e3ea826212f4055ff10bd5a043370e3541f23f0c37c77df3da410113",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/NumberNormalizerITest.java",
+      "sha256": "170eee3df2f2ade7f48c0f8c611e1f07eb0e0b66e1c472fe31b54ac1ce8d62b6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/NumberSequenceClassifierExpectedOutputITest.java",
+      "sha256": "7e8acf668d2c6dcd756f350fbcf8ef47cfbbe07af1a5392a4da725801a52ba19",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/NumberSequenceClassifierITest.java",
+      "sha256": "4d67c8e060e7216fc1f889607a86bb135ada5acbb61be6193ed4efb34b8fe36f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/crf/CRFClassifierITest.java",
+      "sha256": "f6f7a7a06b1c891fbbc0bf37cd8851d24a9d6fa4c0624a883a16cc88885c3114",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/crf/ThreadedCRFClassifierITest.java",
+      "sha256": "029dc75df77eee96586e4ff255fd74993bc095257515c4c4ee13e6cadce91523",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/crf/ThreadedSegmenterITest.java",
+      "sha256": "c1c123c298b4958ef005b4854813ab1a5e53757ffcb008212e3003e6b7c8955d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ie/qe/QuantifiableEntityExtractorITest.java",
+      "sha256": "bba14ec4875ed61bfafb41a815399189ed4b1769163cd3c9ca887dd9f8874b2d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/international/spanish/AnCoraPronounDisambiguatorITest.java",
+      "sha256": "86c2de9fd120539030118cf15c7aacf741f241ae0a7384a60dcfb3533a411f93",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/international/spanish/SpanishTokenizerAnnotatorITest.java",
+      "sha256": "ded5bb30951d3839f2b3c8f637d19b3d0c3869a1e3aedd4753e60a0e5f200076",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/international/spanish/SpanishTokenizerITest.java",
+      "sha256": "0dfeb6a8ce9942b20fc8f5b92a3f7d6bab4fafc860993091f026b2a2bcaf573a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/international/spanish/SpanishVerbStripperITest.java",
+      "sha256": "b48a34646c3a2d4e20a53cd5fea9bec3160c18cb3268005be7eea48c570e235e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/international/spanish/pipeline/AnCoraProcessorITest.java",
+      "sha256": "2ff70188512143de0a28eb225dcf0de1eb7401e8fe94f58dd1b3182b2ce8cc85",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/io/IOUtilsITest.java",
+      "sha256": "e1054c3342d0ef923046ea2b25ecffebffccef44e09bd4e8355c047a35abe2e7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/ling/tokensregex/TokenSequenceMatcherITest.java",
+      "sha256": "92efc426bff3f0c6c5fbacefffd4ffef1a93aa739e0c7519b5c260a2f0bff0d5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/naturalli/NaturalLogicAnnotatorITest.java",
+      "sha256": "ad44594f64d27c60f43eb095cba81e7b40f05b5e4591b2784edbd4315231559c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/naturalli/NaturalLogicWeightsITest.java",
+      "sha256": "d0284b4711e21bb0e6244f030eb150f6d226d0c0e1907667aa5cd3754b95321b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/naturalli/OpenIEITest.java",
+      "sha256": "75daeb23241a19d0e2f1334d2a19d3d59d3583ac26ec447a2b93f3855cba4e1e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/naturalli/OperatorScopeITest.java",
+      "sha256": "00d40bd725c18149779476610bae42549ae8e6266d26a62277e05f6fc9a64247",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/naturalli/PolarityITest.java",
+      "sha256": "9781a12f5e6ade2e7fa6a1dc3e9f49cb88bea83ca6a143e824f9bf43c6ca7b09",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/neural/EmbeddingITest.java",
+      "sha256": "d26cb77457ce4b458924557b5d8ba99f0cec594eb884a6afe50999ef5107385e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/DependencyIndexITest.java",
+      "sha256": "fb13f44a4569228af2e7fcabcdd70c92a097d09310ea7c2d861f0e7e3f1c3623",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/lexparser/BuildLexicalizedParserITest.java",
+      "sha256": "91e5b3c63b17a5d6fb6286ca3880a78f547ce34f10f67f677da13cc11e6a9e79",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/lexparser/LexicalizedParserCharacterEncodingITest.java",
+      "sha256": "980cee12742484dc56cd1ac1b1c3458c6a72a88b9d1024df3416d19f27d45855",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/lexparser/LexicalizedParserITest.java",
+      "sha256": "4789ea3b4481222d1730f42003df8b2433579f822b3742e7de631f7bdad60dd0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/lexparser/ThreadedParserSlowITest.java",
+      "sha256": "ad2e0450df25c98f1f172b230d72b03a24a79c0699976931d2bb2aed58bb72e9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/lexparser/demo/ParserDemoITest.java",
+      "sha256": "bcbb0be4d350916ff9f82d5612187d72d26b6a12957c7ec37fbe800d55adfb04",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/nndep/DependencyParserITest.java",
+      "sha256": "aee18865efeb6ae657704120ea3440f854788498a7fe1a9272d196e35daaffc4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/server/LexicalizedParserServerITest.java",
+      "sha256": "ac5aa7149cb56a2de540f77a3334627cb51675f22e25daaded799192d1113ea4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/parser/shiftreduce/ShiftReduceParserITest.java",
+      "sha256": "6c998beb70593036a6191c25e00df105246c2504788ce44bef16d0524239329b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/AnnotationOutputterITest.java",
+      "sha256": "76af95acbfde195b33ec81071e1ed3fe06f65839f8e52cea24951cc082d46bd2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ArabicSegmenterAnnotatorITest.java",
+      "sha256": "91ef74cf83665aed0406de79762985c6dabcca4f0f13ffd6cfbd0135788ddbd7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ChineseAnnotationPipelineITest.java",
+      "sha256": "501a6feff5f44b5ab494a8dd72a843e7fbf7cef3b5fa5f71c86eba4c806817d9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ChineseSegmenterAnnotatorITest.java",
+      "sha256": "931457daee107c839ca85680238f49a5d6118985aa98d7ae6ae9af6b3378ea16",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/CoNLLUOutputterITest.java",
+      "sha256": "272d2cf3d8b9a2fc067470df5d118ebccd38558661d7d207d419d27c9163bd0a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/CustomAnnotationSerializerITest.java",
+      "sha256": "8d99dd83ee603239720ec4fa28c23a0e53c60ee2e947b33821d9040a2b40cde8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/DeterministicCorefAnnotatorITest.java",
+      "sha256": "e4d483bfd3d9a039c64e204bfb36a38249eb95a5e01ec0f4faabac7c92a32125",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/EntityMentionsAnnotatorITest.java",
+      "sha256": "dfd91c053e209ea0fef25ed8e1a5908b72513a34aee7bed2b2f799ef14f24923",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/MorphaAnnotatorITest.java",
+      "sha256": "3148ebdc993effab4cdb055a389febf4da17052c1848a1990db5d825479aa50d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/NERCombinerAnnotatorITest.java",
+      "sha256": "464348477523a9d8797d34df074a939df8f6ddacdfda40550f2f5a7b9af31260",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/POSTaggerAnnotatorITest.java",
+      "sha256": "30aaf2b1a57264a830f887d4593e07309b1f4c5f5986205b4139bc84b6aa390b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ParserAnnotatorITest.java",
+      "sha256": "ebdebb8ca108bb01e705769fc13756f1370b8b89f6dd823003b485f989d62ebf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/PipelineITest.java",
+      "sha256": "13f8b7ba0d4578c852987a42b595efa9fa0733d83b5989d896712151837e3ae5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ProtobufAnnotationSerializerSlowITest.java",
+      "sha256": "e1ff646c6b5fced20834a793562de28ade8c7a907d5ee599d375500178c43440",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/QuantifiableEntityNormalizingAnnotatorITest.java",
+      "sha256": "85701c71ba79b83903e2eb635e86d77e99e61de7e2692c4a34d5a73c7519079c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/RegexNERAnnotatorITest.java",
+      "sha256": "738c1b25c4314afe9571b561f1a940466d93d52dd54c4c2426a9680dc7d46e44",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/RequirementsCorrectSlowITest.java",
+      "sha256": "e8a336a74695be3b0dfae3d0e4347083da1afd6e349c79b39e72615e448a3481",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/StanfordCoreNLPITest.java",
+      "sha256": "afce20e40111bddd7ef1be505f372023054674cf801af39420b392e01e8465da",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/StanfordCoreNLPSlowITest.java",
+      "sha256": "faf5eacbb86912772724f130fc5c4d65a595bee024894aba6c18f05917dd67f1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/TaggerParserPosTagCompatibilityITest.java",
+      "sha256": "93bdb0a481d4b6df2e26e4301e4c1be98a58aaf9a7cf04e84569d100d76ca1a1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/ThreadedStanfordCoreNLPSlowITest.java",
+      "sha256": "5d90f0a327ca5d5560e1081f6847aaeed300338e79ade4443bf15e5a7188243f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/TokenizerAnnotatorITest.java",
+      "sha256": "f91ea9e4633db04f42c46331773dba16d779a362ff54c03ab82bc9469f127e83",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/TokensRegexNERAnnotatorITest.java",
+      "sha256": "3f376b0fc39e163963d7868ba6dfb62bed43b4a8f29485578cd3f4b270e77892",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/pipeline/TrueCaseAnnotatorITest.java",
+      "sha256": "72f582d2f5e4b788645efd392dbc76e1dee7a2d3320674af3e9718c83e72979e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/process/PTBTokenizerITest.java",
+      "sha256": "161500ae233c0375bc5c4d761d4801adc23eb4398890d2e577cf6931107daf17",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/semgraph/semgrex/SemgrexPatternITest.java",
+      "sha256": "7df78970dbed7f834ea1a87d7bceb72196f8c9c958aa17d8b315fe94900dd387",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/sentiment/SentimentTrainingITest.java",
+      "sha256": "11ef7f5793959a39ddac3ed6388b534e53d0ea8179229c97c483c25d7302459b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/simple/DocumentITest.java",
+      "sha256": "0f1ef336e0b47b2120b1a4eccb534a3b3cde5f5530edc26052462ec871998419",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/simple/SentenceAlgorithmsITest.java",
+      "sha256": "1ef337c749109481bc6f61542705d9f329dffa58f598137981e6fb619a469a32",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/simple/SentenceITest.java",
+      "sha256": "5f8d7eff20960959e0330f822df8ea3babc8387e8137d1388b5802df331c59ba",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/tagger/maxent/MaxentTaggerITest.java",
+      "sha256": "a95ab07c8d8c9d63d54d721fa29982bd1a33f6596a62a1b3504abca3440acb79",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/tagger/maxent/MulticoreMaxentTaggerITest.java",
+      "sha256": "a3213fc53ee461b282132825628c39ad0c2672405596f9be1e68bd65398d9705",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/tagger/maxent/ThreadedTaggerITest.java",
+      "sha256": "e5ee7a884a7421431228ac3b0d69bcb84a9672b7e01b0f75fb5d7a5f18ff54e3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/time/SUTimeITest.java",
+      "sha256": "ea84addb7fd81c9f6c5f640133d826c2361eebbacc960844ac54f9949fbe62af",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/trees/international/spanish/SpanishTreeNormalizerITest.java",
+      "sha256": "be9e791dfa65a7cd1cf215125832a387aca99100f3cdea51192cf8420f020ec6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "itest/src/edu/stanford/nlp/util/TSVSentenceIteratorITest.java",
+      "sha256": "69846770f8b5b031383cd91fcb1d5fa63b458c53bc5c245cfb1f7d76ded6f0e9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/classify/DatasetTest.java",
+      "sha256": "4fad13310def0ff936436ad31a0c3b60b3bfc38d9ba1b6dcc03d7ea6c21c2002",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/classify/GeneralDatasetTest.java",
+      "sha256": "301bd4975c208da752b89bcee82c96b03b55ff44a413ea398769f6d7c4c22557",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/classify/RVFDatasetTest.java",
+      "sha256": "43564b5f99eb8040bf4e9ef4e5531dfd2eeb82c1dc40013d5de387e711df0245",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/classify/WeightedRVFDatasetTest.java",
+      "sha256": "7c7756e6b7ff35046d644bb24227cc5db7db011251d7899e06cbac9ccd2aa4d9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/dcoref/RuleBasedCorefMentionFinderTest.java",
+      "sha256": "793f2d356bfdb1c73a113c8a5f7c85b7e3dac768d7bd459bd7f60c93b184f680",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/dcoref/RulesTest.java",
+      "sha256": "c9d103ee7b4ca23c9653bf89bb0328e53ec976cdbda9651844e1382244aaa643",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/graph/DirectedMultiGraphTest.java",
+      "sha256": "bf9da5e34dd9a2b834c71c121d18c1dd6289be1b2b3f5b1ab91a4118dd3b06aa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ie/ClassifierCombinerTest.java",
+      "sha256": "c0eac85f1bc77b440fa7a8b1b9a86842d4fddc22bccd667d6cd54c66be24c9e2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ie/KBPRelationExtractorTest.java",
+      "sha256": "00dee0b779a1c855a37f5d7827c109ef2a7497aa0011e2ba3a78c37b426336e9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ie/QuantifiableEntityNormalizerTest.java",
+      "sha256": "5d4fb471c59872486d6fbdd8f0a310987c8e159f9e02e7e5ea567d607fe4e168",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ie/pascal/ISODateInstanceTest.java",
+      "sha256": "84493eebb2daab518683dc6e882478219ebcc3e26ab99c3747755d476a3ea36a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ie/regexp/RegexNERSequenceClassifierTest.java",
+      "sha256": "f143c9df59f3589f08e0d7be1c15929890beed0d9454f7ac8a645497b294f113",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/international/arabic/process/ArabicTokenizerTest.java",
+      "sha256": "9a1262af3775f81a40d0fb120957ed4a7c494729f913262804b3e90cfbd5e08f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/international/french/FrenchUnknownWordSignaturesTest.java",
+      "sha256": "d8b306cf22082fe7723671f3c0f4f4b71c0fa2ff0b54887b8c72cf45dd73d41c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/international/spanish/SpanishUnknownWordSignaturesTest.java",
+      "sha256": "36bb08f8b2ccf7fb8383bbfa6db9d9b595a9f117a08ac7fa9974ba474f1d853a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/international/spanish/process/SpanishTokenizerTest.java",
+      "sha256": "a8778903978848afbe8324d33fffa642b3aa4a868c1edd4b9561c0f71412a24a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/io/IOUtilsTest.java",
+      "sha256": "6635eb6daf0fefbcdb7d0026f75c7a969384dc5b4c094369aa699c19a73e835a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/CategoryWordTagFactoryTest.java",
+      "sha256": "79c7700d99504aade84b0654d1968df81de43c102d8fc396382b6c4aba446927",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/CategoryWordTagTest.java",
+      "sha256": "997eb73c5f33f449e12d3b7d5786fc09723583f71ba8b88172dce1b112037e33",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/LabelsTest.java",
+      "sha256": "b4c556bc4a2bff54450115d31a621acad44410f6d55d2c037e2bfd9c4b323091",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/SentenceTest.java",
+      "sha256": "9cbbd5bf48ca1b10cab11cefa7f237f8be707b6fd46bc5d4015813f9bfea031f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/tokensregex/MultiWordStringMatcherTest.java",
+      "sha256": "c13e9c71eec02dbbe57bc7b472a7b6299fb4759b713e768aa63e0d2fc8c8ce44",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/tokensregex/PhraseTableTest.java",
+      "sha256": "704a1f0c311e18887322618b6245f7785d928a5381666516630612d2475f5c7c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/tokensregex/SequencePatternTriggerTest.java",
+      "sha256": "4b56e9f6be99e29b6c2c1d97653f6dbcae9ce8ab54548e0eb23e9ce2e7156301",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/ling/tokensregex/matcher/TrieMapTest.java",
+      "sha256": "12915bd908c34ce351e3c6ff1b9eec364005779c44d8243ab7dea676e97ff5be",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/inference/CliqueTreeTest.java",
+      "sha256": "684e9e1a71994404f9430aa0beaf6cbc976a1b70ae5428ecac89f75b91ce1b81",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/inference/TableFactorTest.java",
+      "sha256": "2a8f004f3745a91d7e5a40efe3673294083182da71ee700363f027d4af179302",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/learning/LogLikelihoodFunctionTest.java",
+      "sha256": "e949f781aacf24c0dc01a72f230dc0784a8e1285dbe15ebcf79217c6d8e21c37",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/learning/OptimizerTests.java",
+      "sha256": "8efea9d71661633d4ef715f1e276702dea8ef12bc54d6f66ae63d25449675ad0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/model/ConcatVectorNamespaceTest.java",
+      "sha256": "7dd0ded2cba70193137548fcf1b952ebb3779eb5e77fde72819b71d7c12846c2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/model/ConcatVectorTableTest.java",
+      "sha256": "ed915ffa944e2077ff88a242fe6a873e1552df5eb84dd0e26544f7eb712d0496",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/model/ConcatVectorTest.java",
+      "sha256": "1c0653f31bd2ca780cda0600f895dd6605b7e83054ed2a3f039f11a80acceb2d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/model/GraphicalModelTest.java",
+      "sha256": "391844d9a2aeba062fee6feec8207f1ad37a62861c784f063f600e7f3689a992",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/model/NDArrayTest.java",
+      "sha256": "ff0cc0842c62827ef17ea61ff532dadba78a56183ef5a055ce5b0ce12e9085f2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/loglinear/storage/ModelBatchTest.java",
+      "sha256": "60fbf13d2ef3068a446d14b0d1a11da2f113276947a8f44112a211673b469c78",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/machinereading/structure/SpanTest.java",
+      "sha256": "131666d961e9d261c3fdbbdb1a97b143d63e173d63ee37bc70944e0f035fcd0d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/math/ArrayMathTest.java",
+      "sha256": "056997062821ca3563f3e0838a39d7e89f8af116762b7e849ec8da06b5b1b69e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/math/SloppyMathTest.java",
+      "sha256": "4d9c9c4eb501c203b621868265766844eb33530e8abbefda70001e67ffb1f088",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/NaturalLogicRelationTest.java",
+      "sha256": "4a253990213dfe8082ed30ce96657ad12e081d48ec8c3f5f267fe3d20113d973",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/OpenIETest.java",
+      "sha256": "7f9d55c9d600a90bfb29bc168a487b5cc8463082b40a7ac97822afe3f12d175c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/OperatorTest.java",
+      "sha256": "05abfb3ac079e361e0f44ee43eb09304a04a709f7f750d412c57e4352e93827d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/PolarityTest.java",
+      "sha256": "092bbb48b514f4faece57fba230fe9efb607bdc9e5a9839bb1b9669ea069405d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/QuestionToStatementTranslatorTest.java",
+      "sha256": "3c9f601b0e1a5d2be45d1428b9a07c402e81f0bd91c799a5ff297d5d5174b74d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/RelationTripleSegmenterTest.java",
+      "sha256": "c5a1052ee8e29f3d789564c423880cb27706ecc025939ddb8563eb6cdfa7acf6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/naturalli/UtilTest.java",
+      "sha256": "ce9ec05d8466fc68fb2a0ce3fa09f9ed07a2b65933168d2fc35540f06fde3475",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/neural/NeuralUtilsTest.java",
+      "sha256": "79ca994f12c8ff0383b10bd5f3d4fcc3af36de2fe2915cf7e7366a7772f4005f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/objectbank/LineIteratorTest.java",
+      "sha256": "af7e5696bb1c1369757ef27e69a68ab7d64d8f6725cc9c7b9cd6c658273c8416",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/objectbank/XMLBeginEndIteratorTest.java",
+      "sha256": "e63edb00014022c458702e6b09992b979d7074f873710d146a169a9dff305ccf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/optimization/DiffFunctionTest.java",
+      "sha256": "cca213568b8d77bfb91160d6b49628f501216d27057355e53bb411ba4d2e485c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/optimization/GoldenSectionLineSearchTest.java",
+      "sha256": "4697f34391f9b3ca54a2e52563dc01ca07b4dc1174d39805fa87d59808bf6d7f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/optimization/MinimizerTest.java",
+      "sha256": "c57d50ca29cb379a1c56b61db64c71c0a2a6faac14aaa817f2a2de00a1fb470c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/lexparser/SpanishUnknownWordModelTest.java",
+      "sha256": "c32d0ec66a634606468f3d1e58595a9eff4f5312565a4dc096cf332fbef6c813",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/metrics/TreeSpanScoringTest.java",
+      "sha256": "0b82fdefb7133f9be9dade97dcbed44cc4dd1dca6ec1f2b8d1d1de2f47b9587a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/BinaryTransitionTest.java",
+      "sha256": "93a902440bec052af1ff7f553f32e5f3921a5e5ff5c632ccf78f5ba822fca0f1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/OracleTest.java",
+      "sha256": "37bc3edbb26a7193470c1196c4dd2abd26ecf88da1fb265b6d13ba2cb38013ba",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/ReorderingOracleTest.java",
+      "sha256": "89ab654e502489d1c5ade665674a364251e633b174dbb00b5bb56857e985b271",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/ShiftReduceParserTest.java",
+      "sha256": "0c5a33dd4a4532e7ba0268b1f1ea3487b64ce2e559c66435f37e9660c7aff7cb",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/ShiftReduceUtilsTest.java",
+      "sha256": "6538af715aa95cbb7f3b987858fb4e4db5b3ce9880022a8f96a92c36d248daf6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/parser/shiftreduce/ShiftTransitionTest.java",
+      "sha256": "ecfc6562570b5c4a58f8edc2e66d50cf4f9a5e35057af0d12fca23583d32edd9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/patterns/CreatePatternsTest.java",
+      "sha256": "2c782677bb7190282b5f2c5615c9111d477556d32944b714b581965a5b16d157",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/patterns/surface/AnnotatedTextReaderTest.java",
+      "sha256": "7a301305b548da1ad8e8ca7d84166361619657693f3ebe88ee5b05b68946c92c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/patterns/surface/PatternsForEachTokenTest.java",
+      "sha256": "888c129d7269b4a65fd1d897c3a5495ee3222ecaa8cb0949780bfcf17b080ba6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/patterns/surface/SurfacePatternTest.java",
+      "sha256": "67c60b55a50f6441cf5cf2fba5838106a56c3ebdb61fe5a3e55e8a52bcea406a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/AnnotationTest.java",
+      "sha256": "42374e0543fc756c3b61ce9f16f692a422e386a9fc51b87fb3e5f9604c8670d8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/AnnotatorPoolTest.java",
+      "sha256": "2aa72fe3cf2dc073f31b16d968d5317c64c8095f294a27b0932ec8826308676c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/ChunkAnnotationUtilsTest.java",
+      "sha256": "13e47d42a3c85ca1190cd15d734036e6bece61c9ff3819ba51f468a58efdc903",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/CleanXmlAnnotatorTest.java",
+      "sha256": "f20152c1f7da9c9bc16ef971890737923a3c9de949794ae4c29abc639ee2b661",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/CoNLLOutputterTest.java",
+      "sha256": "f1e1c89899aea27d283459e8ed21f4514bae1a6bfecff75003ec025edd130edc",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/JSONOutputterTest.java",
+      "sha256": "522c078ae72945306bebea5cfb968e2ad89b5b87965b1995f5158850ec21229b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/QuoteAnnotatorTest.java",
+      "sha256": "ad8569c1a730ecadd50e39518b391dfdfb428010e9d06e70bf3cece6253aa262",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/StanfordCoreNLPTest.java",
+      "sha256": "a14148a1146ba97491ea321146554d10af8f028d39ff0b7b14b9f99b40e07efe",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/TokenizerAnnotatorTest.java",
+      "sha256": "dff3daaf01daf3ed6070947999160333c887871f0f487fb02b5486efd485821a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/pipeline/WordsToSentencesAnnotatorTest.java",
+      "sha256": "19a2b02b3aa9bc2960e5f99a14b3fd53b3214d6f5d5f15152d6d81415f13518d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/AmericanizeTest.java",
+      "sha256": "5acb57bdb0f08e3d89ea69a8c7329560106785bda47c0adf5d11610783b0d8f4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/DocumentPreprocessorTest.java",
+      "sha256": "dd5705cd3bc210448799930929baeb6ef5aa9d789a1c69bd6b2ef336419eda40",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/MorphologyTest.java",
+      "sha256": "bc9d180b7f726ba764a00ccaf97b3c8d2b3736e0e4fe471337974b5ca40185f4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/PTBTokenizerTest.java",
+      "sha256": "60a7c174410434e5639c05678a8d9e3c9ec666d34ae92d0953b665cb27d5cef6",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/TransformXMLTest.java",
+      "sha256": "af2e7ff2f67d845f479c1c1c66c303b4c2db033abb646ef026fad1c13a6a01aa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/WhitespaceTokenizerTest.java",
+      "sha256": "97eed74d70d6c42f0ef8e7ff62eee919252ea5c7df5613e14a5602664f8a5088",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/WordShapeClassifierTest.java",
+      "sha256": "8e372b833ee28a1b75e9560c6a4dea5b7e6058b3313d072f732e06b169b6c6f2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/process/WordToSentenceProcessorTest.java",
+      "sha256": "c652a23ef29e215e386f0b0a68246fbbce085f9091f553a62c56bfe51632e94e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/semgraph/SemanticGraphTest.java",
+      "sha256": "e3db4c8c67dd264f672ee4ae49f558df512364e612bc18de11b3e2e9ef6efed2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/semgraph/SemanticGraphUtilsTest.java",
+      "sha256": "46b6a0f6c0e424a048a3fc8914a589a6d71655dce3b222659748133dd295514a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/semgraph/semgrex/SemgrexPatternTest.java",
+      "sha256": "6c664c48d6a852f36b7d3a1f8065dc41e4bd5e3b959dac66aa1a72ee64a702ce",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/semgraph/semgrex/SemgrexTest.java",
+      "sha256": "be8a0efa118b841d4ad90db067e922e93f62cf6a07ae758bd8fac7949b5eb8e4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/semgraph/semgrex/ssurgeon/SsurgeonTest.java",
+      "sha256": "8545a2a3e224c29d14ba0a5aa39d3688153a0df8a591e081c28f3cb28adbd030",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/sequences/BestSequenceFinderTest.java",
+      "sha256": "0b0b04d5e20325be6b697f0c72688c97974ef794b18bcb21dcd1ff6b2bc02fb2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/sequences/IOBUtilsTest.java",
+      "sha256": "04df1c63eb66dae04e17eef196e651ac15ea6a581720c75febaaf390f95e2484",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/sequences/KBestSequenceFinderTest.java",
+      "sha256": "383a3c4886311af7dd4819d8a0fb3042f14478f2aee6e472c328ffd54b64a325",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/simple/DocumentTest.java",
+      "sha256": "cb6004e9c2673bd11f2ee44aab38a6f0132f0f810507b5ddd45bae0068985782",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/simple/SentenceTest.java",
+      "sha256": "92e0a940637219f9c618b73b921b09222c2d2d6571c389fb2fe7eb3b55f2c2bf",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/stats/CounterTestBase.java",
+      "sha256": "d6730bfec1763d42a63e458810f3ad6c172c267d3be3008c914283611566e281",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/stats/CountersTest.java",
+      "sha256": "6cb6eb5fa63e9a879e26d64edba2c104502e976165ba799b18a9cccd9b25b58b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/stats/DistributionTest.java",
+      "sha256": "ae9dfe5f65c1da8485350efbf86ab22a0174afc4172e200de09df8c4e4445623",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/stats/TwoDimensionalCounterTest.java",
+      "sha256": "6a83a514d1d3303b1d52a72460828bfd4f2695d34cecfd34f50cdb293e01a688",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/stats/TwoDimensionalIntCounterTest.java",
+      "sha256": "8f9dee432f383c5796d4f45c18814a4e87ac9b8d87b4025c9a22557074f2954e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/tagger/io/TSVTaggedFileReaderTest.java",
+      "sha256": "5a2778e969555bd7f3f8045f1cafcd6bc2eb9e9eb78f27c8d280fb15c2fd758a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/tagger/maxent/PairsHolderTest.java",
+      "sha256": "8fcb0cfb65e787990d61dd55092f91347be6c08fe6491e593ee834888fc905e7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/tagger/maxent/TTagsTest.java",
+      "sha256": "1471cd956caabc0ff7c2042a33bfb1a2f43671dc8e28226e40e3c3c67c8ff632",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/time/DurationTest.java",
+      "sha256": "3b17725b1fe01c0c516c0a90e1d8bb638558616409bd14ae65dcda814a9e91dd",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/time/JodaTimeTests.java",
+      "sha256": "bb0137616448530caa62784aad70832ed0c45060ae12db9eff184f05a42b3fc9",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/time/SUTimeTest.java",
+      "sha256": "60ccf787867a040c4ea6cb6af2e84a3076531c41e4e60ade45fde2d10b18ad47",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/ConstituentTest.java",
+      "sha256": "bb3cc45d8878cd4b3f2cfa32d18606d4f10628c3c42e3edd540d4eac63792580",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/CoordinationTransformerTest.java",
+      "sha256": "dbbf6eb5934e684281d2be347195d198529495bf7b819de484eecdc3ed1cce60",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/EnglishGrammaticalStructureTest.java",
+      "sha256": "654ccabc31ac586beebfe41246cd2b382f4e01e239686a8815020f2818180055",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/GrammaticalStructureTest.java",
+      "sha256": "4d88e4b8eb0e889ce1d370c14520fed773b79cc274fe623cf2ee237f293f7691",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/ModCollinsHeadFinderTest.java",
+      "sha256": "7873b9d2b8d9dbe46dc41f4486d31bc1c5d5d50c500308f366b27ed6d8ddf107",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/PennTreeReaderTest.java",
+      "sha256": "af2890bf870b7e6188b9946a4cecfc61899238c1dada4de248624a882c99b445",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/QPTreeTransformerTest.java",
+      "sha256": "7ecbfef30c271687bc25022449e6264641d137f32309130f9a461626cf4ef618",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/SemanticHeadFinderTest.java",
+      "sha256": "28c36552a261e6491c17f0acc17e3f5521d4a2cecc3d036b15042dcec2689707",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/TreePrintTest.java",
+      "sha256": "545b8a392278d49a0fd58c34a581bbf4f467fae71008b48e60b04c7632bf50e1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/TreeTest.java",
+      "sha256": "1d8fe7845809d691afc4013626b13333b26ca66994decf95b13557b4686309fa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/TreebankLanguagePackTest.java",
+      "sha256": "8f8bf06d8bcfcb9f9f65aae40887bbdd22d6bdbf50517f602a9e76c651444610",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/UniversalEnglishGrammaticalStructureTest.java",
+      "sha256": "10503a1ce091582036923c6976aacb6586fda7b5f2f76b0d2c0f905a7ee54c05",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/international/negra/NegraPennLanguagePackTest.java",
+      "sha256": "df3c13538c40a520b1295a5e1640da19f2684e58119be41a2fbf66430f0faab3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/international/pennchinese/CTBErrorCorrectingTreeNormalizerTest.java",
+      "sha256": "7b6c786990c7b57cd2bd06ef7f0a5cc51adb55f8cf559f0c6f91dc5cb1ae7a8f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/international/pennchinese/ChineseGrammaticalStructureTest.java",
+      "sha256": "58b1f56e78374ccf75603f7f3777998e9eec5cf4d1a40e3c9ca700f37a2da9b5",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/international/pennchinese/ChineseUtilsTest.java",
+      "sha256": "ee7db43a6b9cd6694a46f7129595149415b8a37a3023c291c8c1a59692401460",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/international/pennchinese/UniversalChineseGrammaticalStructureTest.java",
+      "sha256": "a99f5a3ce1028bd9219758c753afea8117f7086fcd489dab323da917750f5e17",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/tregex/TregexTest.java",
+      "sha256": "34d470168d398ead731ee41e633d06479d54ccf94fb85ac3b33b5f47e33afc09",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/tregex/tsurgeon/AuxiliaryTreeTest.java",
+      "sha256": "9a83a48a088498d67811ebce96c432997f8f481e464a22068f11e7d26d9a76ec",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/tregex/tsurgeon/RelabelNodeTest.java",
+      "sha256": "9b7ff2829f8071f808d3d446b3e745fcc99b1065f012a9ac2b9b6abbda4999f7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/tregex/tsurgeon/TsurgeonTest.java",
+      "sha256": "5f3d680eb6873abeeeb142476375573540517c539ba533018056e518a1b3cfbd",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/trees/ud/CoNLLUDocumentReaderWriterTest.java",
+      "sha256": "c16e27302a144a1dbdec16fc5a7cb6414041cc27543492367b7df4dcf1dd913c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/AcronymMatcherTest.java",
+      "sha256": "a5b74727e8451e3cd99d4876a65a92e214c18004a3d2d27e071e41dc0fbfd1ed",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ArgumentParserTest.java",
+      "sha256": "c12115f58fbe2601645cf0870011ee324067b355f9fdd261cad64f687841475c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ArrayCoreMapTest.java",
+      "sha256": "444d5eec1dadc0a34eee5a5a2dc7d317454b533891bdc1ed881dd21be83f80c3",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ArrayMapTest.java",
+      "sha256": "d23906402d6107d5511567ee41588123c4c189d024aa129e2533ea53a857786b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ArraySetTest.java",
+      "sha256": "6be01a55b921b6c10cfecb160563c552fd8b25e913e8c391f5fade5cb001b6f2",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ArrayUtilsTest.java",
+      "sha256": "4731c0d1f827d2bb001a74f94f4cb1f2fd2652b40a60d33b5d7f51835d93240c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/BeamTest.java",
+      "sha256": "d7e2077188944f14f815f4e62d1e39214fb18dcac9a176066c3cec4d8ca0cbaa",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/CollectionUtilsTest.java",
+      "sha256": "1f9f1ddcab94b5ad07a5750470d233ccabb70a12c46e3376bbf6113925e7359a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/CollectionValuedMapTest.java",
+      "sha256": "376797d58e5a99ab76f68bf1c4058eef8e1ff6f7d70e968c697d7bf3d228f867",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ComparatorsTest.java",
+      "sha256": "dd26e01e46df144e6a0860c29da907cc5e704f4314fd3712249332ba0dced2b8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ConcatenationIteratorTest.java",
+      "sha256": "f3bb96d9d790a04a9a1b6905e76ef8ea33cc888cd707059280cd41a883ff7859",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ConfusionMatrixTest.java",
+      "sha256": "4ddac69922397ab4d63d718122ef84ffa9c8e800f5949f86b9f36a185a2ac3ea",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/CoreMapTest.java",
+      "sha256": "021778fac770ab08a4d4fb8ad727a081775749671e73d58cc1b055dc82df8cee",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/CoreMapsTest.java",
+      "sha256": "931a28c5101b311c85999899de414e3feb1910557c018960e5608bd2f8c3f386",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/DeltaIndexTest.java",
+      "sha256": "bf897b9f2e82837674706e7ac7512e7c7445bd521dbaea209ddfae989033b34c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/DeltaMapTest.java",
+      "sha256": "e2a5bc958977b4b438475d2f895c128b3be99e141cb9731c11162b6513144c4f",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/EditDistanceTest.java",
+      "sha256": "79e88adb8d908f7e0ca614d0a9ebdad846c65b111a37b6ca0899e0e8793ba349",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/FileBackedCacheTest.java",
+      "sha256": "88b5d3023254a470d31af9ad4a62fc897e0b1a659ffa48eb59d4444877740119",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/FunctionsTest.java",
+      "sha256": "f28bab070da3e4ea0b1a0c70dc263990f8e4ae10cc57af06484321b3e33353e8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/HashIndexTest.java",
+      "sha256": "1d4a7e12ca5cf27b53219724da2ae733e6bf574cb0fa8116bf4c6f746ea47583",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/IntervalTest.java",
+      "sha256": "1b12925cb5ee76b25b7a520f34ad73fd26c639084e6ba81ae8d4b8fee48760e7",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/IntervalTreeTest.java",
+      "sha256": "27a361fb373e03d5111a0fe5c062250eadb216683a1a1a05b74370af4fa3f369",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/IterableIteratorTest.java",
+      "sha256": "b99ead795995c5f44e685b3d9078b0c5c4aa1ef2eb75c4d49e3b6bc228115ace",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/IterablesTest.java",
+      "sha256": "96458ac5ec8931001c84549a18adc48a945ad87dab97b4f19b8896909bed4333",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/MapsTest.java",
+      "sha256": "06cf5581810299207272a90faeb52597c9cf638726ce12073cccff4243f1202d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/MetaClassTest.java",
+      "sha256": "8e1af7108d4a60bdcf8956edabfa33d702b9fa1018543db7e769ae013786c2a4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/PriorityQueueTest.java",
+      "sha256": "5f731a65e3c2f972faa2b9357656ed20c658e7bbf95fd33d79e3ab219011ae53",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/ReflectionLoadingTest.java",
+      "sha256": "85bb71cf311e6a88979533a11c79d4443818c0e0a0270c03b11586b0ceb69000",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/SetsTest.java",
+      "sha256": "035302069b117c409ddcfda9b1132d84d8b696402a2841a175b6ceed84dbe6e8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/StringUtilsTest.java",
+      "sha256": "a99810a85eb69b4df761301e86e8593155d145da3d5d3de5a773e9aed808c305",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/TimingTest.java",
+      "sha256": "50bbe1480c305dbb9d144a21f0cd49ca2e7e4aac577e8557f1d3c325e20941b0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/TreeShapedStackTest.java",
+      "sha256": "63615d08c5251532c4b3e09c6a6939b844461c159f3d4c7cb718fb39736ef1fb",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/TwoDimensionalMapTest.java",
+      "sha256": "4a14237f94dfbb48281d5573d29bd270a77016cdec1a54b87c53a4a115faaae8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/XMLUtilsTest.java",
+      "sha256": "ec719a61c66100abb24a498869ea04642c43ada1dbbb33694b8b8826a73fd833",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/concurrent/ConcurrentHashIndexTest.java",
+      "sha256": "33bb306a42936455768730643ad4b47b32e84ac849908f023e36ccc8539a82f8",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/concurrent/MulticoreWrapperTest.java",
+      "sha256": "ac34ef6b4b147df49213ca7db56f4382bda905aa58b62dff97c19c6288789d35",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    },
+    {
+      "path": "test/src/edu/stanford/nlp/util/concurrent/SynchronizedInternerTest.java",
+      "sha256": "d76846c43db21f33854dc11fe9a9238c2633aa4667dbbd06d813a8d94642848a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_TESTCASE_INHERITANCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

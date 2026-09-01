@@ -1,0 +1,772 @@
+{
+  "schema": "PAPER04_N2_REFERENCE_V4_1_STATISTICS_1_0",
+  "implementation": "STATISTICS_B_RUBY_EXACT_RATIONAL",
+  "estimand": "fraction for which collector-zero is contradicted by supported repository test-source evidence",
+  "unresolved_interval_rule": "lower=unresolved_as_0; upper=unresolved_as_1",
+  "overall": {
+    "project_count": 18,
+    "sample_units": 149,
+    "frame_rows": 3393,
+    "category_counts": {
+      "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 43,
+      "SOURCE_EVIDENCE_UNRESOLVED": 24,
+      "SOURCE_SUPPORTED_TEST_PRESENCE": 82
+    },
+    "lower": {
+      "project_balanced": {
+        "fraction": "113/216",
+        "decimal": "0.523148148148",
+        "design_variance_fraction": "149285/1672057728",
+        "standard_error_decimal": "0.009448926103",
+        "wald_95_decimal": [
+          "0.504628252987",
+          "0.541668043310"
+        ],
+        "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+      },
+      "snapshot_weighted": {
+        "fraction": "11005/20358",
+        "decimal": "0.540573730229",
+        "design_variance_fraction": "1654195/414448164",
+        "standard_error_decimal": "0.063176889814",
+        "wald_95_decimal": [
+          "0.416747026193",
+          "0.664400434265"
+        ],
+        "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+      }
+    },
+    "upper": {
+      "project_balanced": {
+        "fraction": "143/216",
+        "decimal": "0.662037037037",
+        "design_variance_fraction": "17819585215/88330908302208",
+        "standard_error_decimal": "0.014203404229",
+        "wald_95_decimal": [
+          "0.634198364748",
+          "0.689875709326"
+        ],
+        "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+      },
+      "snapshot_weighted": {
+        "fraction": "6632/10179",
+        "decimal": "0.651537479124",
+        "design_variance_fraction": "3619475/759821634",
+        "standard_error_decimal": "0.069018729929",
+        "wald_95_decimal": [
+          "0.516260768462",
+          "0.786814189785"
+        ],
+        "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+      }
+    }
+  },
+  "lopo": [
+    {
+      "omitted_project": "Bukkit",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 2736,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "139/204",
+        "decimal": "0.681372549020"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/16416",
+        "decimal": "0.670382553606"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "5975/8208",
+        "decimal": "0.727948343080"
+      }
+    },
+    {
+      "omitted_project": "CoreNLP",
+      "project_count": 17,
+      "sample_units": 146,
+      "frame_rows": 3390,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10987/20340",
+        "decimal": "0.540167158309"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6623/10170",
+        "decimal": "0.651229105211"
+      }
+    },
+    {
+      "omitted_project": "DiskLruCache",
+      "project_count": 17,
+      "sample_units": 146,
+      "frame_rows": 3390,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "143/204",
+        "decimal": "0.700980392157"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "2201/4068",
+        "decimal": "0.541052114061"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "3316/5085",
+        "decimal": "0.652114060964"
+      }
+    },
+    {
+      "omitted_project": "alluxio",
+      "project_count": 17,
+      "sample_units": 148,
+      "frame_rows": 3392,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10999/20352",
+        "decimal": "0.540438286164"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6629/10176",
+        "decimal": "0.651434748428"
+      }
+    },
+    {
+      "omitted_project": "android-volley",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3374,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10891/20244",
+        "decimal": "0.537986563920"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6575/10122",
+        "decimal": "0.649575182770"
+      }
+    },
+    {
+      "omitted_project": "ansj_seg",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3366,
+      "project_balanced_lower": {
+        "fraction": "103/204",
+        "decimal": "0.504901960784"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "5435/10098",
+        "decimal": "0.538225391167"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6551/10098",
+        "decimal": "0.648742325213"
+      }
+    },
+    {
+      "omitted_project": "canal",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 2823,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "7585/16938",
+        "decimal": "0.447809658755"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "4922/8469",
+        "decimal": "0.581178415397"
+      }
+    },
+    {
+      "omitted_project": "clojure",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 1945,
+      "project_balanced_lower": {
+        "fraction": "53/102",
+        "decimal": "0.519607843137"
+      },
+      "project_balanced_upper": {
+        "fraction": "2/3",
+        "decimal": "0.666666666667"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "1979/3890",
+        "decimal": "0.508740359897"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "1366/1945",
+        "decimal": "0.702313624679"
+      }
+    },
+    {
+      "omitted_project": "graylog2-server",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3304,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "143/204",
+        "decimal": "0.700980392157"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/19824",
+        "decimal": "0.555135189669"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "829/1239",
+        "decimal": "0.669087974173"
+      }
+    },
+    {
+      "omitted_project": "guava",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3289,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10381/19734",
+        "decimal": "0.526046417351"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6320/9867",
+        "decimal": "0.640518901388"
+      }
+    },
+    {
+      "omitted_project": "java-design-patterns",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3226,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "133/204",
+        "decimal": "0.651960784314"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/19356",
+        "decimal": "0.568557553213"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "4143/6452",
+        "decimal": "0.642126472412"
+      }
+    },
+    {
+      "omitted_project": "javaee7-samples",
+      "project_count": 17,
+      "sample_units": 147,
+      "frame_rows": 3391,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10993/20346",
+        "decimal": "0.540302762214"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6626/10173",
+        "decimal": "0.651331957141"
+      }
+    },
+    {
+      "omitted_project": "javapoet",
+      "project_count": 17,
+      "sample_units": 148,
+      "frame_rows": 3392,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "143/204",
+        "decimal": "0.700980392157"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/20352",
+        "decimal": "0.540733097484"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "829/1272",
+        "decimal": "0.651729559748"
+      }
+    },
+    {
+      "omitted_project": "nanohttpd",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3367,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "23/34",
+        "decimal": "0.676470588235"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/20202",
+        "decimal": "0.544748044748"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "13199/20202",
+        "decimal": "0.653351153351"
+      }
+    },
+    {
+      "omitted_project": "presto",
+      "project_count": 17,
+      "sample_units": 145,
+      "frame_rows": 3389,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "67/102",
+        "decimal": "0.656862745098"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/20334",
+        "decimal": "0.541211763549"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6623/10167",
+        "decimal": "0.651421264877"
+      }
+    },
+    {
+      "omitted_project": "webmagic",
+      "project_count": 17,
+      "sample_units": 138,
+      "frame_rows": 3382,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "10939/20292",
+        "decimal": "0.539079440173"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6599/10146",
+        "decimal": "0.650404100138"
+      }
+    },
+    {
+      "omitted_project": "wildfly",
+      "project_count": 17,
+      "sample_units": 145,
+      "frame_rows": 3389,
+      "project_balanced_lower": {
+        "fraction": "113/204",
+        "decimal": "0.553921568627"
+      },
+      "project_balanced_upper": {
+        "fraction": "143/204",
+        "decimal": "0.700980392157"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "11005/20334",
+        "decimal": "0.541211763549"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "6632/10167",
+        "decimal": "0.652306481755"
+      }
+    },
+    {
+      "omitted_project": "zheng",
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 3136,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "9463/18816",
+        "decimal": "0.502923044218"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "5861/9408",
+        "decimal": "0.622980442177"
+      }
+    }
+  ],
+  "project_concentration": {
+    "sample_supported_total": 82,
+    "sample_supported_by_project": {
+      "Bukkit": 0,
+      "CoreNLP": 3,
+      "DiskLruCache": 0,
+      "alluxio": 1,
+      "android-volley": 12,
+      "ansj_seg": 10,
+      "canal": 12,
+      "clojure": 7,
+      "graylog2-server": 0,
+      "guava": 12,
+      "java-design-patterns": 0,
+      "javaee7-samples": 2,
+      "javapoet": 0,
+      "nanohttpd": 0,
+      "presto": 0,
+      "webmagic": 11,
+      "wildfly": 0,
+      "zheng": 12
+    },
+    "sample_max_project": "zheng",
+    "sample_max_share": {
+      "fraction": "6/41",
+      "decimal": "0.146341463415"
+    },
+    "sample_hhi": {
+      "fraction": "215/1681",
+      "decimal": "0.127900059488"
+    },
+    "snapshot_weighted_supported_contribution_by_project": {
+      "Bukkit": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "CoreNLP": {
+        "fraction": "3/1",
+        "decimal": "3.000000000000"
+      },
+      "DiskLruCache": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "alluxio": {
+        "fraction": "1/1",
+        "decimal": "1.000000000000"
+      },
+      "android-volley": {
+        "fraction": "19/1",
+        "decimal": "19.000000000000"
+      },
+      "ansj_seg": {
+        "fraction": "45/2",
+        "decimal": "22.500000000000"
+      },
+      "canal": {
+        "fraction": "570/1",
+        "decimal": "570.000000000000"
+      },
+      "clojure": {
+        "fraction": "2534/3",
+        "decimal": "844.666666666667"
+      },
+      "graylog2-server": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "guava": {
+        "fraction": "104/1",
+        "decimal": "104.000000000000"
+      },
+      "java-design-patterns": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "javaee7-samples": {
+        "fraction": "2/1",
+        "decimal": "2.000000000000"
+      },
+      "javapoet": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "nanohttpd": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "presto": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "webmagic": {
+        "fraction": "11/1",
+        "decimal": "11.000000000000"
+      },
+      "wildfly": {
+        "fraction": "0/1",
+        "decimal": "0.000000000000"
+      },
+      "zheng": {
+        "fraction": "257/1",
+        "decimal": "257.000000000000"
+      }
+    },
+    "snapshot_weighted_max_project": "clojure",
+    "snapshot_weighted_max_share": {
+      "fraction": "5068/11005",
+      "decimal": "0.460517946388"
+    },
+    "snapshot_weighted_hhi": {
+      "fraction": "8036849/24222005",
+      "decimal": "0.331799493890"
+    }
+  },
+  "clojure_canal_sensitivity": [
+    {
+      "scenario": "EXCLUDE_CLOJURE",
+      "excluded_projects": [
+        "clojure"
+      ],
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 1945,
+      "project_balanced_lower": {
+        "fraction": "53/102",
+        "decimal": "0.519607843137"
+      },
+      "project_balanced_upper": {
+        "fraction": "2/3",
+        "decimal": "0.666666666667"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "1979/3890",
+        "decimal": "0.508740359897"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "1366/1945",
+        "decimal": "0.702313624679"
+      }
+    },
+    {
+      "scenario": "EXCLUDE_CANAL",
+      "excluded_projects": [
+        "canal"
+      ],
+      "project_count": 17,
+      "sample_units": 137,
+      "frame_rows": 2823,
+      "project_balanced_lower": {
+        "fraction": "101/204",
+        "decimal": "0.495098039216"
+      },
+      "project_balanced_upper": {
+        "fraction": "131/204",
+        "decimal": "0.642156862745"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "7585/16938",
+        "decimal": "0.447809658755"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "4922/8469",
+        "decimal": "0.581178415397"
+      }
+    },
+    {
+      "scenario": "EXCLUDE_CLOJURE_AND_CANAL",
+      "excluded_projects": [
+        "canal",
+        "clojure"
+      ],
+      "project_count": 16,
+      "sample_units": 125,
+      "frame_rows": 1375,
+      "project_balanced_lower": {
+        "fraction": "47/96",
+        "decimal": "0.489583333333"
+      },
+      "project_balanced_upper": {
+        "fraction": "31/48",
+        "decimal": "0.645833333333"
+      },
+      "snapshot_weighted_lower": {
+        "fraction": "839/2750",
+        "decimal": "0.305090909091"
+      },
+      "snapshot_weighted_upper": {
+        "fraction": "796/1375",
+        "decimal": "0.578909090909"
+      }
+    }
+  ],
+  "anchor_partition": {
+    "INCLUDED": {
+      "project_count": 14,
+      "sample_units": 109,
+      "frame_rows": 1114,
+      "category_counts": {
+        "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 34,
+        "SOURCE_EVIDENCE_UNRESOLVED": 24,
+        "SOURCE_SUPPORTED_TEST_PRESENCE": 51
+      },
+      "lower": {
+        "project_balanced": {
+          "fraction": "41/84",
+          "decimal": "0.488095238095",
+          "design_variance_fraction": "25/698544",
+          "standard_error_decimal": "0.005982367948",
+          "wald_95_decimal": [
+            "0.476369796917",
+            "0.499820679273"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        },
+        "snapshot_weighted": {
+          "fraction": "325/2228",
+          "decimal": "0.145870736086",
+          "design_variance_fraction": "225/54603824",
+          "standard_error_decimal": "0.002029923774",
+          "wald_95_decimal": [
+            "0.141892085489",
+            "0.149849386683"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        }
+      },
+      "upper": {
+        "project_balanced": {
+          "fraction": "2/3",
+          "decimal": "0.666666666667",
+          "design_variance_fraction": "32722565/147609798336",
+          "standard_error_decimal": "0.014889018724",
+          "wald_95_decimal": [
+            "0.637484189967",
+            "0.695849143366"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        },
+        "snapshot_weighted": {
+          "fraction": "539/1114",
+          "decimal": "0.483842010772",
+          "design_variance_fraction": "1761365/245717208",
+          "standard_error_decimal": "0.084665581424",
+          "wald_95_decimal": [
+            "0.317897471180",
+            "0.649786550364"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        }
+      }
+    },
+    "EXCLUDED": {
+      "project_count": 4,
+      "sample_units": 40,
+      "frame_rows": 2279,
+      "category_counts": {
+        "NO_SUPPORTED_TEST_SOURCE_IDENTIFIED": 9,
+        "SOURCE_SUPPORTED_TEST_PRESENCE": 31
+      },
+      "lower": {
+        "project_balanced": {
+          "fraction": "31/48",
+          "decimal": "0.645833333333",
+          "design_variance_fraction": "12565/9174528",
+          "standard_error_decimal": "0.037007468764",
+          "wald_95_decimal": [
+            "0.573298694557",
+            "0.718367972110"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        },
+        "snapshot_weighted": {
+          "fraction": "5015/6837",
+          "decimal": "0.733508848910",
+          "design_variance_fraction": "4548530/514190259",
+          "standard_error_decimal": "0.094053207143",
+          "wald_95_decimal": [
+            "0.549164562910",
+            "0.917853134911"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        }
+      },
+      "upper": {
+        "project_balanced": {
+          "fraction": "31/48",
+          "decimal": "0.645833333333",
+          "design_variance_fraction": "12565/9174528",
+          "standard_error_decimal": "0.037007468764",
+          "wald_95_decimal": [
+            "0.573298694557",
+            "0.718367972110"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        },
+        "snapshot_weighted": {
+          "fraction": "5015/6837",
+          "decimal": "0.733508848910",
+          "design_variance_fraction": "4548530/514190259",
+          "standard_error_decimal": "0.094053207143",
+          "wald_95_decimal": [
+            "0.549164562910",
+            "0.917853134911"
+          ],
+          "uncertainty_scope": "FINITE_POPULATION_STRATIFIED_SRS_DESIGN_BASED"
+        }
+      }
+    }
+  }
+}

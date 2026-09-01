@@ -1,0 +1,562 @@
+{
+  "archive": {
+    "bytes": 546859,
+    "sha256": "53f630be017a08b82a61311dc9fcd0c31867ba6fd77c8017d6627429078be79b",
+    "validity": "VALID"
+  },
+  "audit_id": "0094dc4c7747cb9c",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "src/clj/clojure/test/junit.clj",
+      "sha256": "f4e5dde663aeddc03e4ad37880b20c9ba154d9a26a7bdd7f28133a371f2ef198",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "src/clj/clojure/test/tap.clj",
+      "sha256": "1e25fa56d7b36cb01b06d1745687668326051b766708868ab0e8e58f43bc2749",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "src/script/run_tests.clj",
+      "sha256": "0bcba114cee26d0341cf731f15a32ea1f76f27b6ca7134cd4ee3b39294132dc9",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/agents.clj",
+      "sha256": "a51b76b8c50a38842d8fe29229fdf453eb8c614aa67c23ab57217a0c23ea1782",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/annotations.clj",
+      "sha256": "680d4b01f4d50ab81704166accf49e2deec9e10ccfcf746fd819906b5b099fea",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/annotations/java_5.clj",
+      "sha256": "cd60323cb317b3963e87ef641c53ffcb0ed86eafa5ce7c81f9811187fda185c6",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/annotations/java_6.clj",
+      "sha256": "11f8d578ddaa53a0eb80bb64342263102ae576b9e1c85e0f33e9999b2c807582",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/api.clj",
+      "sha256": "46e7639fd9fb3779e34b8b2fd102dd45ea677dd42843a2718b408900de25c679",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/atoms.clj",
+      "sha256": "c99839c9a233490d9020b105d337c7ee8343fb40e052c088a8b1c7d745e5f7ef",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/clojure_set.clj",
+      "sha256": "232a8187bfb31e30cf5d456a5f71c7c9a5eeb347e7af1b4398dc164d9ec971bf",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/clojure_walk.clj",
+      "sha256": "78fb1fd434015053c321f0354bcedbbf9053a97c5bf452dc116582045a27342b",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/clojure_xml.clj",
+      "sha256": "4129022a3d4313373dabdf9f9fbd2915f57731a141573876865dbb98b232b6c6",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/clojure_zip.clj",
+      "sha256": "5d5c175be03d8e3bdf3c5a549160804bcbe03c7e1ba3a16e5d7e902cc1f84e3d",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/compilation.clj",
+      "sha256": "0caea78c321399e61dbc3140625e547d33a26aca577fe5ab168c6f7bdc2b6dc2",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/control.clj",
+      "sha256": "3664555c41f873ff04d5d72c1b8d0a77c62906d08aa7b9242a4ba9c6210e3718",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/data.clj",
+      "sha256": "e46c71103dffce5c8e5707f1d579de57c1ad989cb577b3056d6715a565ab4d94",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/data_structures.clj",
+      "sha256": "c63077b52f96e533a547ebfc0a0b9be74dac40e483277f7cd9220a4879f20cb6",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/def.clj",
+      "sha256": "aabbe6f1e9442e13f524b11f2e0998490c3321e60dca95d844cd3d103f735e0a",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/delays.clj",
+      "sha256": "1879ecb2f6ab7f8fc56f83e80a2d4de478c16d4e29271d653883350b92198ec6",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/edn.clj",
+      "sha256": "1585efc97854440a0c9feb554a2b24783c119c7090f0c5909f3e9be9e826bf54",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/errors.clj",
+      "sha256": "f70277ced53accbf4e46777d2c5e2ef51b963c5a98d9cdc63a68cfb1f1544987",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/evaluation.clj",
+      "sha256": "e0fc2cb451c858dbc28bee7d40a3ae03532197c5ececb7eceb666dceb3ccbc66",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/fn.clj",
+      "sha256": "fabd6c2afd3599eec84ecb2564b5288d655f305f6435de34ed1cd0cc0cba32cb",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/for.clj",
+      "sha256": "97e3cde65848c2a16b59ca737bb841378c487770922d895c495a6d923c62de71",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/genclass.clj",
+      "sha256": "4b04d8254496aadedb232b68af3c52c054c2e92a68520d2ee5abfc1778a4d74c",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/genclass/examples.clj",
+      "sha256": "c6302ab291b746e82ee90ecde444658bac0d58640c004df9b5fe5e6b50f0a9cb",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/generators.clj",
+      "sha256": "5901bf8a5d62f4c4ee600da5cfc0bfbaa87e0895a1898c3b7882d05296f99afc",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/java/io.clj",
+      "sha256": "3d2e79f084f222e62fdf549d5dad6247737a0c0b8cbfdd72a03716dc8cef25b4",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/java/javadoc.clj",
+      "sha256": "2149755e1007c30f823c4dfbb782233d504a3d50b110957f8f8d8a25b7c2fbea",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/java/shell.clj",
+      "sha256": "36e18639c8a4d3e599d239068283591fabbe5fffb5aced5e58808b51572999e0",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/java_interop.clj",
+      "sha256": "fadb8428e2efa791ee20427018a8733da028fff97ac2d5c7faa1fb2477cb68c9",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/keywords.clj",
+      "sha256": "fcae790a004c1389ff681c0394a59bfa4feab0eff0ae951c4baca56f6e6dae57",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/logic.clj",
+      "sha256": "d88d699bc86c1b843c4cc2f5cd3b0e09129380655b9ac86429ec63f4e6897a15",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/macros.clj",
+      "sha256": "7f26fbb0986669dded03dd4b5e4d9c681e0f13497e65b7819c500e06ffaf4229",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/main.clj",
+      "sha256": "6be47dd9ed4501e559530db741cc3d4231c71e96d4e2c82584431ca8958d4aca",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/metadata.clj",
+      "sha256": "d852fe9e65fe7af4b16d6e6880a43528ece81005f9b70d589851a74b04726356",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/multimethods.clj",
+      "sha256": "28a5de706302bbad4b7b6fca8d21e075576996c2d4ac88b16bd32feb38939ff5",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/ns_libs.clj",
+      "sha256": "6fe70a4dd99adbd98b6f3cba87dfe7eeed68f0a541c9c5cd9a952358458f81da",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/numbers.clj",
+      "sha256": "656deffca76e554f32b3b57f6d01470d4edcbb85804b7735f01ee7890bfa5843",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/other_functions.clj",
+      "sha256": "5f9dc26b53e142a3eae22a8312c5aefc9844558306508774a3176bbda205ce82",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/parallel.clj",
+      "sha256": "a9d34374dc35f8f9a13e57d872812d0c4def0c10a7b643b4f229fa163d1b9acc",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/pprint.clj",
+      "sha256": "c8e072df1945cf7e2018897068142e9c9d979e36a9faf278347246ff28279b1c",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/pprint/test_cl_format.clj",
+      "sha256": "dbfff2fab4172408e76b78ecf673916654d404ec14c9e26804a925fa6ee655ed",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/pprint/test_helper.clj",
+      "sha256": "adb23c7f95727ed15e17c069ef3880ba65a4aaa1523ba5921708243185e6cebb",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/pprint/test_pretty.clj",
+      "sha256": "d3c98865f05a3a4fda50d587d806ddaf408e8ab62855c6b7d5b41db3c1324404",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/predicates.clj",
+      "sha256": "8cf9cdb4fbcb9e8907a9205bce1644c104b1119633f8936abca5fc6679d2ccfc",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/printer.clj",
+      "sha256": "92c0fdc405e5513f3c1f6a0dd40c60a617d0f49686569a88f9131e07c67128af",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/protocols.clj",
+      "sha256": "dc74ce4be4687f3ea08763cc2bc0bc2d5096e63769cc71096d0b7caaad1d0a17",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/protocols/examples.clj",
+      "sha256": "51870255c6139898f8889ade7c71f73cf017e535c394edd185c20139d4f50192",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/protocols/hash_collisions.clj",
+      "sha256": "4dc630469df3c43c55f80f4805964adab892287deebce0bb8b7794c4a322391b",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/protocols/more_examples.clj",
+      "sha256": "88e6ba18a3f7e57b75dbda7003410d13b8563ffc9fcdbdfdd39230bc13ad1a41",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/reader.clj",
+      "sha256": "90a53ffb4def67bf7a76c9946c7c8b2a5d95eee62ae65d7fd28ba23adfc2debb",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/reducers.clj",
+      "sha256": "be23ac1a62781c8e1daac082c6e27a8ab814eaa1bf75193c90bff755b01fde12",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/reflect.clj",
+      "sha256": "3f9e506803c1867c3196f5c13b5a587f5167a092eba604a8e69fd03018830b2a",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/refs.clj",
+      "sha256": "52224f30a657e409b1c892527cb658b2af5e09421b2cec776278ce04f32c5964",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/repl.clj",
+      "sha256": "7a3f1dce870114f08504d20d9042f3d19ae60750ae3cfe880a828dc7ae0b69cc",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/repl/example.clj",
+      "sha256": "01186cc8cf6a7e0e275fe6d2040f4ea3b13a76ba4f6c85e05f7f51da6d9343ae",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/rt.clj",
+      "sha256": "18443da126388fe65bb3e0a80715daccb16eb4b375c6ce69824f862698692a87",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/sequences.clj",
+      "sha256": "b414e3022152f8ac16e949d7fca32386b1da4d43472e7ff41036cb2c624ab745",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/serialization.clj",
+      "sha256": "427f96ecd144f3cfe64a1e772ba3649bdda1a8584e6226ecaf0cf9176f49596f",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/special.clj",
+      "sha256": "04e654423510e38b366dfdfeda24927e24cd555a872c779f47f3d9f75a46f227",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/string.clj",
+      "sha256": "f17bebb8f6836488631b9f8e030cc5275dbf4e8274886f86da9112bfe80b99b3",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/test_fixtures.clj",
+      "sha256": "27480b2876805283c7eaeff9e46fb614efc11aefd82f425de751dac3abe3256c",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/transients.clj",
+      "sha256": "aea13bea6834a79ad4a58e9d8c81d3ad95b21002a5f9b6c7a8ee9763fbbf860d",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/try_catch.clj",
+      "sha256": "e0a12007d6c21d562b3456f5d2ad989546015da662f0d536f33207291be6c6e6",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/vars.clj",
+      "sha256": "72f6713762af5527a7cb11e28777ac65feaf029f6716374b2b0897549b3ac582",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_clojure/vectors.clj",
+      "sha256": "64edb751e4d8d434ded697b0794b3a51905f19b68b698bde7addee80964d91d4",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_CLOJURE_DECLARATION"
+      ]
+    },
+    {
+      "path": "test/clojure/test_helper.clj",
+      "sha256": "58dfc1237cba67aab0439d6914e0a7da047e6b391751008debef72db7976daa2",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "test/java/clojure/test/ReflectorTryCatchFixture.java",
+      "sha256": "a285b5d18f5cd145143e8ddedf2cf62c770eb0780f5deb03c3af4292a9f8294a",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

@@ -1,0 +1,275 @@
+{
+  "archive": {
+    "bytes": 751479,
+    "sha256": "8973efe18e07bcca21a07471e3f7c98698663a9005b7c8a72b1ffd0f30ae7f9e",
+    "validity": "VALID"
+  },
+  "audit_id": "ffa7ab0db8ffd354",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_B_RUBY_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": false,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [
+    "SUSPICIOUS_TEST_INTENT_WITHOUT_SUPPORTED_FRAMEWORK"
+  ],
+  "positive_evidence": [
+    {
+      "path": "main/src/test/java/tachyon/PairTest.java",
+      "sha256": "21fbfcb68290b1e0c38350a8e81ba220d0499ebde65b0367cd4f5285b1b3b866",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/PrefixListTest.java",
+      "sha256": "481a2233abf31c897065c70e41b79d6ecba8593c0086a3ffe6f83e032af45d20",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/UserInfoTest.java",
+      "sha256": "3d90a27307e82919f651bd4099f9b229cca625f98a0be0bd9bab23c1bbf62ffb",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/BlockInStreamTest.java",
+      "sha256": "c4b78f990e970f21809763315eec035cb5f5ce9c059f2468554f2958bf55f9fc",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/FileInStreamTest.java",
+      "sha256": "26e1d9660726e2cc911988cfd6ee519b09a020a63665950eac09deed6ca47933",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/FileOutStreamTest.java",
+      "sha256": "400dbd781dd41aea776d4e0ef2876e545893aa256ee5ecee949f29fde0b9074e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/LocalBlockInStreamTest.java",
+      "sha256": "e9071dcb36d019b5cd5c8ed4606338846e7ec52ad7c07660ebaad2889cc3345a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/RemoteBlockInStreamTest.java",
+      "sha256": "d9777e99b6a2a0a093a9bf16a1ca5644d8dee9b04543fb966ad9b46142e43899",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/TachyonFSTest.java",
+      "sha256": "c620958dc358934fcd06a3802ba387f014e4cb4dd74e147c1bb512b5edd80a1e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/TachyonFileTest.java",
+      "sha256": "bd942f10e1b0b066697fead27c7d6a07c51545b44e56eee1c0e6f52019cfe69b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/table/RawColumnTest.java",
+      "sha256": "5be85ed4be705d944ae7207179dca3bcf87f4f6d947c0be845687d30cdf38602",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/client/table/RawTableTest.java",
+      "sha256": "f82d85ec8d37fd7fc5bb8246eb40a4ad3f9e79b236b35c044ef6515db72a3650",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/command/TFsShellTest.java",
+      "sha256": "fe3ba44196809a132406900768727a702aa6c65e98a3046a79e06d7b9f9b8789",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/hadoop/HadoopCompatibleFSTest.java",
+      "sha256": "9cef121785e9f1b550fed628e4884aa6bbb79bff8fc528896c4221fcd398252a",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/hadoop/TFSTest.java",
+      "sha256": "df6b1d4c226cb5a469fbb660a6b122674e5ac71ecec643cacfec43b35cff7ee4",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/io/UtilsTest.java",
+      "sha256": "626da65753210ea18528d10da2e46a2acbf0a955e896785855067713426948bd",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/io/WriterReaderTest.java",
+      "sha256": "102d0011881bd4fb102617e8bacfcf6a36083cce0946f1a8e4900d3415e70d6d",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/BlockInfoTest.java",
+      "sha256": "582e5c94aa68169ad20bf1d15b38f9e5b5443c4190ba4980544fafad995d55e1",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/DependencyTest.java",
+      "sha256": "16b4647c28b43130bd32d395897f6da2404082db8340492bcf6dcdd614a1ca8b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/InodeFileTest.java",
+      "sha256": "75b85cce8f2a40e52808cd3cf3e0a9467c58818077c71db70a01ae4bf5e97539",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/InodeFolderTest.java",
+      "sha256": "e4690d70a64fa441306a276351a17e65c695e5ced542ee65c56bf6c0f33fe3a0",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/InodeRawTableTest.java",
+      "sha256": "8273fc0995d2b233c1a1f473de519ff578ce366acaa5b619a2380e86b8b35133",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/JournalTest.java",
+      "sha256": "5112cde6656e8b77f049e88290d9397a7093421b2348908f09eb02b1fc3efc86",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/MasterClientTest.java",
+      "sha256": "8a14007fbe2bb60952577c04ff9880d667838ca4689c73a6b2d666b3dcf9dcce",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/MasterFaultToleranceTest.java",
+      "sha256": "df7bf7bbc5e1f4d59bca25d867f330488135fffd6afb497c7fc89b11a855512b",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/master/MasterInfoTest.java",
+      "sha256": "3b7e694a70a8da4d4af531df9b52805ada52fecac37451fc95b9b9c7e1e7252e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/util/CommonUtilsTest.java",
+      "sha256": "e4ace7028230673b3ae3eddb692ef3d0c98587bd6c691f6641a6ce43768f6441",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/util/UnderfsUtilTest.java",
+      "sha256": "9323fba3c467f1a73e915d9865df748403464af30e24bf1ffd386487526fe3ae",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/worker/DataServerTest.java",
+      "sha256": "8e1eae5723a92ab2530679ea0a13a818bddbaed88da6b0d59041786fa9988f7c",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/worker/WorkerServiceHandlerTest.java",
+      "sha256": "9e2974679f630fbac41b54febc686c80b4c9e2b34e3cdf5ae1771a91c027c60e",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    },
+    {
+      "path": "main/src/test/java/tachyon/worker/WorkerStorageTest.java",
+      "sha256": "23ddd312975fc23f14be7dff83a98e942ffbc4887da85577687e4c6ed8def419",
+      "supporting_rules": [
+        "PATH_B_JUNIT_TEST_INTENT_FRAMEWORK_EVIDENCE",
+        "STRONG_JUNIT_DECLARATION"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}

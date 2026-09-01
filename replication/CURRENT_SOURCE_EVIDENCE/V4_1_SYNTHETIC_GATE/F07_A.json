@@ -1,0 +1,33 @@
+{
+  "archive": {
+    "bytes": 205,
+    "sha256": "8065a927d19d1d74094f6a350c1e7c31ff3a68451ad432a4b523711f7bd1edab",
+    "validity": "VALID"
+  },
+  "audit_id": "f000000000000007",
+  "category": "SOURCE_SUPPORTED_TEST_PRESENCE",
+  "decision_blocking_unresolved_reasons": [],
+  "implementation_id": "REFERENCE_V4_1_IMPLEMENTATION_A_PYTHON_1_0",
+  "negative_decision_completeness": {
+    "archive_identity": true,
+    "no_decisive_collision": true,
+    "no_decisive_nonregular": true,
+    "no_generated_marker": true,
+    "no_positive": false,
+    "no_suspicious_test_intent": true,
+    "no_unsupported_test_intent": true,
+    "path_boundary": true,
+    "supported_sources_decoded": true
+  },
+  "nondecisive_warnings": [],
+  "positive_evidence": [
+    {
+      "path": "test/sample/token_only.clj",
+      "sha256": "199fcb785290abddbbeb2dcd05835e463a6788003d5153dcd920b3501c397013",
+      "supporting_rules": [
+        "PATH_B_CLOJURE_TEST_INTENT_FRAMEWORK_EVIDENCE"
+      ]
+    }
+  ],
+  "schema": "PAPER04_N2_REFERENCE_V4_1_SOURCE_RESULT_1_0"
+}
